@@ -11,7 +11,7 @@ Aplicación personal, pública y gratuita para detectar oportunidades de financi
 - Radar visual, pipeline de candidaturas, inventario de fuentes y perfil de elegibilidad.
 - Perfil y expedientes guardados exclusivamente en `localStorage` del navegador.
 - Actualización programada a las 09:00 y control vespertino mediante la automatización local del propietario.
-- Resumen por Gmail cuando se configuran los secretos opcionales.
+- Resumen por Gmail cuando se activa explícitamente la configuración privada.
 
 Los datos mostrados son señales para investigar, no una garantía de elegibilidad o concesión. Antes de actuar hay que leer las bases y utilizar la sede electrónica oficial.
 
@@ -41,7 +41,13 @@ npm run build
 
 [Abrir Radar Fondos Asturias](https://biopelayo.github.io/radar-fondos-asturias/)
 
-La versión actual se publica desde la rama `gh-pages`. El propietario mantiene dos controles programados diarios desde su entorno local: uno a las 09:00 y otro por la tarde.
+La versión actual se publica desde la rama `gh-pages`. El equipo Windows del propietario ejecuta el circuito completo —recolectar, validar, compilar, registrar ambos datasets, publicar y avisar— a las 09:00 y a las 17:00 mediante tareas programadas. Los logs privados quedan en `.local/logs/`.
+
+La programación local se puede reparar o reinstalar con:
+
+```powershell
+.\scripts\install_schedule.ps1
+```
 
 El workflow de GitHub Actions está preparado localmente pero no se publica hasta que la autorización de GitHub incluya el permiso `workflow`. Cuando se active, permitirá que la recolección, el commit del dataset, el despliegue y el correo funcionen directamente en GitHub sin depender del equipo local.
 
@@ -55,7 +61,7 @@ Crear estos secretos en **Settings → Secrets and variables → Actions**:
 - `GMAIL_APP_PASSWORD`: contraseña de aplicación de Google, nunca la contraseña normal.
 - `ALERT_EMAIL`: destinatario; si se omite se usa la cuenta remitente.
 
-Sin esos secretos la actualización y la web funcionan normalmente, pero el correo se omite.
+La automatización de correo falla de forma visible si faltan esas credenciales. Para una ejecución que no deba enviar correo se puede establecer explícitamente `RADAR_EMAIL_OPTIONAL=1`.
 
 Mientras la actualización se ejecute desde el equipo del propietario, el correo puede configurarse sin guardar la contraseña en texto plano:
 

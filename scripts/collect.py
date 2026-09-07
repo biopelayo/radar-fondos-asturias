@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import os
 import re
 import time
 import unicodedata
@@ -25,6 +26,12 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "public" / "data" / "opportunities.json"
 BUNDLED_OUTPUT = ROOT / "src" / "data" / "opportunities.generated.json"
 USER_AGENT = "RadarFondosAsturias/0.1 (+https://github.com/biopelayo/radar-fondos-asturias; public-interest grant monitor)"
+SOURCE_KINDS = {
+    "BDNS": "official-api",
+    "BOE": "official-open-data",
+    "BOPA": "official-summary",
+    "UE": "official-api",
+}
 
 FUNDING_TERMS = (
     "subvencion", "ayuda", "beca", "financiacion", "prestamo", "incentivo",
@@ -274,12 +281,12 @@ def walk_boe(node: Any, context: tuple[str, ...] = ()) -> Iterable[tuple[dict[st
 
 
 def collect_boe(day: date) -> list[dict[str, Any]]:
-    try:
-        payload = get_json(f"https://www.boe.es/datosabiertos/api/boe/sumario/{day:%Y%m%d}")
-    except (HTTPError, URLError, TimeoutError, ValueError):
-        return []
+    payload = get_json(f"https://www.boe.es/datosabiertos/api/boe/sumario/{day:%Y%m%d}")
+    entries = list(walk_boe(payload))
+    if not entries:
+        raise ValueError("BOE response contained no recognizable gazette entries")
     results = []
-    for item, context in walk_boe(payload):
+    for item, context in entries:
         title = item.get("titulo", "")
         if not is_actionable_title(title) or not (contains_any(title, FUNDING_TERMS) and contains_any(f"{title} {' '.join(context)}", DOMAIN_TERMS)):
             continue
@@ -295,16 +302,16 @@ def collect_boe(day: date) -> list[dict[str, Any]]:
 
 def collect_bopa() -> list[dict[str, Any]]:
     page_url = "https://miprincipado.asturias.es/bopa/ultimos-boletines?p_r_p_summaryLastBopa=true"
-    try:
-        page = get_text(page_url)
-    except (HTTPError, URLError, TimeoutError):
-        return []
+    page = get_text(page_url)
     encoded_date = re.search(r"p_r_p_dispositionDate=(\d{2})%2F(\d{2})%2F(\d{4})", page)
     published = date.today().isoformat()
     if encoded_date:
         published = f"{encoded_date.group(3)}-{encoded_date.group(2)}-{encoded_date.group(1)}"
+    entries = list(re.finditer(r"<dl>\s*<dt>(.*?)</dt>\s*<dd>(.*?)</dd>\s*</dl>", page, re.I | re.S))
+    if not entries:
+        raise ValueError("BOPA response contained no recognizable gazette entries")
     results = []
-    for match in re.finditer(r"<dl>\s*<dt>(.*?)</dt>\s*<dd>(.*?)</dd>\s*</dl>", page, re.I | re.S):
+    for match in entries:
         title = clean_html(match.group(1))
         if not is_actionable_title(title) or not (contains_any(title, FUNDING_TERMS) and contains_any(title, DOMAIN_TERMS)):
             continue
@@ -347,7 +354,9 @@ def collect_eu() -> list[dict[str, Any]]:
             "sort": {"field": "startDate", "order": "DESC"},
             "displayFields": display_fields,
         })
-        for row in payload.get("results", []):
+        if not isinstance(payload, dict) or not isinstance(payload.get("results"), list):
+            raise ValueError("EU response did not contain a results list")
+        for row in payload["results"]:
             metadata = row.get("metadata", {})
             reference = str(unwrap_metadata(metadata.get("identifier")) or unwrap_metadata(metadata.get("reference")) or row.get("id") or "")
             title = str(unwrap_metadata(metadata.get("title")) or unwrap_metadata(metadata.get("callTitle")) or "Untitled EU opportunity")
@@ -368,11 +377,269 @@ def collect_eu() -> list[dict[str, Any]]:
     return list(results.values())
 
 
-def load_existing() -> list[dict[str, Any]]:
+def load_existing(path: Path = OUTPUT) -> dict[str, Any]:
     try:
-        return json.loads(OUTPUT.read_text(encoding="utf-8")).get("opportunities", [])
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(payload, dict) or not isinstance(payload.get("opportunities"), list):
+            raise ValueError("existing dataset is not a payload with opportunities")
+        return payload
     except (OSError, ValueError, AttributeError):
-        return []
+        return {}
+
+
+def validate_source_result(source: str, value: Any) -> list[dict[str, Any]]:
+    """Validate one collector result before it can replace any prior source data."""
+    if not isinstance(value, list):
+        raise ValueError("collector result must be a list")
+    required_strings = (
+        "id", "title", "issuer", "source", "sourceRef", "sourceUrl", "kind",
+        "territory", "publishedAt", "deadline", "state", "summary",
+    )
+    required_lists = ("fitReasons", "blockers", "requirements", "evidence", "tags")
+    validated: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for index, item in enumerate(value):
+        if not isinstance(item, dict):
+            raise ValueError(f"item {index} is not an object")
+        missing = [
+            field for field in required_strings
+            if not isinstance(item.get(field), str) or not item[field].strip()
+        ]
+        if missing:
+            raise ValueError(f"item {index} has invalid fields: {', '.join(missing)}")
+        invalid_lists = [field for field in required_lists if not isinstance(item.get(field), list)]
+        if invalid_lists:
+            raise ValueError(f"item {index} has invalid lists: {', '.join(invalid_lists)}")
+        if item["source"] != source:
+            raise ValueError(f"item {index} belongs to {item['source']!r}, expected {source!r}")
+        if not item["sourceUrl"].startswith("https://"):
+            raise ValueError(f"item {index} sourceUrl is not HTTPS")
+        if isinstance(item.get("score"), bool) or not isinstance(item.get("score"), (int, float)):
+            raise ValueError(f"item {index} has an invalid score")
+        if not 0 <= item["score"] <= 100:
+            raise ValueError(f"item {index} score is outside 0..100")
+        if isinstance(item.get("amount"), bool) or not isinstance(item.get("amount"), (int, float)):
+            raise ValueError(f"item {index} has an invalid amount")
+        if not isinstance(item.get("demo"), bool):
+            raise ValueError(f"item {index} has an invalid demo flag")
+        if "deadlineVerified" in item and not isinstance(item["deadlineVerified"], bool):
+            raise ValueError(f"item {index} has an invalid deadlineVerified flag")
+        if item["id"] in seen:
+            raise ValueError(f"duplicate id in {source}: {item['id']}")
+        seen.add(item["id"])
+        try:
+            date.fromisoformat(item["publishedAt"])
+            date.fromisoformat(item["deadline"])
+        except ValueError as exc:
+            raise ValueError(f"item {index} contains an invalid date") from exc
+        try:
+            json.dumps(item, ensure_ascii=False)
+        except (TypeError, ValueError) as exc:
+            raise ValueError(f"item {index} is not JSON serializable") from exc
+        validated.append(item)
+    return validated
+
+
+def merge_successful_source(
+    source: str,
+    previous: list[dict[str, Any]],
+    fresh: list[dict[str, Any]],
+    *,
+    today: date,
+    days: int,
+    keep_days: int,
+) -> list[dict[str, Any]]:
+    """Replace only the time window covered by a successful source query."""
+    cutoff = (today - timedelta(days=keep_days)).isoformat()
+    retained = [
+        item for item in previous
+        if not item.get("demo")
+        and item.get("publishedAt", "0000-00-00") >= cutoff
+        and is_actionable_title(item.get("title", ""))
+    ]
+    if source == "BDNS":
+        start = (today - timedelta(days=days)).isoformat()
+        retained = [item for item in retained if item.get("publishedAt", "") < start]
+    elif source == "BOE":
+        retained = [item for item in retained if item.get("publishedAt") != today.isoformat()]
+    elif source == "BOPA":
+        refreshed_dates = {item["publishedAt"] for item in fresh}
+        if refreshed_dates:
+            retained = [item for item in retained if item.get("publishedAt") not in refreshed_dates]
+    elif source == "UE":
+        # The EU query returns the complete currently open result set.
+        retained = []
+    return [*retained, *fresh]
+
+
+def validate_payload(payload: dict[str, Any]) -> None:
+    """Reject incomplete or internally inconsistent snapshots before disk writes."""
+    opportunities = payload.get("opportunities")
+    if not isinstance(opportunities, list) or not opportunities:
+        raise ValueError("refusing to write an empty opportunity dataset")
+    source_status = payload.get("sourceStatus")
+    if not isinstance(source_status, dict) or set(source_status) != set(SOURCE_KINDS):
+        raise ValueError("sourceStatus must describe every configured source")
+    seen: set[str] = set()
+    grouped: dict[str, list[dict[str, Any]]] = {source: [] for source in SOURCE_KINDS}
+    for item in opportunities:
+        source = item.get("source") if isinstance(item, dict) else None
+        if source not in grouped:
+            raise ValueError(f"unknown opportunity source: {source!r}")
+        validate_source_result(source, [item])
+        if item["id"] in seen:
+            raise ValueError(f"duplicate opportunity id: {item['id']}")
+        seen.add(item["id"])
+        grouped[source].append(item)
+    for source, status in source_status.items():
+        if not isinstance(status, dict) or status.get("status") not in {"ok", "error"}:
+            raise ValueError(f"invalid status for {source}")
+        if status.get("count") != len(grouped[source]):
+            raise ValueError(f"incorrect count for {source}")
+
+
+def write_payload_pair(payload: dict[str, Any], output: Path, bundled_output: Path) -> None:
+    """Write the canonical public payload and an identical bundled fallback."""
+    validate_payload(payload)
+    serialized = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    output.parent.mkdir(parents=True, exist_ok=True)
+    bundled_output.parent.mkdir(parents=True, exist_ok=True)
+    output_tmp = output.with_name(f".{output.name}.{uuid4().hex}.tmp")
+    bundled_tmp = bundled_output.with_name(f".{bundled_output.name}.{uuid4().hex}.tmp")
+    original_output = output.read_bytes() if output.exists() else None
+    original_bundled = bundled_output.read_bytes() if bundled_output.exists() else None
+    replaced: list[tuple[Path, bytes | None]] = []
+    try:
+        output_tmp.write_text(serialized, encoding="utf-8")
+        bundled_tmp.write_text(serialized, encoding="utf-8")
+        public_candidate = json.loads(output_tmp.read_text(encoding="utf-8"))
+        bundled_candidate = json.loads(bundled_tmp.read_text(encoding="utf-8"))
+        if public_candidate != bundled_candidate:
+            raise ValueError("public and bundled payloads differ")
+        os.replace(output_tmp, output)
+        replaced.append((output, original_output))
+        os.replace(bundled_tmp, bundled_output)
+        replaced.append((bundled_output, original_bundled))
+    except Exception:
+        for target, original in reversed(replaced):
+            if original is None:
+                target.unlink(missing_ok=True)
+            else:
+                rollback = target.with_name(f".{target.name}.{uuid4().hex}.rollback")
+                try:
+                    rollback.write_bytes(original)
+                    os.replace(rollback, target)
+                finally:
+                    rollback.unlink(missing_ok=True)
+        raise
+    finally:
+        output_tmp.unlink(missing_ok=True)
+        bundled_tmp.unlink(missing_ok=True)
+
+
+def update_dataset(
+    *,
+    today: date,
+    days: int,
+    keep_days: int,
+    collectors: Iterable[tuple[str, Any]],
+    output: Path = OUTPUT,
+    bundled_output: Path = BUNDLED_OUTPUT,
+    now: datetime | None = None,
+) -> int:
+    """Run collectors and transactionally merge every independently healthy source."""
+    checked_at = (now or datetime.now(timezone.utc)).astimezone(timezone.utc).isoformat()
+    existing_payload = load_existing(output)
+    existing = existing_payload.get("opportunities", [])
+    previous_status = existing_payload.get("sourceStatus", {})
+    previous_generated_at = existing_payload.get("generatedAt")
+    previous_by_source = {
+        source: [item for item in existing if isinstance(item, dict) and item.get("source") == source]
+        for source in SOURCE_KINDS
+    }
+    results: dict[str, list[dict[str, Any]]] = {}
+    failures: dict[str, str] = {}
+    for name, collector in collectors:
+        if name not in SOURCE_KINDS:
+            failures[name] = "ValueError: unknown source"
+            continue
+        try:
+            results[name] = validate_source_result(name, collector())
+        except Exception as exc:
+            failures[name] = f"{type(exc).__name__}: {exc}"
+
+    missing = set(SOURCE_KINDS) - set(results) - set(failures)
+    for source in missing:
+        failures[source] = "RuntimeError: collector was not configured"
+
+    if not results:
+        print("ERROR All sources failed; existing datasets were left untouched.")
+        for source, error in failures.items():
+            print(f"WARNING {source}: {error}")
+        return 1
+
+    merged_by_source: dict[str, list[dict[str, Any]]] = {}
+    source_status: dict[str, dict[str, Any]] = {}
+    for source in SOURCE_KINDS:
+        previous_items = previous_by_source[source]
+        if source in results:
+            merged_items = merge_successful_source(
+                source,
+                previous_items,
+                results[source],
+                today=today,
+                days=days,
+                keep_days=keep_days,
+            )
+            merged_by_source[source] = merged_items
+            source_status[source] = {
+                "status": "ok",
+                "count": len(merged_items),
+                "collectedCount": len(results[source]),
+                "checkedAt": checked_at,
+                "lastSuccessAt": checked_at,
+            }
+        else:
+            # A failed source is carried forward byte-for-byte at the item level.
+            merged_by_source[source] = previous_items
+            prior = previous_status.get(source, {}) if isinstance(previous_status, dict) else {}
+            last_success = prior.get("lastSuccessAt") if isinstance(prior, dict) else None
+            if not last_success and previous_items:
+                last_success = previous_generated_at
+            source_status[source] = {
+                "status": "error",
+                "count": len(previous_items),
+                "collectedCount": 0,
+                "checkedAt": checked_at,
+                "lastSuccessAt": last_success,
+                "error": failures[source],
+            }
+
+    opportunities = sorted(
+        (item for items in merged_by_source.values() for item in items),
+        key=lambda item: (item.get("score", 0), item.get("publishedAt", "")),
+        reverse=True,
+    )
+    fully_successful = not failures and set(results) == set(SOURCE_KINDS)
+    payload = {
+        # generatedAt is the last complete refresh, not merely the latest attempt.
+        "generatedAt": checked_at if fully_successful else previous_generated_at,
+        "checkedAt": checked_at,
+        "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
+        "sources": SOURCE_KINDS,
+        "sourceStatus": source_status,
+        "errors": [f"{source}: {error}" for source, error in failures.items()],
+        "opportunities": opportunities,
+    }
+    try:
+        write_payload_pair(payload, output, bundled_output)
+    except (OSError, TypeError, ValueError) as exc:
+        print(f"ERROR Dataset validation/write failed: {exc}")
+        return 1
+    print(f"Wrote {len(opportunities)} opportunities to {output}")
+    for error in payload["errors"]:
+        print(f"WARNING {error}")
+    return 0
 
 
 def main() -> int:
@@ -381,46 +648,18 @@ def main() -> int:
     parser.add_argument("--keep-days", type=int, default=120, help="Retain recent records")
     args = parser.parse_args()
     today = date.today()
-    collected: list[dict[str, Any]] = []
-    errors: list[str] = []
-    for name, collector in (
+    collectors = (
         ("BDNS", lambda: collect_bdns(today - timedelta(days=args.days), today)),
         ("BOE", lambda: collect_boe(today)),
         ("BOPA", collect_bopa),
         ("UE", collect_eu),
-    ):
-        try:
-            collected.extend(collector())
-        except Exception as exc:
-            errors.append(f"{name}: {type(exc).__name__}: {exc}")
-    cutoff = today - timedelta(days=args.keep_days)
-    existing = load_existing()
-    merged = {
-        item["id"]: item
-        for item in existing
-        if not item.get("demo")
-        and item.get("publishedAt", "0000-00-00") >= cutoff.isoformat()
-        and is_actionable_title(item.get("title", ""))
-        and not (item.get("source") == "BDNS" and item.get("publishedAt", "") >= (today - timedelta(days=args.days)).isoformat())
-    }
-    merged.update({item["id"]: item for item in collected})
-    opportunities = sorted(merged.values(), key=lambda item: (item.get("score", 0), item.get("publishedAt", "")), reverse=True)
-    payload = {
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
-        "sources": {"BDNS": "official-api", "BOE": "official-open-data", "BOPA": "official-summary", "UE": "official-api"},
-        "errors": errors,
-        "opportunities": opportunities,
-    }
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    serialized = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
-    OUTPUT.write_text(serialized, encoding="utf-8")
-    BUNDLED_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    BUNDLED_OUTPUT.write_text(serialized, encoding="utf-8")
-    print(f"Wrote {len(opportunities)} opportunities to {OUTPUT.relative_to(ROOT)}")
-    for error in errors:
-        print(f"WARNING {error}")
-    return 0 if opportunities or not errors else 1
+    )
+    return update_dataset(
+        today=today,
+        days=args.days,
+        keep_days=args.keep_days,
+        collectors=collectors,
+    )
 
 
 if __name__ == "__main__":

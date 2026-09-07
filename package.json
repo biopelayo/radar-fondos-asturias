@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc --project tsconfig.app.json && vite build",
     "preview": "vite preview",
-    "typecheck": "tsc --project tsconfig.app.json --pretty false"
+    "typecheck": "tsc --project tsconfig.app.json --pretty false",
+    "test": "python -m unittest discover -s tests -v && npm run typecheck"
   },
   "dependencies": {
     "@fontsource/barlow-condensed": "^5.3.0",
@@ -21,6 +22,7 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0",
     "typescript": "~5.7.2",
     "vite": "^6.0.5"
   }

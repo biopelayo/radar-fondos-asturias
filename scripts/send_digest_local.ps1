@@ -8,8 +8,8 @@ $projectRoot = Split-Path -Parent $PSScriptRoot
 $configPath = Join-Path $projectRoot ".local\email.private.json"
 
 if (-not (Test-Path -LiteralPath $configPath)) {
-  Write-Host "Correo local no configurado; ejecuta scripts/configure_email.ps1."
-  exit 0
+  Write-Error "Correo local no configurado; ejecuta scripts/configure_email.ps1."
+  exit 2
 }
 
 $config = Get-Content -LiteralPath $configPath -Raw | ConvertFrom-Json

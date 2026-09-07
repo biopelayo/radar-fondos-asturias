@@ -1,11 +1,42 @@
 {
-  "generatedAt": "2026-09-07T09:22:22.012936+00:00",
+  "generatedAt": "2026-09-07T15:27:58.909188+00:00",
+  "checkedAt": "2026-09-07T15:27:58.909188+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
     "BOE": "official-open-data",
     "BOPA": "official-summary",
     "UE": "official-api"
+  },
+  "sourceStatus": {
+    "BDNS": {
+      "status": "ok",
+      "count": 6,
+      "collectedCount": 6,
+      "checkedAt": "2026-09-07T15:27:58.909188+00:00",
+      "lastSuccessAt": "2026-09-07T15:27:58.909188+00:00"
+    },
+    "BOE": {
+      "status": "ok",
+      "count": 4,
+      "collectedCount": 4,
+      "checkedAt": "2026-09-07T15:27:58.909188+00:00",
+      "lastSuccessAt": "2026-09-07T15:27:58.909188+00:00"
+    },
+    "BOPA": {
+      "status": "ok",
+      "count": 2,
+      "collectedCount": 2,
+      "checkedAt": "2026-09-07T15:27:58.909188+00:00",
+      "lastSuccessAt": "2026-09-07T15:27:58.909188+00:00"
+    },
+    "UE": {
+      "status": "ok",
+      "count": 79,
+      "collectedCount": 79,
+      "checkedAt": "2026-09-07T15:27:58.909188+00:00",
+      "lastSuccessAt": "2026-09-07T15:27:58.909188+00:00"
+    }
   },
   "errors": [],
   "opportunities": [
@@ -71,6 +102,66 @@
       "demo": false
     },
     {
+      "id": "bdns-928111",
+      "title": "Convocatoria Pyme Global 2026 Misión comercial sector turismo a México y Colombia para empresas de Málaga",
+      "issuer": "CÁMARA DE COMERCIO DE MÁLAGA",
+      "source": "BDNS",
+      "sourceRef": "928111",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CÁMARA DE COMERCIO DE MÁLAGA",
+      "publishedAt": "2026-09-07",
+      "deadline": "2026-09-30",
+      "deadlineVerified": true,
+      "amount": 29104,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 77,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Convocatoria Pyme Global 2026",
+      "fitReasons": [
+        "Coincide con: turismo, comercio.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-928111-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-07",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "turismo",
+        "comercio"
+      ],
+      "demo": false
+    },
+    {
       "id": "bopa-2026-07308",
       "title": "Extracto de la Resolución de 28 de agosto de 2026, de la Consejería de Cultura, Política Llingüística y Deporte, por la que se aprueba la convocatoria de subvenciones para proyectos de cultura tradicional en asturiano y en gallego-asturiano o eonaviego, promovidas por entidades sin ánimo de lucro.",
       "issuer": "Principado de Asturias",
@@ -126,6 +217,124 @@
       ],
       "tags": [
         "Asturias"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-928136",
+      "title": "Convocatoria Pyme Global 2026 Visita feria World Travel Market de Londres para empresas de la provincia de Almería",
+      "issuer": "CÁMARA DE COMERCIO DE ALMERÍA",
+      "source": "BDNS",
+      "sourceRef": "928136",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CÁMARA DE COMERCIO DE ALMERÍA",
+      "publishedAt": "2026-09-07",
+      "deadline": "2026-10-02",
+      "deadlineVerified": true,
+      "amount": 19956,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 64,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Convocatoria Pyme Global 2026 Visita feria World Travel Market de Londres para empresas de la provincia de Almería",
+      "fitReasons": [
+        "Coincide con: comercio.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-928136-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-07",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "comercio"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-928143",
+      "title": "AYUDAS DESTINADAS A LA REHABILITACIÓN DE FACHADAS DE VIVIENDAS, EN RÉGIMEN DE CONCURRENCIA COMPETITIVA PARA LOS EJERCICIOS 2026-2027",
+      "issuer": "AYUNTAMIENTO DE RIBA-ROJA DE TÚRIA",
+      "source": "BDNS",
+      "sourceRef": "928143",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "RIBA-ROJA DE TÚRIA",
+      "publishedAt": "2026-09-07",
+      "deadline": "2026-09-07",
+      "deadlineVerified": false,
+      "amount": 100000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 56,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · AYUDAS DESTINADAS A LA REHABILITACIÓN DE FACHADAS DE VIVIENDAS, EN RÉGIMEN DE CONCURRENCIA COMPETITIVA PARA LOS EJERCICIOS 2026-2027",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-928143-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-07",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "vivienda"
       ],
       "demo": false
     },
@@ -190,61 +399,61 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl5-2027-06-d6-08",
-      "title": "Enhancing Mobility for All: affordable, reliable, and accessible multimodal transport for inclusive rural and urban connectivity – Societal Readiness pilot",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL5-2027-06-D6-08",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-08",
+      "id": "bdns-928157",
+      "title": "Ayudas destinadas a la mejora de accesibilidad de los edificios de vivienda ocupadas por personas mayores de 65 años o con grado de discapacidad superior al 33%, para los ejercicios 2026-2027",
+      "issuer": "AYUNTAMIENTO DE RIBA-ROJA DE TÚRIA",
+      "source": "BDNS",
+      "sourceRef": "928157",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
       "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-06-03",
-      "deadline": "2027-10-07",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 50,
+      "territory": "RIBA-ROJA DE TÚRIA",
+      "publishedAt": "2026-09-07",
+      "deadline": "2026-09-07",
+      "deadlineVerified": false,
+      "amount": 30000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
       "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · AYUDAS DESTINADAS A LA MEJORA DE ACCESIBILIDAD DE LOS EDIFICIOS DE VIVIENDA OCUPADAS POR PERSONAS MAYORES DE 65 AÑOS O CON GRADO DE DISCAPACIDAD SUPERIOR AL 33%, PARA LOS EJERCICIOS 2026-2027",
       "fitReasons": [
-        "Coincide con: rural.",
-        "Publicación oficial localizada en UE."
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
       ],
       "blockers": [
         "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
       ],
       "requirements": [
         {
-          "id": "UE-beneficiary",
+          "id": "BDNS-beneficiary",
           "label": "Confirmar beneficiario y actividad elegible",
           "state": "pendiente",
           "evidence": "Revisar bases oficiales"
         },
         {
-          "id": "UE-tax",
+          "id": "BDNS-tax",
           "label": "Estar al corriente con Hacienda y Seguridad Social",
           "state": "desconocido",
           "evidence": "Verificar antes de solicitar"
         },
         {
-          "id": "UE-deadline",
+          "id": "BDNS-deadline",
           "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
         }
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL5-2027-06-D6-08-official",
-          "source": "UE",
+          "id": "BDNS-928157-official",
+          "source": "BDNS",
           "label": "Publicación oficial",
-          "date": "2027-06-03",
+          "date": "2026-09-07",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-08"
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
         }
       ],
       "tags": [
-        "rural"
+        "vivienda"
       ],
       "demo": false
     },
@@ -363,6 +572,65 @@
       ],
       "tags": [
         "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl5-2027-06-d6-08",
+      "title": "Enhancing Mobility for All: affordable, reliable, and accessible multimodal transport for inclusive rural and urban connectivity – Societal Readiness pilot",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL5-2027-06-D6-08",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-08",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-06-03",
+      "deadline": "2027-10-07",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 50,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL5-2027-06-D6-08-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-06-03",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-08"
+        }
+      ],
+      "tags": [
+        "rural"
       ],
       "demo": false
     },
@@ -957,65 +1225,6 @@
       "demo": false
     },
     {
-      "id": "bdns-927997",
-      "title": "Resolución EMT/  /2026, de de , por la que se abre la convocatoria de subvenciones para el año 2026 en relación con las actuaciones del programa Formación de oferta en áreas prioritarias",
-      "issuer": "SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
-      "source": "BDNS",
-      "sourceRef": "927997",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "CATALUÑA",
-      "publishedAt": "2026-09-04",
-      "deadline": "2026-09-28",
-      "deadlineVerified": true,
-      "amount": 80000000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 50,
-      "state": "nueva",
-      "summary": "GRAN EMPRESA, PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA, PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · por la que se aprueban las bases reguladoras para la concesión de subvenciones para la realización de programas de F.P. para el empleo dirigidas prioritariamente a personas trabajadoras desocupadas, que promueve el Servicio Público de Empleo de Cataluña.",
-      "fitReasons": [
-        "Coincide con: docencia.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-927997-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-04",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "docencia"
-      ],
-      "demo": false
-    },
-    {
       "id": "ue-horizon-cl6-2026-01-circbio-08",
       "title": "Supporting pre-normative research for standardization of the bio-based products",
       "issuer": "Comisión Europea",
@@ -1071,6 +1280,124 @@
       ],
       "tags": [
         "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-928119",
+      "title": "AYUDAS EMERGENCIA PARA PYMES INDUSTRIALES AFECTADAS INCENDIOS SIERRA OESTE",
+      "issuer": "CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO",
+      "source": "BDNS",
+      "sourceRef": "928119",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "COMUNIDAD DE MADRID",
+      "publishedAt": "2026-09-07",
+      "deadline": "2026-09-07",
+      "deadlineVerified": false,
+      "amount": 3000000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 47,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · BR AYUDAS DE EMERGENCIA PYMES INCENDIOS SIERRA OESTE",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-928119-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-07",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-928115",
+      "title": "AYUDAS PARA PYMES COMERCIALES, DE SERVICIOS Y ARTESANAS AFECTADAS INCENDIOS",
+      "issuer": "CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO",
+      "source": "BDNS",
+      "sourceRef": "928115",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "COMUNIDAD DE MADRID",
+      "publishedAt": "2026-09-07",
+      "deadline": "2026-09-07",
+      "deadlineVerified": false,
+      "amount": 3000000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 47,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · BR AYUDAS DE EMERGENCIA PYMES INCENDIOS SIERRA OESTE",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-928115-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-07",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
       ],
       "demo": false
     },
@@ -1131,65 +1458,6 @@
       "tags": [
         "ciencia y salud",
         "docencia"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-928010",
-      "title": "Ayudas de minimis para la promoción de las exportaciones de las industrias agroalimentarias",
-      "issuer": "DEPARTAMENT D'AGRICULTURA, RAMADERIA, PESCA I ALIMENTACIÓ",
-      "source": "BDNS",
-      "sourceRef": "928010",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "CATALUÑA",
-      "publishedAt": "2026-09-04",
-      "deadline": "2026-09-04",
-      "deadlineVerified": false,
-      "amount": 600000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 47,
-      "state": "nueva",
-      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Bases reguladoras de las ayudas de minimis para la promoción de las exportaciones de las industrias agroalimentarias en Catalunya.",
-      "fitReasons": [
-        "Coincide con: comercio.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-928010-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-04",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "comercio"
       ],
       "demo": false
     },
