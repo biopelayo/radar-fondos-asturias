@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biopelayo.github.io/radar-fondos-asturias/schemas/v2/opportunity-version.schema.json",
+  "title": "Radar Fondos Asturias V2 OpportunityVersion",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "opportunityId", "sequence", "contentHash", "observedAt", "snapshot", "sourceRecordIds", "documentRevisionIds", "claimIds", "semanticDiff", "precedenceRuleVersion"],
+  "properties": {
+    "schemaVersion": { "$ref": "common.schema.json#/$defs/schemaVersion" },
+    "id": { "$ref": "common.schema.json#/$defs/opportunityVersionId" },
+    "opportunityId": { "$ref": "common.schema.json#/$defs/opportunityId" },
+    "sequence": { "type": "integer", "minimum": 1 },
+    "contentHash": { "$ref": "common.schema.json#/$defs/sha256" },
+    "observedAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "effectiveAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "previousVersionId": { "$ref": "common.schema.json#/$defs/opportunityVersionId" },
+    "snapshot": { "$ref": "opportunity.schema.json" },
+    "sourceRecordIds": { "$ref": "common.schema.json#/$defs/sourceRecordIds", "minItems": 1 },
+    "documentRevisionIds": { "$ref": "common.schema.json#/$defs/documentRevisionIds" },
+    "claimIds": { "$ref": "common.schema.json#/$defs/claimIds" },
+    "semanticDiff": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "kind", "material"],
+        "properties": {
+          "path": { "type": "string", "pattern": "^/" },
+          "kind": { "enum": ["added", "removed", "changed"] },
+          "previous": {},
+          "current": {},
+          "material": { "type": "boolean" }
+        }
+      }
+    },
+    "precedenceRuleVersion": { "$ref": "common.schema.json#/$defs/nonEmptyString" }
+  }
+}

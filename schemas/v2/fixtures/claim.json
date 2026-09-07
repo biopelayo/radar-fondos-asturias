@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "claim:opp:synthetic-2026-001:deadline",
+  "opportunityId": "opp:es-asturias:synthetic-2026-001",
+  "opportunityVersionId": "oppver:sha256:2222222222222222222222222222222222222222222222222222222222222222",
+  "path": "/applicationWindows/0/closesAt",
+  "valueType": "datetime",
+  "value": "2026-10-15T23:59:59+02:00",
+  "extraction": {
+    "method": "native_text",
+    "version": "deadline-rules-v2.0.0"
+  },
+  "confidence": 0.97,
+  "evidence": [
+    {
+      "documentRevisionId": "docrev:sha256:1111111111111111111111111111111111111111111111111111111111111111",
+      "page": 4,
+      "fragment": "El plazo de presentación finaliza el 15 de octubre de 2026.",
+      "startOffset": 118,
+      "endOffset": 181,
+      "selector": "p:nth-of-type(8)",
+      "quoteHash": "sha256:5555555555555555555555555555555555555555555555555555555555555555"
+    }
+  ],
+  "reviewStatus": "confirmed",
+  "alternatives": [],
+  "conflict": false,
+  "effectiveAt": "2026-09-07T12:00:00+02:00"
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biopelayo.github.io/radar-fondos-asturias/schemas/v2/document.schema.json",
+  "title": "Radar Fondos Asturias V2 Document",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "revisionId", "officialUrl", "role", "mimeType", "language", "sha256", "extraction", "relations", "sourceRecordIds", "dependentClaimIds"],
+  "properties": {
+    "schemaVersion": { "$ref": "common.schema.json#/$defs/schemaVersion" },
+    "id": { "$ref": "common.schema.json#/$defs/documentId" },
+    "revisionId": { "$ref": "common.schema.json#/$defs/documentRevisionId" },
+    "officialUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "role": { "enum": ["regulatory_basis", "call", "correction", "extension", "form", "guide", "submission_instructions", "resolution", "procurement_admin_spec", "procurement_technical_spec", "procurement_notice", "award_notice"] },
+    "mimeType": { "type": "string", "minLength": 1 },
+    "language": { "type": "string", "pattern": "^[a-z]{2}(-[A-Z]{2})?$" },
+    "publishedAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "byteSize": { "type": "integer", "minimum": 0 },
+    "sha256": { "$ref": "common.schema.json#/$defs/sha256" },
+    "extraction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "version"],
+      "properties": {
+        "method": { "enum": ["native_text", "html", "ocr", "manual", "none"] },
+        "version": { "$ref": "common.schema.json#/$defs/nonEmptyString" },
+        "pageCount": { "type": "integer", "minimum": 1 },
+        "quality": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "targetDocumentId"],
+        "properties": {
+          "type": { "enum": ["basis_of", "calls", "corrects", "extends", "replaces", "annexes", "instructs", "resolves"] },
+          "targetDocumentId": { "$ref": "common.schema.json#/$defs/documentId" },
+          "targetRevisionId": { "$ref": "common.schema.json#/$defs/documentRevisionId" }
+        }
+      }
+    },
+    "sourceRecordIds": { "$ref": "common.schema.json#/$defs/sourceRecordIds", "minItems": 1 },
+    "dependentClaimIds": { "$ref": "common.schema.json#/$defs/claimIds" }
+  }
+}

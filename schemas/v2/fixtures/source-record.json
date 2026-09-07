@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "src:bdns:synthetic-2026-001",
+  "sourceKey": "bdns",
+  "externalId": "SYNTHETIC-2026-001",
+  "canonicalUrl": "https://official.example.invalid/records/SYNTHETIC-2026-001",
+  "retrievedUrl": "https://official.example.invalid/api/records/SYNTHETIC-2026-001",
+  "firstObservedAt": "2026-09-01T06:35:00Z",
+  "lastObservedAt": "2026-09-07T15:30:00Z",
+  "publishedAt": "2026-09-01T00:00:00+02:00",
+  "updatedAt": "2026-09-07T12:00:00+02:00",
+  "contentHash": "sha256:4444444444444444444444444444444444444444444444444444444444444444",
+  "http": {
+    "status": 200,
+    "etag": "synthetic-etag-v2",
+    "lastModified": "Mon, 07 Sep 2026 10:00:00 GMT",
+    "contentType": "application/json"
+  },
+  "adapter": {
+    "name": "bdns",
+    "version": "2.0.0",
+    "schemaVersion": "2026-09"
+  },
+  "externalReferences": ["SYNTHETIC-2026-001"],
+  "retrieval": {
+    "status": "ok",
+    "checkedAt": "2026-09-07T15:30:00Z"
+  }
+}

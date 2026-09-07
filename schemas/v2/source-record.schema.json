@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biopelayo.github.io/radar-fondos-asturias/schemas/v2/source-record.schema.json",
+  "title": "Radar Fondos Asturias V2 SourceRecord",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "sourceKey", "externalId", "canonicalUrl", "retrievedUrl", "firstObservedAt", "lastObservedAt", "http", "adapter", "externalReferences", "retrieval"],
+  "properties": {
+    "schemaVersion": { "$ref": "common.schema.json#/$defs/schemaVersion" },
+    "id": { "$ref": "common.schema.json#/$defs/sourceRecordId" },
+    "sourceKey": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$" },
+    "externalId": { "$ref": "common.schema.json#/$defs/nonEmptyString" },
+    "canonicalUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "retrievedUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "firstObservedAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "lastObservedAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "publishedAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "updatedAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "contentHash": { "$ref": "common.schema.json#/$defs/sha256" },
+    "http": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": { "type": "integer", "minimum": 100, "maximum": 599 },
+        "etag": { "type": "string" },
+        "lastModified": { "type": "string" },
+        "contentType": { "type": "string" }
+      }
+    },
+    "adapter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "version", "schemaVersion"],
+      "properties": {
+        "name": { "$ref": "common.schema.json#/$defs/nonEmptyString" },
+        "version": { "$ref": "common.schema.json#/$defs/nonEmptyString" },
+        "schemaVersion": { "$ref": "common.schema.json#/$defs/nonEmptyString" }
+      }
+    },
+    "externalReferences": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+    "retrieval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "checkedAt"],
+      "properties": {
+        "status": { "enum": ["ok", "not_modified", "error"] },
+        "checkedAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+        "error": { "$ref": "common.schema.json#/$defs/error" }
+      },
+      "allOf": [
+        { "if": { "properties": { "status": { "const": "error" } } }, "then": { "required": ["error"] } }
+      ]
+    }
+  }
+}

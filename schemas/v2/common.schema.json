@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biopelayo.github.io/radar-fondos-asturias/schemas/v2/common.schema.json",
+  "$defs": {
+    "schemaVersion": { "const": "2.0.0" },
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "dateTime": { "type": "string", "format": "date-time" },
+    "sha256": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+    "opportunityId": { "type": "string", "pattern": "^opp:[a-z0-9][a-z0-9._:-]*$" },
+    "opportunityVersionId": { "type": "string", "pattern": "^oppver:sha256:[a-f0-9]{64}$" },
+    "sourceRecordId": { "type": "string", "pattern": "^src:[a-z0-9][a-z0-9._:-]*$" },
+    "documentId": { "type": "string", "pattern": "^doc:[a-z0-9][a-z0-9._:-]*$" },
+    "documentRevisionId": { "type": "string", "pattern": "^docrev:sha256:[a-f0-9]{64}$" },
+    "claimId": { "type": "string", "pattern": "^claim:[a-z0-9][a-z0-9._:-]*$" },
+    "changeEventId": { "type": "string", "pattern": "^change:[a-z0-9][a-z0-9._:-]*$" },
+    "sourceHealthId": { "type": "string", "pattern": "^health:[a-z0-9][a-z0-9._:-]*$" },
+    "sourceRecordIds": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/sourceRecordId" },
+      "uniqueItems": true
+    },
+    "documentRevisionIds": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/documentRevisionId" },
+      "uniqueItems": true
+    },
+    "claimIds": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/claimId" },
+      "uniqueItems": true
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceRecordIds", "documentRevisionIds", "claimIds", "resolverVersion", "derivedAt"],
+      "properties": {
+        "sourceRecordIds": { "$ref": "#/$defs/sourceRecordIds", "minItems": 1 },
+        "documentRevisionIds": { "$ref": "#/$defs/documentRevisionIds" },
+        "claimIds": { "$ref": "#/$defs/claimIds" },
+        "resolverVersion": { "$ref": "#/$defs/nonEmptyString" },
+        "derivedAt": { "$ref": "#/$defs/dateTime" }
+      }
+    },
+    "evidencePointer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["documentRevisionId", "page", "fragment"],
+      "properties": {
+        "documentRevisionId": { "$ref": "#/$defs/documentRevisionId" },
+        "page": { "type": "integer", "minimum": 1 },
+        "fragment": { "type": "string", "minLength": 1 },
+        "startOffset": { "type": "integer", "minimum": 0 },
+        "endOffset": { "type": "integer", "minimum": 0 },
+        "selector": { "type": "string", "minLength": 1 },
+        "quoteHash": { "$ref": "#/$defs/sha256" }
+      }
+    },
+    "error": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message", "retryable"],
+      "properties": {
+        "code": { "$ref": "#/$defs/nonEmptyString" },
+        "message": { "$ref": "#/$defs/nonEmptyString" },
+        "retryable": { "type": "boolean" }
+      }
+    }
+  }
+}

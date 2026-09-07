@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "oppver:sha256:2222222222222222222222222222222222222222222222222222222222222222",
+  "opportunityId": "opp:es-asturias:synthetic-2026-001",
+  "sequence": 2,
+  "contentHash": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+  "observedAt": "2026-09-07T15:30:00Z",
+  "effectiveAt": "2026-09-07T12:00:00+02:00",
+  "previousVersionId": "oppver:sha256:3333333333333333333333333333333333333333333333333333333333333333",
+  "snapshot": {
+    "schemaVersion": "2.0.0",
+    "id": "opp:es-asturias:synthetic-2026-001",
+    "canonicalReference": "SYNTHETIC-2026-001",
+    "family": "grant",
+    "titles": [
+      { "language": "es", "value": "Ayuda sintética para innovación rural" },
+      { "language": "en", "value": "Synthetic rural innovation grant" }
+    ],
+    "authority": { "id": "authority:synthetic-asturias", "name": "Organismo público sintético", "level": "regional", "countryCode": "ES" },
+    "geography": { "scope": "regional", "countryCodes": ["ES"], "regionCodes": ["ES-AS"], "executionPlaces": ["Asturias"] },
+    "lifecycleStatus": "extended",
+    "applicationWindows": [{ "id": "window:primary", "opensAt": "2026-09-01T00:00:00+02:00", "closesAt": "2026-10-15T23:59:59+02:00", "timeZone": "Europe/Madrid", "mode": "absolute", "verified": true }],
+    "finance": { "currency": "EUR", "programmeBudget": 1000000, "applicantMinimum": 5000, "applicantMaximum": 25000, "aidIntensityPercent": 60, "eligibleCostNotes": ["Equipamiento y servicios técnicos vinculados al proyecto"], "repayableAmount": 0, "nonRepayableAmount": 25000 },
+    "beneficiaryClasses": ["self_employed", "small_enterprise"],
+    "eligibleActivities": ["digitalisation", "rural_innovation"],
+    "excludedActivities": ["ordinary_maintenance"],
+    "incompatibilities": ["No duplicar financiación para el mismo coste"],
+    "aidRegime": "de_minimis",
+    "submission": { "officialUrl": "https://official.example.invalid/apply/SYNTHETIC-2026-001", "channel": "electronic", "registry": "Registro electrónico sintético", "electronicSignatureRequired": true },
+    "sourceRecordIds": ["src:bdns:synthetic-2026-001"],
+    "documentRevisionIds": ["docrev:sha256:1111111111111111111111111111111111111111111111111111111111111111"],
+    "relatedOpportunityIds": [],
+    "currentVersionId": "oppver:sha256:2222222222222222222222222222222222222222222222222222222222222222",
+    "quality": { "completeness": 0.86, "evidenceCoverage": 0.75, "conflictCount": 0, "reviewStatus": "reviewed" },
+    "provenance": {
+      "sourceRecordIds": ["src:bdns:synthetic-2026-001"],
+      "documentRevisionIds": ["docrev:sha256:1111111111111111111111111111111111111111111111111111111111111111"],
+      "claimIds": ["claim:opp:synthetic-2026-001:deadline"],
+      "resolverVersion": "resolver-v2.0.0",
+      "derivedAt": "2026-09-07T15:30:00Z"
+    }
+  },
+  "sourceRecordIds": ["src:bdns:synthetic-2026-001"],
+  "documentRevisionIds": ["docrev:sha256:1111111111111111111111111111111111111111111111111111111111111111"],
+  "claimIds": ["claim:opp:synthetic-2026-001:deadline"],
+  "semanticDiff": [
+    {
+      "path": "/applicationWindows/0/closesAt",
+      "kind": "changed",
+      "previous": "2026-09-30T23:59:59+02:00",
+      "current": "2026-10-15T23:59:59+02:00",
+      "material": true
+    }
+  ],
+  "precedenceRuleVersion": "precedence-v2.0.0"
+}

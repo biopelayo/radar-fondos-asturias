@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biopelayo.github.io/radar-fondos-asturias/schemas/v2/change-event.schema.json",
+  "title": "Radar Fondos Asturias V2 ChangeEvent",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "opportunityId", "toVersionId", "classification", "changedPaths", "summary", "observedAt", "sourceRecordIds", "documentRevisionIds"],
+  "properties": {
+    "schemaVersion": { "$ref": "common.schema.json#/$defs/schemaVersion" },
+    "id": { "$ref": "common.schema.json#/$defs/changeEventId" },
+    "opportunityId": { "$ref": "common.schema.json#/$defs/opportunityId" },
+    "fromVersionId": { "$ref": "common.schema.json#/$defs/opportunityVersionId" },
+    "toVersionId": { "$ref": "common.schema.json#/$defs/opportunityVersionId" },
+    "classification": { "enum": ["informational", "material", "urgent", "closure"] },
+    "changedPaths": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^/" }, "uniqueItems": true },
+    "summary": { "$ref": "common.schema.json#/$defs/nonEmptyString" },
+    "observedAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "effectiveAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "sourceRecordIds": { "$ref": "common.schema.json#/$defs/sourceRecordIds", "minItems": 1 },
+    "documentRevisionIds": { "$ref": "common.schema.json#/$defs/documentRevisionIds" }
+  }
+}

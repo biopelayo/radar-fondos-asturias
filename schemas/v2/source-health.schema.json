@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biopelayo.github.io/radar-fondos-asturias/schemas/v2/source-health.schema.json",
+  "title": "Radar Fondos Asturias V2 SourceHealth",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "sourceKey", "status", "checkedAt", "recordCount", "consecutiveFailures"],
+  "properties": {
+    "schemaVersion": { "$ref": "common.schema.json#/$defs/schemaVersion" },
+    "id": { "$ref": "common.schema.json#/$defs/sourceHealthId" },
+    "sourceKey": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$" },
+    "status": { "enum": ["healthy", "degraded", "stale", "down"] },
+    "checkedAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "lastSuccessAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "recordCount": { "type": "integer", "minimum": 0 },
+    "consecutiveFailures": { "type": "integer", "minimum": 0 },
+    "latencyMs": { "type": "number", "minimum": 0 },
+    "error": { "$ref": "common.schema.json#/$defs/error" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "enum": ["degraded", "down"] } } },
+      "then": { "required": ["error"] }
+    }
+  ]
+}
