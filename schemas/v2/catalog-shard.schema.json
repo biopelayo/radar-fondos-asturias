@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biopelayo.github.io/radar-fondos-asturias/schemas/v2/catalog-shard.schema.json",
+  "title": "Radar Fondos Asturias V2 Catalog Shard",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "generatedAt", "opportunities", "versions", "sourceRecords", "documents", "claims", "changeEvents"],
+  "properties": {
+    "schemaVersion": { "$ref": "common.schema.json#/$defs/schemaVersion" },
+    "id": { "type": "string", "pattern": "^shard:opportunities:[a-f0-9]{2}$" },
+    "generatedAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "opportunities": { "type": "array", "minItems": 1, "items": { "$ref": "opportunity.schema.json" } },
+    "versions": { "type": "array", "minItems": 1, "items": { "$ref": "opportunity-version.schema.json" } },
+    "sourceRecords": { "type": "array", "minItems": 1, "items": { "$ref": "source-record.schema.json" } },
+    "documents": { "type": "array", "items": { "$ref": "document.schema.json" } },
+    "claims": { "type": "array", "items": { "$ref": "claim.schema.json" } },
+    "changeEvents": { "type": "array", "items": { "$ref": "change-event.schema.json" } }
+  }
+}

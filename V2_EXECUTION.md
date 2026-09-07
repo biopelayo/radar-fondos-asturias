@@ -135,7 +135,7 @@ Una persona debe poder pasar de “ha aparecido una convocatoria” a:
 | G26 | ✅ parcial | Guardadas localStorage y digest por snapshot | Journal de eventos y alertas idempotentes | Change feed + seen/snooze/escalation + ICS/digest | G05, G15 | OPERACIÓN | Evento idéntico se notifica una vez; cambio de plazo escala |
 | G27 | ⬜ | Sin analítica de resultado | Funnel y dinero real local | LocalEvent + Outcome + panel | G23 | UI | Distingue detectado/solicitado/concedido/facturado/cobrado |
 | G28 | ⬜ | Fetch no-store y fallback bundled | PWA con snapshot transaccional y offline | Manifest/checksums, IndexedDB cache, service worker | G01, G15 | UI | Offline abre guardadas/expedientes; actualización corrupta conserva anterior |
-| G29 | ✅ parcial | Validación propia V1 y 17 tests Python, incluidos 6 contratos V2 | Pirámide de pruebas V2 | Fixtures, property tests, Vitest, Playwright, axe, PDF corpus | Todos por incremento | OPERACIÓN | npm test + suite E2E/datos pasan con informes archivados |
+| G29 | ✅ parcial | Validación propia V1 y 22 tests Python, incluidos contratos y migración V2 | Pirámide de pruebas V2 | Fixtures, property tests, Vitest, Playwright, axe, PDF corpus | Todos por incremento | OPERACIÓN | npm test + suite E2E/datos pasan con informes archivados |
 | G30 | ✅ parcial | Secretos fuera de web, HTTPS y rollback | Threat model y hardening completo | Allowlist, límites, sanitización, CSP, supply chain | G01, G08, G25, G28 | OPERACIÓN | Security fixtures, secret/PII scan y acciones fijadas por SHA pasan |
 | G31 | ✅ parcial | Workflow único preparado y circuito local operativo | Workflows separados y publicación atómica sin doble run | collect/publish/build/deploy/digest | G01, G15 | OPERACIÓN | Fallo parcial/rollback ensayados; ejecución remota confirmada |
 | G32 | ⬜ | Sin backend ni IA | Extensiones opt-in desacopladas | Interfaces de sync/OCR/AI tras feature flags | V2 estática estable | OPERACIÓN | Suite completa pasa con flags off; cero hecho IA sin cita |
@@ -151,6 +151,8 @@ Los hitos son secuenciales en su gate, no necesariamente en su desarrollo. DATOS
 
 **Estado:** 🟡 EN CURSO AHORA  
 **Valor:** demostrar el spine completo sin cambiar todavía todas las fuentes.
+
+**Corte ejecutado:** contratos y schemas V2, migrador determinista, primer shard/manifest/health con hash, gate previo a escritura, ruta no predeterminada `Evidence Lab V2` y visor en estado honesto “Por verificar”. Falta que la ruta consuma directamente el shard publicado —ahora usa el adapter de compatibilidad sobre el catálogo V1— y completar los tests/capturas de payload inválido para cerrar H1.
 
 Incluye:
 
@@ -576,7 +578,7 @@ No es done:
 2. **DATOS:** implementar migrador V1 → Opportunity/SourceRecord V2 para un fixture BDNS.
 3. **UI:** adaptar EvidenceWorkspace al contrato de dominio definitivo sin duplicar tipos.
 4. **UI:** añadir una ruta V2 no predeterminada que muestre el caso migrado y estados “Por verificar”.
-5. **OPERACIÓN:** integrar validación del contrato en npm test y conservar los 17 tests actuales.
+5. **OPERACIÓN:** integrar validación del contrato y la migración en npm test; mantener verdes los 22 tests actuales.
 6. **OPERACIÓN:** añadir gate que impida publicar el shard V2 si schema/hash fallan.
 
 ### Evidencia exigida para cerrar H1

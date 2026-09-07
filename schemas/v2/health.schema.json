@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biopelayo.github.io/radar-fondos-asturias/schemas/v2/health.schema.json",
+  "title": "Radar Fondos Asturias V2 Health Feed",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "catalogVersion", "generatedAt", "sources"],
+  "properties": {
+    "schemaVersion": { "$ref": "common.schema.json#/$defs/schemaVersion" },
+    "catalogVersion": { "$ref": "common.schema.json#/$defs/sha256" },
+    "generatedAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "source-health.schema.json" }
+    }
+  }
+}

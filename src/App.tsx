@@ -6,6 +6,7 @@ import {
   Database,
   Download,
   FileCheck2,
+  FileSearch,
   LayoutDashboard,
   Menu,
   Radar,
@@ -18,12 +19,15 @@ import {
   X,
 } from 'lucide-react'
 import { OpportunityWorkbench } from './components/OpportunityWorkbench'
+import { EvidenceWorkspace } from './components/v2'
+import type { EvidenceDocumentV2, EvidenceOpportunityV2 } from './components/v2'
 import { demoOpportunities } from './data/demo'
 import bundledPayload from './data/opportunities.generated.json'
 import { emptyProfile, useLocalWorkspace } from './hooks/useLocalWorkspace'
 import type { ApplicationRecord, Opportunity, PrivateProfile } from './types'
+import type { OpportunityId, SourceRecordId } from './domain/v2'
 
-type View = 'panel' | 'radar' | 'expedientes' | 'calendario' | 'fuentes' | 'perfil' | 'ajustes'
+type View = 'panel' | 'evidence-v2' | 'radar' | 'expedientes' | 'calendario' | 'fuentes' | 'perfil' | 'ajustes'
 
 interface DataPayload {
   generatedAt?: string
@@ -44,6 +48,7 @@ function evaluateDataHealth(payload: DataPayload): Exclude<DataHealth, 'loading'
 
 const navigation: Array<{ id: View; label: string; icon: typeof Radar }> = [
   { id: 'panel', label: 'Mesa de decisión', icon: LayoutDashboard },
+  { id: 'evidence-v2', label: 'Evidence Lab V2', icon: FileSearch },
   { id: 'radar', label: 'Radar', icon: Radar },
   { id: 'expedientes', label: 'Expedientes', icon: BriefcaseBusiness },
   { id: 'calendario', label: 'Plazos', icon: CalendarDays },
@@ -249,6 +254,55 @@ function RadarView({ opportunities }: { opportunities: Opportunity[] }) {
   )
 }
 
+function EvidenceView({ opportunity }: { opportunity?: Opportunity }) {
+  if (!opportunity) {
+    return (
+      <main className="single-view">
+        <EvidenceWorkspace opportunity={null} document={null} claims={[]} />
+      </main>
+    )
+  }
+
+  const evidenceOpportunity: EvidenceOpportunityV2 = {
+    id: `opp:${opportunity.id}` as OpportunityId,
+    canonicalReference: opportunity.sourceRef,
+    titles: [{ language: 'es', value: opportunity.title }],
+    authority: {
+      id: opportunity.issuer.toLocaleLowerCase('es').replace(/[^a-z0-9]+/g, '-'),
+      name: opportunity.issuer,
+      level: opportunity.territory.toLocaleLowerCase('es').includes('asturias') ? 'regional' : 'national',
+      countryCode: 'ES',
+    },
+    // The catalogue date/amount are not promoted without a page + fragment.
+    applicationWindows: [],
+    finance: { currency: 'EUR', eligibleCostNotes: [] },
+    beneficiaryClasses: [],
+  }
+  const evidenceDocument: EvidenceDocumentV2 = {
+    officialUrl: opportunity.sourceUrl,
+    role: 'call',
+    mimeType: 'text/html',
+    language: 'es',
+    publishedAt: opportunity.publishedAt || undefined,
+    extraction: { method: 'none', version: 'h1-public-index' },
+    sourceRecordIds: [`src:${opportunity.source.toLocaleLowerCase('es')}:${opportunity.sourceRef}` as SourceRecordId],
+  }
+
+  return (
+    <main className="v2-evidence-view">
+      <EvidenceWorkspace
+        opportunity={evidenceOpportunity}
+        document={evidenceDocument}
+        claims={[]}
+        pages={[]}
+        documentState="unavailable"
+        fallbackReason="La publicación oficial está localizada, pero el catálogo actual aún no incluye texto por página ni fragmentos citables. Beneficiarios, capital y plazo siguen Por verificar."
+        onOpenOfficialSource={(document) => window.open(document.officialUrl, '_blank', 'noopener,noreferrer')}
+      />
+    </main>
+  )
+}
+
 export default function App() {
   const [activeView, setActiveView] = useState<View>('panel')
   const [menuOpen, setMenuOpen] = useState(false)
@@ -307,6 +361,7 @@ export default function App() {
   }, [opportunities, profile])
   const renderView = () => {
     if (activeView === 'panel') return <OpportunityWorkbench opportunities={rankedOpportunities} applications={applications} onPrepare={prepareApplication} />
+    if (activeView === 'evidence-v2') return <EvidenceView opportunity={opportunities.find((item) => !item.demo) ?? opportunities[0]} />
     if (activeView === 'radar') return <RadarView opportunities={rankedOpportunities} />
     if (activeView === 'expedientes') return <ApplicationsView applications={applications} opportunities={rankedOpportunities} />
     if (activeView === 'calendario') return <CalendarView opportunities={rankedOpportunities} />
@@ -344,7 +399,7 @@ export default function App() {
         {renderView()}
       </div>
       <nav className="mobile-nav" aria-label="Navegación móvil">
-        {navigation.filter((item) => ['panel', 'radar', 'expedientes', 'fuentes', 'perfil'].includes(item.id)).map(({ id, label, icon: Icon }) => <button type="button" key={id} className={activeView === id ? 'active' : ''} aria-current={activeView === id ? 'page' : undefined} onClick={() => setActiveView(id)}><Icon /><span>{label === 'Mesa de decisión' ? 'Mesa' : label === 'Perfil privado' ? 'Perfil' : label}</span></button>)}
+        {navigation.filter((item) => ['panel', 'evidence-v2', 'expedientes', 'fuentes', 'perfil'].includes(item.id)).map(({ id, label, icon: Icon }) => <button type="button" key={id} className={activeView === id ? 'active' : ''} aria-current={activeView === id ? 'page' : undefined} onClick={() => setActiveView(id)}><Icon /><span>{label === 'Mesa de decisión' ? 'Mesa' : label === 'Evidence Lab V2' ? 'Evidencia' : label === 'Perfil privado' ? 'Perfil' : label}</span></button>)}
       </nav>
       {menuOpen && <button className="mobile-scrim" aria-label="Cerrar navegación" onClick={() => closeMenu()} />}
     </div>

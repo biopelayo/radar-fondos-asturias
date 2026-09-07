@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biopelayo.github.io/radar-fondos-asturias/schemas/v2/manifest.schema.json",
+  "title": "Radar Fondos Asturias V2 Catalog Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "catalogVersion", "generatedAt", "inputHash", "opportunityCount", "shards", "health"],
+  "properties": {
+    "schemaVersion": { "$ref": "common.schema.json#/$defs/schemaVersion" },
+    "catalogVersion": { "$ref": "common.schema.json#/$defs/sha256" },
+    "generatedAt": { "$ref": "common.schema.json#/$defs/dateTime" },
+    "inputHash": { "$ref": "common.schema.json#/$defs/sha256" },
+    "opportunityCount": { "type": "integer", "minimum": 1 },
+    "shards": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "path", "sha256", "count"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^shard:opportunities:[a-f0-9]{2}$" },
+          "path": { "type": "string", "pattern": "^shards/opportunities/[a-f0-9]{2}\\.json$" },
+          "sha256": { "$ref": "common.schema.json#/$defs/sha256" },
+          "count": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "health": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": { "const": "health.json" },
+        "sha256": { "$ref": "common.schema.json#/$defs/sha256" }
+      }
+    }
+  }
+}

@@ -25,38 +25,50 @@ import {
 } from 'react'
 import '../../styles/v2/evidence-workspace.css'
 import type {
-  EvidenceClaimStatus,
   EvidenceClaimV2,
   EvidenceReviewAction,
   EvidenceWorkspaceProps,
 } from './EvidenceWorkspace.types'
 
 type MobilePane = 'analysis' | 'document' | 'actions'
+type ClaimVisualStatus = EvidenceClaimV2['reviewStatus'] | 'flagged'
 
-const claimStateCopy: Record<EvidenceClaimStatus, string> = {
-  located: 'Oficial localizada',
+const claimStateCopy: Record<ClaimVisualStatus, string> = {
+  unreviewed: 'Pendiente de revisión',
   confirmed: 'Confirmada por ti',
-  inferred: 'Inferida',
+  rejected: 'Rechazada',
   conflict: 'En conflicto',
-  stale: 'Reconfirmar',
-  missing: 'Sin evidencia',
+  needs_review: 'Requiere revisión',
+  flagged: 'Marcada para revisar',
 }
 
-const categoryCopy: Record<EvidenceClaimV2['category'], string> = {
-  eligibility: 'Elegibilidad',
-  money: 'Dinero',
-  deadline: 'Plazo',
-  document: 'Documento',
-  risk: 'Riesgo',
+const roleLabel = (role: string) => role === 'call' ? 'Convocatoria' : role.replace(/_/g, ' ')
+
+const claimLabel = (claim: EvidenceClaimV2) => {
+  const leaf = claim.path.split('.').filter(Boolean).at(-1) ?? claim.path
+  return leaf.replace(/([a-z])([A-Z])/g, '$1 $2').replace(/_/g, ' ')
+}
+
+const claimCategory = (path: string) => {
+  if (/beneficiar|eligib/i.test(path)) return 'Elegibilidad'
+  if (/finance|amount|budget|money|capital/i.test(path)) return 'Dinero'
+  if (/window|deadline|closes|plazo/i.test(path)) return 'Plazo'
+  if (/document|submission|form/i.test(path)) return 'Documento'
+  return 'Riesgo'
+}
+
+const formatClaimValue = (value: EvidenceClaimV2['value']) => {
+  if (value === null) return 'Por verificar'
+  if (typeof value === 'object') return JSON.stringify(value)
+  return String(value)
 }
 
 const clamp = (value: number, minimum: number, maximum: number) =>
   Math.min(maximum, Math.max(minimum, value))
 
-function ClaimStateIcon({ status }: { status: EvidenceClaimStatus }) {
+function ClaimStateIcon({ status }: { status: ClaimVisualStatus }) {
   if (status === 'confirmed') return <CheckCircle2 aria-hidden="true" />
-  if (status === 'located') return <ShieldCheck aria-hidden="true" />
-  if (status === 'conflict' || status === 'missing') return <AlertTriangle aria-hidden="true" />
+  if (status === 'conflict' || status === 'rejected') return <AlertTriangle aria-hidden="true" />
   return <CircleDashed aria-hidden="true" />
 }
 
@@ -100,7 +112,7 @@ function ReviewControls({
   onReview,
 }: {
   claim?: EvidenceClaimV2
-  status?: EvidenceClaimStatus | 'flagged'
+  status?: ClaimVisualStatus
   onReview: (action: EvidenceReviewAction) => void
 }) {
   if (!claim) {
@@ -112,7 +124,8 @@ function ReviewControls({
     )
   }
 
-  const statusLabel = status === 'flagged' ? 'Marcada para revisar' : claimStateCopy[status ?? claim.status]
+  const pointer = claim.evidence[0]
+  const statusLabel = claimStateCopy[status ?? claim.reviewStatus]
 
   return (
     <div className="v2-evidence-review">
@@ -123,11 +136,11 @@ function ReviewControls({
       <dl>
         <div>
           <dt>Valor interpretado</dt>
-          <dd>{claim.value}</dd>
+          <dd>{formatClaimValue(claim.value)}</dd>
         </div>
         <div>
           <dt>Consecuencia</dt>
-          <dd>{claim.consequence ?? 'No se ha descrito una consecuencia operativa.'}</dd>
+          <dd>{claim.path}</dd>
         </div>
         <div>
           <dt>Confianza</dt>
@@ -135,14 +148,14 @@ function ReviewControls({
         </div>
       </dl>
       <div className="v2-evidence-review-actions">
-        <button type="button" onClick={() => onReview('confirm')} disabled={!claim.pointer}>
+        <button type="button" onClick={() => onReview('confirm')} disabled={!pointer}>
           <CheckCircle2 aria-hidden="true" /> Confirmar revisión
         </button>
         <button type="button" onClick={() => onReview('flag')}>
           <Flag aria-hidden="true" /> Revisar después
         </button>
       </div>
-      {!claim.pointer ? <p className="v2-evidence-review-warning">No puede confirmarse sin una cita enlazada.</p> : null}
+      {!pointer ? <p className="v2-evidence-review-warning">No puede confirmarse sin una cita enlazada.</p> : null}
     </div>
   )
 }
@@ -174,6 +187,9 @@ export function EvidenceWorkspace({
   opportunity,
   document,
   claims,
+  pages = [],
+  documentState = 'ready',
+  fallbackReason,
   status = 'ready',
   errorMessage,
   initialClaimId,
@@ -193,28 +209,28 @@ export function EvidenceWorkspace({
   const [highlightMode, setHighlightMode] = useState<'claim' | 'search'>('claim')
   const [mobilePane, setMobilePane] = useState<MobilePane>('analysis')
   const [analysisWidth, setAnalysisWidth] = useState(40)
-  const [reviewOverrides, setReviewOverrides] = useState<Record<string, EvidenceClaimStatus | 'flagged'>>({})
+  const [reviewOverrides, setReviewOverrides] = useState<Record<string, ClaimVisualStatus>>({})
   const [liveMessage, setLiveMessage] = useState('')
   const passageRef = useRef<HTMLElement>(null)
 
   const selectedClaim = claims.find((claim) => claim.id === selectedClaimId)
-  const selectedPointer = selectedClaim?.pointer
-  const totalPages = Math.max(document?.pageCount ?? 0, document?.pages.length ?? 0, 1)
-  const currentPage = document?.pages.find((page) => page.number === pageNumber)
+  const selectedPointer = selectedClaim?.evidence[0]
+  const totalPages = Math.max(document?.extraction.pageCount ?? 0, pages.length, 1)
+  const currentPage = pages.find((page) => page.number === pageNumber)
   const claimQuote = selectedPointer
-    && selectedPointer.documentId === document?.id
+    && selectedPointer.documentRevisionId === document?.revisionId
     && selectedPointer.page === pageNumber
-    ? selectedPointer.quote
+    ? selectedPointer.fragment
     : undefined
   const activeQuote = highlightMode === 'search' ? searchQuery.trim() : claimQuote
 
   const searchMatches = useMemo(() => {
     const query = searchQuery.trim().toLocaleLowerCase('es')
-    if (!query || !document) return []
-    return document.pages
+    if (!query) return []
+    return pages
       .filter((page) => page.text.toLocaleLowerCase('es').includes(query))
       .map((page) => page.number)
-  }, [document, searchQuery])
+  }, [pages, searchQuery])
 
   useEffect(() => {
     if (!claims.some((claim) => claim.id === selectedClaimId)) {
@@ -223,11 +239,11 @@ export function EvidenceWorkspace({
   }, [claims, firstClaimId, selectedClaimId])
 
   useEffect(() => {
-    const claimPage = selectedPointer && selectedPointer.documentId === document?.id
+    const claimPage = selectedPointer && selectedPointer.documentRevisionId === document?.revisionId
       ? selectedPointer.page
-      : document?.pages[0]?.number ?? 1
+      : pages[0]?.number ?? 1
     setPageNumber(clamp(claimPage, 1, totalPages))
-  }, [document?.id, document?.pages, selectedPointer, totalPages])
+  }, [document?.revisionId, pages, selectedPointer, totalPages])
 
   useEffect(() => {
     if (!activeQuote || !passageRef.current) return
@@ -237,16 +253,16 @@ export function EvidenceWorkspace({
   }, [activeQuote, mobilePane, pageNumber])
 
   const selectClaim = (claim: EvidenceClaimV2) => {
-    const pointer = claim.pointer
+    const pointer = claim.evidence[0]
     const activeDocument = document
     setSelectedClaimId(claim.id)
     setHighlightMode('claim')
-    if (pointer && activeDocument && pointer.documentId === activeDocument.id) {
+    if (pointer && activeDocument?.revisionId && pointer.documentRevisionId === activeDocument.revisionId) {
       setPageNumber(clamp(pointer.page, 1, totalPages))
       setMobilePane('document')
-      setLiveMessage(`${claim.label}. Documento ${activeDocument.title}, página ${pointer.page}.`)
+      setLiveMessage(`${claimLabel(claim)}. Documento oficial, página ${pointer.page}.`)
     } else {
-      setLiveMessage(`${claim.label}. La cita no pertenece al documento abierto.`)
+      setLiveMessage(`${claimLabel(claim)}. La cita no pertenece al documento abierto.`)
     }
     onClaimSelect?.(claim)
   }
@@ -307,14 +323,26 @@ export function EvidenceWorkspace({
     return <WorkspaceState kind="empty" message="El visor se abrirá aquí cuando el dossier tenga un documento seleccionado." />
   }
 
+  const title = opportunity.titles.find((item) => item.language.startsWith('es'))?.value
+    ?? opportunity.titles[0]?.value
+    ?? opportunity.canonicalReference
+  const verifiedWindow = opportunity.applicationWindows.find((window) => window.verified && window.closesAt)
+  const deadlineLabel = verifiedWindow?.closesAt
+    ? new Date(verifiedWindow.closesAt).toLocaleDateString('es-ES')
+    : 'Por verificar'
+  const amountLabel = opportunity.finance.applicantMaximum === undefined
+    ? 'Por verificar'
+    : new Intl.NumberFormat('es-ES', { style: 'currency', currency: opportunity.finance.currency, maximumFractionDigits: 0 }).format(opportunity.finance.applicantMaximum)
+  const eligibilityLabel = opportunity.beneficiaryClasses.length
+    ? opportunity.beneficiaryClasses.join(', ')
+    : 'Por verificar'
+  const sourceLabel = document.sourceRecordIds[0]?.split(':')[1]?.toUpperCase() ?? 'FUENTE OFICIAL'
+  const formatLabel = document.mimeType.includes('pdf') ? 'PDF' : document.mimeType.includes('html') ? 'HTML' : 'TEXTO'
   const renderedStatus = selectedClaim
-    ? reviewOverrides[selectedClaim.id] ?? selectedClaim.status
+    ? reviewOverrides[selectedClaim.id] ?? selectedClaim.reviewStatus
     : undefined
-  const sourceMismatch = selectedClaim?.pointer && (
-    selectedClaim.pointer.documentId !== document.id
-    || selectedClaim.pointer.revisionId !== document.revisionId
-  )
-  const noRenderablePage = document.renderState === 'unavailable' || !currentPage
+  const sourceMismatch = selectedPointer && selectedPointer.documentRevisionId !== document.revisionId
+  const noRenderablePage = documentState === 'unavailable' || !currentPage
   const rootStyle = { '--v2-evidence-analysis-width': `${analysisWidth}%` } as CSSProperties
 
   const reviewControls = (
@@ -335,16 +363,14 @@ export function EvidenceWorkspace({
 
       <header className="v2-evidence-header">
         <div className="v2-evidence-title-block">
-          <span>{opportunity.issuer}</span>
-          <h1 id="v2-evidence-title">{opportunity.title}</h1>
-          {opportunity.officialTitle && opportunity.officialTitle !== opportunity.title ? (
-            <p><b>Denominación oficial</b>{opportunity.officialTitle}</p>
-          ) : null}
+          <span>{opportunity.authority.name}</span>
+          <h1 id="v2-evidence-title">{title}</h1>
+          <p><b>Referencia oficial</b>{opportunity.canonicalReference}</p>
         </div>
         <div className="v2-evidence-decision-strip" aria-label="Resumen de decisión">
-          <div><span>Elegibilidad</span><strong>{opportunity.eligibilityLabel ?? 'Por verificar'}</strong></div>
-          <div><span>Capital</span><strong>{opportunity.amountLabel ?? 'Por verificar'}</strong></div>
-          <div><span>Plazo</span><strong>{opportunity.deadlineLabel ?? 'Por verificar'}</strong></div>
+          <div><span>Elegibilidad</span><strong>{eligibilityLabel}</strong></div>
+          <div><span>Capital</span><strong>{amountLabel}</strong></div>
+          <div><span>Plazo</span><strong>{deadlineLabel}</strong></div>
         </div>
       </header>
 
@@ -385,10 +411,9 @@ export function EvidenceWorkspace({
           {claims.length ? (
             <div className="v2-evidence-claim-list" aria-label="Claims del dossier">
               {claims.map((claim) => {
-                const effectiveStatus = reviewOverrides[claim.id] ?? claim.status
-                const statusLabel = effectiveStatus === 'flagged'
-                  ? 'Marcada para revisar'
-                  : claimStateCopy[effectiveStatus]
+                const effectiveStatus = reviewOverrides[claim.id] ?? claim.reviewStatus
+                const statusLabel = claimStateCopy[effectiveStatus]
+                const pointer = claim.evidence[0]
                 return (
                   <button
                     type="button"
@@ -399,14 +424,14 @@ export function EvidenceWorkspace({
                     aria-current={claim.id === selectedClaim?.id ? 'true' : undefined}
                     onClick={() => selectClaim(claim)}
                   >
-                    <span className="v2-evidence-claim-category">{categoryCopy[claim.category]}</span>
-                    <strong>{claim.label}</strong>
-                    <span className="v2-evidence-claim-value">{claim.value}</span>
+                    <span className="v2-evidence-claim-category">{claimCategory(claim.path)}</span>
+                    <strong>{claimLabel(claim)}</strong>
+                    <span className="v2-evidence-claim-value">{formatClaimValue(claim.value)}</span>
                     <span className="v2-evidence-claim-state">
-                      <ClaimStateIcon status={effectiveStatus === 'flagged' ? 'stale' : effectiveStatus} />
+                      <ClaimStateIcon status={effectiveStatus} />
                       {statusLabel}
                     </span>
-                    <small>{claim.pointer ? `p. ${claim.pointer.page}${claim.pointer.section ? ` · ${claim.pointer.section}` : ''}` : 'Cita ausente'}</small>
+                    <small>{pointer ? `p. ${pointer.page}` : 'Cita ausente'}</small>
                   </button>
                 )
               })}
@@ -415,7 +440,7 @@ export function EvidenceWorkspace({
             <div className="v2-evidence-claim-empty">
               <CircleDashed aria-hidden="true" />
               <h3>Aún no hay claims extraídos</h3>
-              <p>El documento puede leerse y buscarse, pero ninguna afirmación debe presentarse como verificada.</p>
+              <p>No hay página ni fragmento citables en el catálogo actual. Beneficiarios, capital y plazo permanecen <strong>Por verificar</strong>.</p>
             </div>
           )}
 
@@ -451,14 +476,14 @@ export function EvidenceWorkspace({
         >
           <header className="v2-evidence-document-header">
             <div>
-              <span>{document.source} · {document.role}</span>
-              <h2>{document.title}</h2>
-              <p>{document.reference} · revisión {document.revisionId.slice(0, 10)}</p>
+              <span>{sourceLabel} · {roleLabel(document.role)}</span>
+              <h2>Publicación oficial</h2>
+              <p>{opportunity.canonicalReference} · {document.revisionId ? `revisión ${document.revisionId.slice(0, 16)}` : 'revisión por ingerir'}</p>
             </div>
             <div className="v2-evidence-document-facts">
-              <span>{document.format.toUpperCase()}</span>
-              <span>{document.publishedAt ?? 'Fecha por verificar'}</span>
-              <span>{document.renderState === 'fallback' ? 'Lectura extraída' : 'Documento local'}</span>
+              <span>{formatLabel}</span>
+              <span>{document.publishedAt ? new Date(document.publishedAt).toLocaleDateString('es-ES') : 'Fecha por verificar'}</span>
+              <span>{documentState === 'fallback' ? 'Lectura extraída' : documentState === 'ready' ? 'Documento local' : 'Original enlazado'}</span>
             </div>
           </header>
 
@@ -496,10 +521,10 @@ export function EvidenceWorkspace({
             </div>
           </div>
 
-          {document.renderState === 'fallback' ? (
+          {documentState === 'fallback' ? (
             <div className="v2-evidence-fallback-note" role="status">
               <AlertTriangle aria-hidden="true" />
-              <p><strong>Lectura de respaldo</strong>{document.fallbackReason ?? 'El original no puede mostrarse integrado; se usa el texto oficial extraído.'}</p>
+              <p><strong>Lectura de respaldo</strong>{fallbackReason ?? 'El original no puede mostrarse integrado; se usa el texto oficial extraído.'}</p>
             </div>
           ) : null}
 
@@ -508,8 +533,8 @@ export function EvidenceWorkspace({
               <div className="v2-evidence-document-empty">
                 <FileSearch aria-hidden="true" />
                 <h3>Esta página no está disponible en la copia local</h3>
-                <p>{document.fallbackReason ?? 'Conservamos la referencia y la cita para que puedas contrastarlas en la fuente oficial.'}</p>
-                {selectedClaim?.pointer?.quote ? <blockquote>{selectedClaim.pointer.quote}</blockquote> : null}
+                <p>{fallbackReason ?? 'Conservamos la referencia oficial; los campos sin página y fragmento permanecen Por verificar.'}</p>
+                {selectedPointer?.fragment ? <blockquote>{selectedPointer.fragment}</blockquote> : null}
                 {onOpenOfficialSource ? (
                   <button type="button" onClick={() => onOpenOfficialSource(document)}>
                     Abrir fuente oficial
@@ -534,7 +559,7 @@ export function EvidenceWorkspace({
                     <p><strong>Cita no reanclada en esta revisión</strong>{claimQuote}</p>
                   </aside>
                 ) : null}
-                <footer>{document.reference} · página {pageNumber}</footer>
+                <footer>{opportunity.canonicalReference} · página {pageNumber}</footer>
               </article>
             )}
           </div>
