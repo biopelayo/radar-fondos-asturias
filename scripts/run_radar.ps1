@@ -34,8 +34,6 @@ try {
     & npx.cmd --no-install gh-pages -d dist -b gh-pages -m "data: publish refreshed radar"
     if ($LASTEXITCODE -ne 0) { throw "No se pudo publicar la web en gh-pages." }
 
-    & gh api --method POST repos/biopelayo/radar-fondos-asturias/pages/builds | Out-Null
-    if ($LASTEXITCODE -ne 0) { throw "No se pudo solicitar la reconstrucción de GitHub Pages." }
   }
   else {
     Write-Host "Dataset sin cambios; no se crea commit ni despliegue redundante."
