@@ -210,7 +210,7 @@ function SettingsView({ health }: { health: DataHealth }) {
     <main className="single-view settings-view">
       <header className="view-heading"><div><span>Operación controlada</span><h1>Ajustes del sistema</h1></div></header>
       <div className="settings-list">
-        <section><span>RECOLECCIÓN</span><strong>Dos controles diarios</strong><p>Antes de las 09:00 y por la tarde mediante GitHub Actions.</p><b>{health === 'fresh' ? 'Datos al día' : health === 'loading' ? 'Actualizando' : 'Usando copia disponible'}</b></section>
+        <section><span>RECOLECCIÓN</span><strong>Dos controles diarios</strong><p>A las 09:00 y por la tarde mediante la automatización programada.</p><b>{health === 'fresh' ? 'Datos al día' : health === 'loading' ? 'Actualizando' : 'Usando copia disponible'}</b></section>
         <section><span>CORREO</span><strong>Gmail opcional</strong><p>Se activa únicamente con secretos del repositorio; la contraseña nunca entra en la web.</p><b>Configuración externa</b></section>
         <section><span>PRIVACIDAD</span><strong>Perfil aislado</strong><p>Elegibilidad y expedientes permanecen en el almacenamiento local del navegador.</p><b>Local</b></section>
         <section><span>AUTONOMÍA</span><strong>Sin envíos automáticos</strong><p>La app prepara un expediente solo al recibir tu orden. Firma y presentación siempre manuales.</p><b>Control humano</b></section>

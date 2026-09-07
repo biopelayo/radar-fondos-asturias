@@ -10,7 +10,7 @@ Aplicación personal, pública y gratuita para detectar oportunidades de financi
 - Mesa de decisión con evidencia oficial, bloqueos, requisitos y acción manual para abrir un expediente.
 - Radar visual, pipeline de candidaturas, inventario de fuentes y perfil de elegibilidad.
 - Perfil y expedientes guardados exclusivamente en `localStorage` del navegador.
-- Actualización automática antes de las 09:00 y control vespertino mediante GitHub Actions.
+- Actualización programada a las 09:00 y control vespertino mediante la automatización local del propietario.
 - Resumen por Gmail cuando se configuran los secretos opcionales.
 
 Los datos mostrados son señales para investigar, no una garantía de elegibilidad o concesión. Antes de actuar hay que leer las bases y utilizar la sede electrónica oficial.
@@ -37,14 +37,15 @@ La compilación de producción se verifica con:
 npm run build
 ```
 
-## Publicar en GitHub Pages
+## Aplicación pública
 
-1. Crear un repositorio público en la cuenta de GitHub elegida y subir este proyecto.
-2. En **Settings → Pages**, seleccionar **GitHub Actions** como origen.
-3. Ejecutar manualmente el workflow **Actualizar Radar Fondos Asturias** una primera vez.
-4. Abrir la URL de Pages que aparece en el job de despliegue.
+[Abrir Radar Fondos Asturias](https://biopelayo.github.io/radar-fondos-asturias/)
 
-El workflow corre a las `06:35 UTC` y `15:30 UTC`, equivalentes aproximadamente a 07:35/08:35 y 16:30/17:30 en Madrid según horario de invierno/verano. GitHub no garantiza ejecución exacta al minuto y puede introducir retrasos. En repositorios públicos, GitHub puede desactivar los cron tras periodos largos de inactividad; conviene comprobar el workflow periódicamente.
+La versión actual se publica desde la rama `gh-pages`. El propietario mantiene dos controles programados diarios desde su entorno local: uno a las 09:00 y otro por la tarde.
+
+El workflow de GitHub Actions está preparado localmente pero no se publica hasta que la autorización de GitHub incluya el permiso `workflow`. Cuando se active, permitirá que la recolección, el commit del dataset, el despliegue y el correo funcionen directamente en GitHub sin depender del equipo local.
+
+El workflow preparado corre a las `06:35 UTC` y `15:30 UTC`, equivalentes aproximadamente a 07:35/08:35 y 16:30/17:30 en Madrid según horario de invierno/verano. GitHub no garantiza ejecución exacta al minuto y puede introducir retrasos. En repositorios públicos, GitHub puede desactivar los cron tras periodos largos de inactividad; conviene comprobarlo periódicamente.
 
 ### Avisos por Gmail
 
