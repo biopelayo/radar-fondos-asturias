@@ -19,13 +19,14 @@ DATA = ROOT / "public" / "data" / "opportunities.json"
 def main() -> int:
     address = os.getenv("GMAIL_ADDRESS", "").strip()
     password = os.getenv("GMAIL_APP_PASSWORD", "").strip()
-    recipient = os.getenv("ALERT_EMAIL", address).strip()
-    if not address or not password or not recipient:
+    recipient_value = os.getenv("ALERT_EMAIL", address).strip()
+    recipients = [item.strip() for item in recipient_value.split(",") if item.strip()]
+    if not address or not password or not recipients:
         print("Gmail secrets are not configured; digest skipped.")
         return 0
     payload = json.loads(DATA.read_text(encoding="utf-8"))
     slot = os.getenv("RADAR_RUN_SLOT", "")
-    afternoon = slot.startswith("30 15")
+    afternoon = slot.lower() == "afternoon" or slot.startswith("30 15")
     all_opportunities = payload.get("opportunities", [])
     if afternoon:
         today = date.today().isoformat()
@@ -49,7 +50,7 @@ def main() -> int:
     )
     message = EmailMessage()
     message["From"] = address
-    message["To"] = recipient
+    message["To"] = ", ".join(recipients)
     message["Subject"] = subject
     message.set_content("Radar Fondos Asturias ha actualizado el panel. Abre la aplicación para revisar las fuentes oficiales.")
     message.add_alternative(
@@ -59,8 +60,8 @@ def main() -> int:
     )
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30) as server:
         server.login(address, password)
-        server.send_message(message)
-    print(f"Digest sent to {recipient}")
+        server.send_message(message, to_addrs=recipients)
+    print(f"Digest sent to {', '.join(recipients)}")
     return 0
 
 

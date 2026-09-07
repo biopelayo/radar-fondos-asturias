@@ -57,6 +57,14 @@ Crear estos secretos en **Settings → Secrets and variables → Actions**:
 
 Sin esos secretos la actualización y la web funcionan normalmente, pero el correo se omite.
 
+Mientras la actualización se ejecute desde el equipo del propietario, el correo puede configurarse sin guardar la contraseña en texto plano:
+
+```powershell
+.\scripts\configure_email.ps1
+```
+
+El script solicita una contraseña de aplicación de Google de forma oculta y la cifra con la protección de datos de Windows para el usuario actual. El archivo resultante queda dentro de `.local/` y nunca se publica. `send_digest_local.ps1` admite varios destinatarios separados por comas.
+
 ## Arquitectura
 
 ```text
