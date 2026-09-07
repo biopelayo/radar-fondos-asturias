@@ -1,0 +1,88 @@
+# Radar Fondos Asturias
+
+Aplicación personal, pública y gratuita para detectar oportunidades de financiación y convertirlas en expedientes verificables. El objetivo no es acumular titulares: es identificar qué merece tiempo, qué requisito falta y cuál es el siguiente paso para poder solicitar dinero de forma legal y realista.
+
+## Qué funciona en este MVP
+
+- Recolección diaria desde **BDNS/SNPSAP**, **BOE**, **BOPA** y **EU Funding & Tenders**.
+- Filtrado temático para autoempleo, empresa, turismo, vivienda, comercio, digitalización, IA, datos, biología, biomedicina, investigación, docencia, energía y medio rural.
+- Ranking inicial por territorio, afinidad temática, capital publicado y calidad del plazo extraído.
+- Mesa de decisión con evidencia oficial, bloqueos, requisitos y acción manual para abrir un expediente.
+- Radar visual, pipeline de candidaturas, inventario de fuentes y perfil de elegibilidad.
+- Perfil y expedientes guardados exclusivamente en `localStorage` del navegador.
+- Actualización automática antes de las 09:00 y control vespertino mediante GitHub Actions.
+- Resumen por Gmail cuando se configuran los secretos opcionales.
+
+Los datos mostrados son señales para investigar, no una garantía de elegibilidad o concesión. Antes de actuar hay que leer las bases y utilizar la sede electrónica oficial.
+
+## Privacidad
+
+El repositorio no debe contener datos personales, certificados, contraseñas ni borradores privados. `.local/` y `.env*` están excluidos de Git. El archivo local `.local/profile.private.json` contiene el perfil inicial preparado para su propietario y se importa manualmente desde **Perfil privado → Importar JSON**.
+
+El certificado electrónico nunca se lee ni se almacena en la aplicación. La preparación, firma y presentación de una candidatura requieren siempre una orden y revisión humana expresa.
+
+## Ejecutar en local
+
+Requisitos: Node.js 20+ y Python 3.12+.
+
+```bash
+npm install
+python scripts/collect.py
+npm run dev
+```
+
+La compilación de producción se verifica con:
+
+```bash
+npm run build
+```
+
+## Publicar en GitHub Pages
+
+1. Crear un repositorio público en la cuenta de GitHub elegida y subir este proyecto.
+2. En **Settings → Pages**, seleccionar **GitHub Actions** como origen.
+3. Ejecutar manualmente el workflow **Actualizar Radar Fondos Asturias** una primera vez.
+4. Abrir la URL de Pages que aparece en el job de despliegue.
+
+El workflow corre a las `06:35 UTC` y `15:30 UTC`, equivalentes aproximadamente a 07:35/08:35 y 16:30/17:30 en Madrid según horario de invierno/verano. GitHub no garantiza ejecución exacta al minuto y puede introducir retrasos. En repositorios públicos, GitHub puede desactivar los cron tras periodos largos de inactividad; conviene comprobar el workflow periódicamente.
+
+### Avisos por Gmail
+
+Crear estos secretos en **Settings → Secrets and variables → Actions**:
+
+- `GMAIL_ADDRESS`: cuenta remitente.
+- `GMAIL_APP_PASSWORD`: contraseña de aplicación de Google, nunca la contraseña normal.
+- `ALERT_EMAIL`: destinatario; si se omite se usa la cuenta remitente.
+
+Sin esos secretos la actualización y la web funcionan normalmente, pero el correo se omite.
+
+## Arquitectura
+
+```text
+Fuentes oficiales
+  ├─ BDNS API
+  ├─ BOE Datos Abiertos
+  ├─ BOPA sumario oficial
+  └─ EU Funding & Tenders API
+          ↓
+scripts/collect.py
+          ↓
+public/data/opportunities.json
+          ↓
+React + TypeScript + Vite
+          ↓
+GitHub Pages + perfil privado local
+```
+
+## Próximas fases
+
+- Añadir PLACSP/TED para contratación pública como carril comercial separado.
+- Añadir SEKUENS, Cámaras de Comercio, Red.es, CDTI y otras fuentes complementarias con conectores auditables.
+- Extraer con mayor precisión documentos, beneficiarios, fechas, intensidad y compatibilidades.
+- Motor de reglas personalizable y lista de palabras clave desde la propia interfaz.
+- Generador de memoria, presupuesto, cronograma y checklist solo bajo orden del usuario.
+- Alertas urgentes diferenciales, evitando correos repetidos.
+
+## Licencia
+
+MIT. El software es gratuito; las publicaciones oficiales conservan sus propios avisos y condiciones de reutilización.
