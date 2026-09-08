@@ -39,8 +39,14 @@ try {
     Write-Host "Dataset sin cambios; no se crea commit ni despliegue redundante."
   }
 
-  & powershell.exe -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "send_digest_local.ps1") -Slot $Slot
-  if ($LASTEXITCODE -ne 0) { throw "El aviso por correo falló con código $LASTEXITCODE." }
+  $emailConfig = Join-Path $projectRoot ".local\email.private.json"
+  if (Test-Path -LiteralPath $emailConfig) {
+    & powershell.exe -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "send_digest_local.ps1") -Slot $Slot
+    if ($LASTEXITCODE -ne 0) { throw "El aviso por correo falló con código $LASTEXITCODE." }
+  }
+  else {
+    Write-Warning "Correo no configurado; la actualización y publicación se completaron sin enviar el digest."
+  }
 
   Write-Host "Radar completado correctamente ($Slot). Log: $logPath"
 }

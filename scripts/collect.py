@@ -469,6 +469,11 @@ def merge_successful_source(
     elif source == "UE":
         # The EU query returns the complete currently open result set.
         retained = []
+    # Gazette home pages can expose the same latest issue across consecutive
+    # runs. A freshly collected stable id replaces its retained copy instead
+    # of producing a duplicate that aborts the whole transactional refresh.
+    fresh_ids = {item["id"] for item in fresh}
+    retained = [item for item in retained if item["id"] not in fresh_ids]
     return [*retained, *fresh]
 
 
