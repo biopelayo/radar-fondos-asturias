@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Migrate one public V1 opportunity into a deterministic, schema-gated V2 shard."""
+"""Migrate the public V1 catalogue into deterministic, schema-gated V2 shards."""
 
 from __future__ import annotations
 
@@ -285,17 +285,27 @@ def migrate_health(payload: dict[str, Any], generated_at: str) -> list[dict[str,
 
 
 def validate_graph(shard: dict[str, Any]) -> None:
-    opportunity = shard["opportunities"][0]
-    version = shard["versions"][0]
-    source_record = shard["sourceRecords"][0]
-    if version["snapshot"] != opportunity:
-        raise ValueError("version snapshot must equal the published opportunity")
-    if opportunity["currentVersionId"] != version["id"]:
-        raise ValueError("opportunity currentVersionId must reference its version")
-    if opportunity["sourceRecordIds"] != [source_record["id"]]:
-        raise ValueError("opportunity provenance must reference its source record")
-    if version["id"] != f"oppver:{version['contentHash']}":
-        raise ValueError("version ID must be derived from its content hash")
+    opportunities = {item["id"]: item for item in shard["opportunities"]}
+    versions = {item["opportunityId"]: item for item in shard["versions"]}
+    source_records = {item["id"] for item in shard["sourceRecords"]}
+    if len(opportunities) != len(shard["opportunities"]):
+        raise ValueError("opportunity ids must be unique inside a shard")
+    if len(versions) != len(shard["versions"]):
+        raise ValueError("each opportunity must have exactly one current version")
+    if len(source_records) != len(shard["sourceRecords"]):
+        raise ValueError("source record ids must be unique inside a shard")
+    if set(opportunities) != set(versions):
+        raise ValueError("every opportunity must have a matching version")
+    for opportunity_id, opportunity in opportunities.items():
+        version = versions[opportunity_id]
+        if version["snapshot"] != opportunity:
+            raise ValueError("version snapshot must equal the published opportunity")
+        if opportunity["currentVersionId"] != version["id"]:
+            raise ValueError("opportunity currentVersionId must reference its version")
+        if any(source_id not in source_records for source_id in opportunity["sourceRecordIds"]):
+            raise ValueError("opportunity provenance must reference a source record in its shard")
+        if version["id"] != f"oppver:{version['contentHash']}":
+            raise ValueError("version ID must be derived from its content hash")
 
 
 def write_outputs(output: Path, files: dict[Path, bytes]) -> None:
@@ -328,55 +338,82 @@ def migrate_catalog(
         candidates = [item for item in candidates if item.get("id") == opportunity_id]
     if not candidates:
         raise ValueError("Requested public opportunity was not found")
-    selected = candidates[0]
-    opportunity, source_record, version = migrate_opportunity(selected, generated_at)
-    prefix = hashlib.sha256(opportunity["id"].encode("utf-8")).hexdigest()[:2]
-    shard = {
-        "schemaVersion": SCHEMA_VERSION,
-        "id": f"shard:opportunities:{prefix}",
-        "generatedAt": generated_at,
-        "opportunities": [opportunity],
-        "versions": [version],
-        "sourceRecords": [source_record],
-        "documents": [],
-        "claims": [],
-        "changeEvents": [],
-    }
+    migrated = [migrate_opportunity(item, generated_at) for item in candidates]
+    grouped: dict[str, list[tuple[dict[str, Any], dict[str, Any], dict[str, Any]]]] = {}
+    for record in migrated:
+        source_key_value = record[1]["sourceKey"]
+        prefix = hashlib.sha256(source_key_value.encode("utf-8")).hexdigest()[:2]
+        grouped.setdefault(prefix, []).append(record)
+
+    shards: list[dict[str, Any]] = []
+    for prefix, records in sorted(grouped.items()):
+        records.sort(key=lambda record: (record[1]["sourceKey"], record[1]["externalId"], record[0]["id"]))
+        shards.append({
+            "schemaVersion": SCHEMA_VERSION,
+            "id": f"shard:opportunities:{prefix}",
+            "generatedAt": generated_at,
+            "opportunities": [record[0] for record in records],
+            "versions": [record[2] for record in records],
+            "sourceRecords": [record[1] for record in records],
+            "documents": [],
+            "claims": [],
+            "changeEvents": [],
+        })
     source_health = migrate_health(payload, generated_at)
-    catalog_version = sha256({"schemaVersion": SCHEMA_VERSION, "shard": shard, "sourceHealth": source_health})
+    catalog_version = sha256({"schemaVersion": SCHEMA_VERSION, "shards": shards, "sourceHealth": source_health})
     health = {
         "schemaVersion": SCHEMA_VERSION,
         "catalogVersion": catalog_version,
         "generatedAt": generated_at,
         "sources": source_health,
     }
-    shard_path = Path("shards") / "opportunities" / f"{prefix}.json"
-    shard_bytes = pretty_bytes(shard)
     health_bytes = pretty_bytes(health)
+    shard_outputs = [
+        (
+            Path("shards") / "opportunities" / f"{shard['id'].rsplit(':', 1)[-1]}.json",
+            pretty_bytes(shard),
+            shard,
+        )
+        for shard in shards
+    ]
     manifest = {
         "schemaVersion": SCHEMA_VERSION,
         "catalogVersion": catalog_version,
         "generatedAt": generated_at,
         "inputHash": sha256(payload),
-        "opportunityCount": 1,
-        "shards": [{
-            "id": shard["id"],
-            "path": shard_path.as_posix(),
-            "sha256": bytes_sha256(shard_bytes),
-            "count": 1,
-        }],
+        "opportunityCount": len(migrated),
+        "shards": [
+            {
+                "id": shard["id"],
+                "path": shard_path.as_posix(),
+                "sha256": bytes_sha256(shard_bytes),
+                "count": len(shard["opportunities"]),
+            }
+            for shard_path, shard_bytes, shard in shard_outputs
+        ],
         "health": {"path": "health.json", "sha256": bytes_sha256(health_bytes)},
     }
 
     gate = SchemaGate(SCHEMA_ROOT)
-    gate.validate(shard, "catalog-shard.schema.json")
+    for shard in shards:
+        gate.validate(shard, "catalog-shard.schema.json")
+        validate_graph(shard)
     gate.validate(health, "health.schema.json")
     gate.validate(manifest, "manifest.schema.json")
-    validate_graph(shard)
     manifest_bytes = pretty_bytes(manifest)
-    files = {shard_path: shard_bytes, Path("health.json"): health_bytes, Path("manifest.json"): manifest_bytes}
+    files = {
+        **{shard_path: shard_bytes for shard_path, shard_bytes, _ in shard_outputs},
+        Path("health.json"): health_bytes,
+        Path("manifest.json"): manifest_bytes,
+    }
     write_outputs(output, files)
-    return {"manifest": manifest, "health": health, "shard": shard, "files": files}
+    return {
+        "manifest": manifest,
+        "health": health,
+        "shards": shards,
+        "shard": shards[0],
+        "files": files,
+    }
 
 
 def main() -> int:
@@ -390,8 +427,10 @@ def main() -> int:
     except (OSError, json.JSONDecodeError, SchemaValidationError, ValueError) as exc:
         print(f"ERROR V2 migration rejected: {exc}")
         return 1
-    descriptor = result["manifest"]["shards"][0]
-    print(f"Wrote V2 catalog {result['manifest']['catalogVersion']} ({descriptor['path']})")
+    print(
+        f"Wrote V2 catalog {result['manifest']['catalogVersion']} "
+        f"({result['manifest']['opportunityCount']} opportunities in {len(result['manifest']['shards'])} shards)"
+    )
     return 0
 
 

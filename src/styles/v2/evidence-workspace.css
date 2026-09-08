@@ -1,3 +1,42 @@
+.v2-evidence-view {
+  min-width: 0;
+  background: var(--ground, #051018);
+}
+
+.v2-catalog-bar {
+  min-height: 56px;
+  display: grid;
+  grid-template-columns: auto minmax(220px, 1fr) auto;
+  align-items: center;
+  gap: 13px;
+  padding: 8px 14px;
+  border-top: 1px solid var(--rule, #324751);
+  background: var(--rail, #020d15);
+}
+
+.v2-catalog-bar label,
+.v2-catalog-bar > span {
+  color: var(--muted, #8f999e);
+  font: 600 9px/1.3 'JetBrains Mono', monospace;
+  text-transform: uppercase;
+}
+
+.v2-catalog-bar select {
+  min-width: 0;
+  height: 38px;
+  padding: 0 36px 0 11px;
+  color: var(--text, #dddcd9);
+  border: 1px solid var(--rule, #324751);
+  border-radius: 0;
+  background: var(--ground, #051018);
+  font: 500 10px/1.3 'Manrope', system-ui, sans-serif;
+}
+
+.v2-catalog-bar select:focus-visible {
+  outline: 2px solid var(--acid, #d0dc2b);
+  outline-offset: 2px;
+}
+
 .v2-evidence-workspace {
   --v2-evidence-analysis-width: 40%;
   --v2-paper: #e9e8df;
@@ -802,6 +841,15 @@
 }
 
 @media (max-width: 767px) {
+  .v2-catalog-bar {
+    grid-template-columns: 1fr;
+    padding: 11px 13px;
+  }
+
+  .v2-catalog-bar > span {
+    display: none;
+  }
+
   .v2-evidence-workspace {
     border-top: 0;
   }

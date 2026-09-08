@@ -60,20 +60,21 @@ Una persona debe poder pasar de “ha aparecido una convocatoria” a:
 - ✅ Diseño Gazette Lab / Dossier Workbench documentado, responsive y con semántica/foco básicos.
 - ✅ Perfil, guardadas y registros mínimos de expediente permanecen en localStorage.
 - ✅ Importación/exportación JSON del perfil, actualmente sin cifrar.
-- 🟡 EvidenceWorkspace V2 y sus tipos de presentación están creados como componente aislado; no están integrados en App ni conectados a documentos reales.
+- ✅ EvidenceWorkspace V2 está integrado en App y conectado al catálogo V2; conserva el fallback “Por verificar” mientras no existan documentos paginados y claims reales.
+- ✅ Consejo Estratégico V3 prioriza las 105 oportunidades por objetivo y perfil local, explica bloqueos, enlaza evidencia e inicia expedientes sin presentar nada.
 
 ### 2.2 Datos
 
 - ✅ Colectores activos para BDNS, BOE, BOPA y EU Funding & Tenders.
-- ✅ Snapshot observado hoy: 91 señales, sin error de fuente en esa ejecución.
+- ✅ Snapshot observado hoy: 105 señales, sin error de fuente en esa ejecución.
 - ✅ sourceStatus por las cuatro fuentes con count, collectedCount, checkedAt y lastSuccessAt.
 - ✅ Si una fuente falla, se conservan sus registros previos y la actualización queda marcada como parcial.
 - ✅ Si todas fallan, no se sobrescriben los datasets.
 - ✅ Escritura coordinada y rollback de public/data/opportunities.json y src/data/opportunities.generated.json.
 - ✅ Validación V1 de campos obligatorios, HTTPS, fechas, score, amount, fuente e IDs duplicados.
-- 🟡 Contratos TypeScript V2 para Opportunity, SourceRecord, Document, Claim, OpportunityVersion, ChangeEvent y SourceHealth, con validadores iniciales. Compilan, pero aún no son el contrato compartido Python/JSON Schema ni alimentan el catálogo.
-- ⬜ El modelo publicado sigue siendo plano y source-centric.
-- ⬜ Los 91 registros siguen usando requisitos genéricos, no reglas extraídas.
+- ✅ Contratos TypeScript V2 para Opportunity, SourceRecord, Document, Claim, OpportunityVersion, ChangeEvent y SourceHealth alimentan el catálogo migrado y se validan al cargar.
+- 🟡 El catálogo V2 ya separa Opportunity, OpportunityVersion y SourceRecord; la resolución cross-source y el grafo documental siguen pendientes.
+- ⬜ Los 105 registros siguen usando requisitos genéricos, no reglas extraídas.
 - ⬜ No hay grafo documental, versiones semánticas ni deduplicación cross-source.
 
 ### 2.3 Operación
@@ -84,7 +85,7 @@ Una persona debe poder pasar de “ha aparecido una convocatoria” a:
 - ✅ El envío oculta destinatarios entre sí y convierte rechazos parciales en error.
 - ✅ Workflow de GitHub Actions preparado con colección, test, build, publicación y digest.
 - ⚠️ El workflow existe en el repositorio, pero su activación remota no está confirmada; no debe marcarse como operativo hasta comprobar una ejecución en GitHub.
-- ✅ Once pruebas unitarias Python pasan.
+- ✅ Veinticuatro pruebas unitarias Python pasan.
 - ✅ Typecheck y build de producción pasan hoy.
 - ⬜ No hay Vitest, Playwright, axe, corpus PDF/OCR ni gates de datos V2.
 
@@ -127,7 +128,7 @@ Una persona debe poder pasar de “ha aparecido una convocatoria” a:
 | G18 | ✅ parcial | Keyword score único | Ranking post-elegibilidad por familia | Score breakdown versionado | G10, G17 | DATOS | Bloqueo no se compensa; componentes reconcilian cifra; familias difieren |
 | G19 | ⬜ | amount único y capital global sumado | Semántica económica y escenarios | FinancialStructure + calculadoras | G01, G10 | DATOS | UI distingue dotación, máximo, ayuda estimada, coste, margen y cobro |
 | G20 | ✅ parcial | Ficha con enlaces y requisitos | Dossier conectado a claims, documentos y versiones | DossierOpportunity V2 | G03–G05, G10 | UI | Desde un dato crítico se abre su evidencia exacta |
-| G21 | 🟡 | EvidenceWorkspace aislado | Evidence Lab integrado y persistente | Ruta/screen, adaptador real, revisión local | G04, G09, G20 | UI | claim→documento→página funciona; conflictos/fallback/a11y pasan E2E |
+| G21 | 🟡 | EvidenceWorkspace integrado con catálogo V2 y fallback verificable | Evidence Lab persistente con documentos reales | Revisión local y navegación página/fragmento | G04, G09, G20 | UI | claim→documento→página funciona; conflictos/fallback/a11y pasan E2E |
 | G22 | ⬜ | No hay comparación real | Comparador 2–4 oportunidades homogéneas | Tabla/escenarios con scroll honesto | G18–G20 | UI | Comparación mantiene semántica y no mezcla familias incompatibles |
 | G23 | ✅ parcial | ApplicationRecord mínimo | Expediente versionado con tareas, evidencia y audit log | ApplicationDossier + workspace | G16–G20 | UI | Expediente fija oportunidad/reglas/perfil y sobrevive a reload |
 | G24 | ⬜ | Sin memoria/presupuesto/checklist real | Estudio de preparación por familia | Módulos dossier + templates | G19, G23 | UI | Grant y procurement generan módulos apropiados y bloqueos visibles |
@@ -135,7 +136,7 @@ Una persona debe poder pasar de “ha aparecido una convocatoria” a:
 | G26 | ✅ parcial | Guardadas localStorage y digest por snapshot | Journal de eventos y alertas idempotentes | Change feed + seen/snooze/escalation + ICS/digest | G05, G15 | OPERACIÓN | Evento idéntico se notifica una vez; cambio de plazo escala |
 | G27 | ⬜ | Sin analítica de resultado | Funnel y dinero real local | LocalEvent + Outcome + panel | G23 | UI | Distingue detectado/solicitado/concedido/facturado/cobrado |
 | G28 | ⬜ | Fetch no-store y fallback bundled | PWA con snapshot transaccional y offline | Manifest/checksums, IndexedDB cache, service worker | G01, G15 | UI | Offline abre guardadas/expedientes; actualización corrupta conserva anterior |
-| G29 | ✅ parcial | Validación propia V1 y 22 tests Python, incluidos contratos y migración V2 | Pirámide de pruebas V2 | Fixtures, property tests, Vitest, Playwright, axe, PDF corpus | Todos por incremento | OPERACIÓN | npm test + suite E2E/datos pasan con informes archivados |
+| G29 | ✅ parcial | Validación propia V1 y 24 tests Python, incluidos contratos y migración V2 | Pirámide de pruebas V2 | Fixtures, property tests, Vitest, Playwright, axe, PDF corpus | Todos por incremento | OPERACIÓN | npm test + suite E2E/datos pasan con informes archivados |
 | G30 | ✅ parcial | Secretos fuera de web, HTTPS y rollback | Threat model y hardening completo | Allowlist, límites, sanitización, CSP, supply chain | G01, G08, G25, G28 | OPERACIÓN | Security fixtures, secret/PII scan y acciones fijadas por SHA pasan |
 | G31 | ✅ parcial | Workflow único preparado y circuito local operativo | Workflows separados y publicación atómica sin doble run | collect/publish/build/deploy/digest | G01, G15 | OPERACIÓN | Fallo parcial/rollback ensayados; ejecución remota confirmada |
 | G32 | ⬜ | Sin backend ni IA | Extensiones opt-in desacopladas | Interfaces de sync/OCR/AI tras feature flags | V2 estática estable | OPERACIÓN | Suite completa pasa con flags off; cero hecho IA sin cita |
@@ -147,12 +148,12 @@ Una persona debe poder pasar de “ha aparecido una convocatoria” a:
 
 Los hitos son secuenciales en su gate, no necesariamente en su desarrollo. DATOS, UI y OPERACIÓN pueden trabajar en paralelo dentro del hito siempre que no inventen contratos locales incompatibles.
 
-### H1 — Una oportunidad V2 confiable en la UI
+### H1 — Catálogo V2 confiable en la UI
 
-**Estado:** 🟡 EN CURSO AHORA  
-**Valor:** demostrar el spine completo sin cambiar todavía todas las fuentes.
+**Estado:** ✅ CERRADO
+**Valor:** demostrar el spine completo sobre el catálogo publicado sin romper V1.
 
-**Corte ejecutado:** contratos y schemas V2, migrador determinista, primer shard/manifest/health con hash, gate previo a escritura, ruta no predeterminada `Evidence Lab V2` y visor en estado honesto “Por verificar”. Falta que la ruta consuma directamente el shard publicado —ahora usa el adapter de compatibilidad sobre el catálogo V1— y completar los tests/capturas de payload inválido para cerrar H1.
+**Corte ejecutado:** contratos y schemas V2, migrador determinista de las 105 oportunidades, cuatro shards por fuente con manifest/health y hashes, validación previa a escritura, loader TypeScript que comprueba SHA-256 y contratos, ruta `Evidence Lab V2` conectada directamente al catálogo publicado y fallback honesto “Por verificar”. Los payloads inválidos y los hashes inconsistentes se rechazan.
 
 Incluye:
 
@@ -179,7 +180,7 @@ No entra:
 
 ### H2 — Una ayuda asturiana realmente accionable
 
-**Estado:** ⬜ SIGUIENTE  
+**Estado:** 🟡 SIGUIENTE EN EJECUCIÓN
 **Valor:** pasar de metadatos a evidencia suficiente para decidir si merece tiempo.
 
 Incluye:
@@ -252,7 +253,7 @@ Release slice:
 
 ### H5 — Evidence Lab de revisión y cambio
 
-**Estado:** 🟡 UI INICIADA; INTEGRACIÓN PENDIENTE  
+**Estado:** 🟡 UI INTEGRADA; DOCUMENTOS PENDIENTES
 **Valor:** convertir la confianza y el cambio en operaciones revisables, no etiquetas.
 
 Incluye:

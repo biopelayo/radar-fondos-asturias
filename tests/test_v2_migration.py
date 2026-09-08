@@ -60,6 +60,26 @@ class V2MigrationTests(unittest.TestCase):
             gate.validate(json.loads(health_bytes), "health.schema.json")
             gate.validate(manifest, "manifest.schema.json")
 
+    def test_full_catalog_migrates_every_public_opportunity(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            result = migrate_catalog(V1_INPUT, output)
+            v1 = json.loads(V1_INPUT.read_text(encoding="utf-8"))
+            public_items = [item for item in v1["opportunities"] if not item.get("demo")]
+
+            self.assertEqual(result["manifest"]["opportunityCount"], len(public_items))
+            self.assertEqual(
+                sum(descriptor["count"] for descriptor in result["manifest"]["shards"]),
+                len(public_items),
+            )
+            migrated_ids = [
+                opportunity["id"]
+                for shard in result["shards"]
+                for opportunity in shard["opportunities"]
+            ]
+            self.assertEqual(len(migrated_ids), len(set(migrated_ids)))
+            self.assertEqual(len(result["shards"]), len({item["source"] for item in public_items}))
+
     def test_schema_gate_rejects_tampered_version_before_publication(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             result = migrate_catalog(V1_INPUT, Path(directory), CURRENT_OPPORTUNITY_ID)

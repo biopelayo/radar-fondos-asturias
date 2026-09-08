@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {
   Activity,
+  BrainCircuit,
   BriefcaseBusiness,
   CalendarDays,
   Database,
@@ -21,13 +22,15 @@ import {
 import { OpportunityWorkbench } from './components/OpportunityWorkbench'
 import { EvidenceWorkspace } from './components/v2'
 import type { EvidenceDocumentV2, EvidenceOpportunityV2 } from './components/v2'
+import { StrategyCouncil } from './components/v3'
 import { demoOpportunities } from './data/demo'
 import bundledPayload from './data/opportunities.generated.json'
+import { loadV2Catalog } from './domain/v2'
+import type { V2Catalog } from './domain/v2'
 import { emptyProfile, useLocalWorkspace } from './hooks/useLocalWorkspace'
 import type { ApplicationRecord, Opportunity, PrivateProfile } from './types'
-import type { OpportunityId, SourceRecordId } from './domain/v2'
 
-type View = 'panel' | 'evidence-v2' | 'radar' | 'expedientes' | 'calendario' | 'fuentes' | 'perfil' | 'ajustes'
+type View = 'panel' | 'strategy-v3' | 'evidence-v2' | 'radar' | 'expedientes' | 'calendario' | 'fuentes' | 'perfil' | 'ajustes'
 
 interface DataPayload {
   generatedAt?: string
@@ -48,6 +51,7 @@ function evaluateDataHealth(payload: DataPayload): Exclude<DataHealth, 'loading'
 
 const navigation: Array<{ id: View; label: string; icon: typeof Radar }> = [
   { id: 'panel', label: 'Mesa de decisión', icon: LayoutDashboard },
+  { id: 'strategy-v3', label: 'Consejo V3', icon: BrainCircuit },
   { id: 'evidence-v2', label: 'Evidence Lab V2', icon: FileSearch },
   { id: 'radar', label: 'Radar', icon: Radar },
   { id: 'expedientes', label: 'Expedientes', icon: BriefcaseBusiness },
@@ -56,6 +60,11 @@ const navigation: Array<{ id: View; label: string; icon: typeof Radar }> = [
   { id: 'perfil', label: 'Perfil privado', icon: UserRound },
   { id: 'ajustes', label: 'Ajustes', icon: Settings },
 ]
+
+function viewFromHash(): View {
+  const requested = window.location.hash.slice(1) as View
+  return navigation.some((item) => item.id === requested) ? requested : 'panel'
+}
 
 const sourceRows = [
   ['BDNS / SNPSAP', 'Subvenciones estatales, autonómicas y locales', 'API oficial', 'Activa'],
@@ -173,7 +182,7 @@ function SourcesView() {
   )
 }
 
-function ApplicationsView({ applications, opportunities }: { applications: ApplicationRecord[]; opportunities: Opportunity[] }) {
+function ApplicationsView({ applications, opportunities, catalog }: { applications: ApplicationRecord[]; opportunities: Opportunity[]; catalog: V2Catalog | null }) {
   return (
     <main className="single-view applications-view">
       <header className="view-heading"><div><span>Control de candidaturas</span><h1>Expedientes</h1></div><strong>{applications.length} activos</strong></header>
@@ -184,7 +193,11 @@ function ApplicationsView({ applications, opportunities }: { applications: Appli
           <div className="application-row application-head"><span>Oportunidad</span><span>Estado</span><span>Capital</span><span>Creado</span></div>
           {applications.map((application) => {
             const opportunity = opportunities.find((item) => item.id === application.opportunityId)
-            return <div className="application-row" key={application.opportunityId}><strong>{opportunity?.title ?? application.opportunityId}</strong><b>{statusLabel(application.stage)}</b><span>{formatMoney(opportunity?.amount ?? 0)}</span><time>{new Date(application.createdAt).toLocaleDateString('es-ES')}</time></div>
+            const v2Opportunity = catalog?.opportunities.find((item) => item.id === application.opportunityId)
+            const v2Title = v2Opportunity?.titles.find((item) => item.language.startsWith('es'))?.value ?? v2Opportunity?.titles[0]?.value
+            const v2Amount = v2Opportunity?.finance.applicantMaximum ?? v2Opportunity?.finance.programmeBudget
+            const amount = opportunity?.amount || v2Amount
+            return <div className="application-row" key={application.opportunityId}><strong>{opportunity?.title ?? v2Title ?? application.opportunityId}</strong><b>{statusLabel(application.stage)}</b><span>{amount === undefined ? 'Por verificar' : formatMoney(amount)}</span><time>{new Date(application.createdAt).toLocaleDateString('es-ES')}</time></div>
           })}
         </div>
       )}
@@ -254,62 +267,82 @@ function RadarView({ opportunities }: { opportunities: Opportunity[] }) {
   )
 }
 
-function EvidenceView({ opportunity }: { opportunity?: Opportunity }) {
-  if (!opportunity) {
-    return (
-      <main className="single-view">
-        <EvidenceWorkspace opportunity={null} document={null} claims={[]} />
-      </main>
-    )
+function EvidenceView({
+  catalog,
+  status,
+  errorMessage,
+  selectedId,
+  onSelect,
+  onRetry,
+}: {
+  catalog: V2Catalog | null
+  status: 'loading' | 'ready' | 'error'
+  errorMessage?: string
+  selectedId?: string
+  onSelect: (opportunityId: string) => void
+  onRetry: () => void
+}) {
+  if (status === 'loading') {
+    return <main className="v2-evidence-view"><EvidenceWorkspace opportunity={null} document={null} claims={[]} status="loading" /></main>
   }
-
-  const evidenceOpportunity: EvidenceOpportunityV2 = {
-    id: `opp:${opportunity.id}` as OpportunityId,
-    canonicalReference: opportunity.sourceRef,
-    titles: [{ language: 'es', value: opportunity.title }],
-    authority: {
-      id: opportunity.issuer.toLocaleLowerCase('es').replace(/[^a-z0-9]+/g, '-'),
-      name: opportunity.issuer,
-      level: opportunity.territory.toLocaleLowerCase('es').includes('asturias') ? 'regional' : 'national',
-      countryCode: 'ES',
-    },
-    // The catalogue date/amount are not promoted without a page + fragment.
-    applicationWindows: [],
-    finance: { currency: 'EUR', eligibleCostNotes: [] },
-    beneficiaryClasses: [],
+  if (status === 'error' || !catalog) {
+    return <main className="v2-evidence-view"><EvidenceWorkspace opportunity={null} document={null} claims={[]} status="error" errorMessage={errorMessage} onRetry={onRetry} /></main>
   }
-  const evidenceDocument: EvidenceDocumentV2 = {
-    officialUrl: opportunity.sourceUrl,
-    role: 'call',
-    mimeType: 'text/html',
+  const preferred = catalog.opportunities.find((item) => item.id === selectedId)
+    ?? catalog.opportunities.find((item) => item.geography.regionCodes.includes('ES-AS'))
+    ?? catalog.opportunities[0]
+  if (!preferred) {
+    return <main className="v2-evidence-view"><EvidenceWorkspace opportunity={null} document={null} claims={[]} /></main>
+  }
+  const sourceRecord = catalog.sourceRecords.find((item) => preferred.sourceRecordIds.includes(item.id))
+  const canonicalDocument = catalog.documents.find((item) => preferred.documentRevisionIds.includes(item.revisionId))
+  const document: EvidenceDocumentV2 = canonicalDocument ?? {
+    officialUrl: sourceRecord?.canonicalUrl ?? preferred.submission.officialUrl,
+    role: preferred.family === 'procurement' ? 'procurement_notice' : 'call',
+    mimeType: sourceRecord?.http.contentType ?? 'text/html',
     language: 'es',
-    publishedAt: opportunity.publishedAt || undefined,
-    extraction: { method: 'none', version: 'h1-public-index' },
-    sourceRecordIds: [`src:${opportunity.source.toLocaleLowerCase('es')}:${opportunity.sourceRef}` as SourceRecordId],
+    publishedAt: sourceRecord?.publishedAt,
+    extraction: { method: 'none', version: 'catalog-v2-index' },
+    sourceRecordIds: preferred.sourceRecordIds,
   }
+  const claims = catalog.claims.filter((claim) => claim.opportunityId === preferred.id)
 
   return (
     <main className="v2-evidence-view">
+      <div className="v2-catalog-bar">
+        <label htmlFor="v2-opportunity-select">Oportunidad del catálogo validado</label>
+        <select id="v2-opportunity-select" value={preferred.id} onChange={(event) => onSelect(event.target.value)}>
+          {catalog.opportunities.map((item) => {
+            const title = item.titles.find((entry) => entry.language.startsWith('es'))?.value ?? item.titles[0]?.value ?? item.canonicalReference
+            return <option value={item.id} key={item.id}>{item.canonicalReference} · {title}</option>
+          })}
+        </select>
+        <span>{catalog.manifest.opportunityCount} registros · hash verificado</span>
+      </div>
       <EvidenceWorkspace
-        opportunity={evidenceOpportunity}
-        document={evidenceDocument}
-        claims={[]}
+        opportunity={preferred as EvidenceOpportunityV2}
+        document={document}
+        claims={claims}
         pages={[]}
         documentState="unavailable"
-        fallbackReason="La publicación oficial está localizada, pero el catálogo actual aún no incluye texto por página ni fragmentos citables. Beneficiarios, capital y plazo siguen Por verificar."
-        onOpenOfficialSource={(document) => window.open(document.officialUrl, '_blank', 'noopener,noreferrer')}
+        fallbackReason="La publicación oficial está localizada en el catálogo V2, pero todavía no hay texto por página ni fragmentos citables. Los campos sin claim permanecen Por verificar."
+        onOpenOfficialSource={(item) => window.open(item.officialUrl, '_blank', 'noopener,noreferrer')}
       />
     </main>
   )
 }
 
 export default function App() {
-  const [activeView, setActiveView] = useState<View>('panel')
+  const [activeView, setActiveView] = useState<View>(viewFromHash)
   const [menuOpen, setMenuOpen] = useState(false)
   const initialPayload = bundledPayload as DataPayload
   const [opportunities, setOpportunities] = useState<Opportunity[]>(initialPayload.opportunities?.length ? initialPayload.opportunities : demoOpportunities)
   const [generatedAt, setGeneratedAt] = useState<string | undefined>(initialPayload.generatedAt)
   const [dataHealth, setDataHealth] = useState<DataHealth>(initialPayload.opportunities?.length ? evaluateDataHealth(initialPayload) : 'stale')
+  const [v2Catalog, setV2Catalog] = useState<V2Catalog | null>(null)
+  const [v2Status, setV2Status] = useState<'loading' | 'ready' | 'error'>('loading')
+  const [v2Error, setV2Error] = useState<string>()
+  const [selectedV2OpportunityId, setSelectedV2OpportunityId] = useState<string>()
   const menuButtonRef = useRef<HTMLButtonElement>(null)
   const closeButtonRef = useRef<HTMLButtonElement>(null)
   const { profile, setProfile, importProfile, applications, prepareApplication } = useLocalWorkspace()
@@ -329,7 +362,32 @@ export default function App() {
     }
   }, [])
 
+  const refreshV2 = useCallback(async () => {
+    setV2Status('loading')
+    setV2Error(undefined)
+    try {
+      const catalog = await loadV2Catalog()
+      setV2Catalog(catalog)
+      setV2Status('ready')
+      setSelectedV2OpportunityId((current) => current ?? catalog.opportunities.find((item) => item.geography.regionCodes.includes('ES-AS'))?.id ?? catalog.opportunities[0]?.id)
+    } catch (error) {
+      setV2Catalog(null)
+      setV2Status('error')
+      setV2Error(error instanceof Error ? error.message : 'El catálogo V2 no pudo verificarse.')
+    }
+  }, [])
+
   useEffect(() => { void refreshData() }, [refreshData])
+  useEffect(() => { void refreshV2() }, [refreshV2])
+  useEffect(() => {
+    const syncViewFromHash = () => setActiveView(viewFromHash())
+    window.addEventListener('hashchange', syncViewFromHash)
+    return () => window.removeEventListener('hashchange', syncViewFromHash)
+  }, [])
+  useEffect(() => {
+    if (window.location.hash === `#${activeView}`) return
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#${activeView}`)
+  }, [activeView])
 
   const closeMenu = useCallback((returnFocus = true) => {
     setMenuOpen(false)
@@ -361,9 +419,10 @@ export default function App() {
   }, [opportunities, profile])
   const renderView = () => {
     if (activeView === 'panel') return <OpportunityWorkbench opportunities={rankedOpportunities} applications={applications} onPrepare={prepareApplication} />
-    if (activeView === 'evidence-v2') return <EvidenceView opportunity={opportunities.find((item) => !item.demo) ?? opportunities[0]} />
+    if (activeView === 'strategy-v3') return <StrategyCouncil catalog={v2Catalog} status={v2Status} errorMessage={v2Error} profile={profile} applications={applications} onRetry={() => void refreshV2()} onOpenEvidence={(opportunityId) => { setSelectedV2OpportunityId(opportunityId); setActiveView('evidence-v2') }} onPrepare={(candidate) => prepareApplication(candidate.opportunity.id)} />
+    if (activeView === 'evidence-v2') return <EvidenceView catalog={v2Catalog} status={v2Status} errorMessage={v2Error} selectedId={selectedV2OpportunityId} onSelect={setSelectedV2OpportunityId} onRetry={() => void refreshV2()} />
     if (activeView === 'radar') return <RadarView opportunities={rankedOpportunities} />
-    if (activeView === 'expedientes') return <ApplicationsView applications={applications} opportunities={rankedOpportunities} />
+    if (activeView === 'expedientes') return <ApplicationsView applications={applications} opportunities={rankedOpportunities} catalog={v2Catalog} />
     if (activeView === 'calendario') return <CalendarView opportunities={rankedOpportunities} />
     if (activeView === 'fuentes') return <SourcesView />
     if (activeView === 'perfil') return <ProfileView profile={profile} onChange={setProfile} onImport={importProfile} />
@@ -399,7 +458,7 @@ export default function App() {
         {renderView()}
       </div>
       <nav className="mobile-nav" aria-label="Navegación móvil">
-        {navigation.filter((item) => ['panel', 'evidence-v2', 'expedientes', 'fuentes', 'perfil'].includes(item.id)).map(({ id, label, icon: Icon }) => <button type="button" key={id} className={activeView === id ? 'active' : ''} aria-current={activeView === id ? 'page' : undefined} onClick={() => setActiveView(id)}><Icon /><span>{label === 'Mesa de decisión' ? 'Mesa' : label === 'Evidence Lab V2' ? 'Evidencia' : label === 'Perfil privado' ? 'Perfil' : label}</span></button>)}
+        {navigation.filter((item) => ['panel', 'strategy-v3', 'evidence-v2', 'expedientes', 'perfil'].includes(item.id)).map(({ id, label, icon: Icon }) => <button type="button" key={id} className={activeView === id ? 'active' : ''} aria-current={activeView === id ? 'page' : undefined} onClick={() => setActiveView(id)}><Icon /><span>{label === 'Mesa de decisión' ? 'Mesa' : label === 'Consejo V3' ? 'V3' : label === 'Evidence Lab V2' ? 'Evidencia' : label === 'Perfil privado' ? 'Perfil' : label}</span></button>)}
       </nav>
       {menuOpen && <button className="mobile-scrim" aria-label="Cerrar navegación" onClick={() => closeMenu()} />}
     </div>
