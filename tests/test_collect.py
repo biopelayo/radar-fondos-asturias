@@ -160,6 +160,25 @@ class DatasetCase(unittest.TestCase):
             self.assertEqual(status["status"], "ok")
             self.assertEqual(status["lastSuccessAt"], CHECKED_AT.isoformat())
 
+    def test_repeated_gazette_entry_is_replaced_by_fresh_copy(self) -> None:
+        previous = opportunity("BOPA", "2026-07371", "2026-09-07", score=60)
+        fresh = opportunity("BOPA", "2026-07371", "2026-09-07", score=91)
+        self.write_existing(payload([previous]))
+
+        code = self.run_update([
+            ("BDNS", lambda: []),
+            ("BOE", lambda: []),
+            ("BOPA", lambda: [fresh]),
+            ("UE", lambda: []),
+        ])
+
+        self.assertEqual(code, 0)
+        public, bundled = self.read_pair()
+        self.assertEqual(public, bundled)
+        matching = [item for item in public["opportunities"] if item["id"] == fresh["id"]]
+        self.assertEqual(len(matching), 1)
+        self.assertEqual(matching[0]["score"], 91)
+
     def test_invalid_cross_source_duplicate_is_rejected_before_writing(self) -> None:
         self.write_existing(payload([opportunity("UE", "existing", "2026-09-01")]))
         public_before = self.public.read_bytes()
