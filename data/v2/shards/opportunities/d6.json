@@ -2,9 +2,91 @@
   "changeEvents": [],
   "claims": [],
   "documents": [],
-  "generatedAt": "2026-09-08T07:13:49.449154+00:00",
+  "generatedAt": "2026-09-09T15:02:18.371248+00:00",
   "id": "shard:opportunities:d6",
   "opportunities": [
+    {
+      "applicationWindows": [
+        {
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-09T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "countryCode": "ES",
+        "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+        "level": "regional",
+        "name": "Principado de Asturias"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "2026-07289",
+      "currentVersionId": "oppver:sha256:747de17f96c0ea710763330b2a3a7fb377e4fc97699f491d3530dc0ea18d7a61",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "Asturias",
+        "turismo",
+        "rural"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "Cuantía y condiciones por verificar"
+        ]
+      },
+      "geography": {
+        "countryCodes": [
+          "ES"
+        ],
+        "executionPlaces": [
+          "Asturias"
+        ],
+        "regionCodes": [
+          "ES-AS"
+        ],
+        "scope": "regional"
+      },
+      "id": "opp:sha256:d95479b2b6b1455ca20569254eea4b1549a010e53ec17d0cde329aeb4cc8c9f5",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07289"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bopa:2026-07289"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07289&p_r_p_dispositionReference=2026-07289&p_r_p_dispositionDate=09%2F09%2F2026"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "Resolución de 27 de agosto de 2026, de la Consejería de Presidencia, Reto Demográfico, Igualdad y Turismo, por la que se acepta renuncia a la subvención concedida por Resolución de 14 de julio de 2026, de la Consejería de Presidencia, Reto Demográfico, Igualdad y Turismo, por la que se designan las personas beneficiarias del programa Añoranza-Asturias para el año 2026 y se concede la subvención a los beneficiarios siguientes conforme al orden establecido en la lista de espera aplicable."
+        }
+      ]
+    },
     {
       "applicationWindows": [
         {
@@ -56,7 +138,7 @@
       "lifecycleStatus": "open",
       "provenance": {
         "claimIds": [],
-        "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+        "derivedAt": "2026-09-09T15:02:18.371248+00:00",
         "documentRevisionIds": [],
         "resolverVersion": "resolver-v2.0.0",
         "sourceRecordIds": [
@@ -82,6 +164,735 @@
         {
           "language": "es",
           "value": "Extracto de la Resolución de 28 de agosto de 2026, de la Consejería de Cultura, Política Llingüística y Deporte, por la que se aprueba la convocatoria de subvenciones para proyectos de cultura tradicional en asturiano y en gallego-asturiano o eonaviego, promovidas por entidades sin ánimo de lucro."
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-09T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "countryCode": "ES",
+        "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+        "level": "regional",
+        "name": "Principado de Asturias"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "2026-07321",
+      "currentVersionId": "oppver:sha256:4d38e8bd7112602b4b676aa837b8a37ef47e27fa6bc7681e44fc2f6755231be8",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "Asturias",
+        "docencia",
+        "rural"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "Cuantía y condiciones por verificar"
+        ]
+      },
+      "geography": {
+        "countryCodes": [
+          "ES"
+        ],
+        "executionPlaces": [
+          "Asturias"
+        ],
+        "regionCodes": [
+          "ES-AS"
+        ],
+        "scope": "regional"
+      },
+      "id": "opp:sha256:7966ec38ecedd92ca27b976c5551001288e40fbb9dee8584d732b9e050c05103",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07321"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bopa:2026-07321"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07321&p_r_p_dispositionReference=2026-07321&p_r_p_dispositionDate=09%2F09%2F2026"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "Resolución de 28 de agosto de 2026, de la Consejería de Medio Rural y Política Agraria, por la que se acuerda someter a trámite de información pública el proyecto de orden por el que se aprueban las bases reguladoras de las ayudas destinadas al mantenimiento de perros de protección del ganado en explotaciones ganaderas del Principado de Asturias."
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-09T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "countryCode": "ES",
+        "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+        "level": "regional",
+        "name": "Principado de Asturias"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "2026-07324",
+      "currentVersionId": "oppver:sha256:3b114074d0cafe34c4421978043622d298d6411a94b13098e1ffd2093c6b3f7d",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "Asturias",
+        "docencia"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "Cuantía y condiciones por verificar"
+        ]
+      },
+      "geography": {
+        "countryCodes": [
+          "ES"
+        ],
+        "executionPlaces": [
+          "Asturias"
+        ],
+        "regionCodes": [
+          "ES-AS"
+        ],
+        "scope": "regional"
+      },
+      "id": "opp:sha256:a4d353345b9b90462f0d9ff9081996b132620acb68aa7ac618b2bd2e4b5b412a",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07324"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bopa:2026-07324"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07324&p_r_p_dispositionReference=2026-07324&p_r_p_dispositionDate=09%2F09%2F2026"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "Resolución de 1 de septiembre de 2026, del Secretario General de la Universidad de Oviedo, por la que se emplaza a los interesados en la reclamación 89/2026 interpuesta contra la valoración de la Comisión de Selección, concurso público para la provisión de plazas de profesorado contratado en régimen de derecho laboral en la figura de Profesoras y Profesores Ayudantes Doctoras/es, Concurso 25-Departamento de Matemáticas, Área Matemática Aplicada (BOPA de 7 de mayo de 2026)."
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-09T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "countryCode": "ES",
+        "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+        "level": "regional",
+        "name": "Principado de Asturias"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "2026-07328",
+      "currentVersionId": "oppver:sha256:41b60070328558d5cb6464504afdf47fe99c95ba3849891eb8e9d1e491ed3703",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "Asturias",
+        "turismo"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "Cuantía y condiciones por verificar"
+        ]
+      },
+      "geography": {
+        "countryCodes": [
+          "ES"
+        ],
+        "executionPlaces": [
+          "Asturias"
+        ],
+        "regionCodes": [
+          "ES-AS"
+        ],
+        "scope": "regional"
+      },
+      "id": "opp:sha256:ccd4fb7785b29d05468535bbbbc4f4c836b55ee9c3d715fe79df76200fac783c",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07328"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bopa:2026-07328"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07328&p_r_p_dispositionReference=2026-07328&p_r_p_dispositionDate=09%2F09%2F2026"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "Anuncio. Extracto del Acuerdo de la Junta de Gobierno Local de 20 de agosto de 2026, por el que se aprueba la convocatoria de subvenciones de la Concejalía de Hostelería, Turismo y Congresos del Ayuntamiento de Oviedo, destinadas a entidades organizadoras de congresos, convenciones, seminarios o cualquier otro evento relativo al turismo de reuniones en Oviedo, año 2026."
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-09T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "countryCode": "ES",
+        "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+        "level": "regional",
+        "name": "Principado de Asturias"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "2026-07332",
+      "currentVersionId": "oppver:sha256:709a5f6f159b7e4e44f5fed521e482a4767cdb84c6ecae4934be6f1906437505",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "Asturias",
+        "vivienda",
+        "docencia"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "Cuantía y condiciones por verificar"
+        ]
+      },
+      "geography": {
+        "countryCodes": [
+          "ES"
+        ],
+        "executionPlaces": [
+          "Asturias"
+        ],
+        "regionCodes": [
+          "ES-AS"
+        ],
+        "scope": "regional"
+      },
+      "id": "opp:sha256:341383981398bd4cb356607ed700bbde0fa20e3c6fdd695358c3ce831854088f",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07332"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bopa:2026-07332"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07332&p_r_p_dispositionReference=2026-07332&p_r_p_dispositionDate=09%2F09%2F2026"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "Anuncio. Extracto de la resolución 2026/13364, de 4 de agosto de 2026, de la Alcaldía del Ayuntamiento de Oviedo, por la que se modifican las bases y la convocatoria de ayuda adicional a los propietarios/usufructuarios de viviendas del ERRP de Ventanielles y Guillén Lafuerza, fase I-B, en el municipio de Oviedo, en relación con la ejecución de los programas de ayuda en materia de rehabilitación residencial y vivienda social del Plan de Recuperación, Transformación y Resiliencia financiado por la Unión Europea Next Generation EU."
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-09T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "countryCode": "ES",
+        "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+        "level": "regional",
+        "name": "Principado de Asturias"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "2026-07340",
+      "currentVersionId": "oppver:sha256:c07339889269722353c2c53b4b76db2012bf2c7de6f92cc8cb30a568484bdf68",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "Asturias",
+        "ciencia y salud"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "Cuantía y condiciones por verificar"
+        ]
+      },
+      "geography": {
+        "countryCodes": [
+          "ES"
+        ],
+        "executionPlaces": [
+          "Asturias"
+        ],
+        "regionCodes": [
+          "ES-AS"
+        ],
+        "scope": "regional"
+      },
+      "id": "opp:sha256:d7cd63935dc3acbcea8ce2b5e8a3e467e7a6e221b1f227120353a7c5f544b01a",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07340"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bopa:2026-07340"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07340&p_r_p_dispositionReference=2026-07340&p_r_p_dispositionDate=09%2F09%2F2026"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "Resolución de 31 de agosto de 2026, de la Consejería de Ciencia, Industria y Empleo, por la que se conceden subvenciones con destino a las entidades locales del Principado de Asturias para impulso de servicios de dinamización tecnológica local y se autoriza su abono anticipado."
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-09T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "countryCode": "ES",
+        "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+        "level": "regional",
+        "name": "Principado de Asturias"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "2026-07344",
+      "currentVersionId": "oppver:sha256:47e17cd68a05549cd8784e65cdebf9cf9b5ad42a595e3f7a7b9c153230b4f31c",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "Asturias"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "Cuantía y condiciones por verificar"
+        ]
+      },
+      "geography": {
+        "countryCodes": [
+          "ES"
+        ],
+        "executionPlaces": [
+          "Asturias"
+        ],
+        "regionCodes": [
+          "ES-AS"
+        ],
+        "scope": "regional"
+      },
+      "id": "opp:sha256:8f8275bff6f65ac9d907fcd78a00415cdbca2b28f01f64a0eb3abe967131c539",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07344"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bopa:2026-07344"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07344&p_r_p_dispositionReference=2026-07344&p_r_p_dispositionDate=09%2F09%2F2026"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "Convocatoria de promoción interna para la cobertura de dos puestos de Técnico de Contratación en la Sociedad Pública de Gestión y Promoción Turística y Cultural del Principado de Asturias, S. A. U."
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-09T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "countryCode": "ES",
+        "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+        "level": "regional",
+        "name": "Principado de Asturias"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "2026-07345",
+      "currentVersionId": "oppver:sha256:b486743ed391c73ac16ca89944ca4eb0d4f4fd48dc18c8172994aa633e8d70f8",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "Asturias",
+        "turismo"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "Cuantía y condiciones por verificar"
+        ]
+      },
+      "geography": {
+        "countryCodes": [
+          "ES"
+        ],
+        "executionPlaces": [
+          "Asturias"
+        ],
+        "regionCodes": [
+          "ES-AS"
+        ],
+        "scope": "regional"
+      },
+      "id": "opp:sha256:ff42f670bd7be89699f9658d4c93d14641d231cecefa46ebd17fffc10d2187c4",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07345"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bopa:2026-07345"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07345&p_r_p_dispositionReference=2026-07345&p_r_p_dispositionDate=09%2F09%2F2026"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "Convocatoria de promoción interna para la cobertura de un puesto de Técnico de Turismo en la Sociedad Pública de Gestión y Promoción Turística y Cultural del Principado de Asturias S. A. U."
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-09T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "countryCode": "ES",
+        "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+        "level": "regional",
+        "name": "Principado de Asturias"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "2026-07348",
+      "currentVersionId": "oppver:sha256:a6773fce8f02e1a5549c920edc40642395ca7cd30852afed82a5ee63418fe519",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "Asturias"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "Cuantía y condiciones por verificar"
+        ]
+      },
+      "geography": {
+        "countryCodes": [
+          "ES"
+        ],
+        "executionPlaces": [
+          "Asturias"
+        ],
+        "regionCodes": [
+          "ES-AS"
+        ],
+        "scope": "regional"
+      },
+      "id": "opp:sha256:1fb65a19209e6e0fb73f8e41d5ec191a1cc2f69916b770b752e996bc587d9212",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07348"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bopa:2026-07348"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07348&p_r_p_dispositionReference=2026-07348&p_r_p_dispositionDate=09%2F09%2F2026"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "Extracto de la convocatoria del Programa Pyme Digital, 2026."
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-09T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "countryCode": "ES",
+        "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+        "level": "regional",
+        "name": "Principado de Asturias"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "2026-07349",
+      "currentVersionId": "oppver:sha256:e1d486e6bdeeefc4d65e00e735cf4936dd55216b50b0751a74b0616cdd0e68af",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "Asturias",
+        "docencia"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "Cuantía y condiciones por verificar"
+        ]
+      },
+      "geography": {
+        "countryCodes": [
+          "ES"
+        ],
+        "executionPlaces": [
+          "Asturias"
+        ],
+        "regionCodes": [
+          "ES-AS"
+        ],
+        "scope": "regional"
+      },
+      "id": "opp:sha256:d5e3d498d90f6b04651bdece2b38d099189161d84c52b6184cd93c7f86e4869b",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07349"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bopa:2026-07349"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07349&p_r_p_dispositionReference=2026-07349&p_r_p_dispositionDate=09%2F09%2F2026"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "Anuncio. Extracto de la convocatoria del programa Corresponsales Juveniles en Centros Educativos de Gijón/Xixón para el curso 2026/2027, aprobado por Resolución de 25 de agosto de 2026, de la Presidencia de la Fundación Municipal de Cultura, Educación y Universidad Popular del Ayuntamiento de Gijón/Xixón."
         }
       ]
     },
@@ -138,7 +949,7 @@
       "lifecycleStatus": "open",
       "provenance": {
         "claimIds": [],
-        "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+        "derivedAt": "2026-09-09T15:02:18.371248+00:00",
         "documentRevisionIds": [],
         "resolverVersion": "resolver-v2.0.0",
         "sourceRecordIds": [
@@ -176,25 +987,305 @@
         "schemaVersion": "1",
         "version": "v1-to-v2.1.0.0"
       },
+      "canonicalUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07289&p_r_p_dispositionReference=2026-07289&p_r_p_dispositionDate=09%2F09%2F2026",
+      "contentHash": "sha256:8a5fca73b1a0d6dba7a4022e7cd8007098071beea140c4dbecbbf77d05737c1d",
+      "externalId": "2026-07289",
+      "externalReferences": [
+        "2026-07289"
+      ],
+      "firstObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bopa:2026-07289",
+      "lastObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "publishedAt": "2026-09-09T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-09T15:02:18.371248+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07289&p_r_p_dispositionReference=2026-07289&p_r_p_dispositionDate=09%2F09%2F2026",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bopa"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
       "canonicalUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07308&p_r_p_dispositionReference=2026-07308&p_r_p_dispositionDate=08%2F09%2F2026",
       "contentHash": "sha256:6ebe68edf6f284d6eb964064ae58652024d9b5d6488b45caf3a072351ed92877",
       "externalId": "2026-07308",
       "externalReferences": [
         "2026-07308"
       ],
-      "firstObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "firstObservedAt": "2026-09-09T15:02:18.371248+00:00",
       "http": {
         "contentType": "application/vnd.radar.v1+json",
         "status": 200
       },
       "id": "src:bopa:2026-07308",
-      "lastObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "lastObservedAt": "2026-09-09T15:02:18.371248+00:00",
       "publishedAt": "2026-09-08T00:00:00+02:00",
       "retrieval": {
-        "checkedAt": "2026-09-08T07:13:49.449154+00:00",
+        "checkedAt": "2026-09-09T15:02:18.371248+00:00",
         "status": "ok"
       },
       "retrievedUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07308&p_r_p_dispositionReference=2026-07308&p_r_p_dispositionDate=08%2F09%2F2026",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bopa"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
+      "canonicalUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07321&p_r_p_dispositionReference=2026-07321&p_r_p_dispositionDate=09%2F09%2F2026",
+      "contentHash": "sha256:fd0c6c9fccf03237c2b45525f29701532615820709ebca5f1f355970b6ff85d7",
+      "externalId": "2026-07321",
+      "externalReferences": [
+        "2026-07321"
+      ],
+      "firstObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bopa:2026-07321",
+      "lastObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "publishedAt": "2026-09-09T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-09T15:02:18.371248+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07321&p_r_p_dispositionReference=2026-07321&p_r_p_dispositionDate=09%2F09%2F2026",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bopa"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
+      "canonicalUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07324&p_r_p_dispositionReference=2026-07324&p_r_p_dispositionDate=09%2F09%2F2026",
+      "contentHash": "sha256:ec14eff5cd58a4d10cc0a2cbef2c6ab6bee1a79d8ea319ddce972509689bf48c",
+      "externalId": "2026-07324",
+      "externalReferences": [
+        "2026-07324"
+      ],
+      "firstObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bopa:2026-07324",
+      "lastObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "publishedAt": "2026-09-09T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-09T15:02:18.371248+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07324&p_r_p_dispositionReference=2026-07324&p_r_p_dispositionDate=09%2F09%2F2026",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bopa"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
+      "canonicalUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07328&p_r_p_dispositionReference=2026-07328&p_r_p_dispositionDate=09%2F09%2F2026",
+      "contentHash": "sha256:1343f21bb7df99742a0f8e039cf970875ddc5dce742e867edb86c95c7729faad",
+      "externalId": "2026-07328",
+      "externalReferences": [
+        "2026-07328"
+      ],
+      "firstObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bopa:2026-07328",
+      "lastObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "publishedAt": "2026-09-09T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-09T15:02:18.371248+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07328&p_r_p_dispositionReference=2026-07328&p_r_p_dispositionDate=09%2F09%2F2026",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bopa"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
+      "canonicalUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07332&p_r_p_dispositionReference=2026-07332&p_r_p_dispositionDate=09%2F09%2F2026",
+      "contentHash": "sha256:eca9a95287ffdda2e5c038c6996d0ee7e7f177a433882be7469fb1eaffcddbad",
+      "externalId": "2026-07332",
+      "externalReferences": [
+        "2026-07332"
+      ],
+      "firstObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bopa:2026-07332",
+      "lastObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "publishedAt": "2026-09-09T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-09T15:02:18.371248+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07332&p_r_p_dispositionReference=2026-07332&p_r_p_dispositionDate=09%2F09%2F2026",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bopa"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
+      "canonicalUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07340&p_r_p_dispositionReference=2026-07340&p_r_p_dispositionDate=09%2F09%2F2026",
+      "contentHash": "sha256:988b55a4607d437b601776642a6f36279409d22bddb7aa128e70724f4afcd1bc",
+      "externalId": "2026-07340",
+      "externalReferences": [
+        "2026-07340"
+      ],
+      "firstObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bopa:2026-07340",
+      "lastObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "publishedAt": "2026-09-09T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-09T15:02:18.371248+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07340&p_r_p_dispositionReference=2026-07340&p_r_p_dispositionDate=09%2F09%2F2026",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bopa"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
+      "canonicalUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07344&p_r_p_dispositionReference=2026-07344&p_r_p_dispositionDate=09%2F09%2F2026",
+      "contentHash": "sha256:5b9c642deba2ac3230723abf43dbab445a6ed2e7d78681c6cd8ce1a46493be7b",
+      "externalId": "2026-07344",
+      "externalReferences": [
+        "2026-07344"
+      ],
+      "firstObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bopa:2026-07344",
+      "lastObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "publishedAt": "2026-09-09T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-09T15:02:18.371248+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07344&p_r_p_dispositionReference=2026-07344&p_r_p_dispositionDate=09%2F09%2F2026",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bopa"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
+      "canonicalUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07345&p_r_p_dispositionReference=2026-07345&p_r_p_dispositionDate=09%2F09%2F2026",
+      "contentHash": "sha256:2daecb3953fb3a25b6743a318ff87ec865c0f5dab27c189e352898b39584bcca",
+      "externalId": "2026-07345",
+      "externalReferences": [
+        "2026-07345"
+      ],
+      "firstObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bopa:2026-07345",
+      "lastObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "publishedAt": "2026-09-09T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-09T15:02:18.371248+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07345&p_r_p_dispositionReference=2026-07345&p_r_p_dispositionDate=09%2F09%2F2026",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bopa"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
+      "canonicalUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07348&p_r_p_dispositionReference=2026-07348&p_r_p_dispositionDate=09%2F09%2F2026",
+      "contentHash": "sha256:16085bd2a7cd18e3ce30f12592f7babdc04ab21de098e9269dffbe743ba3355a",
+      "externalId": "2026-07348",
+      "externalReferences": [
+        "2026-07348"
+      ],
+      "firstObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bopa:2026-07348",
+      "lastObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "publishedAt": "2026-09-09T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-09T15:02:18.371248+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07348&p_r_p_dispositionReference=2026-07348&p_r_p_dispositionDate=09%2F09%2F2026",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bopa"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
+      "canonicalUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07349&p_r_p_dispositionReference=2026-07349&p_r_p_dispositionDate=09%2F09%2F2026",
+      "contentHash": "sha256:ff74e4f1c282e9235c51476a6012bd3625881782648d842dcc418e95ee1e8e56",
+      "externalId": "2026-07349",
+      "externalReferences": [
+        "2026-07349"
+      ],
+      "firstObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bopa:2026-07349",
+      "lastObservedAt": "2026-09-09T15:02:18.371248+00:00",
+      "publishedAt": "2026-09-09T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-09T15:02:18.371248+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07349&p_r_p_dispositionReference=2026-07349&p_r_p_dispositionDate=09%2F09%2F2026",
       "schemaVersion": "2.0.0",
       "sourceKey": "bopa"
     },
@@ -210,16 +1301,16 @@
       "externalReferences": [
         "2026-07371"
       ],
-      "firstObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "firstObservedAt": "2026-09-09T15:02:18.371248+00:00",
       "http": {
         "contentType": "application/vnd.radar.v1+json",
         "status": 200
       },
       "id": "src:bopa:2026-07371",
-      "lastObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "lastObservedAt": "2026-09-09T15:02:18.371248+00:00",
       "publishedAt": "2026-09-08T00:00:00+02:00",
       "retrieval": {
-        "checkedAt": "2026-09-08T07:13:49.449154+00:00",
+        "checkedAt": "2026-09-09T15:02:18.371248+00:00",
         "status": "ok"
       },
       "retrievedUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07371&p_r_p_dispositionReference=2026-07371&p_r_p_dispositionDate=08%2F09%2F2026",
@@ -230,11 +1321,109 @@
   "versions": [
     {
       "claimIds": [],
+      "contentHash": "sha256:747de17f96c0ea710763330b2a3a7fb377e4fc97699f491d3530dc0ea18d7a61",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-09T00:00:00+02:00",
+      "id": "oppver:sha256:747de17f96c0ea710763330b2a3a7fb377e4fc97699f491d3530dc0ea18d7a61",
+      "observedAt": "2026-09-09T15:02:18.371248+00:00",
+      "opportunityId": "opp:sha256:d95479b2b6b1455ca20569254eea4b1549a010e53ec17d0cde329aeb4cc8c9f5",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-09T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "countryCode": "ES",
+          "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+          "level": "regional",
+          "name": "Principado de Asturias"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "2026-07289",
+        "currentVersionId": "oppver:sha256:747de17f96c0ea710763330b2a3a7fb377e4fc97699f491d3530dc0ea18d7a61",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "Asturias",
+          "turismo",
+          "rural"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "Cuantía y condiciones por verificar"
+          ]
+        },
+        "geography": {
+          "countryCodes": [
+            "ES"
+          ],
+          "executionPlaces": [
+            "Asturias"
+          ],
+          "regionCodes": [
+            "ES-AS"
+          ],
+          "scope": "regional"
+        },
+        "id": "opp:sha256:d95479b2b6b1455ca20569254eea4b1549a010e53ec17d0cde329aeb4cc8c9f5",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bopa:2026-07289"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07289"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07289&p_r_p_dispositionReference=2026-07289&p_r_p_dispositionDate=09%2F09%2F2026"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "Resolución de 27 de agosto de 2026, de la Consejería de Presidencia, Reto Demográfico, Igualdad y Turismo, por la que se acepta renuncia a la subvención concedida por Resolución de 14 de julio de 2026, de la Consejería de Presidencia, Reto Demográfico, Igualdad y Turismo, por la que se designan las personas beneficiarias del programa Añoranza-Asturias para el año 2026 y se concede la subvención a los beneficiarios siguientes conforme al orden establecido en la lista de espera aplicable."
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bopa:2026-07289"
+      ]
+    },
+    {
+      "claimIds": [],
       "contentHash": "sha256:efaaabc44827ab5f4a8460eec6474ce78e524dc250ff6058dff4ddaaa48ae1fe",
       "documentRevisionIds": [],
       "effectiveAt": "2026-09-08T00:00:00+02:00",
       "id": "oppver:sha256:efaaabc44827ab5f4a8460eec6474ce78e524dc250ff6058dff4ddaaa48ae1fe",
-      "observedAt": "2026-09-08T07:13:49.449154+00:00",
+      "observedAt": "2026-09-09T15:02:18.371248+00:00",
       "opportunityId": "opp:sha256:89dde327d11de46da2d96a0ea0edb33981c0ec728b5a8c96428234c9ebc02948",
       "precedenceRuleVersion": "precedence-v2.0.0",
       "schemaVersion": "2.0.0",
@@ -291,7 +1480,7 @@
         "lifecycleStatus": "open",
         "provenance": {
           "claimIds": [],
-          "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+          "derivedAt": "2026-09-09T15:02:18.371248+00:00",
           "documentRevisionIds": [],
           "resolverVersion": "resolver-v2.0.0",
           "sourceRecordIds": [
@@ -326,11 +1515,884 @@
     },
     {
       "claimIds": [],
+      "contentHash": "sha256:4d38e8bd7112602b4b676aa837b8a37ef47e27fa6bc7681e44fc2f6755231be8",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-09T00:00:00+02:00",
+      "id": "oppver:sha256:4d38e8bd7112602b4b676aa837b8a37ef47e27fa6bc7681e44fc2f6755231be8",
+      "observedAt": "2026-09-09T15:02:18.371248+00:00",
+      "opportunityId": "opp:sha256:7966ec38ecedd92ca27b976c5551001288e40fbb9dee8584d732b9e050c05103",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-09T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "countryCode": "ES",
+          "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+          "level": "regional",
+          "name": "Principado de Asturias"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "2026-07321",
+        "currentVersionId": "oppver:sha256:4d38e8bd7112602b4b676aa837b8a37ef47e27fa6bc7681e44fc2f6755231be8",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "Asturias",
+          "docencia",
+          "rural"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "Cuantía y condiciones por verificar"
+          ]
+        },
+        "geography": {
+          "countryCodes": [
+            "ES"
+          ],
+          "executionPlaces": [
+            "Asturias"
+          ],
+          "regionCodes": [
+            "ES-AS"
+          ],
+          "scope": "regional"
+        },
+        "id": "opp:sha256:7966ec38ecedd92ca27b976c5551001288e40fbb9dee8584d732b9e050c05103",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bopa:2026-07321"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07321"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07321&p_r_p_dispositionReference=2026-07321&p_r_p_dispositionDate=09%2F09%2F2026"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "Resolución de 28 de agosto de 2026, de la Consejería de Medio Rural y Política Agraria, por la que se acuerda someter a trámite de información pública el proyecto de orden por el que se aprueban las bases reguladoras de las ayudas destinadas al mantenimiento de perros de protección del ganado en explotaciones ganaderas del Principado de Asturias."
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bopa:2026-07321"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:3b114074d0cafe34c4421978043622d298d6411a94b13098e1ffd2093c6b3f7d",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-09T00:00:00+02:00",
+      "id": "oppver:sha256:3b114074d0cafe34c4421978043622d298d6411a94b13098e1ffd2093c6b3f7d",
+      "observedAt": "2026-09-09T15:02:18.371248+00:00",
+      "opportunityId": "opp:sha256:a4d353345b9b90462f0d9ff9081996b132620acb68aa7ac618b2bd2e4b5b412a",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-09T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "countryCode": "ES",
+          "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+          "level": "regional",
+          "name": "Principado de Asturias"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "2026-07324",
+        "currentVersionId": "oppver:sha256:3b114074d0cafe34c4421978043622d298d6411a94b13098e1ffd2093c6b3f7d",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "Asturias",
+          "docencia"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "Cuantía y condiciones por verificar"
+          ]
+        },
+        "geography": {
+          "countryCodes": [
+            "ES"
+          ],
+          "executionPlaces": [
+            "Asturias"
+          ],
+          "regionCodes": [
+            "ES-AS"
+          ],
+          "scope": "regional"
+        },
+        "id": "opp:sha256:a4d353345b9b90462f0d9ff9081996b132620acb68aa7ac618b2bd2e4b5b412a",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bopa:2026-07324"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07324"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07324&p_r_p_dispositionReference=2026-07324&p_r_p_dispositionDate=09%2F09%2F2026"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "Resolución de 1 de septiembre de 2026, del Secretario General de la Universidad de Oviedo, por la que se emplaza a los interesados en la reclamación 89/2026 interpuesta contra la valoración de la Comisión de Selección, concurso público para la provisión de plazas de profesorado contratado en régimen de derecho laboral en la figura de Profesoras y Profesores Ayudantes Doctoras/es, Concurso 25-Departamento de Matemáticas, Área Matemática Aplicada (BOPA de 7 de mayo de 2026)."
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bopa:2026-07324"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:41b60070328558d5cb6464504afdf47fe99c95ba3849891eb8e9d1e491ed3703",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-09T00:00:00+02:00",
+      "id": "oppver:sha256:41b60070328558d5cb6464504afdf47fe99c95ba3849891eb8e9d1e491ed3703",
+      "observedAt": "2026-09-09T15:02:18.371248+00:00",
+      "opportunityId": "opp:sha256:ccd4fb7785b29d05468535bbbbc4f4c836b55ee9c3d715fe79df76200fac783c",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-09T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "countryCode": "ES",
+          "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+          "level": "regional",
+          "name": "Principado de Asturias"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "2026-07328",
+        "currentVersionId": "oppver:sha256:41b60070328558d5cb6464504afdf47fe99c95ba3849891eb8e9d1e491ed3703",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "Asturias",
+          "turismo"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "Cuantía y condiciones por verificar"
+          ]
+        },
+        "geography": {
+          "countryCodes": [
+            "ES"
+          ],
+          "executionPlaces": [
+            "Asturias"
+          ],
+          "regionCodes": [
+            "ES-AS"
+          ],
+          "scope": "regional"
+        },
+        "id": "opp:sha256:ccd4fb7785b29d05468535bbbbc4f4c836b55ee9c3d715fe79df76200fac783c",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bopa:2026-07328"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07328"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07328&p_r_p_dispositionReference=2026-07328&p_r_p_dispositionDate=09%2F09%2F2026"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "Anuncio. Extracto del Acuerdo de la Junta de Gobierno Local de 20 de agosto de 2026, por el que se aprueba la convocatoria de subvenciones de la Concejalía de Hostelería, Turismo y Congresos del Ayuntamiento de Oviedo, destinadas a entidades organizadoras de congresos, convenciones, seminarios o cualquier otro evento relativo al turismo de reuniones en Oviedo, año 2026."
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bopa:2026-07328"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:709a5f6f159b7e4e44f5fed521e482a4767cdb84c6ecae4934be6f1906437505",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-09T00:00:00+02:00",
+      "id": "oppver:sha256:709a5f6f159b7e4e44f5fed521e482a4767cdb84c6ecae4934be6f1906437505",
+      "observedAt": "2026-09-09T15:02:18.371248+00:00",
+      "opportunityId": "opp:sha256:341383981398bd4cb356607ed700bbde0fa20e3c6fdd695358c3ce831854088f",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-09T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "countryCode": "ES",
+          "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+          "level": "regional",
+          "name": "Principado de Asturias"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "2026-07332",
+        "currentVersionId": "oppver:sha256:709a5f6f159b7e4e44f5fed521e482a4767cdb84c6ecae4934be6f1906437505",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "Asturias",
+          "vivienda",
+          "docencia"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "Cuantía y condiciones por verificar"
+          ]
+        },
+        "geography": {
+          "countryCodes": [
+            "ES"
+          ],
+          "executionPlaces": [
+            "Asturias"
+          ],
+          "regionCodes": [
+            "ES-AS"
+          ],
+          "scope": "regional"
+        },
+        "id": "opp:sha256:341383981398bd4cb356607ed700bbde0fa20e3c6fdd695358c3ce831854088f",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bopa:2026-07332"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07332"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07332&p_r_p_dispositionReference=2026-07332&p_r_p_dispositionDate=09%2F09%2F2026"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "Anuncio. Extracto de la resolución 2026/13364, de 4 de agosto de 2026, de la Alcaldía del Ayuntamiento de Oviedo, por la que se modifican las bases y la convocatoria de ayuda adicional a los propietarios/usufructuarios de viviendas del ERRP de Ventanielles y Guillén Lafuerza, fase I-B, en el municipio de Oviedo, en relación con la ejecución de los programas de ayuda en materia de rehabilitación residencial y vivienda social del Plan de Recuperación, Transformación y Resiliencia financiado por la Unión Europea Next Generation EU."
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bopa:2026-07332"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:c07339889269722353c2c53b4b76db2012bf2c7de6f92cc8cb30a568484bdf68",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-09T00:00:00+02:00",
+      "id": "oppver:sha256:c07339889269722353c2c53b4b76db2012bf2c7de6f92cc8cb30a568484bdf68",
+      "observedAt": "2026-09-09T15:02:18.371248+00:00",
+      "opportunityId": "opp:sha256:d7cd63935dc3acbcea8ce2b5e8a3e467e7a6e221b1f227120353a7c5f544b01a",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-09T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "countryCode": "ES",
+          "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+          "level": "regional",
+          "name": "Principado de Asturias"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "2026-07340",
+        "currentVersionId": "oppver:sha256:c07339889269722353c2c53b4b76db2012bf2c7de6f92cc8cb30a568484bdf68",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "Asturias",
+          "ciencia y salud"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "Cuantía y condiciones por verificar"
+          ]
+        },
+        "geography": {
+          "countryCodes": [
+            "ES"
+          ],
+          "executionPlaces": [
+            "Asturias"
+          ],
+          "regionCodes": [
+            "ES-AS"
+          ],
+          "scope": "regional"
+        },
+        "id": "opp:sha256:d7cd63935dc3acbcea8ce2b5e8a3e467e7a6e221b1f227120353a7c5f544b01a",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bopa:2026-07340"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07340"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07340&p_r_p_dispositionReference=2026-07340&p_r_p_dispositionDate=09%2F09%2F2026"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "Resolución de 31 de agosto de 2026, de la Consejería de Ciencia, Industria y Empleo, por la que se conceden subvenciones con destino a las entidades locales del Principado de Asturias para impulso de servicios de dinamización tecnológica local y se autoriza su abono anticipado."
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bopa:2026-07340"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:47e17cd68a05549cd8784e65cdebf9cf9b5ad42a595e3f7a7b9c153230b4f31c",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-09T00:00:00+02:00",
+      "id": "oppver:sha256:47e17cd68a05549cd8784e65cdebf9cf9b5ad42a595e3f7a7b9c153230b4f31c",
+      "observedAt": "2026-09-09T15:02:18.371248+00:00",
+      "opportunityId": "opp:sha256:8f8275bff6f65ac9d907fcd78a00415cdbca2b28f01f64a0eb3abe967131c539",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-09T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "countryCode": "ES",
+          "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+          "level": "regional",
+          "name": "Principado de Asturias"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "2026-07344",
+        "currentVersionId": "oppver:sha256:47e17cd68a05549cd8784e65cdebf9cf9b5ad42a595e3f7a7b9c153230b4f31c",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "Asturias"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "Cuantía y condiciones por verificar"
+          ]
+        },
+        "geography": {
+          "countryCodes": [
+            "ES"
+          ],
+          "executionPlaces": [
+            "Asturias"
+          ],
+          "regionCodes": [
+            "ES-AS"
+          ],
+          "scope": "regional"
+        },
+        "id": "opp:sha256:8f8275bff6f65ac9d907fcd78a00415cdbca2b28f01f64a0eb3abe967131c539",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bopa:2026-07344"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07344"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07344&p_r_p_dispositionReference=2026-07344&p_r_p_dispositionDate=09%2F09%2F2026"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "Convocatoria de promoción interna para la cobertura de dos puestos de Técnico de Contratación en la Sociedad Pública de Gestión y Promoción Turística y Cultural del Principado de Asturias, S. A. U."
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bopa:2026-07344"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:b486743ed391c73ac16ca89944ca4eb0d4f4fd48dc18c8172994aa633e8d70f8",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-09T00:00:00+02:00",
+      "id": "oppver:sha256:b486743ed391c73ac16ca89944ca4eb0d4f4fd48dc18c8172994aa633e8d70f8",
+      "observedAt": "2026-09-09T15:02:18.371248+00:00",
+      "opportunityId": "opp:sha256:ff42f670bd7be89699f9658d4c93d14641d231cecefa46ebd17fffc10d2187c4",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-09T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "countryCode": "ES",
+          "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+          "level": "regional",
+          "name": "Principado de Asturias"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "2026-07345",
+        "currentVersionId": "oppver:sha256:b486743ed391c73ac16ca89944ca4eb0d4f4fd48dc18c8172994aa633e8d70f8",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "Asturias",
+          "turismo"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "Cuantía y condiciones por verificar"
+          ]
+        },
+        "geography": {
+          "countryCodes": [
+            "ES"
+          ],
+          "executionPlaces": [
+            "Asturias"
+          ],
+          "regionCodes": [
+            "ES-AS"
+          ],
+          "scope": "regional"
+        },
+        "id": "opp:sha256:ff42f670bd7be89699f9658d4c93d14641d231cecefa46ebd17fffc10d2187c4",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bopa:2026-07345"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07345"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07345&p_r_p_dispositionReference=2026-07345&p_r_p_dispositionDate=09%2F09%2F2026"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "Convocatoria de promoción interna para la cobertura de un puesto de Técnico de Turismo en la Sociedad Pública de Gestión y Promoción Turística y Cultural del Principado de Asturias S. A. U."
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bopa:2026-07345"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:a6773fce8f02e1a5549c920edc40642395ca7cd30852afed82a5ee63418fe519",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-09T00:00:00+02:00",
+      "id": "oppver:sha256:a6773fce8f02e1a5549c920edc40642395ca7cd30852afed82a5ee63418fe519",
+      "observedAt": "2026-09-09T15:02:18.371248+00:00",
+      "opportunityId": "opp:sha256:1fb65a19209e6e0fb73f8e41d5ec191a1cc2f69916b770b752e996bc587d9212",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-09T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "countryCode": "ES",
+          "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+          "level": "regional",
+          "name": "Principado de Asturias"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "2026-07348",
+        "currentVersionId": "oppver:sha256:a6773fce8f02e1a5549c920edc40642395ca7cd30852afed82a5ee63418fe519",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "Asturias"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "Cuantía y condiciones por verificar"
+          ]
+        },
+        "geography": {
+          "countryCodes": [
+            "ES"
+          ],
+          "executionPlaces": [
+            "Asturias"
+          ],
+          "regionCodes": [
+            "ES-AS"
+          ],
+          "scope": "regional"
+        },
+        "id": "opp:sha256:1fb65a19209e6e0fb73f8e41d5ec191a1cc2f69916b770b752e996bc587d9212",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bopa:2026-07348"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07348"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07348&p_r_p_dispositionReference=2026-07348&p_r_p_dispositionDate=09%2F09%2F2026"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "Extracto de la convocatoria del Programa Pyme Digital, 2026."
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bopa:2026-07348"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:e1d486e6bdeeefc4d65e00e735cf4936dd55216b50b0751a74b0616cdd0e68af",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-09T00:00:00+02:00",
+      "id": "oppver:sha256:e1d486e6bdeeefc4d65e00e735cf4936dd55216b50b0751a74b0616cdd0e68af",
+      "observedAt": "2026-09-09T15:02:18.371248+00:00",
+      "opportunityId": "opp:sha256:d5e3d498d90f6b04651bdece2b38d099189161d84c52b6184cd93c7f86e4869b",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-09T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "countryCode": "ES",
+          "id": "authority:sha256:0e10e088cce19c00ff26723384c7a202f37d57caf6b3003a9566735812dd8372",
+          "level": "regional",
+          "name": "Principado de Asturias"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "2026-07349",
+        "currentVersionId": "oppver:sha256:e1d486e6bdeeefc4d65e00e735cf4936dd55216b50b0751a74b0616cdd0e68af",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "Asturias",
+          "docencia"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "Cuantía y condiciones por verificar"
+          ]
+        },
+        "geography": {
+          "countryCodes": [
+            "ES"
+          ],
+          "executionPlaces": [
+            "Asturias"
+          ],
+          "regionCodes": [
+            "ES-AS"
+          ],
+          "scope": "regional"
+        },
+        "id": "opp:sha256:d5e3d498d90f6b04651bdece2b38d099189161d84c52b6184cd93c7f86e4869b",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-09T15:02:18.371248+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bopa:2026-07349"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bopa:2026-07349"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07349&p_r_p_dispositionReference=2026-07349&p_r_p_dispositionDate=09%2F09%2F2026"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "Anuncio. Extracto de la convocatoria del programa Corresponsales Juveniles en Centros Educativos de Gijón/Xixón para el curso 2026/2027, aprobado por Resolución de 25 de agosto de 2026, de la Presidencia de la Fundación Municipal de Cultura, Educación y Universidad Popular del Ayuntamiento de Gijón/Xixón."
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bopa:2026-07349"
+      ]
+    },
+    {
+      "claimIds": [],
       "contentHash": "sha256:ba1ff9100da1f6b4f53c6e7d3bec3fe9a1e5dd92abd6e38530ad3e8b7c0bb620",
       "documentRevisionIds": [],
       "effectiveAt": "2026-09-08T00:00:00+02:00",
       "id": "oppver:sha256:ba1ff9100da1f6b4f53c6e7d3bec3fe9a1e5dd92abd6e38530ad3e8b7c0bb620",
-      "observedAt": "2026-09-08T07:13:49.449154+00:00",
+      "observedAt": "2026-09-09T15:02:18.371248+00:00",
       "opportunityId": "opp:sha256:8fdc30f5c0e6006223ff5122ca363f9e25125e1e8eea86cafe59354fe42a39d9",
       "precedenceRuleVersion": "precedence-v2.0.0",
       "schemaVersion": "2.0.0",
@@ -389,7 +2451,7 @@
         "lifecycleStatus": "open",
         "provenance": {
           "claimIds": [],
-          "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+          "derivedAt": "2026-09-09T15:02:18.371248+00:00",
           "documentRevisionIds": [],
           "resolverVersion": "resolver-v2.0.0",
           "sourceRecordIds": [
