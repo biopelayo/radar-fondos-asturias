@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T08:34:50.413558+00:00",
-  "checkedAt": "2026-09-09T08:34:50.413558+00:00",
+  "generatedAt": "2026-09-09T15:00:02.745711+00:00",
+  "checkedAt": "2026-09-09T15:00:02.745711+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -11,31 +11,31 @@
   "sourceStatus": {
     "BDNS": {
       "status": "ok",
-      "count": 3,
-      "collectedCount": 3,
-      "checkedAt": "2026-09-09T08:34:50.413558+00:00",
-      "lastSuccessAt": "2026-09-09T08:34:50.413558+00:00"
+      "count": 7,
+      "collectedCount": 7,
+      "checkedAt": "2026-09-09T15:00:02.745711+00:00",
+      "lastSuccessAt": "2026-09-09T15:00:02.745711+00:00"
     },
     "BOE": {
       "status": "ok",
       "count": 27,
       "collectedCount": 12,
-      "checkedAt": "2026-09-09T08:34:50.413558+00:00",
-      "lastSuccessAt": "2026-09-09T08:34:50.413558+00:00"
+      "checkedAt": "2026-09-09T15:00:02.745711+00:00",
+      "lastSuccessAt": "2026-09-09T15:00:02.745711+00:00"
     },
     "BOPA": {
       "status": "ok",
       "count": 12,
       "collectedCount": 10,
-      "checkedAt": "2026-09-09T08:34:50.413558+00:00",
-      "lastSuccessAt": "2026-09-09T08:34:50.413558+00:00"
+      "checkedAt": "2026-09-09T15:00:02.745711+00:00",
+      "lastSuccessAt": "2026-09-09T15:00:02.745711+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 79,
       "collectedCount": 79,
-      "checkedAt": "2026-09-09T08:34:50.413558+00:00",
-      "lastSuccessAt": "2026-09-09T08:34:50.413558+00:00"
+      "checkedAt": "2026-09-09T15:00:02.745711+00:00",
+      "lastSuccessAt": "2026-09-09T15:00:02.745711+00:00"
     }
   },
   "errors": [],
@@ -703,6 +703,66 @@
       "demo": false
     },
     {
+      "id": "bdns-928530",
+      "title": "Convocatoria de 17 becas colaboración para la formación en técnicas de planificación, aplicación y análisis de encuestas en máster universitario y Facultad de Medicina de Albacete y Facultad de Ciencias y Tecnologías Químicas de la UCLM. 1er CT 26-27",
+      "issuer": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "source": "BDNS",
+      "sourceRef": "928530",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "publishedAt": "2026-09-09",
+      "deadline": "2026-09-21",
+      "deadlineVerified": true,
+      "amount": 9570,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 64,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Normativa Reguladora de las Becas de Colaboración de la UCLM aprobada por el Consejo de Gobierno el 20-12-2021, DOCM de 28-12-2021, y modificada por el Consejo de Gobierno de 23-5-2022, DOCM de 1-6-2022, y bases de la convocatoria.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-928530-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-09",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "bopa-2026-07344",
       "title": "Convocatoria de promoción interna para la cobertura de dos puestos de Técnico de Contratación en la Sociedad Pública de Gestión y Promoción Turística y Cultural del Principado de Asturias, S. A. U.",
       "issuer": "Principado de Asturias",
@@ -941,6 +1001,124 @@
       "demo": false
     },
     {
+      "id": "bdns-928545",
+      "title": "AYUDAS INTERCOOP. EMPRESARIAL EN ECONOMÍA SOCIAL 26/27 - MINIMIS",
+      "issuer": "DEPARTAMENTO DE ECONOMÍA, TRABAJO Y EMPLEO",
+      "source": "BDNS",
+      "sourceRef": "928545",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "PAÍS VASCO",
+      "publishedAt": "2026-09-09",
+      "deadline": "2026-10-08",
+      "deadlineVerified": true,
+      "amount": 83500,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · LEY 7/2025, de 23 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2026.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-928545-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-09",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-928538",
+      "title": "Convocatoria de 3 becas colaboración en la Unidad Técnica de Acreditación, Seguimiento y Evaluación de la Universidad de Castilla-La Mancha. Curso 2026-2027",
+      "issuer": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "source": "BDNS",
+      "sourceRef": "928538",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "publishedAt": "2026-09-09",
+      "deadline": "2026-09-21",
+      "deadlineVerified": true,
+      "amount": 4034,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Normativa Reguladora de las Becas de Colaboración de la UCLM aprobada por el Consejo de Gobierno el 20-12-2021, DOCM de 28-12-2021, y modificada por el Consejo de Gobierno de 23-5-2022, DOCM de 1-6-2022, y bases de la convocatoria.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-928538-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-09",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "boe-boe-b-2026-29219",
       "title": "Anuncio de licitación de: Subdirección General de Contratación de Tecnologías de la Información y de las Comunicaciones (TIC). Objeto: Servicios de mantenimiento y supervisión de las infraestructuras e instalaciones físicas de los centros de proceso de datos CPD dependientes del Centro de Sistemas y Tecnologías de la Información y las Comunicaciones MINISDEF. Expediente: 2026/SP03032003/00000780.",
       "issuer": "MINISTERIO DE DEFENSA",
@@ -1120,24 +1298,24 @@
       "demo": false
     },
     {
-      "id": "bdns-928338",
-      "title": "Resolución Rectoral de 7/9/2026, por la que se establecen las bases reguladoras y se convocan becas del Programa Regional de Becas de la C.A. de Cantabria, destinadas a gastos de matrícula y ayudas adicionales, de estudiantes de grado y máster de la UC",
-      "issuer": "UNIVERSIDAD DE CANTABRIA",
+      "id": "bdns-928525",
+      "title": "Convocatoria de subvenciones a la adquisición de material escolar en comercios locales minoristas de Andoain para el alumnado que cursa estudios en los niveles de enseñanza obligatoria o educación infantil en los centros escolares de Andoain para el 2026",
+      "issuer": "AYUNTAMIENTO DE ANDOAIN",
       "source": "BDNS",
-      "sourceRef": "928338",
+      "sourceRef": "928525",
       "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
       "kind": "subvención",
-      "territory": "UNIVERSIDAD DE CANTABRIA",
-      "publishedAt": "2026-09-08",
-      "deadline": "2026-09-08",
+      "territory": "ANDOAIN",
+      "publishedAt": "2026-09-09",
+      "deadline": "2026-09-09",
       "deadlineVerified": false,
-      "amount": 210000,
+      "amount": 10000,
       "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
       "score": 51,
       "state": "nueva",
-      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución Rectoral de 7/9/2026, por la que se establecen las bases reguladoras y se convocan becas del Programa Regional de Becas de la C.A. de Cantabria, destinadas a gastos de matrícula y ayudas adicionales, de estudiantes de grado y máster de la UC",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Ordenanza municipal reguladora de las ayudas económicas para compra de material escolar",
       "fitReasons": [
-        "Coincide con: docencia.",
+        "Coincide con: comercio.",
         "Publicación oficial localizada en BDNS."
       ],
       "blockers": [
@@ -1165,134 +1343,16 @@
       ],
       "evidence": [
         {
-          "id": "BDNS-928338-official",
+          "id": "BDNS-928525-official",
           "source": "BDNS",
           "label": "Publicación oficial",
-          "date": "2026-09-08",
+          "date": "2026-09-09",
           "verified": true,
           "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
         }
       ],
       "tags": [
-        "docencia"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-928329",
-      "title": "II Edición del premio internacional “Mediterráneo de la Paz” de la Cátedra UNESCO-UV  al mejor TFG o TFM y tesis doctoral relacionada con los estudios para la paz, la interculturalidad y la sostenibilidad",
-      "issuer": "UNIVERSITAT DE VALÈNCIA (ESTUDI GENERAL)",
-      "source": "BDNS",
-      "sourceRef": "928329",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "UNIVERSITAT DE VALÈNCIA (ESTUDI GENERAL)",
-      "publishedAt": "2026-09-08",
-      "deadline": "2026-09-08",
-      "deadlineVerified": false,
-      "amount": 1500,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 51,
-      "state": "nueva",
-      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución de 22 de julio de 2026, del rectorado de la U.V. por la que se convoca la II edición del premio internacional “Mediterráneo de la Paz” de la Cátedra UNESCO-UV al mejor TFG o TFM y tesis doctoral relacionada con los estudios para la paz.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-928329-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-08",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-928308",
-      "title": "Acuerdo de fecha 3 septiembre 2026 convocatoria ayudas económicas para dotación de material tecnológico al alumnado estudios postobligatorios universitarios, máster habilitante y ciclos formación profesional grado superior, empadronado Adeje, curso 26/27",
-      "issuer": "AYUNTAMIENTO DE ADEJE",
-      "source": "BDNS",
-      "sourceRef": "928308",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "ADEJE",
-      "publishedAt": "2026-09-08",
-      "deadline": "2026-09-08",
-      "deadlineVerified": false,
-      "amount": 150000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 51,
-      "state": "nueva",
-      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Ordenanza por la que se establecen las bases reguladoras de las ayudas al estudio del Ayuntamiento de Adeje",
-      "fitReasons": [
-        "Coincide con: docencia.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-928308-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-08",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "docencia"
+        "comercio"
       ],
       "demo": false
     },
@@ -2119,6 +2179,183 @@
       ],
       "tags": [
         "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-928521",
+      "title": "Subvenciones de fomento de la Economía Social. Programa 4º Asistencia Técnica en Economía Social.",
+      "issuer": "CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL",
+      "source": "BDNS",
+      "sourceRef": "928521",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "REGIÓN DE MURCIA",
+      "publishedAt": "2026-09-09",
+      "deadline": "2026-10-13",
+      "deadlineVerified": true,
+      "amount": 100000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 49,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden de la Consejería de Empresa, Empleo y Economía Social, por la que se aprueban las bases reguladoras de subvenciones para programas de fomento de la economía social de la Región de Murcia.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-928521-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-09",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-928531",
+      "title": "Subvenciones de fomento de la Economía Social. Programa 5º. Organizaciones Empresariales de la Economía Social.",
+      "issuer": "CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL",
+      "source": "BDNS",
+      "sourceRef": "928531",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "REGIÓN DE MURCIA",
+      "publishedAt": "2026-09-09",
+      "deadline": "2026-09-09",
+      "deadlineVerified": false,
+      "amount": 842500,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 47,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden de la Consejería de Empresa, Empleo y Economía Social, por la que se aprueban las bases reguladoras de subvenciones para programas de fomento de la economía social de la Región de Murcia.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-928531-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-09",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-928529",
+      "title": "Ayudas a la mejora de los procesos de transformación y comercialización de los productos agroalimentarios, correspondiendo al año 2026",
+      "issuer": "DEPARTAMENT D'AGRICULTURA, RAMADERIA, PESCA I ALIMENTACIÓ",
+      "source": "BDNS",
+      "sourceRef": "928529",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CATALUÑA",
+      "publishedAt": "2026-09-09",
+      "deadline": "2026-09-09",
+      "deadlineVerified": false,
+      "amount": 20000000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 47,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Bases reguladoras de las ayudas a la mejora de los procesos de transformación y comercialización de los productos agroalimentarios.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-928529-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-09",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
       ],
       "demo": false
     },
