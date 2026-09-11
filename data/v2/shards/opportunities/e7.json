@@ -2,28 +2,180 @@
   "changeEvents": [],
   "claims": [],
   "documents": [],
-  "generatedAt": "2026-09-10T15:00:02.376467+00:00",
+  "generatedAt": "2026-09-08T07:13:49.449154+00:00",
   "id": "shard:opportunities:e7",
   "opportunities": [
     {
       "applicationWindows": [
         {
-          "closesAt": "2026-12-18T23:59:59+01:00",
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-07T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "id": "authority:sha256:c1bd03298d376a868e639fa42f9f434f3ed40f49da716f8849e0169bab92221e",
+        "level": "international",
+        "name": "CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "928119",
+      "currentVersionId": "oppver:sha256:81f7ac59a253e7571c853bd5c89a0a707e525b7a01d2f9ae318724bab2bee0f2",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "por clasificar"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
+        ],
+        "programmeBudget": 3000000
+      },
+      "geography": {
+        "countryCodes": [],
+        "executionPlaces": [
+          "COMUNIDAD DE MADRID"
+        ],
+        "regionCodes": [],
+        "scope": "international"
+      },
+      "id": "opp:sha256:88aaedae9f9487544b12ee758dbda873f0e5f2aa9e4968729f2a5c3ea423b307",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bdns:928119"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bdns:928119"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "AYUDAS EMERGENCIA PARA PYMES INDUSTRIALES AFECTADAS INCENDIOS SIERRA OESTE"
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "closesAt": "2026-10-02T23:59:59+02:00",
           "id": "window:primary",
           "mode": "absolute",
-          "opensAt": "2026-09-10T00:00:00+02:00",
+          "opensAt": "2026-09-07T00:00:00+02:00",
           "timeZone": "Europe/Madrid",
           "verified": true
         }
       ],
       "authority": {
-        "id": "authority:sha256:9c7ae2563c04d045b4c259534326885c2daf352e3899d87a645ba3a040b82441",
+        "id": "authority:sha256:ba248b819525bcf3921a47190f48eb4e06d75a9d5e69b530e77e7bdaa18f0f70",
         "level": "international",
-        "name": "AYUNTAMIENTO DE VALLS"
+        "name": "CÁMARA DE COMERCIO DE ALMERÍA"
       },
       "beneficiaryClasses": [],
-      "canonicalReference": "928812",
-      "currentVersionId": "oppver:sha256:018d0762039b8a6a30414137e588a48dfb231171ae0365b2bee3e69d179c1a11",
+      "canonicalReference": "928136",
+      "currentVersionId": "oppver:sha256:f17864591913583fabf0fbcc37b3929558b58f5f6d577008cfaa651402e38124",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "comercio"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
+        ],
+        "programmeBudget": 19956
+      },
+      "geography": {
+        "countryCodes": [],
+        "executionPlaces": [
+          "CÁMARA DE COMERCIO DE ALMERÍA"
+        ],
+        "regionCodes": [],
+        "scope": "international"
+      },
+      "id": "opp:sha256:0e01de9261e95120be6b82274485b671b5b08f77755222f7d28604d56d282cf6",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bdns:928136"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bdns:928136"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "Convocatoria Pyme Global 2026 Visita feria World Travel Market de Londres para empresas de la provincia de Almería"
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-07T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "id": "authority:sha256:69e1113eed9b610a5af26b2393cbb12794a8b78e8ac06a82ee794db802faa216",
+        "level": "international",
+        "name": "AYUNTAMIENTO DE RIBA-ROJA DE TÚRIA"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "928143",
+      "currentVersionId": "oppver:sha256:bd38638a4cfdd3ff870dfef0591228c94f8ce9645aac2b87184c3dc37ad195e7",
       "documentRevisionIds": [],
       "eligibleActivities": [
         "vivienda"
@@ -35,28 +187,28 @@
         "eligibleCostNotes": [
           "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
         ],
-        "programmeBudget": 60000
+        "programmeBudget": 100000
       },
       "geography": {
         "countryCodes": [],
         "executionPlaces": [
-          "VALLS"
+          "RIBA-ROJA DE TÚRIA"
         ],
         "regionCodes": [],
         "scope": "international"
       },
-      "id": "opp:sha256:814cd2309fb7c1f5d7c9e98fd10b44314f419960638cb2e792b24890a993b53f",
+      "id": "opp:sha256:148bac15d3c3919d333db77bed1e26082add8cc74f9e157790258ce73b3e0a23",
       "incompatibilities": [
         "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
       ],
       "lifecycleStatus": "open",
       "provenance": {
         "claimIds": [],
-        "derivedAt": "2026-09-10T15:00:02.376467+00:00",
+        "derivedAt": "2026-09-08T07:13:49.449154+00:00",
         "documentRevisionIds": [],
         "resolverVersion": "resolver-v2.0.0",
         "sourceRecordIds": [
-          "src:bdns:928812"
+          "src:bdns:928143"
         ]
       },
       "quality": {
@@ -68,7 +220,7 @@
       "relatedOpportunityIds": [],
       "schemaVersion": "2.0.0",
       "sourceRecordIds": [
-        "src:bdns:928812"
+        "src:bdns:928143"
       ],
       "submission": {
         "channel": "unknown",
@@ -77,7 +229,7 @@
       "titles": [
         {
           "language": "es",
-          "value": "CONVOCATORIA DE SUBVENCIONES PARA LA REHABILITACION I RECUPERACIÓN DE EDIFICIOS DENTRO DEL ÀMBITO DEL BARRIO ANTIGUO"
+          "value": "AYUDAS DESTINADAS A LA REHABILITACIÓN DE FACHADAS DE VIVIENDAS, EN RÉGIMEN DE CONCURRENCIA COMPETITIVA PARA LOS EJERCICIOS 2026-2027"
         }
       ]
     },
@@ -86,53 +238,53 @@
         {
           "id": "window:primary",
           "mode": "unknown",
-          "opensAt": "2026-09-10T00:00:00+02:00",
+          "opensAt": "2026-09-07T00:00:00+02:00",
           "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
           "timeZone": "Europe/Madrid",
           "verified": false
         }
       ],
       "authority": {
-        "id": "authority:sha256:946c0227d467c6bec167785a7807c629711e2e41a7be0593b28ec36696a6116d",
+        "id": "authority:sha256:69e1113eed9b610a5af26b2393cbb12794a8b78e8ac06a82ee794db802faa216",
         "level": "international",
-        "name": "SOCIEDAD PARA EL DESARROLLO DE LA PROVINCIA DE BURGOS"
+        "name": "AYUNTAMIENTO DE RIBA-ROJA DE TÚRIA"
       },
       "beneficiaryClasses": [],
-      "canonicalReference": "928815",
-      "currentVersionId": "oppver:sha256:aa0278a0d47a3907768b1ba78c6ce7d9df221690e3a635072882e1c3a113fe52",
+      "canonicalReference": "928157",
+      "currentVersionId": "oppver:sha256:214f7f00482f98bca1ef79e7f2013b96eaa199014ff28b409f8aac2fbf519e83",
       "documentRevisionIds": [],
       "eligibleActivities": [
-        "rural"
+        "vivienda"
       ],
       "excludedActivities": [],
       "family": "grant",
       "finance": {
         "currency": "EUR",
         "eligibleCostNotes": [
-          "OTROS INSTRUMENTOS DE AYUDA"
+          "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
         ],
-        "programmeBudget": 202000
+        "programmeBudget": 30000
       },
       "geography": {
         "countryCodes": [],
         "executionPlaces": [
-          "DIPUTACIÓN PROV. DE BURGOS"
+          "RIBA-ROJA DE TÚRIA"
         ],
         "regionCodes": [],
         "scope": "international"
       },
-      "id": "opp:sha256:aba44f4ec58b485aec9fcb4e83ef9fda884266211f98cc065d28954314a2d3e6",
+      "id": "opp:sha256:10096f1a9ca2ef0c2d74d831e421995d139ed6563a2dd614bc27039b0ead2e5e",
       "incompatibilities": [
         "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
       ],
       "lifecycleStatus": "open",
       "provenance": {
         "claimIds": [],
-        "derivedAt": "2026-09-10T15:00:02.376467+00:00",
+        "derivedAt": "2026-09-08T07:13:49.449154+00:00",
         "documentRevisionIds": [],
         "resolverVersion": "resolver-v2.0.0",
         "sourceRecordIds": [
-          "src:bdns:928815"
+          "src:bdns:928157"
         ]
       },
       "quality": {
@@ -144,7 +296,7 @@
       "relatedOpportunityIds": [],
       "schemaVersion": "2.0.0",
       "sourceRecordIds": [
-        "src:bdns:928815"
+        "src:bdns:928157"
       ],
       "submission": {
         "channel": "unknown",
@@ -153,7 +305,83 @@
       "titles": [
         {
           "language": "es",
-          "value": "Por acuerdo de 14/05/2026 del Consejo de Administración de SODEBUR por el que se aprueba la concesión de un Convenio con AGALSA, para impulsar el desarrollo rural en el área territorial de la Sierra de la Demanda."
+          "value": "Ayudas destinadas a la mejora de accesibilidad de los edificios de vivienda ocupadas por personas mayores de 65 años o con grado de discapacidad superior al 33%, para los ejercicios 2026-2027"
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "closesAt": "2026-12-31T23:59:59+01:00",
+          "id": "window:primary",
+          "mode": "absolute",
+          "opensAt": "2026-09-07T00:00:00+02:00",
+          "timeZone": "Europe/Madrid",
+          "verified": true
+        }
+      ],
+      "authority": {
+        "id": "authority:sha256:79b41c45200c67d7a74fa13a0cdbc56b98e2fa0b8606b266224866f8988da0ea",
+        "level": "international",
+        "name": "CONSEJERÍA DE TURISMO Y EMPLEO"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "928165",
+      "currentVersionId": "oppver:sha256:76dc0e9957180ec8183bf03e52db0083b636128f7d660c6f0db9170488b9181b",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "turismo"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
+        ],
+        "programmeBudget": 546882
+      },
+      "geography": {
+        "countryCodes": [],
+        "executionPlaces": [
+          "CANARIAS"
+        ],
+        "regionCodes": [],
+        "scope": "international"
+      },
+      "id": "opp:sha256:eeb52aed883bb418704b4bbe8dcdd01eda82d59180e89d2ef6e2ab0ff2f04452",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bdns:928165"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bdns:928165"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "CONVOCATORIA SUBV. PRL MINISTERIO, 2026"
         }
       ]
     },
@@ -162,23 +390,174 @@
         {
           "id": "window:primary",
           "mode": "unknown",
-          "opensAt": "2026-09-10T00:00:00+02:00",
+          "opensAt": "2026-09-07T00:00:00+02:00",
           "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
           "timeZone": "Europe/Madrid",
           "verified": false
         }
       ],
       "authority": {
-        "id": "authority:sha256:26c2118b23a61fee593c1f01eb6e9f8552f7334eddacbe0e7e6f52f53a9130ba",
+        "id": "authority:sha256:f7054c8db104d449e8681bfdbc7307543696d46cc790230e9e979d921fa233d1",
         "level": "international",
-        "name": "UNIVERSIDAD JAUME I DE CASTELLÓN"
+        "name": "DIRECCIÓN GENERAL DE INNOVACIÓN E INCLUSIÓN EDUCATIVA"
       },
       "beneficiaryClasses": [],
-      "canonicalReference": "928817",
-      "currentVersionId": "oppver:sha256:e09e31def83550488766c451236cd87260d630dfef7831e7a4319b41150b94db",
+      "canonicalReference": "928171",
+      "currentVersionId": "oppver:sha256:e36b1c52badaaad4c7e77c9f9f81d6fb82fd38cfa7a37e32b6d6a5577bf50e12",
       "documentRevisionIds": [],
       "eligibleActivities": [
-        "ciencia y salud",
+        "por clasificar"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
+        ],
+        "programmeBudget": 337500
+      },
+      "geography": {
+        "countryCodes": [],
+        "executionPlaces": [
+          "EXTREMADURA"
+        ],
+        "regionCodes": [],
+        "scope": "international"
+      },
+      "id": "opp:sha256:f4b01311edeea0e8ae013163bc8628a2f136f093331814f03f11589a6856d98a",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bdns:928171"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bdns:928171"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "Ayudas 2026 a centros concertados para Programa Refuerzo Educativo Competencial curso 2026/2027, según Resolución de 13 de julio de 2026"
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "closesAt": "2026-09-11T23:59:59+02:00",
+          "id": "window:primary",
+          "mode": "absolute",
+          "opensAt": "2026-09-07T00:00:00+02:00",
+          "timeZone": "Europe/Madrid",
+          "verified": true
+        }
+      ],
+      "authority": {
+        "id": "authority:sha256:db7ed8f82778b5bd5ab67b2f9907d4213f05797c25915386e22c8acd4ac975c2",
+        "level": "international",
+        "name": "AYUNTAMIENTO DE VIGO"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "928172",
+      "currentVersionId": "oppver:sha256:7bc4a6c62a8f2cd90eda482a43d6ecd194cc97116a7e4b1ce52f33a10aa48e99",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
+        "por clasificar"
+      ],
+      "excludedActivities": [],
+      "family": "grant",
+      "finance": {
+        "currency": "EUR",
+        "eligibleCostNotes": [
+          "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
+        ],
+        "programmeBudget": 500000
+      },
+      "geography": {
+        "countryCodes": [],
+        "executionPlaces": [
+          "VIGO"
+        ],
+        "regionCodes": [],
+        "scope": "international"
+      },
+      "id": "opp:sha256:55f3ec636ccafd25193d04c137ac792fa640a4bf92fbebd8ee6fa6b4838ddb44",
+      "incompatibilities": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "lifecycleStatus": "open",
+      "provenance": {
+        "claimIds": [],
+        "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+        "documentRevisionIds": [],
+        "resolverVersion": "resolver-v2.0.0",
+        "sourceRecordIds": [
+          "src:bdns:928172"
+        ]
+      },
+      "quality": {
+        "completeness": 0.5,
+        "conflictCount": 0,
+        "evidenceCoverage": 0,
+        "reviewStatus": "needs_review"
+      },
+      "relatedOpportunityIds": [],
+      "schemaVersion": "2.0.0",
+      "sourceRecordIds": [
+        "src:bdns:928172"
+      ],
+      "submission": {
+        "channel": "unknown",
+        "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+      },
+      "titles": [
+        {
+          "language": "es",
+          "value": "SUBVENCIONES PARA LA FINANCIACIÓN DE ACTIVIDADES SOCIOCULTURALES REALIZADAS POR EMPRESAS  Y O EMPRESARIOS/AS EN EL AUDITORIO-PAZO DE CONGRESOS MAR DE VIGO, EN EL PERÍODO COMPRENDIDO ENTRE EL 1 DE NOVIEMBRE DE 2025 Y EL 31 DE OCTUBRE DE 2026."
+        }
+      ]
+    },
+    {
+      "applicationWindows": [
+        {
+          "id": "window:primary",
+          "mode": "unknown",
+          "opensAt": "2026-09-08T00:00:00+02:00",
+          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+          "timeZone": "Europe/Madrid",
+          "verified": false
+        }
+      ],
+      "authority": {
+        "id": "authority:sha256:dbcbfba9dcfb8bf4dab2809855b3cbcfde1c8b343d4ea2b6b1856acae7a570f5",
+        "level": "international",
+        "name": "UNIVERSIDAD DE OVIEDO"
+      },
+      "beneficiaryClasses": [],
+      "canonicalReference": "928173",
+      "currentVersionId": "oppver:sha256:5795f79bf40ee71c6e2cc0ad6dbbc18bb85da679ca6fc59d14efb2dd42c17c5d",
+      "documentRevisionIds": [],
+      "eligibleActivities": [
         "docencia"
       ],
       "excludedActivities": [],
@@ -188,28 +567,28 @@
         "eligibleCostNotes": [
           "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
         ],
-        "programmeBudget": 1378
+        "programmeBudget": 2000
       },
       "geography": {
         "countryCodes": [],
         "executionPlaces": [
-          "UNIVERSIDAD JAUME I DE CASTELLÓN"
+          "UNIVERSIDAD DE OVIEDO"
         ],
         "regionCodes": [],
         "scope": "international"
       },
-      "id": "opp:sha256:5d64c22da058d7b74de6fc66f31f7a4ce2c33cb903e00f088629b8875941deee",
+      "id": "opp:sha256:f2469e1a125d2c17e204e1adfc62a81ccd97e02f407405a24355de47e95815ca",
       "incompatibilities": [
         "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
       ],
       "lifecycleStatus": "open",
       "provenance": {
         "claimIds": [],
-        "derivedAt": "2026-09-10T15:00:02.376467+00:00",
+        "derivedAt": "2026-09-08T07:13:49.449154+00:00",
         "documentRevisionIds": [],
         "resolverVersion": "resolver-v2.0.0",
         "sourceRecordIds": [
-          "src:bdns:928817"
+          "src:bdns:928173"
         ]
       },
       "quality": {
@@ -221,7 +600,7 @@
       "relatedOpportunityIds": [],
       "schemaVersion": "2.0.0",
       "sourceRecordIds": [
-        "src:bdns:928817"
+        "src:bdns:928173"
       ],
       "submission": {
         "channel": "unknown",
@@ -230,7 +609,7 @@
       "titles": [
         {
           "language": "es",
-          "value": "Beca de iniciación a la investigación (Proyecto «MODALITAT A: AJUDES COMPLEMENTÀRIES ALS PROJECTES D’INVESTIGACIÓ CAPTATS PEL PERSONAL INVESTIGADOR DE LA UNIVERSITAT JAUME I DINS DEL PEICTI I DEL PROGRAMA R+D+I DE LA GENERALITAT VALENCIANA»"
+          "value": "Convocatoria de becas para estudiantes del Máster Erasmus Mundus en Estudios de las Mujeres y de Género – GEMMA, Máster Universitario en Género y Diversidad de la Universidad de Oviedo, curso académico 2026-2027 en régimen de concurrencia competitiva"
         }
       ]
     },
@@ -239,172 +618,20 @@
         {
           "id": "window:primary",
           "mode": "unknown",
-          "opensAt": "2026-09-10T00:00:00+02:00",
+          "opensAt": "2026-09-08T00:00:00+02:00",
           "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
           "timeZone": "Europe/Madrid",
           "verified": false
         }
       ],
       "authority": {
-        "id": "authority:sha256:946c0227d467c6bec167785a7807c629711e2e41a7be0593b28ec36696a6116d",
+        "id": "authority:sha256:dbcbfba9dcfb8bf4dab2809855b3cbcfde1c8b343d4ea2b6b1856acae7a570f5",
         "level": "international",
-        "name": "SOCIEDAD PARA EL DESARROLLO DE LA PROVINCIA DE BURGOS"
+        "name": "UNIVERSIDAD DE OVIEDO"
       },
       "beneficiaryClasses": [],
-      "canonicalReference": "928834",
-      "currentVersionId": "oppver:sha256:6311be1db5a1e6892cefb992efa6a95a1c2b2ffe8883043878c5786a2b0db68c",
-      "documentRevisionIds": [],
-      "eligibleActivities": [
-        "rural"
-      ],
-      "excludedActivities": [],
-      "family": "grant",
-      "finance": {
-        "currency": "EUR",
-        "eligibleCostNotes": [
-          "OTROS INSTRUMENTOS DE AYUDA"
-        ],
-        "programmeBudget": 44850
-      },
-      "geography": {
-        "countryCodes": [],
-        "executionPlaces": [
-          "DIPUTACIÓN PROV. DE BURGOS"
-        ],
-        "regionCodes": [],
-        "scope": "international"
-      },
-      "id": "opp:sha256:2645aa3115d534c3864f435e3da9f88154eb87463c1c83125253d36ddf6d1af8",
-      "incompatibilities": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "lifecycleStatus": "open",
-      "provenance": {
-        "claimIds": [],
-        "derivedAt": "2026-09-10T15:00:02.376467+00:00",
-        "documentRevisionIds": [],
-        "resolverVersion": "resolver-v2.0.0",
-        "sourceRecordIds": [
-          "src:bdns:928834"
-        ]
-      },
-      "quality": {
-        "completeness": 0.5,
-        "conflictCount": 0,
-        "evidenceCoverage": 0,
-        "reviewStatus": "needs_review"
-      },
-      "relatedOpportunityIds": [],
-      "schemaVersion": "2.0.0",
-      "sourceRecordIds": [
-        "src:bdns:928834"
-      ],
-      "submission": {
-        "channel": "unknown",
-        "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-      },
-      "titles": [
-        {
-          "language": "es",
-          "value": "Por acuerdo de 14/05/2026 del Consejo de Administración de SODEBUR por el que se aprueba la concesión de un Convenio con la Asoc. Pinares El Valle para el Desarrollo Rural Integral, para impulsar el desarrollo rural en el área territorial de Pinares."
-        }
-      ]
-    },
-    {
-      "applicationWindows": [
-        {
-          "id": "window:primary",
-          "mode": "unknown",
-          "opensAt": "2026-09-10T00:00:00+02:00",
-          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
-          "timeZone": "Europe/Madrid",
-          "verified": false
-        }
-      ],
-      "authority": {
-        "id": "authority:sha256:946c0227d467c6bec167785a7807c629711e2e41a7be0593b28ec36696a6116d",
-        "level": "international",
-        "name": "SOCIEDAD PARA EL DESARROLLO DE LA PROVINCIA DE BURGOS"
-      },
-      "beneficiaryClasses": [],
-      "canonicalReference": "928837",
-      "currentVersionId": "oppver:sha256:5136a55bbd1293d4f7fee413648b84ab6263b91da07dcaa8e02e475114c42973",
-      "documentRevisionIds": [],
-      "eligibleActivities": [
-        "rural"
-      ],
-      "excludedActivities": [],
-      "family": "grant",
-      "finance": {
-        "currency": "EUR",
-        "eligibleCostNotes": [
-          "OTROS INSTRUMENTOS DE AYUDA"
-        ],
-        "programmeBudget": 280000
-      },
-      "geography": {
-        "countryCodes": [],
-        "executionPlaces": [
-          "DIPUTACIÓN PROV. DE BURGOS"
-        ],
-        "regionCodes": [],
-        "scope": "international"
-      },
-      "id": "opp:sha256:d176fecd61a63e063901c4b83db25bed7c9bd2f40bdf7912eb21921c3f844ed9",
-      "incompatibilities": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "lifecycleStatus": "open",
-      "provenance": {
-        "claimIds": [],
-        "derivedAt": "2026-09-10T15:00:02.376467+00:00",
-        "documentRevisionIds": [],
-        "resolverVersion": "resolver-v2.0.0",
-        "sourceRecordIds": [
-          "src:bdns:928837"
-        ]
-      },
-      "quality": {
-        "completeness": 0.5,
-        "conflictCount": 0,
-        "evidenceCoverage": 0,
-        "reviewStatus": "needs_review"
-      },
-      "relatedOpportunityIds": [],
-      "schemaVersion": "2.0.0",
-      "sourceRecordIds": [
-        "src:bdns:928837"
-      ],
-      "submission": {
-        "channel": "unknown",
-        "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-      },
-      "titles": [
-        {
-          "language": "es",
-          "value": "Por acuerdo de 14/05/2026 del Consejo de Administración de SODEBUR por el que se aprueba la concesión de un Convenio con el Centro de Desarrollo Rural Merindades, para impulsar el desarrollo rural en el área territorial de las Merindades."
-        }
-      ]
-    },
-    {
-      "applicationWindows": [
-        {
-          "id": "window:primary",
-          "mode": "unknown",
-          "opensAt": "2026-09-10T00:00:00+02:00",
-          "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
-          "timeZone": "Europe/Madrid",
-          "verified": false
-        }
-      ],
-      "authority": {
-        "id": "authority:sha256:1339cadf3f8118b5897eda8c52072a96a739a277d7fe299218c97c76e7f342d1",
-        "level": "international",
-        "name": "CONSEJO SUPERIOR DE DEPORTES"
-      },
-      "beneficiaryClasses": [],
-      "canonicalReference": "928841",
-      "currentVersionId": "oppver:sha256:eb60e4138b76ce4e8d83d50180493e3f25530169857e15d8da5b12b46824cbd9",
+      "canonicalReference": "928174",
+      "currentVersionId": "oppver:sha256:a4543ec78ef520220063bd56114df67d3f72fe297a490d607bea4664ab08db8d",
       "documentRevisionIds": [],
       "eligibleActivities": [
         "docencia"
@@ -416,28 +643,28 @@
         "eligibleCostNotes": [
           "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
         ],
-        "programmeBudget": 700000
+        "programmeBudget": 2000
       },
       "geography": {
         "countryCodes": [],
         "executionPlaces": [
-          "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES"
+          "UNIVERSIDAD DE OVIEDO"
         ],
         "regionCodes": [],
         "scope": "international"
       },
-      "id": "opp:sha256:7249e607406705995d96076ecf0340502a850550a86048efb3cd0c9cd912397d",
+      "id": "opp:sha256:4e145873fc3173e7ab79b4bd17cd7c3a7f93516467ba2ca325fca225d3f86297",
       "incompatibilities": [
         "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
       ],
       "lifecycleStatus": "open",
       "provenance": {
         "claimIds": [],
-        "derivedAt": "2026-09-10T15:00:02.376467+00:00",
+        "derivedAt": "2026-09-08T07:13:49.449154+00:00",
         "documentRevisionIds": [],
         "resolverVersion": "resolver-v2.0.0",
         "sourceRecordIds": [
-          "src:bdns:928841"
+          "src:bdns:928174"
         ]
       },
       "quality": {
@@ -449,7 +676,7 @@
       "relatedOpportunityIds": [],
       "schemaVersion": "2.0.0",
       "sourceRecordIds": [
-        "src:bdns:928841"
+        "src:bdns:928174"
       ],
       "submission": {
         "channel": "unknown",
@@ -458,7 +685,7 @@
       "titles": [
         {
           "language": "es",
-          "value": "Convocatoria de ayudas sociales a mujeres deportistas, técnicas, entrenadoras, árbitras y juezas, en el año 2026"
+          "value": "Convocatoria de becas para estudiantes del Programa de Doctorado en  Género y Diversidad de la Universidad de Oviedo, curso académico 2026-2027 en régimen de concurrencia competitiva"
         }
       ]
     }
@@ -472,21 +699,21 @@
         "version": "v1-to-v2.1.0.0"
       },
       "canonicalUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "contentHash": "sha256:f9ecac9df5fa1fb68baf78260321725486451e2af9fe04a21c945dea2deeeb4f",
-      "externalId": "928812",
+      "contentHash": "sha256:45d8195b27fcfab3738ed6258eaa6ea9448f77e81dd48059a55cc7d9a595befd",
+      "externalId": "928119",
       "externalReferences": [
-        "928812"
+        "928119"
       ],
-      "firstObservedAt": "2026-09-10T15:00:02.376467+00:00",
+      "firstObservedAt": "2026-09-08T07:13:49.449154+00:00",
       "http": {
         "contentType": "application/vnd.radar.v1+json",
         "status": 200
       },
-      "id": "src:bdns:928812",
-      "lastObservedAt": "2026-09-10T15:00:02.376467+00:00",
-      "publishedAt": "2026-09-10T00:00:00+02:00",
+      "id": "src:bdns:928119",
+      "lastObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "publishedAt": "2026-09-07T00:00:00+02:00",
       "retrieval": {
-        "checkedAt": "2026-09-10T15:00:02.376467+00:00",
+        "checkedAt": "2026-09-08T07:13:49.449154+00:00",
         "status": "ok"
       },
       "retrievedUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
@@ -500,21 +727,21 @@
         "version": "v1-to-v2.1.0.0"
       },
       "canonicalUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "contentHash": "sha256:d0e2939a5af22f1810440cbdd944bbcdced10ee1c68dbc4eab3caffcc1686f3e",
-      "externalId": "928815",
+      "contentHash": "sha256:0d99f518fdbf440f6a7a5c5da80361530c410369328bc91e4fcd02a190f31930",
+      "externalId": "928136",
       "externalReferences": [
-        "928815"
+        "928136"
       ],
-      "firstObservedAt": "2026-09-10T15:00:02.376467+00:00",
+      "firstObservedAt": "2026-09-08T07:13:49.449154+00:00",
       "http": {
         "contentType": "application/vnd.radar.v1+json",
         "status": 200
       },
-      "id": "src:bdns:928815",
-      "lastObservedAt": "2026-09-10T15:00:02.376467+00:00",
-      "publishedAt": "2026-09-10T00:00:00+02:00",
+      "id": "src:bdns:928136",
+      "lastObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "publishedAt": "2026-09-07T00:00:00+02:00",
       "retrieval": {
-        "checkedAt": "2026-09-10T15:00:02.376467+00:00",
+        "checkedAt": "2026-09-08T07:13:49.449154+00:00",
         "status": "ok"
       },
       "retrievedUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
@@ -528,21 +755,21 @@
         "version": "v1-to-v2.1.0.0"
       },
       "canonicalUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "contentHash": "sha256:f756a62965d79ef144e32db15d6a3e67d151d58bdf31a9b4a6683d25bbb18c37",
-      "externalId": "928817",
+      "contentHash": "sha256:dfcd009d6a7ccbe761d8bc377fed2fe9782fce0a278467c2a79ab1d5894df51c",
+      "externalId": "928143",
       "externalReferences": [
-        "928817"
+        "928143"
       ],
-      "firstObservedAt": "2026-09-10T15:00:02.376467+00:00",
+      "firstObservedAt": "2026-09-08T07:13:49.449154+00:00",
       "http": {
         "contentType": "application/vnd.radar.v1+json",
         "status": 200
       },
-      "id": "src:bdns:928817",
-      "lastObservedAt": "2026-09-10T15:00:02.376467+00:00",
-      "publishedAt": "2026-09-10T00:00:00+02:00",
+      "id": "src:bdns:928143",
+      "lastObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "publishedAt": "2026-09-07T00:00:00+02:00",
       "retrieval": {
-        "checkedAt": "2026-09-10T15:00:02.376467+00:00",
+        "checkedAt": "2026-09-08T07:13:49.449154+00:00",
         "status": "ok"
       },
       "retrievedUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
@@ -556,21 +783,21 @@
         "version": "v1-to-v2.1.0.0"
       },
       "canonicalUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "contentHash": "sha256:a36cece62044f5b64676e541f317c97e2bd4af78570d1a94e452e411926a20f8",
-      "externalId": "928834",
+      "contentHash": "sha256:6427b7ee4f312d5621fe54cb6d6bac8b455fdeea0b8850ce630787fdf9f29db5",
+      "externalId": "928157",
       "externalReferences": [
-        "928834"
+        "928157"
       ],
-      "firstObservedAt": "2026-09-10T15:00:02.376467+00:00",
+      "firstObservedAt": "2026-09-08T07:13:49.449154+00:00",
       "http": {
         "contentType": "application/vnd.radar.v1+json",
         "status": 200
       },
-      "id": "src:bdns:928834",
-      "lastObservedAt": "2026-09-10T15:00:02.376467+00:00",
-      "publishedAt": "2026-09-10T00:00:00+02:00",
+      "id": "src:bdns:928157",
+      "lastObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "publishedAt": "2026-09-07T00:00:00+02:00",
       "retrieval": {
-        "checkedAt": "2026-09-10T15:00:02.376467+00:00",
+        "checkedAt": "2026-09-08T07:13:49.449154+00:00",
         "status": "ok"
       },
       "retrievedUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
@@ -584,21 +811,21 @@
         "version": "v1-to-v2.1.0.0"
       },
       "canonicalUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "contentHash": "sha256:4b34b30d89c067735b3d4ebb98df878090973ba7d754e974d070af9b5bca5be9",
-      "externalId": "928837",
+      "contentHash": "sha256:8f56f65efa1f9e956f9ecd20c93d92360234b86110af46e2708fe5d374805956",
+      "externalId": "928165",
       "externalReferences": [
-        "928837"
+        "928165"
       ],
-      "firstObservedAt": "2026-09-10T15:00:02.376467+00:00",
+      "firstObservedAt": "2026-09-08T07:13:49.449154+00:00",
       "http": {
         "contentType": "application/vnd.radar.v1+json",
         "status": 200
       },
-      "id": "src:bdns:928837",
-      "lastObservedAt": "2026-09-10T15:00:02.376467+00:00",
-      "publishedAt": "2026-09-10T00:00:00+02:00",
+      "id": "src:bdns:928165",
+      "lastObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "publishedAt": "2026-09-07T00:00:00+02:00",
       "retrieval": {
-        "checkedAt": "2026-09-10T15:00:02.376467+00:00",
+        "checkedAt": "2026-09-08T07:13:49.449154+00:00",
         "status": "ok"
       },
       "retrievedUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
@@ -612,21 +839,105 @@
         "version": "v1-to-v2.1.0.0"
       },
       "canonicalUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "contentHash": "sha256:763404b1453b29f08a5b50afbe7d33594255f183dd9e56db14b8fc6ddfbb1d5d",
-      "externalId": "928841",
+      "contentHash": "sha256:5425ef6cc3bd9211ce12062b945057c18301adef75315de57b13fce76ebab712",
+      "externalId": "928171",
       "externalReferences": [
-        "928841"
+        "928171"
       ],
-      "firstObservedAt": "2026-09-10T15:00:02.376467+00:00",
+      "firstObservedAt": "2026-09-08T07:13:49.449154+00:00",
       "http": {
         "contentType": "application/vnd.radar.v1+json",
         "status": 200
       },
-      "id": "src:bdns:928841",
-      "lastObservedAt": "2026-09-10T15:00:02.376467+00:00",
-      "publishedAt": "2026-09-10T00:00:00+02:00",
+      "id": "src:bdns:928171",
+      "lastObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "publishedAt": "2026-09-07T00:00:00+02:00",
       "retrieval": {
-        "checkedAt": "2026-09-10T15:00:02.376467+00:00",
+        "checkedAt": "2026-09-08T07:13:49.449154+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bdns"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
+      "canonicalUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "contentHash": "sha256:83cce4bc6fab6ca79848a2ae9e2cde19ad9a5aed68807d8888e44156e310a7f3",
+      "externalId": "928172",
+      "externalReferences": [
+        "928172"
+      ],
+      "firstObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bdns:928172",
+      "lastObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "publishedAt": "2026-09-07T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-08T07:13:49.449154+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bdns"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
+      "canonicalUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "contentHash": "sha256:30d0c010679e3cbab404e4b9d35d01de8614dc170566650ccc214b6e5164365a",
+      "externalId": "928173",
+      "externalReferences": [
+        "928173"
+      ],
+      "firstObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bdns:928173",
+      "lastObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "publishedAt": "2026-09-08T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-08T07:13:49.449154+00:00",
+        "status": "ok"
+      },
+      "retrievedUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "schemaVersion": "2.0.0",
+      "sourceKey": "bdns"
+    },
+    {
+      "adapter": {
+        "name": "v1-public-catalog",
+        "schemaVersion": "1",
+        "version": "v1-to-v2.1.0.0"
+      },
+      "canonicalUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "contentHash": "sha256:61a9f67887d8304eccedd0fd5e03edad831b89736feed6bb4777d699fce77788",
+      "externalId": "928174",
+      "externalReferences": [
+        "928174"
+      ],
+      "firstObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "http": {
+        "contentType": "application/vnd.radar.v1+json",
+        "status": 200
+      },
+      "id": "src:bdns:928174",
+      "lastObservedAt": "2026-09-08T07:13:49.449154+00:00",
+      "publishedAt": "2026-09-08T00:00:00+02:00",
+      "retrieval": {
+        "checkedAt": "2026-09-08T07:13:49.449154+00:00",
         "status": "ok"
       },
       "retrievedUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
@@ -637,12 +948,12 @@
   "versions": [
     {
       "claimIds": [],
-      "contentHash": "sha256:018d0762039b8a6a30414137e588a48dfb231171ae0365b2bee3e69d179c1a11",
+      "contentHash": "sha256:81f7ac59a253e7571c853bd5c89a0a707e525b7a01d2f9ae318724bab2bee0f2",
       "documentRevisionIds": [],
-      "effectiveAt": "2026-09-10T00:00:00+02:00",
-      "id": "oppver:sha256:018d0762039b8a6a30414137e588a48dfb231171ae0365b2bee3e69d179c1a11",
-      "observedAt": "2026-09-10T15:00:02.376467+00:00",
-      "opportunityId": "opp:sha256:814cd2309fb7c1f5d7c9e98fd10b44314f419960638cb2e792b24890a993b53f",
+      "effectiveAt": "2026-09-07T00:00:00+02:00",
+      "id": "oppver:sha256:81f7ac59a253e7571c853bd5c89a0a707e525b7a01d2f9ae318724bab2bee0f2",
+      "observedAt": "2026-09-08T07:13:49.449154+00:00",
+      "opportunityId": "opp:sha256:88aaedae9f9487544b12ee758dbda873f0e5f2aa9e4968729f2a5c3ea423b307",
       "precedenceRuleVersion": "precedence-v2.0.0",
       "schemaVersion": "2.0.0",
       "semanticDiff": [],
@@ -650,22 +961,206 @@
       "snapshot": {
         "applicationWindows": [
           {
-            "closesAt": "2026-12-18T23:59:59+01:00",
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-07T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "id": "authority:sha256:c1bd03298d376a868e639fa42f9f434f3ed40f49da716f8849e0169bab92221e",
+          "level": "international",
+          "name": "CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "928119",
+        "currentVersionId": "oppver:sha256:81f7ac59a253e7571c853bd5c89a0a707e525b7a01d2f9ae318724bab2bee0f2",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "por clasificar"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
+          ],
+          "programmeBudget": 3000000
+        },
+        "geography": {
+          "countryCodes": [],
+          "executionPlaces": [
+            "COMUNIDAD DE MADRID"
+          ],
+          "regionCodes": [],
+          "scope": "international"
+        },
+        "id": "opp:sha256:88aaedae9f9487544b12ee758dbda873f0e5f2aa9e4968729f2a5c3ea423b307",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bdns:928119"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bdns:928119"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "AYUDAS EMERGENCIA PARA PYMES INDUSTRIALES AFECTADAS INCENDIOS SIERRA OESTE"
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bdns:928119"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:f17864591913583fabf0fbcc37b3929558b58f5f6d577008cfaa651402e38124",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-07T00:00:00+02:00",
+      "id": "oppver:sha256:f17864591913583fabf0fbcc37b3929558b58f5f6d577008cfaa651402e38124",
+      "observedAt": "2026-09-08T07:13:49.449154+00:00",
+      "opportunityId": "opp:sha256:0e01de9261e95120be6b82274485b671b5b08f77755222f7d28604d56d282cf6",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "closesAt": "2026-10-02T23:59:59+02:00",
             "id": "window:primary",
             "mode": "absolute",
-            "opensAt": "2026-09-10T00:00:00+02:00",
+            "opensAt": "2026-09-07T00:00:00+02:00",
             "timeZone": "Europe/Madrid",
             "verified": true
           }
         ],
         "authority": {
-          "id": "authority:sha256:9c7ae2563c04d045b4c259534326885c2daf352e3899d87a645ba3a040b82441",
+          "id": "authority:sha256:ba248b819525bcf3921a47190f48eb4e06d75a9d5e69b530e77e7bdaa18f0f70",
           "level": "international",
-          "name": "AYUNTAMIENTO DE VALLS"
+          "name": "CÁMARA DE COMERCIO DE ALMERÍA"
         },
         "beneficiaryClasses": [],
-        "canonicalReference": "928812",
-        "currentVersionId": "oppver:sha256:018d0762039b8a6a30414137e588a48dfb231171ae0365b2bee3e69d179c1a11",
+        "canonicalReference": "928136",
+        "currentVersionId": "oppver:sha256:f17864591913583fabf0fbcc37b3929558b58f5f6d577008cfaa651402e38124",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "comercio"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
+          ],
+          "programmeBudget": 19956
+        },
+        "geography": {
+          "countryCodes": [],
+          "executionPlaces": [
+            "CÁMARA DE COMERCIO DE ALMERÍA"
+          ],
+          "regionCodes": [],
+          "scope": "international"
+        },
+        "id": "opp:sha256:0e01de9261e95120be6b82274485b671b5b08f77755222f7d28604d56d282cf6",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bdns:928136"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bdns:928136"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "Convocatoria Pyme Global 2026 Visita feria World Travel Market de Londres para empresas de la provincia de Almería"
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bdns:928136"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:bd38638a4cfdd3ff870dfef0591228c94f8ce9645aac2b87184c3dc37ad195e7",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-07T00:00:00+02:00",
+      "id": "oppver:sha256:bd38638a4cfdd3ff870dfef0591228c94f8ce9645aac2b87184c3dc37ad195e7",
+      "observedAt": "2026-09-08T07:13:49.449154+00:00",
+      "opportunityId": "opp:sha256:148bac15d3c3919d333db77bed1e26082add8cc74f9e157790258ce73b3e0a23",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-07T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "id": "authority:sha256:69e1113eed9b610a5af26b2393cbb12794a8b78e8ac06a82ee794db802faa216",
+          "level": "international",
+          "name": "AYUNTAMIENTO DE RIBA-ROJA DE TÚRIA"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "928143",
+        "currentVersionId": "oppver:sha256:bd38638a4cfdd3ff870dfef0591228c94f8ce9645aac2b87184c3dc37ad195e7",
         "documentRevisionIds": [],
         "eligibleActivities": [
           "vivienda"
@@ -677,28 +1172,28 @@
           "eligibleCostNotes": [
             "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
           ],
-          "programmeBudget": 60000
+          "programmeBudget": 100000
         },
         "geography": {
           "countryCodes": [],
           "executionPlaces": [
-            "VALLS"
+            "RIBA-ROJA DE TÚRIA"
           ],
           "regionCodes": [],
           "scope": "international"
         },
-        "id": "opp:sha256:814cd2309fb7c1f5d7c9e98fd10b44314f419960638cb2e792b24890a993b53f",
+        "id": "opp:sha256:148bac15d3c3919d333db77bed1e26082add8cc74f9e157790258ce73b3e0a23",
         "incompatibilities": [
           "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
         ],
         "lifecycleStatus": "open",
         "provenance": {
           "claimIds": [],
-          "derivedAt": "2026-09-10T15:00:02.376467+00:00",
+          "derivedAt": "2026-09-08T07:13:49.449154+00:00",
           "documentRevisionIds": [],
           "resolverVersion": "resolver-v2.0.0",
           "sourceRecordIds": [
-            "src:bdns:928812"
+            "src:bdns:928143"
           ]
         },
         "quality": {
@@ -710,7 +1205,7 @@
         "relatedOpportunityIds": [],
         "schemaVersion": "2.0.0",
         "sourceRecordIds": [
-          "src:bdns:928812"
+          "src:bdns:928143"
         ],
         "submission": {
           "channel": "unknown",
@@ -719,22 +1214,22 @@
         "titles": [
           {
             "language": "es",
-            "value": "CONVOCATORIA DE SUBVENCIONES PARA LA REHABILITACION I RECUPERACIÓN DE EDIFICIOS DENTRO DEL ÀMBITO DEL BARRIO ANTIGUO"
+            "value": "AYUDAS DESTINADAS A LA REHABILITACIÓN DE FACHADAS DE VIVIENDAS, EN RÉGIMEN DE CONCURRENCIA COMPETITIVA PARA LOS EJERCICIOS 2026-2027"
           }
         ]
       },
       "sourceRecordIds": [
-        "src:bdns:928812"
+        "src:bdns:928143"
       ]
     },
     {
       "claimIds": [],
-      "contentHash": "sha256:aa0278a0d47a3907768b1ba78c6ce7d9df221690e3a635072882e1c3a113fe52",
+      "contentHash": "sha256:214f7f00482f98bca1ef79e7f2013b96eaa199014ff28b409f8aac2fbf519e83",
       "documentRevisionIds": [],
-      "effectiveAt": "2026-09-10T00:00:00+02:00",
-      "id": "oppver:sha256:aa0278a0d47a3907768b1ba78c6ce7d9df221690e3a635072882e1c3a113fe52",
-      "observedAt": "2026-09-10T15:00:02.376467+00:00",
-      "opportunityId": "opp:sha256:aba44f4ec58b485aec9fcb4e83ef9fda884266211f98cc065d28954314a2d3e6",
+      "effectiveAt": "2026-09-07T00:00:00+02:00",
+      "id": "oppver:sha256:214f7f00482f98bca1ef79e7f2013b96eaa199014ff28b409f8aac2fbf519e83",
+      "observedAt": "2026-09-08T07:13:49.449154+00:00",
+      "opportunityId": "opp:sha256:10096f1a9ca2ef0c2d74d831e421995d139ed6563a2dd614bc27039b0ead2e5e",
       "precedenceRuleVersion": "precedence-v2.0.0",
       "schemaVersion": "2.0.0",
       "semanticDiff": [],
@@ -744,53 +1239,53 @@
           {
             "id": "window:primary",
             "mode": "unknown",
-            "opensAt": "2026-09-10T00:00:00+02:00",
+            "opensAt": "2026-09-07T00:00:00+02:00",
             "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
             "timeZone": "Europe/Madrid",
             "verified": false
           }
         ],
         "authority": {
-          "id": "authority:sha256:946c0227d467c6bec167785a7807c629711e2e41a7be0593b28ec36696a6116d",
+          "id": "authority:sha256:69e1113eed9b610a5af26b2393cbb12794a8b78e8ac06a82ee794db802faa216",
           "level": "international",
-          "name": "SOCIEDAD PARA EL DESARROLLO DE LA PROVINCIA DE BURGOS"
+          "name": "AYUNTAMIENTO DE RIBA-ROJA DE TÚRIA"
         },
         "beneficiaryClasses": [],
-        "canonicalReference": "928815",
-        "currentVersionId": "oppver:sha256:aa0278a0d47a3907768b1ba78c6ce7d9df221690e3a635072882e1c3a113fe52",
+        "canonicalReference": "928157",
+        "currentVersionId": "oppver:sha256:214f7f00482f98bca1ef79e7f2013b96eaa199014ff28b409f8aac2fbf519e83",
         "documentRevisionIds": [],
         "eligibleActivities": [
-          "rural"
+          "vivienda"
         ],
         "excludedActivities": [],
         "family": "grant",
         "finance": {
           "currency": "EUR",
           "eligibleCostNotes": [
-            "OTROS INSTRUMENTOS DE AYUDA"
+            "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
           ],
-          "programmeBudget": 202000
+          "programmeBudget": 30000
         },
         "geography": {
           "countryCodes": [],
           "executionPlaces": [
-            "DIPUTACIÓN PROV. DE BURGOS"
+            "RIBA-ROJA DE TÚRIA"
           ],
           "regionCodes": [],
           "scope": "international"
         },
-        "id": "opp:sha256:aba44f4ec58b485aec9fcb4e83ef9fda884266211f98cc065d28954314a2d3e6",
+        "id": "opp:sha256:10096f1a9ca2ef0c2d74d831e421995d139ed6563a2dd614bc27039b0ead2e5e",
         "incompatibilities": [
           "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
         ],
         "lifecycleStatus": "open",
         "provenance": {
           "claimIds": [],
-          "derivedAt": "2026-09-10T15:00:02.376467+00:00",
+          "derivedAt": "2026-09-08T07:13:49.449154+00:00",
           "documentRevisionIds": [],
           "resolverVersion": "resolver-v2.0.0",
           "sourceRecordIds": [
-            "src:bdns:928815"
+            "src:bdns:928157"
           ]
         },
         "quality": {
@@ -802,7 +1297,7 @@
         "relatedOpportunityIds": [],
         "schemaVersion": "2.0.0",
         "sourceRecordIds": [
-          "src:bdns:928815"
+          "src:bdns:928157"
         ],
         "submission": {
           "channel": "unknown",
@@ -811,22 +1306,114 @@
         "titles": [
           {
             "language": "es",
-            "value": "Por acuerdo de 14/05/2026 del Consejo de Administración de SODEBUR por el que se aprueba la concesión de un Convenio con AGALSA, para impulsar el desarrollo rural en el área territorial de la Sierra de la Demanda."
+            "value": "Ayudas destinadas a la mejora de accesibilidad de los edificios de vivienda ocupadas por personas mayores de 65 años o con grado de discapacidad superior al 33%, para los ejercicios 2026-2027"
           }
         ]
       },
       "sourceRecordIds": [
-        "src:bdns:928815"
+        "src:bdns:928157"
       ]
     },
     {
       "claimIds": [],
-      "contentHash": "sha256:e09e31def83550488766c451236cd87260d630dfef7831e7a4319b41150b94db",
+      "contentHash": "sha256:76dc0e9957180ec8183bf03e52db0083b636128f7d660c6f0db9170488b9181b",
       "documentRevisionIds": [],
-      "effectiveAt": "2026-09-10T00:00:00+02:00",
-      "id": "oppver:sha256:e09e31def83550488766c451236cd87260d630dfef7831e7a4319b41150b94db",
-      "observedAt": "2026-09-10T15:00:02.376467+00:00",
-      "opportunityId": "opp:sha256:5d64c22da058d7b74de6fc66f31f7a4ce2c33cb903e00f088629b8875941deee",
+      "effectiveAt": "2026-09-07T00:00:00+02:00",
+      "id": "oppver:sha256:76dc0e9957180ec8183bf03e52db0083b636128f7d660c6f0db9170488b9181b",
+      "observedAt": "2026-09-08T07:13:49.449154+00:00",
+      "opportunityId": "opp:sha256:eeb52aed883bb418704b4bbe8dcdd01eda82d59180e89d2ef6e2ab0ff2f04452",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "closesAt": "2026-12-31T23:59:59+01:00",
+            "id": "window:primary",
+            "mode": "absolute",
+            "opensAt": "2026-09-07T00:00:00+02:00",
+            "timeZone": "Europe/Madrid",
+            "verified": true
+          }
+        ],
+        "authority": {
+          "id": "authority:sha256:79b41c45200c67d7a74fa13a0cdbc56b98e2fa0b8606b266224866f8988da0ea",
+          "level": "international",
+          "name": "CONSEJERÍA DE TURISMO Y EMPLEO"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "928165",
+        "currentVersionId": "oppver:sha256:76dc0e9957180ec8183bf03e52db0083b636128f7d660c6f0db9170488b9181b",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "turismo"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
+          ],
+          "programmeBudget": 546882
+        },
+        "geography": {
+          "countryCodes": [],
+          "executionPlaces": [
+            "CANARIAS"
+          ],
+          "regionCodes": [],
+          "scope": "international"
+        },
+        "id": "opp:sha256:eeb52aed883bb418704b4bbe8dcdd01eda82d59180e89d2ef6e2ab0ff2f04452",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bdns:928165"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bdns:928165"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "CONVOCATORIA SUBV. PRL MINISTERIO, 2026"
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bdns:928165"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:e36b1c52badaaad4c7e77c9f9f81d6fb82fd38cfa7a37e32b6d6a5577bf50e12",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-07T00:00:00+02:00",
+      "id": "oppver:sha256:e36b1c52badaaad4c7e77c9f9f81d6fb82fd38cfa7a37e32b6d6a5577bf50e12",
+      "observedAt": "2026-09-08T07:13:49.449154+00:00",
+      "opportunityId": "opp:sha256:f4b01311edeea0e8ae013163bc8628a2f136f093331814f03f11589a6856d98a",
       "precedenceRuleVersion": "precedence-v2.0.0",
       "schemaVersion": "2.0.0",
       "semanticDiff": [],
@@ -836,23 +1423,206 @@
           {
             "id": "window:primary",
             "mode": "unknown",
-            "opensAt": "2026-09-10T00:00:00+02:00",
+            "opensAt": "2026-09-07T00:00:00+02:00",
             "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
             "timeZone": "Europe/Madrid",
             "verified": false
           }
         ],
         "authority": {
-          "id": "authority:sha256:26c2118b23a61fee593c1f01eb6e9f8552f7334eddacbe0e7e6f52f53a9130ba",
+          "id": "authority:sha256:f7054c8db104d449e8681bfdbc7307543696d46cc790230e9e979d921fa233d1",
           "level": "international",
-          "name": "UNIVERSIDAD JAUME I DE CASTELLÓN"
+          "name": "DIRECCIÓN GENERAL DE INNOVACIÓN E INCLUSIÓN EDUCATIVA"
         },
         "beneficiaryClasses": [],
-        "canonicalReference": "928817",
-        "currentVersionId": "oppver:sha256:e09e31def83550488766c451236cd87260d630dfef7831e7a4319b41150b94db",
+        "canonicalReference": "928171",
+        "currentVersionId": "oppver:sha256:e36b1c52badaaad4c7e77c9f9f81d6fb82fd38cfa7a37e32b6d6a5577bf50e12",
         "documentRevisionIds": [],
         "eligibleActivities": [
-          "ciencia y salud",
+          "por clasificar"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
+          ],
+          "programmeBudget": 337500
+        },
+        "geography": {
+          "countryCodes": [],
+          "executionPlaces": [
+            "EXTREMADURA"
+          ],
+          "regionCodes": [],
+          "scope": "international"
+        },
+        "id": "opp:sha256:f4b01311edeea0e8ae013163bc8628a2f136f093331814f03f11589a6856d98a",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bdns:928171"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bdns:928171"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "Ayudas 2026 a centros concertados para Programa Refuerzo Educativo Competencial curso 2026/2027, según Resolución de 13 de julio de 2026"
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bdns:928171"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:7bc4a6c62a8f2cd90eda482a43d6ecd194cc97116a7e4b1ce52f33a10aa48e99",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-07T00:00:00+02:00",
+      "id": "oppver:sha256:7bc4a6c62a8f2cd90eda482a43d6ecd194cc97116a7e4b1ce52f33a10aa48e99",
+      "observedAt": "2026-09-08T07:13:49.449154+00:00",
+      "opportunityId": "opp:sha256:55f3ec636ccafd25193d04c137ac792fa640a4bf92fbebd8ee6fa6b4838ddb44",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "closesAt": "2026-09-11T23:59:59+02:00",
+            "id": "window:primary",
+            "mode": "absolute",
+            "opensAt": "2026-09-07T00:00:00+02:00",
+            "timeZone": "Europe/Madrid",
+            "verified": true
+          }
+        ],
+        "authority": {
+          "id": "authority:sha256:db7ed8f82778b5bd5ab67b2f9907d4213f05797c25915386e22c8acd4ac975c2",
+          "level": "international",
+          "name": "AYUNTAMIENTO DE VIGO"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "928172",
+        "currentVersionId": "oppver:sha256:7bc4a6c62a8f2cd90eda482a43d6ecd194cc97116a7e4b1ce52f33a10aa48e99",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
+          "por clasificar"
+        ],
+        "excludedActivities": [],
+        "family": "grant",
+        "finance": {
+          "currency": "EUR",
+          "eligibleCostNotes": [
+            "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
+          ],
+          "programmeBudget": 500000
+        },
+        "geography": {
+          "countryCodes": [],
+          "executionPlaces": [
+            "VIGO"
+          ],
+          "regionCodes": [],
+          "scope": "international"
+        },
+        "id": "opp:sha256:55f3ec636ccafd25193d04c137ac792fa640a4bf92fbebd8ee6fa6b4838ddb44",
+        "incompatibilities": [
+          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+        ],
+        "lifecycleStatus": "open",
+        "provenance": {
+          "claimIds": [],
+          "derivedAt": "2026-09-08T07:13:49.449154+00:00",
+          "documentRevisionIds": [],
+          "resolverVersion": "resolver-v2.0.0",
+          "sourceRecordIds": [
+            "src:bdns:928172"
+          ]
+        },
+        "quality": {
+          "completeness": 0.5,
+          "conflictCount": 0,
+          "evidenceCoverage": 0,
+          "reviewStatus": "needs_review"
+        },
+        "relatedOpportunityIds": [],
+        "schemaVersion": "2.0.0",
+        "sourceRecordIds": [
+          "src:bdns:928172"
+        ],
+        "submission": {
+          "channel": "unknown",
+          "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        },
+        "titles": [
+          {
+            "language": "es",
+            "value": "SUBVENCIONES PARA LA FINANCIACIÓN DE ACTIVIDADES SOCIOCULTURALES REALIZADAS POR EMPRESAS  Y O EMPRESARIOS/AS EN EL AUDITORIO-PAZO DE CONGRESOS MAR DE VIGO, EN EL PERÍODO COMPRENDIDO ENTRE EL 1 DE NOVIEMBRE DE 2025 Y EL 31 DE OCTUBRE DE 2026."
+          }
+        ]
+      },
+      "sourceRecordIds": [
+        "src:bdns:928172"
+      ]
+    },
+    {
+      "claimIds": [],
+      "contentHash": "sha256:5795f79bf40ee71c6e2cc0ad6dbbc18bb85da679ca6fc59d14efb2dd42c17c5d",
+      "documentRevisionIds": [],
+      "effectiveAt": "2026-09-08T00:00:00+02:00",
+      "id": "oppver:sha256:5795f79bf40ee71c6e2cc0ad6dbbc18bb85da679ca6fc59d14efb2dd42c17c5d",
+      "observedAt": "2026-09-08T07:13:49.449154+00:00",
+      "opportunityId": "opp:sha256:f2469e1a125d2c17e204e1adfc62a81ccd97e02f407405a24355de47e95815ca",
+      "precedenceRuleVersion": "precedence-v2.0.0",
+      "schemaVersion": "2.0.0",
+      "semanticDiff": [],
+      "sequence": 1,
+      "snapshot": {
+        "applicationWindows": [
+          {
+            "id": "window:primary",
+            "mode": "unknown",
+            "opensAt": "2026-09-08T00:00:00+02:00",
+            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
+            "timeZone": "Europe/Madrid",
+            "verified": false
+          }
+        ],
+        "authority": {
+          "id": "authority:sha256:dbcbfba9dcfb8bf4dab2809855b3cbcfde1c8b343d4ea2b6b1856acae7a570f5",
+          "level": "international",
+          "name": "UNIVERSIDAD DE OVIEDO"
+        },
+        "beneficiaryClasses": [],
+        "canonicalReference": "928173",
+        "currentVersionId": "oppver:sha256:5795f79bf40ee71c6e2cc0ad6dbbc18bb85da679ca6fc59d14efb2dd42c17c5d",
+        "documentRevisionIds": [],
+        "eligibleActivities": [
           "docencia"
         ],
         "excludedActivities": [],
@@ -862,28 +1632,28 @@
           "eligibleCostNotes": [
             "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
           ],
-          "programmeBudget": 1378
+          "programmeBudget": 2000
         },
         "geography": {
           "countryCodes": [],
           "executionPlaces": [
-            "UNIVERSIDAD JAUME I DE CASTELLÓN"
+            "UNIVERSIDAD DE OVIEDO"
           ],
           "regionCodes": [],
           "scope": "international"
         },
-        "id": "opp:sha256:5d64c22da058d7b74de6fc66f31f7a4ce2c33cb903e00f088629b8875941deee",
+        "id": "opp:sha256:f2469e1a125d2c17e204e1adfc62a81ccd97e02f407405a24355de47e95815ca",
         "incompatibilities": [
           "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
         ],
         "lifecycleStatus": "open",
         "provenance": {
           "claimIds": [],
-          "derivedAt": "2026-09-10T15:00:02.376467+00:00",
+          "derivedAt": "2026-09-08T07:13:49.449154+00:00",
           "documentRevisionIds": [],
           "resolverVersion": "resolver-v2.0.0",
           "sourceRecordIds": [
-            "src:bdns:928817"
+            "src:bdns:928173"
           ]
         },
         "quality": {
@@ -895,7 +1665,7 @@
         "relatedOpportunityIds": [],
         "schemaVersion": "2.0.0",
         "sourceRecordIds": [
-          "src:bdns:928817"
+          "src:bdns:928173"
         ],
         "submission": {
           "channel": "unknown",
@@ -904,22 +1674,22 @@
         "titles": [
           {
             "language": "es",
-            "value": "Beca de iniciación a la investigación (Proyecto «MODALITAT A: AJUDES COMPLEMENTÀRIES ALS PROJECTES D’INVESTIGACIÓ CAPTATS PEL PERSONAL INVESTIGADOR DE LA UNIVERSITAT JAUME I DINS DEL PEICTI I DEL PROGRAMA R+D+I DE LA GENERALITAT VALENCIANA»"
+            "value": "Convocatoria de becas para estudiantes del Máster Erasmus Mundus en Estudios de las Mujeres y de Género – GEMMA, Máster Universitario en Género y Diversidad de la Universidad de Oviedo, curso académico 2026-2027 en régimen de concurrencia competitiva"
           }
         ]
       },
       "sourceRecordIds": [
-        "src:bdns:928817"
+        "src:bdns:928173"
       ]
     },
     {
       "claimIds": [],
-      "contentHash": "sha256:6311be1db5a1e6892cefb992efa6a95a1c2b2ffe8883043878c5786a2b0db68c",
+      "contentHash": "sha256:a4543ec78ef520220063bd56114df67d3f72fe297a490d607bea4664ab08db8d",
       "documentRevisionIds": [],
-      "effectiveAt": "2026-09-10T00:00:00+02:00",
-      "id": "oppver:sha256:6311be1db5a1e6892cefb992efa6a95a1c2b2ffe8883043878c5786a2b0db68c",
-      "observedAt": "2026-09-10T15:00:02.376467+00:00",
-      "opportunityId": "opp:sha256:2645aa3115d534c3864f435e3da9f88154eb87463c1c83125253d36ddf6d1af8",
+      "effectiveAt": "2026-09-08T00:00:00+02:00",
+      "id": "oppver:sha256:a4543ec78ef520220063bd56114df67d3f72fe297a490d607bea4664ab08db8d",
+      "observedAt": "2026-09-08T07:13:49.449154+00:00",
+      "opportunityId": "opp:sha256:4e145873fc3173e7ab79b4bd17cd7c3a7f93516467ba2ca325fca225d3f86297",
       "precedenceRuleVersion": "precedence-v2.0.0",
       "schemaVersion": "2.0.0",
       "semanticDiff": [],
@@ -929,204 +1699,20 @@
           {
             "id": "window:primary",
             "mode": "unknown",
-            "opensAt": "2026-09-10T00:00:00+02:00",
+            "opensAt": "2026-09-08T00:00:00+02:00",
             "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
             "timeZone": "Europe/Madrid",
             "verified": false
           }
         ],
         "authority": {
-          "id": "authority:sha256:946c0227d467c6bec167785a7807c629711e2e41a7be0593b28ec36696a6116d",
+          "id": "authority:sha256:dbcbfba9dcfb8bf4dab2809855b3cbcfde1c8b343d4ea2b6b1856acae7a570f5",
           "level": "international",
-          "name": "SOCIEDAD PARA EL DESARROLLO DE LA PROVINCIA DE BURGOS"
+          "name": "UNIVERSIDAD DE OVIEDO"
         },
         "beneficiaryClasses": [],
-        "canonicalReference": "928834",
-        "currentVersionId": "oppver:sha256:6311be1db5a1e6892cefb992efa6a95a1c2b2ffe8883043878c5786a2b0db68c",
-        "documentRevisionIds": [],
-        "eligibleActivities": [
-          "rural"
-        ],
-        "excludedActivities": [],
-        "family": "grant",
-        "finance": {
-          "currency": "EUR",
-          "eligibleCostNotes": [
-            "OTROS INSTRUMENTOS DE AYUDA"
-          ],
-          "programmeBudget": 44850
-        },
-        "geography": {
-          "countryCodes": [],
-          "executionPlaces": [
-            "DIPUTACIÓN PROV. DE BURGOS"
-          ],
-          "regionCodes": [],
-          "scope": "international"
-        },
-        "id": "opp:sha256:2645aa3115d534c3864f435e3da9f88154eb87463c1c83125253d36ddf6d1af8",
-        "incompatibilities": [
-          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-        ],
-        "lifecycleStatus": "open",
-        "provenance": {
-          "claimIds": [],
-          "derivedAt": "2026-09-10T15:00:02.376467+00:00",
-          "documentRevisionIds": [],
-          "resolverVersion": "resolver-v2.0.0",
-          "sourceRecordIds": [
-            "src:bdns:928834"
-          ]
-        },
-        "quality": {
-          "completeness": 0.5,
-          "conflictCount": 0,
-          "evidenceCoverage": 0,
-          "reviewStatus": "needs_review"
-        },
-        "relatedOpportunityIds": [],
-        "schemaVersion": "2.0.0",
-        "sourceRecordIds": [
-          "src:bdns:928834"
-        ],
-        "submission": {
-          "channel": "unknown",
-          "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        },
-        "titles": [
-          {
-            "language": "es",
-            "value": "Por acuerdo de 14/05/2026 del Consejo de Administración de SODEBUR por el que se aprueba la concesión de un Convenio con la Asoc. Pinares El Valle para el Desarrollo Rural Integral, para impulsar el desarrollo rural en el área territorial de Pinares."
-          }
-        ]
-      },
-      "sourceRecordIds": [
-        "src:bdns:928834"
-      ]
-    },
-    {
-      "claimIds": [],
-      "contentHash": "sha256:5136a55bbd1293d4f7fee413648b84ab6263b91da07dcaa8e02e475114c42973",
-      "documentRevisionIds": [],
-      "effectiveAt": "2026-09-10T00:00:00+02:00",
-      "id": "oppver:sha256:5136a55bbd1293d4f7fee413648b84ab6263b91da07dcaa8e02e475114c42973",
-      "observedAt": "2026-09-10T15:00:02.376467+00:00",
-      "opportunityId": "opp:sha256:d176fecd61a63e063901c4b83db25bed7c9bd2f40bdf7912eb21921c3f844ed9",
-      "precedenceRuleVersion": "precedence-v2.0.0",
-      "schemaVersion": "2.0.0",
-      "semanticDiff": [],
-      "sequence": 1,
-      "snapshot": {
-        "applicationWindows": [
-          {
-            "id": "window:primary",
-            "mode": "unknown",
-            "opensAt": "2026-09-10T00:00:00+02:00",
-            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
-            "timeZone": "Europe/Madrid",
-            "verified": false
-          }
-        ],
-        "authority": {
-          "id": "authority:sha256:946c0227d467c6bec167785a7807c629711e2e41a7be0593b28ec36696a6116d",
-          "level": "international",
-          "name": "SOCIEDAD PARA EL DESARROLLO DE LA PROVINCIA DE BURGOS"
-        },
-        "beneficiaryClasses": [],
-        "canonicalReference": "928837",
-        "currentVersionId": "oppver:sha256:5136a55bbd1293d4f7fee413648b84ab6263b91da07dcaa8e02e475114c42973",
-        "documentRevisionIds": [],
-        "eligibleActivities": [
-          "rural"
-        ],
-        "excludedActivities": [],
-        "family": "grant",
-        "finance": {
-          "currency": "EUR",
-          "eligibleCostNotes": [
-            "OTROS INSTRUMENTOS DE AYUDA"
-          ],
-          "programmeBudget": 280000
-        },
-        "geography": {
-          "countryCodes": [],
-          "executionPlaces": [
-            "DIPUTACIÓN PROV. DE BURGOS"
-          ],
-          "regionCodes": [],
-          "scope": "international"
-        },
-        "id": "opp:sha256:d176fecd61a63e063901c4b83db25bed7c9bd2f40bdf7912eb21921c3f844ed9",
-        "incompatibilities": [
-          "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-        ],
-        "lifecycleStatus": "open",
-        "provenance": {
-          "claimIds": [],
-          "derivedAt": "2026-09-10T15:00:02.376467+00:00",
-          "documentRevisionIds": [],
-          "resolverVersion": "resolver-v2.0.0",
-          "sourceRecordIds": [
-            "src:bdns:928837"
-          ]
-        },
-        "quality": {
-          "completeness": 0.5,
-          "conflictCount": 0,
-          "evidenceCoverage": 0,
-          "reviewStatus": "needs_review"
-        },
-        "relatedOpportunityIds": [],
-        "schemaVersion": "2.0.0",
-        "sourceRecordIds": [
-          "src:bdns:928837"
-        ],
-        "submission": {
-          "channel": "unknown",
-          "officialUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        },
-        "titles": [
-          {
-            "language": "es",
-            "value": "Por acuerdo de 14/05/2026 del Consejo de Administración de SODEBUR por el que se aprueba la concesión de un Convenio con el Centro de Desarrollo Rural Merindades, para impulsar el desarrollo rural en el área territorial de las Merindades."
-          }
-        ]
-      },
-      "sourceRecordIds": [
-        "src:bdns:928837"
-      ]
-    },
-    {
-      "claimIds": [],
-      "contentHash": "sha256:eb60e4138b76ce4e8d83d50180493e3f25530169857e15d8da5b12b46824cbd9",
-      "documentRevisionIds": [],
-      "effectiveAt": "2026-09-10T00:00:00+02:00",
-      "id": "oppver:sha256:eb60e4138b76ce4e8d83d50180493e3f25530169857e15d8da5b12b46824cbd9",
-      "observedAt": "2026-09-10T15:00:02.376467+00:00",
-      "opportunityId": "opp:sha256:7249e607406705995d96076ecf0340502a850550a86048efb3cd0c9cd912397d",
-      "precedenceRuleVersion": "precedence-v2.0.0",
-      "schemaVersion": "2.0.0",
-      "semanticDiff": [],
-      "sequence": 1,
-      "snapshot": {
-        "applicationWindows": [
-          {
-            "id": "window:primary",
-            "mode": "unknown",
-            "opensAt": "2026-09-10T00:00:00+02:00",
-            "relativeRule": "Fecha V1 no verificada; requiere contraste documental.",
-            "timeZone": "Europe/Madrid",
-            "verified": false
-          }
-        ],
-        "authority": {
-          "id": "authority:sha256:1339cadf3f8118b5897eda8c52072a96a739a277d7fe299218c97c76e7f342d1",
-          "level": "international",
-          "name": "CONSEJO SUPERIOR DE DEPORTES"
-        },
-        "beneficiaryClasses": [],
-        "canonicalReference": "928841",
-        "currentVersionId": "oppver:sha256:eb60e4138b76ce4e8d83d50180493e3f25530169857e15d8da5b12b46824cbd9",
+        "canonicalReference": "928174",
+        "currentVersionId": "oppver:sha256:a4543ec78ef520220063bd56114df67d3f72fe297a490d607bea4664ab08db8d",
         "documentRevisionIds": [],
         "eligibleActivities": [
           "docencia"
@@ -1138,28 +1724,28 @@
           "eligibleCostNotes": [
             "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"
           ],
-          "programmeBudget": 700000
+          "programmeBudget": 2000
         },
         "geography": {
           "countryCodes": [],
           "executionPlaces": [
-            "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES"
+            "UNIVERSIDAD DE OVIEDO"
           ],
           "regionCodes": [],
           "scope": "international"
         },
-        "id": "opp:sha256:7249e607406705995d96076ecf0340502a850550a86048efb3cd0c9cd912397d",
+        "id": "opp:sha256:4e145873fc3173e7ab79b4bd17cd7c3a7f93516467ba2ca325fca225d3f86297",
         "incompatibilities": [
           "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
         ],
         "lifecycleStatus": "open",
         "provenance": {
           "claimIds": [],
-          "derivedAt": "2026-09-10T15:00:02.376467+00:00",
+          "derivedAt": "2026-09-08T07:13:49.449154+00:00",
           "documentRevisionIds": [],
           "resolverVersion": "resolver-v2.0.0",
           "sourceRecordIds": [
-            "src:bdns:928841"
+            "src:bdns:928174"
           ]
         },
         "quality": {
@@ -1171,7 +1757,7 @@
         "relatedOpportunityIds": [],
         "schemaVersion": "2.0.0",
         "sourceRecordIds": [
-          "src:bdns:928841"
+          "src:bdns:928174"
         ],
         "submission": {
           "channel": "unknown",
@@ -1180,12 +1766,12 @@
         "titles": [
           {
             "language": "es",
-            "value": "Convocatoria de ayudas sociales a mujeres deportistas, técnicas, entrenadoras, árbitras y juezas, en el año 2026"
+            "value": "Convocatoria de becas para estudiantes del Programa de Doctorado en  Género y Diversidad de la Universidad de Oviedo, curso académico 2026-2027 en régimen de concurrencia competitiva"
           }
         ]
       },
       "sourceRecordIds": [
-        "src:bdns:928841"
+        "src:bdns:928174"
       ]
     }
   ]
