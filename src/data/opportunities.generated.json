@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T15:00:39.584902+00:00",
-  "checkedAt": "2026-09-11T15:00:39.584902+00:00",
+  "generatedAt": "2026-09-12T07:00:03.216254+00:00",
+  "checkedAt": "2026-09-12T07:00:03.216254+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -11,31 +11,31 @@
   "sourceStatus": {
     "BDNS": {
       "status": "ok",
-      "count": 6,
-      "collectedCount": 6,
-      "checkedAt": "2026-09-11T15:00:39.584902+00:00",
-      "lastSuccessAt": "2026-09-11T15:00:39.584902+00:00"
+      "count": 8,
+      "collectedCount": 8,
+      "checkedAt": "2026-09-12T07:00:03.216254+00:00",
+      "lastSuccessAt": "2026-09-12T07:00:03.216254+00:00"
     },
     "BOE": {
       "status": "ok",
-      "count": 38,
-      "collectedCount": 3,
-      "checkedAt": "2026-09-11T15:00:39.584902+00:00",
-      "lastSuccessAt": "2026-09-11T15:00:39.584902+00:00"
+      "count": 47,
+      "collectedCount": 9,
+      "checkedAt": "2026-09-12T07:00:03.216254+00:00",
+      "lastSuccessAt": "2026-09-12T07:00:03.216254+00:00"
     },
     "BOPA": {
       "status": "ok",
       "count": 15,
       "collectedCount": 2,
-      "checkedAt": "2026-09-11T15:00:39.584902+00:00",
-      "lastSuccessAt": "2026-09-11T15:00:39.584902+00:00"
+      "checkedAt": "2026-09-12T07:00:03.216254+00:00",
+      "lastSuccessAt": "2026-09-12T07:00:03.216254+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 79,
       "collectedCount": 79,
-      "checkedAt": "2026-09-11T15:00:39.584902+00:00",
-      "lastSuccessAt": "2026-09-11T15:00:39.584902+00:00"
+      "checkedAt": "2026-09-12T07:00:03.216254+00:00",
+      "lastSuccessAt": "2026-09-12T07:00:03.216254+00:00"
     }
   },
   "errors": [],
@@ -585,6 +585,65 @@
       "demo": false
     },
     {
+      "id": "bdns-929086",
+      "title": "Convocatoria de Premios al esfuerzo personal y al rendimiento académico del alumnado de Educación Secundaria Obligatoria correspondientes al año académico 2025/2026",
+      "issuer": "CONSEJERÍA DE EDUCACIÓN",
+      "source": "BDNS",
+      "sourceRef": "929086",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "PRINCIPADO DE ASTURIAS",
+      "publishedAt": "2026-09-11",
+      "deadline": "2026-09-23",
+      "deadlineVerified": true,
+      "amount": 13000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 69,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución de 20 de junio de 2017, de la Consejería de Educación y Cultura, por la que se establecen las bases reguladoras del procedimiento de concesión de los Premios al esfuerzo personal y al rendimiento académico del alumnado de Educación Secundaria O",
+      "fitReasons": [
+        "Coincide con: Asturias.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-929086-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-11",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "Asturias"
+      ],
+      "demo": false
+    },
+    {
       "id": "bopa-2026-07340",
       "title": "Resolución de 31 de agosto de 2026, de la Consejería de Ciencia, Industria y Empleo, por la que se conceden subvenciones con destino a las entidades locales del Principado de Asturias para impulso de servicios de dinamización tecnológica local y se autoriza su abono anticipado.",
       "issuer": "Principado de Asturias",
@@ -764,16 +823,136 @@
       "demo": false
     },
     {
+      "id": "bdns-929087",
+      "title": "Convocatoria Premio Amparo Pedregal 2026",
+      "issuer": "CONSEJERÍA DE PRESIDENCIA, RETO DEMOGRÁFICO, IGUALDAD Y TURISMO",
+      "source": "BDNS",
+      "sourceRef": "929087",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "PRINCIPADO DE ASTURIAS",
+      "publishedAt": "2026-09-11",
+      "deadline": "2026-09-11",
+      "deadlineVerified": false,
+      "amount": 5000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 66,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución de 19 de noviembre de 2020, de la Presidencia del Principado de Asturias, por la que se aprueban las bases reguladoras para la concesión del “Premio Amparo Pedregal”.",
+      "fitReasons": [
+        "Coincide con: Asturias, turismo, rural.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-929087-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-11",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "turismo",
+        "rural"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-19073",
+      "title": "Resolución de 3 de septiembre de 2026, del Ayuntamiento de Villaviciosa (Asturias), referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
+      "issuer": "Personal funcionario",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-19073",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19073",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-09-12",
+      "deadline": "2026-09-12",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 62,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-19073-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-09-12",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19073"
+        }
+      ],
+      "tags": [
+        "Asturias"
+      ],
+      "demo": false
+    },
+    {
       "id": "bopa-2026-07445",
       "title": "Resolución de 1 de septiembre de 2026, de la Consejería de Cultura, Política Llingüística y Deporte, por la que se convocan los “Premios del Patrimonio Cultural de Asturias” en su primera edición.",
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-07445",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07445&p_r_p_dispositionReference=2026-07445&p_r_p_dispositionDate=11%2F09%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07445&p_r_p_dispositionReference=2026-07445&p_r_p_dispositionDate=12%2F09%2F2026",
       "kind": "premio",
       "territory": "Asturias",
-      "publishedAt": "2026-09-11",
-      "deadline": "2026-09-11",
+      "publishedAt": "2026-09-12",
+      "deadline": "2026-09-12",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -812,9 +991,9 @@
           "id": "BOPA-2026-07445-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-09-11",
+          "date": "2026-09-12",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07445&p_r_p_dispositionReference=2026-07445&p_r_p_dispositionDate=11%2F09%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07445&p_r_p_dispositionReference=2026-07445&p_r_p_dispositionDate=12%2F09%2F2026"
         }
       ],
       "tags": [
@@ -828,11 +1007,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-07444",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07444&p_r_p_dispositionReference=2026-07444&p_r_p_dispositionDate=11%2F09%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07444&p_r_p_dispositionReference=2026-07444&p_r_p_dispositionDate=12%2F09%2F2026",
       "kind": "premio",
       "territory": "Asturias",
-      "publishedAt": "2026-09-11",
-      "deadline": "2026-09-11",
+      "publishedAt": "2026-09-12",
+      "deadline": "2026-09-12",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -871,9 +1050,9 @@
           "id": "BOPA-2026-07444-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-09-11",
+          "date": "2026-09-12",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07444&p_r_p_dispositionReference=2026-07444&p_r_p_dispositionDate=11%2F09%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07444&p_r_p_dispositionReference=2026-07444&p_r_p_dispositionDate=12%2F09%2F2026"
         }
       ],
       "tags": [
@@ -1533,6 +1712,66 @@
       ],
       "tags": [
         "comercio"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-29713",
+      "title": "Extracto de la Resolución de 9 de septiembre de 2026 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), de declaración de disponibilidad de crédito en lo que afecta a la convocatoria de ayudas del Programa Misiones de Ciencia e Innovación 2026.",
+      "issuer": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-29713",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29713",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-09-12",
+      "deadline": "2026-09-12",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 52,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-29713-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-09-12",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29713"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
       ],
       "demo": false
     },
@@ -2656,6 +2895,125 @@
       ],
       "tags": [
         "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-19060",
+      "title": "Resolución de 2 de septiembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 4 de junio de 2026, en el Instituto de Salud Carlos III.",
+      "issuer": "Destinos",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-19060",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19060",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-09-12",
+      "deadline": "2026-09-12",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-19060-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-09-12",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19060"
+        }
+      ],
+      "tags": [
+        "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-29714",
+      "title": "Extracto de la Resolución de 9 de septiembre de 2026 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), de declaración de disponibilidad de crédito y ampliación de presupuesto en lo que afecta a la convocatoria de ayudas del Programa NEOTEC 2026.",
+      "issuer": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-29714",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29714",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-09-12",
+      "deadline": "2026-09-12",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-29714-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-09-12",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29714"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
       ],
       "demo": false
     },
@@ -7200,6 +7558,301 @@
       ],
       "tags": [
         "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-19057",
+      "title": "Resolución de 3 de septiembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 23 de junio de 2026, en las Oficinas Económicas y Comerciales en el exterior.",
+      "issuer": "Destinos",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-19057",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19057",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-09-12",
+      "deadline": "2026-09-12",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-19057-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-09-12",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19057"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-19058",
+      "title": "Resolución de 3 de septiembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 23 de junio de 2026, en las Oficinas Económicas y Comerciales en el exterior.",
+      "issuer": "Destinos",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-19058",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19058",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-09-12",
+      "deadline": "2026-09-12",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-19058-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-09-12",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19058"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-19059",
+      "title": "Resolución de 4 de septiembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 20 de julio de 2026.",
+      "issuer": "Destinos",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-19059",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19059",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-09-12",
+      "deadline": "2026-09-12",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-19059-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-09-12",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19059"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-19104",
+      "title": "Resolución de 10 de septiembre de 2026, de la Subsecretaría, por la que se publica el Acuerdo del Consejo de Ministros de 1 de septiembre de 2026, por el que se dictan instrucciones para la aplicación del régimen previsto en la disposición adicional tercera del Real Decreto-ley 18/2026, de 29 de junio, en relación con la ejecución final de los fondos del Mecanismo de Recuperación y Resiliencia.",
+      "issuer": "Plan de Recuperación, Transformación y Resiliencia",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-19104",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19104",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-09-12",
+      "deadline": "2026-09-12",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-19104-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-09-12",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19104"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-29712",
+      "title": "Extracto de la Resolución de 10 de septiembre de la Presidencia del Consejo Superior de Deportes, por la que se convocan ayudas sociales a mujeres deportistas, técnicas, entrenadoras, árbitras y juezas, en el año 2026",
+      "issuer": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-29712",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29712",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-09-12",
+      "deadline": "2026-09-12",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-29712-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-09-12",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29712"
+        }
+      ],
+      "tags": [
+        "docencia"
       ],
       "demo": false
     },
