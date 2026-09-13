@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-12T15:02:09.992649+00:00",
-  "checkedAt": "2026-09-12T15:02:09.992649+00:00",
+  "checkedAt": "2026-09-13T07:00:02.571004+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -13,32 +13,35 @@
       "status": "ok",
       "count": 8,
       "collectedCount": 8,
-      "checkedAt": "2026-09-12T15:02:09.992649+00:00",
-      "lastSuccessAt": "2026-09-12T15:02:09.992649+00:00"
+      "checkedAt": "2026-09-13T07:00:02.571004+00:00",
+      "lastSuccessAt": "2026-09-13T07:00:02.571004+00:00"
     },
     "BOE": {
-      "status": "ok",
+      "status": "error",
       "count": 47,
-      "collectedCount": 9,
-      "checkedAt": "2026-09-12T15:02:09.992649+00:00",
-      "lastSuccessAt": "2026-09-12T15:02:09.992649+00:00"
+      "collectedCount": 0,
+      "checkedAt": "2026-09-13T07:00:02.571004+00:00",
+      "lastSuccessAt": "2026-09-12T15:02:09.992649+00:00",
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     "BOPA": {
       "status": "ok",
       "count": 15,
       "collectedCount": 2,
-      "checkedAt": "2026-09-12T15:02:09.992649+00:00",
-      "lastSuccessAt": "2026-09-12T15:02:09.992649+00:00"
+      "checkedAt": "2026-09-13T07:00:02.571004+00:00",
+      "lastSuccessAt": "2026-09-13T07:00:02.571004+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 79,
       "collectedCount": 79,
-      "checkedAt": "2026-09-12T15:02:09.992649+00:00",
-      "lastSuccessAt": "2026-09-12T15:02:09.992649+00:00"
+      "checkedAt": "2026-09-13T07:00:02.571004+00:00",
+      "lastSuccessAt": "2026-09-13T07:00:02.571004+00:00"
     }
   },
-  "errors": [],
+  "errors": [
+    "BOE: HTTPError: HTTP Error 404: Not Found"
+  ],
   "opportunities": [
     {
       "id": "bopa-2026-07371",
@@ -884,6 +887,124 @@
       "demo": false
     },
     {
+      "id": "bopa-2026-07445",
+      "title": "Resolución de 1 de septiembre de 2026, de la Consejería de Cultura, Política Llingüística y Deporte, por la que se convocan los “Premios del Patrimonio Cultural de Asturias” en su primera edición.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07445",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07445&p_r_p_dispositionReference=2026-07445&p_r_p_dispositionDate=13%2F09%2F2026",
+      "kind": "premio",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-13",
+      "deadline": "2026-09-13",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 62,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07445-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-13",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07445&p_r_p_dispositionReference=2026-07445&p_r_p_dispositionDate=13%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-07444",
+      "title": "Resolución de 3 de septiembre de 2026, de la Consejería de Cultura, Política Llingüística y Deporte, de rectificación de errores de la resolución de 1 de septiembre de 2026, por la que se convocan los “Premios del Patrimonio Cultural de Asturias” en su primera edición.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07444",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07444&p_r_p_dispositionReference=2026-07444&p_r_p_dispositionDate=13%2F09%2F2026",
+      "kind": "premio",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-13",
+      "deadline": "2026-09-13",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 62,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07444-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-13",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07444&p_r_p_dispositionReference=2026-07444&p_r_p_dispositionDate=13%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias"
+      ],
+      "demo": false
+    },
+    {
       "id": "boe-boe-a-2026-19073",
       "title": "Resolución de 3 de septiembre de 2026, del Ayuntamiento de Villaviciosa (Asturias), referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
       "issuer": "Personal funcionario",
@@ -935,124 +1056,6 @@
           "date": "2026-09-12",
           "verified": true,
           "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19073"
-        }
-      ],
-      "tags": [
-        "Asturias"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bopa-2026-07445",
-      "title": "Resolución de 1 de septiembre de 2026, de la Consejería de Cultura, Política Llingüística y Deporte, por la que se convocan los “Premios del Patrimonio Cultural de Asturias” en su primera edición.",
-      "issuer": "Principado de Asturias",
-      "source": "BOPA",
-      "sourceRef": "2026-07445",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07445&p_r_p_dispositionReference=2026-07445&p_r_p_dispositionDate=12%2F09%2F2026",
-      "kind": "premio",
-      "territory": "Asturias",
-      "publishedAt": "2026-09-12",
-      "deadline": "2026-09-12",
-      "deadlineVerified": false,
-      "amount": 0,
-      "aidIntensity": "Cuantía y condiciones por verificar",
-      "score": 62,
-      "state": "nueva",
-      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
-      "fitReasons": [
-        "Coincide con: Asturias.",
-        "Publicación oficial localizada en BOPA."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BOPA-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BOPA-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BOPA-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BOPA-2026-07445-official",
-          "source": "BOPA",
-          "label": "Publicación oficial",
-          "date": "2026-09-12",
-          "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07445&p_r_p_dispositionReference=2026-07445&p_r_p_dispositionDate=12%2F09%2F2026"
-        }
-      ],
-      "tags": [
-        "Asturias"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bopa-2026-07444",
-      "title": "Resolución de 3 de septiembre de 2026, de la Consejería de Cultura, Política Llingüística y Deporte, de rectificación de errores de la resolución de 1 de septiembre de 2026, por la que se convocan los “Premios del Patrimonio Cultural de Asturias” en su primera edición.",
-      "issuer": "Principado de Asturias",
-      "source": "BOPA",
-      "sourceRef": "2026-07444",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07444&p_r_p_dispositionReference=2026-07444&p_r_p_dispositionDate=12%2F09%2F2026",
-      "kind": "premio",
-      "territory": "Asturias",
-      "publishedAt": "2026-09-12",
-      "deadline": "2026-09-12",
-      "deadlineVerified": false,
-      "amount": 0,
-      "aidIntensity": "Cuantía y condiciones por verificar",
-      "score": 62,
-      "state": "nueva",
-      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
-      "fitReasons": [
-        "Coincide con: Asturias.",
-        "Publicación oficial localizada en BOPA."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BOPA-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BOPA-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BOPA-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BOPA-2026-07444-official",
-          "source": "BOPA",
-          "label": "Publicación oficial",
-          "date": "2026-09-12",
-          "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07444&p_r_p_dispositionReference=2026-07444&p_r_p_dispositionDate=12%2F09%2F2026"
         }
       ],
       "tags": [
