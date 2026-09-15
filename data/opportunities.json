@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T07:00:03.870335+00:00",
-  "checkedAt": "2026-09-15T07:00:03.870335+00:00",
+  "generatedAt": "2026-09-15T15:04:46.878850+00:00",
+  "checkedAt": "2026-09-15T15:04:46.878850+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -11,31 +11,31 @@
   "sourceStatus": {
     "BDNS": {
       "status": "ok",
-      "count": 0,
-      "collectedCount": 0,
-      "checkedAt": "2026-09-15T07:00:03.870335+00:00",
-      "lastSuccessAt": "2026-09-15T07:00:03.870335+00:00"
+      "count": 2,
+      "collectedCount": 2,
+      "checkedAt": "2026-09-15T15:04:46.878850+00:00",
+      "lastSuccessAt": "2026-09-15T15:04:46.878850+00:00"
     },
     "BOE": {
       "status": "ok",
       "count": 70,
       "collectedCount": 17,
-      "checkedAt": "2026-09-15T07:00:03.870335+00:00",
-      "lastSuccessAt": "2026-09-15T07:00:03.870335+00:00"
+      "checkedAt": "2026-09-15T15:04:46.878850+00:00",
+      "lastSuccessAt": "2026-09-15T15:04:46.878850+00:00"
     },
     "BOPA": {
       "status": "ok",
       "count": 24,
       "collectedCount": 6,
-      "checkedAt": "2026-09-15T07:00:03.870335+00:00",
-      "lastSuccessAt": "2026-09-15T07:00:03.870335+00:00"
+      "checkedAt": "2026-09-15T15:04:46.878850+00:00",
+      "lastSuccessAt": "2026-09-15T15:04:46.878850+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 79,
       "collectedCount": 79,
-      "checkedAt": "2026-09-15T07:00:03.870335+00:00",
-      "lastSuccessAt": "2026-09-15T07:00:03.870335+00:00"
+      "checkedAt": "2026-09-15T15:04:46.878850+00:00",
+      "lastSuccessAt": "2026-09-15T15:04:46.878850+00:00"
     }
   },
   "errors": [],
@@ -2369,6 +2369,124 @@
       "tags": [
         "docencia",
         "energía"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-929599",
+      "title": "Por acuerdo de 12/12/2025 del Consejo de Administración de SODEBUR por el que se aprueba la concesión de un convenio con el Ayuntamiento de Villarcayo de Merindad de Castilla la Vieja para la Feria CAPESMER 2026.",
+      "issuer": "SOCIEDAD PARA EL DESARROLLO DE LA PROVINCIA DE BURGOS",
+      "source": "BDNS",
+      "sourceRef": "929599",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "DIPUTACIÓN PROV. DE BURGOS",
+      "publishedAt": "2026-09-15",
+      "deadline": "2026-09-15",
+      "deadlineVerified": false,
+      "amount": 30000,
+      "aidIntensity": "OTROS INSTRUMENTOS DE AYUDA",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Ordenanza General de Subvenciones de la Diputación Provincial de Burgos",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-929599-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-15",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-929587",
+      "title": "CONVOCATORIA PÚBLICA DE LOS PREMIOS DE INVESTIGACIÓN \"CONCEPCIÓN ARENAL\", \"INGENIERO COMERMA\" Y \"ANTONIO USERO\" AÑO 2026",
+      "issuer": "AYUNTAMIENTO DE FERROL",
+      "source": "BDNS",
+      "sourceRef": "929587",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "FERROL",
+      "publishedAt": "2026-09-15",
+      "deadline": "2026-09-15",
+      "deadlineVerified": false,
+      "amount": 30000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · BASES QUE REGIRÁN LOS PREMIOS DE INVESTIGACIÓN \"GONZÁLEZ LLANOS\" \"INGENIERO COMERMA\", \"CONCEPCIÓN ARENAL\", \"ANTONIO USERO\" Y \"ÁNGELES ALVARIÑO\" PARA LAS EDICIONES DE LOS AÑOS 2025 Y 2026",
+      "fitReasons": [
+        "Coincide con: ciencia y salud.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-929587-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-15",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "ciencia y salud"
       ],
       "demo": false
     },
