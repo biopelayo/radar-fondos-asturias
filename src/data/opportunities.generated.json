@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T15:04:46.878850+00:00",
-  "checkedAt": "2026-09-16T07:00:02.515518+00:00",
+  "generatedAt": "2026-09-16T07:01:23.055299+00:00",
+  "checkedAt": "2026-09-16T07:01:23.055299+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -13,35 +13,32 @@
       "status": "ok",
       "count": 1,
       "collectedCount": 1,
-      "checkedAt": "2026-09-16T07:00:02.515518+00:00",
-      "lastSuccessAt": "2026-09-16T07:00:02.515518+00:00"
+      "checkedAt": "2026-09-16T07:01:23.055299+00:00",
+      "lastSuccessAt": "2026-09-16T07:01:23.055299+00:00"
     },
     "BOE": {
       "status": "ok",
       "count": 78,
       "collectedCount": 8,
-      "checkedAt": "2026-09-16T07:00:02.515518+00:00",
-      "lastSuccessAt": "2026-09-16T07:00:02.515518+00:00"
+      "checkedAt": "2026-09-16T07:01:23.055299+00:00",
+      "lastSuccessAt": "2026-09-16T07:01:23.055299+00:00"
     },
     "BOPA": {
-      "status": "error",
-      "count": 24,
-      "collectedCount": 0,
-      "checkedAt": "2026-09-16T07:00:02.515518+00:00",
-      "lastSuccessAt": "2026-09-15T15:04:46.878850+00:00",
-      "error": "TimeoutError: The read operation timed out"
+      "status": "ok",
+      "count": 26,
+      "collectedCount": 2,
+      "checkedAt": "2026-09-16T07:01:23.055299+00:00",
+      "lastSuccessAt": "2026-09-16T07:01:23.055299+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 79,
       "collectedCount": 79,
-      "checkedAt": "2026-09-16T07:00:02.515518+00:00",
-      "lastSuccessAt": "2026-09-16T07:00:02.515518+00:00"
+      "checkedAt": "2026-09-16T07:01:23.055299+00:00",
+      "lastSuccessAt": "2026-09-16T07:01:23.055299+00:00"
     }
   },
-  "errors": [
-    "BOPA: TimeoutError: The read operation timed out"
-  ],
+  "errors": [],
   "opportunities": [
     {
       "id": "bopa-2026-07371",
@@ -348,6 +345,67 @@
       "demo": false
     },
     {
+      "id": "bopa-2026-07471",
+      "title": "Extracto de la Resolución de 28 de agosto de 2026, de la Vicerrectora de Investigación de la Universidad de Oviedo, por la que se autoriza un gasto y se aprueba la convocatoria para la concesión de becas destinadas a estudiantes del Programa de Doctorado en Género y Diversidad de la Universidad de Oviedo, curso académico 2026-2027, en régimen de concurrencia competitiva.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07471",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07471&p_r_p_dispositionReference=2026-07471&p_r_p_dispositionDate=16%2F09%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-16",
+      "deadline": "2026-09-16",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 77,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, ciencia y salud, docencia.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07471-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-16",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07471&p_r_p_dispositionReference=2026-07471&p_r_p_dispositionDate=16%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "ciencia y salud",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "bopa-2026-07332",
       "title": "Anuncio. Extracto de la resolución 2026/13364, de 4 de agosto de 2026, de la Alcaldía del Ayuntamiento de Oviedo, por la que se modifican las bases y la convocatoria de ayuda adicional a los propietarios/usufructuarios de viviendas del ERRP de Ventanielles y Guillén Lafuerza, fase I-B, en el municipio de Oviedo, en relación con la ejecución de los programas de ayuda en materia de rehabilitación residencial y vivienda social del Plan de Recuperación, Transformación y Resiliencia financiado por la Unión Europea Next Generation EU.",
       "issuer": "Principado de Asturias",
@@ -586,6 +644,66 @@
       "tags": [
         "Asturias",
         "vivienda",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-07470",
+      "title": "Extracto de la Resolución de 28 de agosto de 2026, del Vicerrector de Estudios y Docencia, por la que se autoriza un gasto y se aprueba la convocatoria para la concesión de becas destinadas a estudiantes del Máster Erasmus Mundus en Estudios de las Mujeres y de Género-GEMMA, y Máster Universitario en Género y Diversidad de la Universidad de Oviedo, curso académico 2026-2027, en régimen de concurrencia competitiva.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07470",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07470&p_r_p_dispositionReference=2026-07470&p_r_p_dispositionDate=16%2F09%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-16",
+      "deadline": "2026-09-16",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 72,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, docencia.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07470-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-16",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07470&p_r_p_dispositionReference=2026-07470&p_r_p_dispositionDate=16%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
         "docencia"
       ],
       "demo": false
