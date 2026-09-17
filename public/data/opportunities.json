@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T07:00:56.749984+00:00",
-  "checkedAt": "2026-09-17T07:00:56.749984+00:00",
+  "generatedAt": "2026-09-17T15:00:03.483420+00:00",
+  "checkedAt": "2026-09-17T15:00:03.483420+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -11,31 +11,31 @@
   "sourceStatus": {
     "BDNS": {
       "status": "ok",
-      "count": 2,
-      "collectedCount": 2,
-      "checkedAt": "2026-09-17T07:00:56.749984+00:00",
-      "lastSuccessAt": "2026-09-17T07:00:56.749984+00:00"
+      "count": 3,
+      "collectedCount": 3,
+      "checkedAt": "2026-09-17T15:00:03.483420+00:00",
+      "lastSuccessAt": "2026-09-17T15:00:03.483420+00:00"
     },
     "BOE": {
       "status": "ok",
       "count": 82,
       "collectedCount": 4,
-      "checkedAt": "2026-09-17T07:00:56.749984+00:00",
-      "lastSuccessAt": "2026-09-17T07:00:56.749984+00:00"
+      "checkedAt": "2026-09-17T15:00:03.483420+00:00",
+      "lastSuccessAt": "2026-09-17T15:00:03.483420+00:00"
     },
     "BOPA": {
       "status": "ok",
       "count": 34,
       "collectedCount": 8,
-      "checkedAt": "2026-09-17T07:00:56.749984+00:00",
-      "lastSuccessAt": "2026-09-17T07:00:56.749984+00:00"
+      "checkedAt": "2026-09-17T15:00:03.483420+00:00",
+      "lastSuccessAt": "2026-09-17T15:00:03.483420+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 79,
       "collectedCount": 79,
-      "checkedAt": "2026-09-17T07:00:56.749984+00:00",
-      "lastSuccessAt": "2026-09-17T07:00:56.749984+00:00"
+      "checkedAt": "2026-09-17T15:00:03.483420+00:00",
+      "lastSuccessAt": "2026-09-17T15:00:03.483420+00:00"
     }
   },
   "errors": [],
@@ -2796,6 +2796,66 @@
       "demo": false
     },
     {
+      "id": "bdns-930207",
+      "title": "Convocatoria de becas de Intercambio con universidades extranjeras, curso 2027/2028",
+      "issuer": "UNIVERSIDAD DE SALAMANCA",
+      "source": "BDNS",
+      "sourceRef": "930207",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE SALAMANCA",
+      "publishedAt": "2026-09-17",
+      "deadline": "2027-05-14",
+      "deadlineVerified": true,
+      "amount": 100000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución de 26 de septiembre de 2017 del Rectorado de la Universidad de Salamanca, por la que se publican las Bases reguladoras de la concesión de becas y ayudas a los\nestudiantes de la Universidad de Salamanca (B.O.C. y L. de 3 de octubre de 2017).",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-930207-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-17",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "boe-boe-b-2026-30090",
       "title": "Extracto de la Resolución de 15 de septiembre de 2026 del Mando de Adiestramiento y Doctrina por la que se convocan las becas para la matriculación en el Máster de Formación Permanente en Dirección Logística 4.0 de la Universidad de Córdoba, para el personal del Ejército de Tierra en el año 2026.",
       "issuer": "MINISTERIO DE DEFENSA",
@@ -3149,65 +3209,6 @@
       "tags": [
         "docencia",
         "energía"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-929995",
-      "title": "CONVOCATORIA DE AYUDAS AL ALQUILER PARA ESTUDIANTES UNIVERSITARIOS Y CICLOS FORMATIVOS CURSO 2026/2027",
-      "issuer": "AYUNTAMIENTO DE SANTIAGO DEL TEIDE",
-      "source": "BDNS",
-      "sourceRef": "929995",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "SANTIAGO DEL TEIDE",
-      "publishedAt": "2026-09-16",
-      "deadline": "2026-09-16",
-      "deadlineVerified": false,
-      "amount": 60000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 51,
-      "state": "nueva",
-      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Bases reguladoras para la convocatoria de ayudas al alquiler para estudiantes universitarios y ciclos formativos de grado medio y superior.",
-      "fitReasons": [
-        "Coincide con: vivienda.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-929995-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-16",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "vivienda"
       ],
       "demo": false
     },
@@ -3979,6 +3980,65 @@
       "demo": false
     },
     {
+      "id": "bdns-930206",
+      "title": "2026 CONVOCATORIA SUBVENCIONES DIRECTAS PARA EL IMPULSO DEL COMERCIO LOCAL MEDIANTE LA CREACIÓN DE LOS DENOMINADOS \"XECS CONSUM\"",
+      "issuer": "AYUNTAMIENTO DE GANDIA",
+      "source": "BDNS",
+      "sourceRef": "930206",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "GANDIA",
+      "publishedAt": "2026-09-17",
+      "deadline": "2026-10-19",
+      "deadlineVerified": true,
+      "amount": 400000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 50,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · 2026 CONVOCATORIA SUBVENCIONES DIRECTAS PARA EL IMPULSO DEL COMERCIO LOCAL MEDIANTE LA CREACIÓN DE LOS DENOMINADOS \"XECS CONSUM\"",
+      "fitReasons": [
+        "Coincide con: comercio.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-930206-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-17",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "comercio"
+      ],
+      "demo": false
+    },
+    {
       "id": "ue-horizon-cl6-2026-01-circbio-08",
       "title": "Supporting pre-normative research for standardization of the bio-based products",
       "issuer": "Comisión Europea",
@@ -3988,7 +4048,7 @@
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2026-04-17",
-      "deadline": "2026-09-17",
+      "deadline": "2026-09-23",
       "deadlineVerified": true,
       "amount": 0,
       "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
@@ -4034,6 +4094,65 @@
       ],
       "tags": [
         "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-930190",
+      "title": "CONVOCATORIA EN REGIMEN DE CONCURRENCIA COMPETITIVA  PARA LA CONCESIÓN DE SUBVENCIONES A ASOCIACIONES RUTAS DEL VINO DE LA PROVINCIA DE ZAMORA. AÑO 2026",
+      "issuer": "PATRONATO PROVINCIAL DE TURISMO DE ZAMORA",
+      "source": "BDNS",
+      "sourceRef": "930190",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "DIPUTACIÓN PROV. DE ZAMORA",
+      "publishedAt": "2026-09-17",
+      "deadline": "2026-10-15",
+      "deadlineVerified": true,
+      "amount": 160000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 49,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · ORDENANZA GENERAL DE SUBVENCIONES",
+      "fitReasons": [
+        "Coincide con: turismo.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-930190-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-17",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "turismo"
       ],
       "demo": false
     },
@@ -6163,65 +6282,6 @@
       "tags": [
         "ciencia y salud",
         "docencia"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-929974",
-      "title": "Convocatoria de Subvenciones en especie, en régimen de concurrencia competitiva, para la selección de un máximo de diez startups del ecosistema innovador valenciano en el stand institucional de València Innovation Capital en SportCities 2026",
-      "issuer": "FUNDACIÓN DE LA CV PARA LA PROMOCIÓN ESTRATÉGICA, EL DESARROLLO Y LA INNOVACIÓN URBANA (INNDEA)",
-      "source": "BDNS",
-      "sourceRef": "929974",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "VALENCIA",
-      "publishedAt": "2026-09-16",
-      "deadline": "2026-09-16",
-      "deadlineVerified": false,
-      "amount": 5000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 46,
-      "state": "nueva",
-      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Convocatoria de Subvenciones en especie, en régimen de concurrencia competitiva, para la selección de un máximo de diez startups del ecosistema innovador valenciano en el stand institucional de València Innovation Capital en SportCities 2026",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-929974-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-16",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "por clasificar"
       ],
       "demo": false
     },
@@ -9471,6 +9531,124 @@
       "demo": false
     },
     {
+      "id": "ue-horizon-cl2-2026-01-heritage-01",
+      "title": "“Artistic intelligence” : harnessing the power of the arts to address complex challenges, enhance soft skills and boost innovation and competitiveness",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL2-2026-01-HERITAGE-01",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-01",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2026-05-12",
+      "deadline": "2026-09-23",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL2-2026-01-HERITAGE-01-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2026-05-12",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-01"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl2-2026-01-heritage-02",
+      "title": "Boosting creative startups for disruptive innovation",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL2-2026-01-HERITAGE-02",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-02",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2026-05-12",
+      "deadline": "2026-09-23",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL2-2026-01-HERITAGE-02-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2026-05-12",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-02"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
       "id": "ue-horizon-cl2-2026-01-heritage-07",
       "title": "Preventing and fighting illicit trafficking of cultural goods",
       "issuer": "Comisión Europea",
@@ -9707,124 +9885,6 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl2-2026-01-heritage-01",
-      "title": "“Artistic intelligence” : harnessing the power of the arts to address complex challenges, enhance soft skills and boost innovation and competitiveness",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL2-2026-01-HERITAGE-01",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-01",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2026-05-12",
-      "deadline": "2026-09-23",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL2-2026-01-HERITAGE-01-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2026-05-12",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-01"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-horizon-cl2-2026-01-heritage-02",
-      "title": "Boosting creative startups for disruptive innovation",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL2-2026-01-HERITAGE-02",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-02",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2026-05-12",
-      "deadline": "2026-09-23",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL2-2026-01-HERITAGE-02-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2026-05-12",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-02"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
       "id": "ue-horizon-cl2-2026-01-heritage-06",
       "title": "Safeguarding linguistic diversity in Europe",
       "issuer": "Comisión Europea",
@@ -9893,7 +9953,7 @@
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2026-04-17",
-      "deadline": "2026-09-17",
+      "deadline": "2026-09-23",
       "deadlineVerified": true,
       "amount": 0,
       "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
@@ -9952,7 +10012,7 @@
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2026-04-17",
-      "deadline": "2026-09-17",
+      "deadline": "2026-09-23",
       "deadlineVerified": true,
       "amount": 0,
       "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
