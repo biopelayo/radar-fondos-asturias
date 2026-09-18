@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T15:01:55.893171+00:00",
-  "checkedAt": "2026-09-17T15:01:55.893171+00:00",
+  "generatedAt": "2026-09-18T07:00:29.735594+00:00",
+  "checkedAt": "2026-09-18T07:00:29.735594+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -11,31 +11,31 @@
   "sourceStatus": {
     "BDNS": {
       "status": "ok",
-      "count": 3,
-      "collectedCount": 3,
-      "checkedAt": "2026-09-17T15:01:55.893171+00:00",
-      "lastSuccessAt": "2026-09-17T15:01:55.893171+00:00"
+      "count": 4,
+      "collectedCount": 4,
+      "checkedAt": "2026-09-18T07:00:29.735594+00:00",
+      "lastSuccessAt": "2026-09-18T07:00:29.735594+00:00"
     },
     "BOE": {
       "status": "ok",
-      "count": 82,
-      "collectedCount": 4,
-      "checkedAt": "2026-09-17T15:01:55.893171+00:00",
-      "lastSuccessAt": "2026-09-17T15:01:55.893171+00:00"
+      "count": 85,
+      "collectedCount": 3,
+      "checkedAt": "2026-09-18T07:00:29.735594+00:00",
+      "lastSuccessAt": "2026-09-18T07:00:29.735594+00:00"
     },
     "BOPA": {
       "status": "ok",
-      "count": 34,
-      "collectedCount": 8,
-      "checkedAt": "2026-09-17T15:01:55.893171+00:00",
-      "lastSuccessAt": "2026-09-17T15:01:55.893171+00:00"
+      "count": 43,
+      "collectedCount": 9,
+      "checkedAt": "2026-09-18T07:00:29.735594+00:00",
+      "lastSuccessAt": "2026-09-18T07:00:29.735594+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 79,
       "collectedCount": 79,
-      "checkedAt": "2026-09-17T15:01:55.893171+00:00",
-      "lastSuccessAt": "2026-09-17T15:01:55.893171+00:00"
+      "checkedAt": "2026-09-18T07:00:29.735594+00:00",
+      "lastSuccessAt": "2026-09-18T07:00:29.735594+00:00"
     }
   },
   "errors": [],
@@ -98,6 +98,67 @@
         "Asturias",
         "turismo",
         "rural"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-07578",
+      "title": "Extracto de la Resolución de 10 de septiembre de 2026, de la Vicerrectora de Investigación de la Universidad de Oviedo, por la que se convoca concurso público para la contratación de personal investigador y personal técnico de apoyo a la investigación para la realización de actividades científico-técnicas, regulado en el artículo 23.bis de la Ley 14/2011 de la Ciencia, la Tecnología y la Innovación (convocatoria agosto-2026).",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07578",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07578&p_r_p_dispositionReference=2026-07578&p_r_p_dispositionDate=18%2F09%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 82,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, ciencia y salud, docencia.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07578-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07578&p_r_p_dispositionReference=2026-07578&p_r_p_dispositionDate=18%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "ciencia y salud",
+        "docencia"
       ],
       "demo": false
     },
@@ -220,6 +281,67 @@
         "Asturias",
         "ciencia y salud",
         "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-07541",
+      "title": "Extracto de la Resolución de 29 de julio de 2026, de la Consejería de Presidencia, Reto Demográfico, Igualdad y Turismo, por la que se autoriza el gasto y se aprueba la convocatoria pública de subvenciones para promover el acceso al empleo público en el marco de la ejecución de la oferta de empleo público de la Administración del Principado de Asturias, sus organismos y entes públicos durante 2026.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07541",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07541&p_r_p_dispositionReference=2026-07541&p_r_p_dispositionDate=18%2F09%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 80,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, turismo, rural.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07541-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07541&p_r_p_dispositionReference=2026-07541&p_r_p_dispositionDate=18%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "turismo",
+        "rural"
       ],
       "demo": false
     },
@@ -584,6 +706,66 @@
       "tags": [
         "Asturias",
         "turismo"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-07600",
+      "title": "Resolución de 11 de septiembre de 2026, del Servicio Público de Empleo del Principado de Asturias, por la que se fija la distribución definitiva de los créditos previstos en la segunda convocatoria de subvenciones públicas, destinadas a la financiación del “Programa Investigo Asturias”, de contratación de personas jóvenes desempleadas inscritas en el Sistema Nacional de Garantía Juvenil que desarrollen actividades en iniciativas de investigación e innovación en el ámbito territorial del Principado de Asturias, susceptibles de ser cofinanciadas en el marco del Programa del Fondo de Transición Justa de España 2021-2027.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07600",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07600&p_r_p_dispositionReference=2026-07600&p_r_p_dispositionDate=18%2F09%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 72,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, ciencia y salud.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07600-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07600&p_r_p_dispositionReference=2026-07600&p_r_p_dispositionDate=18%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "ciencia y salud"
       ],
       "demo": false
     },
@@ -1066,6 +1248,366 @@
       ],
       "tags": [
         "Asturias"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-07546",
+      "title": "Extracto de la Resolución de 9 de septiembre de 2026, del Servicio Público de Empleo del Principado de Asturias, por la que se convocan subvenciones públicas para 2027-2028, por el procedimiento de tramitación anticipada de gasto, con destino a programas de formación conducentes a la obtención de certificados profesionales (grados B y C) para personas trabajadoras desempleadas y ocupadas.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07546",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07546&p_r_p_dispositionReference=2026-07546&p_r_p_dispositionDate=18%2F09%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 67,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, docencia.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07546-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07546&p_r_p_dispositionReference=2026-07546&p_r_p_dispositionDate=18%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-07560",
+      "title": "Resolución de 4 de septiembre de 2026, de la Consejería de Medio Rural y Política Agraria, por la que se concede la subvención Ayuda redistributiva complementaria a la renta para la sostenibilidad, campaña 2023.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07560",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07560&p_r_p_dispositionReference=2026-07560&p_r_p_dispositionDate=18%2F09%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 67,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, rural.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07560-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07560&p_r_p_dispositionReference=2026-07560&p_r_p_dispositionDate=18%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "rural"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-07565",
+      "title": "Resolución de 4 de septiembre de 2026, de la Consejería de Medio Rural y Política Agraria, por la que se concede la subvención Ayuda básica a la renta para la sostenibilidad, campaña 2023.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07565",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07565&p_r_p_dispositionReference=2026-07565&p_r_p_dispositionDate=18%2F09%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 67,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, rural.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07565-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07565&p_r_p_dispositionReference=2026-07565&p_r_p_dispositionDate=18%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "rural"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-07563",
+      "title": "Resolución de 4 de septiembre de 2026, de la Consejería de Medio Rural y Política Agraria, por la que se concede la subvención Ayuda básica a la renta para la sostenibilidad, campaña 2024.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07563",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07563&p_r_p_dispositionReference=2026-07563&p_r_p_dispositionDate=18%2F09%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 67,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, rural.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07563-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07563&p_r_p_dispositionReference=2026-07563&p_r_p_dispositionDate=18%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "rural"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-07558",
+      "title": "Resolución de 4 de septiembre de 2026, de la Consejería de Medio Rural y Política Agraria, por la que se concede la subvención Ayuda redistributiva complementaria a la renta para la sostenibilidad, campaña 2024.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07558",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07558&p_r_p_dispositionReference=2026-07558&p_r_p_dispositionDate=18%2F09%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 67,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, rural.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07558-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07558&p_r_p_dispositionReference=2026-07558&p_r_p_dispositionDate=18%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "rural"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-07518",
+      "title": "Resolución de 4 de septiembre de 2026, de la Consejería de Medio Rural y Política Agraria, por la que se concede la subvención Ayuda básica a la renta para la sostenibilidad, campaña 2025.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-07518",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07518&p_r_p_dispositionReference=2026-07518&p_r_p_dispositionDate=18%2F09%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 67,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, rural.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-07518-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-07518&p_r_p_dispositionReference=2026-07518&p_r_p_dispositionDate=18%2F09%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "rural"
       ],
       "demo": false
     },
@@ -2678,6 +3220,65 @@
       "demo": false
     },
     {
+      "id": "boe-boe-a-2026-19432",
+      "title": "Resolución de 11 de septiembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 28 de julio de 2026, en el Organismo Autónomo Instituto Nacional de Estadística.",
+      "issuer": "Destinos",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-19432",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19432",
+      "kind": "autoempleo",
+      "territory": "España",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 55,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: autónomos.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-19432-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19432"
+        }
+      ],
+      "tags": [
+        "autónomos"
+      ],
+      "demo": false
+    },
+    {
       "id": "boe-boe-a-2026-19151",
       "title": "Resolución de 7 de septiembre de 2026, de la Diputación Provincial de Granada, Organismo Autónomo Servicio Provincial Tributario, referente a la convocatoria para proveer varias plazas.",
       "issuer": "Personal funcionario y laboral",
@@ -2792,6 +3393,65 @@
       ],
       "tags": [
         "turismo"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-930250",
+      "title": "Convocatoria de Ayudas a la contratación Programa Talento Joven. Anualidad 2026. Cámara de Comercio de Avilés",
+      "issuer": "CÁMARA DE COMERCIO DE AVILÉS",
+      "source": "BDNS",
+      "sourceRef": "930250",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CÁMARA DE COMERCIO DE AVILÉS",
+      "publishedAt": "2026-09-17",
+      "deadline": "2026-12-31",
+      "deadlineVerified": true,
+      "amount": 25000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Convocatoria de Ayudas a la contratación Programa Talento Joven. Anualidad 2026. Cámara de Comercio de Avilés",
+      "fitReasons": [
+        "Coincide con: comercio.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-930250-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-17",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "comercio"
       ],
       "demo": false
     },
@@ -4098,24 +4758,24 @@
       "demo": false
     },
     {
-      "id": "bdns-930190",
-      "title": "CONVOCATORIA EN REGIMEN DE CONCURRENCIA COMPETITIVA  PARA LA CONCESIÓN DE SUBVENCIONES A ASOCIACIONES RUTAS DEL VINO DE LA PROVINCIA DE ZAMORA. AÑO 2026",
-      "issuer": "PATRONATO PROVINCIAL DE TURISMO DE ZAMORA",
+      "id": "bdns-930249",
+      "title": "Bases por las que se regula la concesión de subvenciones por la organización de Comparsas Mixtas de Caldereros en San Sebastián y convocatoria año 2027.",
+      "issuer": "ENTIDAD PÚBLICA EMPRESARIAL DE CULTURA- DONOSTIA KULTURA",
       "source": "BDNS",
-      "sourceRef": "930190",
+      "sourceRef": "930249",
       "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
       "kind": "subvención",
-      "territory": "DIPUTACIÓN PROV. DE ZAMORA",
+      "territory": "DONOSTIA/SAN SEBASTIÁN",
       "publishedAt": "2026-09-17",
-      "deadline": "2026-10-15",
+      "deadline": "2026-10-31",
       "deadlineVerified": true,
-      "amount": 160000,
+      "amount": 4949,
       "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
       "score": 49,
       "state": "nueva",
-      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · ORDENANZA GENERAL DE SUBVENCIONES",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Bases por las que se regula la concesión de subvenciones por la organización de Comparsas Mixtas de Caldereros en San Sebastián y convocatoria año 2027",
       "fitReasons": [
-        "Coincide con: turismo.",
+        "Coincide con: por clasificar.",
         "Publicación oficial localizada en BDNS."
       ],
       "blockers": [
@@ -4143,7 +4803,7 @@
       ],
       "evidence": [
         {
-          "id": "BDNS-930190-official",
+          "id": "BDNS-930249-official",
           "source": "BDNS",
           "label": "Publicación oficial",
           "date": "2026-09-17",
@@ -4152,7 +4812,7 @@
         }
       ],
       "tags": [
-        "turismo"
+        "por clasificar"
       ],
       "demo": false
     },
@@ -10058,6 +10718,124 @@
       ],
       "tags": [
         "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-19422",
+      "title": "Real Decreto 733/2026, de 16 de septiembre, por el que se regula la concesión directa de una subvención a la Comunidad Autónoma de Canarias para abaratar a los agricultores el sobrecoste de la desalación y de la extracción de agua de pozos y de galerías para el riego agrícola, y se modifica el Real Decreto 1159/2020, de 22 de diciembre, por el que se regula la concesión directa de una subvención a la Agencia del Agua de Castilla-La Mancha, O.A., para la ejecución de diversas obras y actuaciones de mejora del entorno socioeconómico de los núcleos colindantes con los embalses de Entrepeñas y Buendía.",
+      "issuer": "Subvenciones",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-19422",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19422",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-19422-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19422"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-19423",
+      "title": "Orden ECM/973/2026, de 9 de septiembre, por la que se determina la tipología de los fondos de pensiones para su clasificación en función de su política de inversión.",
+      "issuer": "Política económica",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-19423",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19423",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-19423-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19423"
+        }
+      ],
+      "tags": [
+        "por clasificar"
       ],
       "demo": false
     },
