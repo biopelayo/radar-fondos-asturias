@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T07:00:29.735594+00:00",
-  "checkedAt": "2026-09-18T07:00:29.735594+00:00",
+  "generatedAt": "2026-09-18T15:00:02.697114+00:00",
+  "checkedAt": "2026-09-18T15:00:02.697114+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -13,29 +13,29 @@
       "status": "ok",
       "count": 4,
       "collectedCount": 4,
-      "checkedAt": "2026-09-18T07:00:29.735594+00:00",
-      "lastSuccessAt": "2026-09-18T07:00:29.735594+00:00"
+      "checkedAt": "2026-09-18T15:00:02.697114+00:00",
+      "lastSuccessAt": "2026-09-18T15:00:02.697114+00:00"
     },
     "BOE": {
       "status": "ok",
       "count": 85,
       "collectedCount": 3,
-      "checkedAt": "2026-09-18T07:00:29.735594+00:00",
-      "lastSuccessAt": "2026-09-18T07:00:29.735594+00:00"
+      "checkedAt": "2026-09-18T15:00:02.697114+00:00",
+      "lastSuccessAt": "2026-09-18T15:00:02.697114+00:00"
     },
     "BOPA": {
       "status": "ok",
       "count": 43,
       "collectedCount": 9,
-      "checkedAt": "2026-09-18T07:00:29.735594+00:00",
-      "lastSuccessAt": "2026-09-18T07:00:29.735594+00:00"
+      "checkedAt": "2026-09-18T15:00:02.697114+00:00",
+      "lastSuccessAt": "2026-09-18T15:00:02.697114+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 79,
       "collectedCount": 79,
-      "checkedAt": "2026-09-18T07:00:29.735594+00:00",
-      "lastSuccessAt": "2026-09-18T07:00:29.735594+00:00"
+      "checkedAt": "2026-09-18T15:00:02.697114+00:00",
+      "lastSuccessAt": "2026-09-18T15:00:02.697114+00:00"
     }
   },
   "errors": [],
@@ -1248,6 +1248,66 @@
       ],
       "tags": [
         "Asturias"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-930506",
+      "title": "Convocatoria de un contrato predoctoral, modalidad apoyo a la incorporación del talento, para personal investigador en formación en el marco del Plan Propio de I+D+i, cofinanciada por el Fondo Social Europeo Plus (FSE+)",
+      "issuer": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "source": "BDNS",
+      "sourceRef": "930506",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "licitación",
+      "territory": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-11-04",
+      "deadlineVerified": true,
+      "amount": 138945,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 69,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Bases reguladoras que forman parte del texto íntegro de la convocatoria.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-930506-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
       ],
       "demo": false
     },
@@ -3397,22 +3457,81 @@
       "demo": false
     },
     {
-      "id": "bdns-930250",
-      "title": "Convocatoria de Ayudas a la contratación Programa Talento Joven. Anualidad 2026. Cámara de Comercio de Avilés",
-      "issuer": "CÁMARA DE COMERCIO DE AVILÉS",
+      "id": "bdns-930491",
+      "title": "Convocatoria de ayudas UCLM para la colaboración con clubes y sociedades anónimas deportivas de máximo nivel de Castilla-La Mancha, año 2026",
+      "issuer": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
       "source": "BDNS",
-      "sourceRef": "930250",
+      "sourceRef": "930491",
       "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
       "kind": "subvención",
-      "territory": "CÁMARA DE COMERCIO DE AVILÉS",
-      "publishedAt": "2026-09-17",
-      "deadline": "2026-12-31",
+      "territory": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-10-09",
       "deadlineVerified": true,
-      "amount": 25000,
+      "amount": 250000,
       "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
       "score": 54,
       "state": "nueva",
-      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Convocatoria de Ayudas a la contratación Programa Talento Joven. Anualidad 2026. Cámara de Comercio de Avilés",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Bases reguladoras que forman parte del texto íntegro de la convocatoria.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-930491-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-930458",
+      "title": "CONVOCATORIA PARA LA CONCESIÓN DE SUBVENCIONES DE INCENTIVO AL CONSUMO PROGRAMA “TARJETA IMPULSA COMERCIO SEGOVIA 2026”",
+      "issuer": "AYUNTAMIENTO DE SEGOVIA",
+      "source": "BDNS",
+      "sourceRef": "930458",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "SEGOVIA",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-11-23",
+      "deadlineVerified": true,
+      "amount": 250000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · CONVOCATORIA PARA LA CONCESIÓN DE SUBVENCIONES DE INCENTIVO AL CONSUMO PROGRAMA “TARJETA IMPULSA COMERCIO SEGOVIA 2026”",
       "fitReasons": [
         "Coincide con: comercio.",
         "Publicación oficial localizada en BDNS."
@@ -3442,76 +3561,16 @@
       ],
       "evidence": [
         {
-          "id": "BDNS-930250-official",
+          "id": "BDNS-930458-official",
           "source": "BDNS",
           "label": "Publicación oficial",
-          "date": "2026-09-17",
+          "date": "2026-09-18",
           "verified": true,
           "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
         }
       ],
       "tags": [
         "comercio"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-930207",
-      "title": "Convocatoria de becas de Intercambio con universidades extranjeras, curso 2027/2028",
-      "issuer": "UNIVERSIDAD DE SALAMANCA",
-      "source": "BDNS",
-      "sourceRef": "930207",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "UNIVERSIDAD DE SALAMANCA",
-      "publishedAt": "2026-09-17",
-      "deadline": "2027-05-14",
-      "deadlineVerified": true,
-      "amount": 100000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 54,
-      "state": "nueva",
-      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución de 26 de septiembre de 2017 del Rectorado de la Universidad de Salamanca, por la que se publican las Bases reguladoras de la concesión de becas y ayudas a los\nestudiantes de la Universidad de Salamanca (B.O.C. y L. de 3 de octubre de 2017).",
-      "fitReasons": [
-        "Coincide con: ciencia y salud, docencia.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-930207-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-17",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "ciencia y salud",
-        "docencia"
       ],
       "demo": false
     },
@@ -3869,6 +3928,65 @@
       "tags": [
         "docencia",
         "energía"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-930457",
+      "title": "CONVOCATORIA PLANES FORMACIÓN NEGOCIACIÓN COLECTIVA SINDICALES - NCS 2026",
+      "issuer": "CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO",
+      "source": "BDNS",
+      "sourceRef": "930457",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "COMUNIDAD DE MADRID",
+      "publishedAt": "2026-09-18",
+      "deadline": "2026-09-18",
+      "deadlineVerified": false,
+      "amount": 162500,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · BBRR SUBVENCIÓN PLANES DE FORMACIÓN DE ACTIVIDADES FORMATIVAS CON EL FIN DE CAPACITAR A PERSONAS VINCULADAS CON LOS AGENTES SOCIALES PARA LOS PROCESOS DEL DIÁLOGO SOCIAL Y LA NEGOCIACIÓN COLECTIVA EN LA COMUNIDAD DE MADRID.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-930457-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-18",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
       ],
       "demo": false
     },
@@ -4640,65 +4758,6 @@
       "demo": false
     },
     {
-      "id": "bdns-930206",
-      "title": "2026 CONVOCATORIA SUBVENCIONES DIRECTAS PARA EL IMPULSO DEL COMERCIO LOCAL MEDIANTE LA CREACIÓN DE LOS DENOMINADOS \"XECS CONSUM\"",
-      "issuer": "AYUNTAMIENTO DE GANDIA",
-      "source": "BDNS",
-      "sourceRef": "930206",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "GANDIA",
-      "publishedAt": "2026-09-17",
-      "deadline": "2026-10-19",
-      "deadlineVerified": true,
-      "amount": 400000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 50,
-      "state": "nueva",
-      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · 2026 CONVOCATORIA SUBVENCIONES DIRECTAS PARA EL IMPULSO DEL COMERCIO LOCAL MEDIANTE LA CREACIÓN DE LOS DENOMINADOS \"XECS CONSUM\"",
-      "fitReasons": [
-        "Coincide con: comercio.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-930206-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-17",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "comercio"
-      ],
-      "demo": false
-    },
-    {
       "id": "ue-horizon-cl6-2026-01-circbio-08",
       "title": "Supporting pre-normative research for standardization of the bio-based products",
       "issuer": "Comisión Europea",
@@ -4754,65 +4813,6 @@
       ],
       "tags": [
         "ciencia y salud"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-930249",
-      "title": "Bases por las que se regula la concesión de subvenciones por la organización de Comparsas Mixtas de Caldereros en San Sebastián y convocatoria año 2027.",
-      "issuer": "ENTIDAD PÚBLICA EMPRESARIAL DE CULTURA- DONOSTIA KULTURA",
-      "source": "BDNS",
-      "sourceRef": "930249",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "DONOSTIA/SAN SEBASTIÁN",
-      "publishedAt": "2026-09-17",
-      "deadline": "2026-10-31",
-      "deadlineVerified": true,
-      "amount": 4949,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 49,
-      "state": "nueva",
-      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Bases por las que se regula la concesión de subvenciones por la organización de Comparsas Mixtas de Caldereros en San Sebastián y convocatoria año 2027",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-930249-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-17",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "por clasificar"
       ],
       "demo": false
     },
