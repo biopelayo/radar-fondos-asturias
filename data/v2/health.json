@@ -1,48 +1,43 @@
 {
-  "catalogVersion": "sha256:e97369d78a2d8a59ca3c847cd6469c6f2fccdb0cf80bee494074490fd4562278",
-  "generatedAt": "2026-09-19T15:00:43.192614+00:00",
+  "catalogVersion": "sha256:10d11d00af1a03a82e9c393e938c9e691560fcd6c5554335668873b4447d38cc",
+  "generatedAt": "2026-09-08T07:13:49.449154+00:00",
   "schemaVersion": "2.0.0",
   "sources": [
     {
-      "checkedAt": "2026-09-20T15:01:13.594416+00:00",
+      "checkedAt": "2026-09-08T07:13:49.449154+00:00",
       "consecutiveFailures": 0,
       "id": "health:bdns",
-      "lastSuccessAt": "2026-09-20T15:01:13.594416+00:00",
-      "recordCount": 3,
+      "lastSuccessAt": "2026-09-08T07:13:49.449154+00:00",
+      "recordCount": 9,
       "schemaVersion": "2.0.0",
       "sourceKey": "bdns",
       "status": "healthy"
     },
     {
-      "checkedAt": "2026-09-20T15:01:13.594416+00:00",
-      "consecutiveFailures": 1,
-      "error": {
-        "code": "v1-source-error",
-        "message": "HTTPError: HTTP Error 404: Not Found",
-        "retryable": true
-      },
+      "checkedAt": "2026-09-08T07:13:49.449154+00:00",
+      "consecutiveFailures": 0,
       "id": "health:boe",
-      "lastSuccessAt": "2026-09-19T15:00:43.192614+00:00",
-      "recordCount": 85,
+      "lastSuccessAt": "2026-09-08T07:13:49.449154+00:00",
+      "recordCount": 15,
       "schemaVersion": "2.0.0",
       "sourceKey": "boe",
-      "status": "degraded"
+      "status": "healthy"
     },
     {
-      "checkedAt": "2026-09-20T15:01:13.594416+00:00",
+      "checkedAt": "2026-09-08T07:13:49.449154+00:00",
       "consecutiveFailures": 0,
       "id": "health:bopa",
-      "lastSuccessAt": "2026-09-20T15:01:13.594416+00:00",
-      "recordCount": 43,
+      "lastSuccessAt": "2026-09-08T07:13:49.449154+00:00",
+      "recordCount": 2,
       "schemaVersion": "2.0.0",
       "sourceKey": "bopa",
       "status": "healthy"
     },
     {
-      "checkedAt": "2026-09-20T15:01:13.594416+00:00",
+      "checkedAt": "2026-09-08T07:13:49.449154+00:00",
       "consecutiveFailures": 0,
       "id": "health:eu",
-      "lastSuccessAt": "2026-09-20T15:01:13.594416+00:00",
+      "lastSuccessAt": "2026-09-08T07:13:49.449154+00:00",
       "recordCount": 79,
       "schemaVersion": "2.0.0",
       "sourceKey": "eu",
