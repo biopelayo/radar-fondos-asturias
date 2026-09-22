@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T07:01:36.113589+00:00",
-  "checkedAt": "2026-09-22T07:01:36.113589+00:00",
+  "generatedAt": "2026-09-22T15:00:05.819486+00:00",
+  "checkedAt": "2026-09-22T15:00:05.819486+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -11,31 +11,31 @@
   "sourceStatus": {
     "BDNS": {
       "status": "ok",
-      "count": 6,
-      "collectedCount": 6,
-      "checkedAt": "2026-09-22T07:01:36.113589+00:00",
-      "lastSuccessAt": "2026-09-22T07:01:36.113589+00:00"
+      "count": 3,
+      "collectedCount": 3,
+      "checkedAt": "2026-09-22T15:00:05.819486+00:00",
+      "lastSuccessAt": "2026-09-22T15:00:05.819486+00:00"
     },
     "BOE": {
       "status": "ok",
       "count": 101,
       "collectedCount": 7,
-      "checkedAt": "2026-09-22T07:01:36.113589+00:00",
-      "lastSuccessAt": "2026-09-22T07:01:36.113589+00:00"
+      "checkedAt": "2026-09-22T15:00:05.819486+00:00",
+      "lastSuccessAt": "2026-09-22T15:00:05.819486+00:00"
     },
     "BOPA": {
       "status": "ok",
       "count": 61,
       "collectedCount": 6,
-      "checkedAt": "2026-09-22T07:01:36.113589+00:00",
-      "lastSuccessAt": "2026-09-22T07:01:36.113589+00:00"
+      "checkedAt": "2026-09-22T15:00:05.819486+00:00",
+      "lastSuccessAt": "2026-09-22T15:00:05.819486+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 79,
       "collectedCount": 79,
-      "checkedAt": "2026-09-22T07:01:36.113589+00:00",
-      "lastSuccessAt": "2026-09-22T07:01:36.113589+00:00"
+      "checkedAt": "2026-09-22T15:00:05.819486+00:00",
+      "lastSuccessAt": "2026-09-22T15:00:05.819486+00:00"
     }
   },
   "errors": [],
@@ -1435,6 +1435,66 @@
       "demo": false
     },
     {
+      "id": "bdns-931042",
+      "title": "Resolución de 22 de septiembre de 2026 de la Presidencia de la Agencia Estatal de Investigación, por la que se aprueba la convocatoria 2026 de ayudas del Programa de Doctorados Industriales (actividades no económicas de organismos de investigación).",
+      "issuer": "AGENCIA ESTATAL DE INVESTIGACIÓN",
+      "source": "BDNS",
+      "sourceRef": "931042",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "publishedAt": "2026-09-22",
+      "deadline": "2026-10-26",
+      "deadlineVerified": true,
+      "amount": 500000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 70,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden CNU/671/2026, de 29 de junio, por la que se aprueban las bases reguladoras para la concesión de ayudas del Plan Estatal de Investigación Científica y Técnica y de Innovación 2024-2027, cuya gestión corresponda a la Agencia Estatal de Investigación.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-931042-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-22",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "bopa-2026-07607",
       "title": "Resolución de 21 de julio de 2026, de la Consejería de Medio Rural y Política Agraria, por la que se concede la ayuda denominada Apicultura para la biodiversidad (Intervención 6501_4), campaña 2025.",
       "issuer": "Principado de Asturias",
@@ -1733,66 +1793,6 @@
         "Asturias",
         "ciencia y salud",
         "rural"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-930765",
-      "title": "Convocatoria de ayudas de contratos predoctorales para la formación de personal investigador en formación, en el marco del Plan\nEstatal de Investigación Científica, Técnica y de Innovación 2024-2027.",
-      "issuer": "UNIVERSIDAD POLITÉCNICA DE MADRID",
-      "source": "BDNS",
-      "sourceRef": "930765",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "licitación",
-      "territory": "UNIVERSIDAD POLITÉCNICA DE MADRID",
-      "publishedAt": "2026-09-21",
-      "deadline": "2026-09-21",
-      "deadlineVerified": false,
-      "amount": 2478900,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 67,
-      "state": "nueva",
-      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden CIN/1025/2022, de 27 de octubre, por la que se aprueban las bases reguladoras para la concesión de ayudas públicas\ncorrespondientes a varios programas y subprogramas del Plan Estatal de Investigación Científica y Técnica y de Innovación 2021- 2023",
-      "fitReasons": [
-        "Coincide con: ciencia y salud, docencia.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-930765-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-21",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "ciencia y salud",
-        "docencia"
       ],
       "demo": false
     },
@@ -3478,66 +3478,6 @@
       "demo": false
     },
     {
-      "id": "bdns-930797",
-      "title": "Resolución de 18 de setiembrede de 2026, por la que se aprueba la convocatoria para la concesión de ayudas a personas diagnosticadas de Esclerosis Lateral Amiotrófica (ELA) en el àmbito territorial del Principado de Asturias",
-      "issuer": "CONSEJERÍA DE SALUD",
-      "source": "BDNS",
-      "sourceRef": "930797",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "PRINCIPADO DE ASTURIAS",
-      "publishedAt": "2026-09-21",
-      "deadline": "2026-09-21",
-      "deadlineVerified": false,
-      "amount": 267500,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 62,
-      "state": "nueva",
-      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución de 9 de junio de 2025, de la Consejería de Salud, por la que se aprueban las bases reguladoras para la concesión de ayudas a personas diagnósticadas de esclerosis lateral amiotrófica (ELA) en el ámbito del territorio del Principado de Asturias",
-      "fitReasons": [
-        "Coincide con: Asturias, ciencia y salud.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-930797-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-21",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "Asturias",
-        "ciencia y salud"
-      ],
-      "demo": false
-    },
-    {
       "id": "boe-boe-a-2026-19381",
       "title": "Resolución de 10 de septiembre de 2026, del Ayuntamiento de Gozón (Asturias), referente a la convocatoria para proveer varias plazas.",
       "issuer": "Personal funcionario y laboral",
@@ -4248,65 +4188,6 @@
       "demo": false
     },
     {
-      "id": "bdns-930805",
-      "title": "Convocatoria de subvenciones para el fomento de la contratación estable y de calidad y del empleo autónomo 2026",
-      "issuer": "AYUNTAMIENTO DE BARBASTRO",
-      "source": "BDNS",
-      "sourceRef": "930805",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "autoempleo",
-      "territory": "BARBASTRO",
-      "publishedAt": "2026-09-21",
-      "deadline": "2026-09-21",
-      "deadlineVerified": false,
-      "amount": 60000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 59,
-      "state": "nueva",
-      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Ordenanza general municipal de concesión de subvenciones del Ayuntamiento de Barbastro",
-      "fitReasons": [
-        "Coincide con: autónomos.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-930805-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-21",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "autónomos"
-      ],
-      "demo": false
-    },
-    {
       "id": "boe-boe-b-2026-30660",
       "title": "Resolución de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Granada, por la que se declara, en concreto, de utilidad pública, el proyecto denominado «Cierre de LMT línea Campo_Cama 20 kv subestación Jabalcón con línea Castril 20 kv subestación Baza entre el apoyo nº 1 y el apoyo nº 28, Parajes la Granja, Cortijo Grande, Hoyas de Luna, Cortijo Nuevo y LLano Pozos», T.M. de Baza y Benamaurel (Granada).",
       "issuer": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
@@ -4903,65 +4784,6 @@
       "demo": false
     },
     {
-      "id": "bdns-930779",
-      "title": "Convocatoria de ayudas por importe máximo de 150 €, por unidad familiar, otorgadas por concurrencia competitiva, destinadas al pago de cualquier suministro de la vivienda  habitual (agua, electricidad y gas) pagado entre enero y agosto de 2026.",
-      "issuer": "AYUNTAMIENTO DE MURO DE ALCOY",
-      "source": "BDNS",
-      "sourceRef": "930779",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "MURO DE ALCOY",
-      "publishedAt": "2026-09-21",
-      "deadline": "2026-10-08",
-      "deadlineVerified": true,
-      "amount": 24000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 54,
-      "state": "nueva",
-      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Ordenanza General de Subvenciones del Ayuntamiento de Muro de Alcoy.",
-      "fitReasons": [
-        "Coincide con: vivienda.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-930779-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-21",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "vivienda"
-      ],
-      "demo": false
-    },
-    {
       "id": "boe-boe-b-2026-30622",
       "title": "Anuncio de licitación de: Consejo de Seguridad Nuclear. Objeto: Servicio de gestión de la información BIM durante el proyecto de rehabilitación de la sede del Consejo de Seguridad Nuclear. Expediente: SPA/397/2025/630.00.",
       "issuer": "CONSEJO DE SEGURIDAD NUCLEAR",
@@ -5379,24 +5201,24 @@
       "demo": false
     },
     {
-      "id": "bdns-930807",
-      "title": "Convocatoria de subvenciones para el fomento de actividades empresariales 2026",
-      "issuer": "AYUNTAMIENTO DE BARBASTRO",
+      "id": "bdns-931053",
+      "title": "Premio Matilde Salvador de Música dentro de la VI edición de los Premios a la Creación de las Universidades Públicas Valencianas (PRECREA)",
+      "issuer": "UNIVERSIDAD JAUME I DE CASTELLÓN",
       "source": "BDNS",
-      "sourceRef": "930807",
+      "sourceRef": "931053",
       "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
       "kind": "subvención",
-      "territory": "BARBASTRO",
-      "publishedAt": "2026-09-21",
-      "deadline": "2026-09-21",
+      "territory": "UNIVERSIDAD JAUME I DE CASTELLÓN",
+      "publishedAt": "2026-09-22",
+      "deadline": "2026-09-22",
       "deadlineVerified": false,
-      "amount": 48056,
+      "amount": 5000,
       "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
       "score": 51,
       "state": "nueva",
-      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Ordenanza general municipal de concesión de subvenciones del Ayuntamiento de Barbastro",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Premio Matilde Salvador de Música dentro de la VI edición de los Premios a la Creación de las Universidades Públicas Valencianas (PRECREA)",
       "fitReasons": [
-        "Coincide con: por clasificar.",
+        "Coincide con: docencia.",
         "Publicación oficial localizada en BDNS."
       ],
       "blockers": [
@@ -5424,75 +5246,16 @@
       ],
       "evidence": [
         {
-          "id": "BDNS-930807-official",
+          "id": "BDNS-931053-official",
           "source": "BDNS",
           "label": "Publicación oficial",
-          "date": "2026-09-21",
+          "date": "2026-09-22",
           "verified": true,
           "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
         }
       ],
       "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-930785",
-      "title": "PREMIOS AL USO DEL VALENCIANO EN EL COMERCIO LOCAL 2026",
-      "issuer": "AYUNTAMIENTO DE CORBERA",
-      "source": "BDNS",
-      "sourceRef": "930785",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "CORBERA",
-      "publishedAt": "2026-09-21",
-      "deadline": "2026-09-21",
-      "deadlineVerified": false,
-      "amount": 4000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 51,
-      "state": "nueva",
-      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · PREMIOS AL USO DEL VALENCIANO EN EL COMERCIO LOCAL AYUNTAMIENTO DE CORBERA 2026",
-      "fitReasons": [
-        "Coincide con: comercio.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-930785-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-21",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "comercio"
+        "docencia"
       ],
       "demo": false
     },
@@ -8745,6 +8508,65 @@
       "tags": [
         "ciencia y salud",
         "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-931076",
+      "title": "Convocatoria de ayudas para desarrollo de proyectos de arte y educación en centros educativos de Navarra 2026",
+      "issuer": "DEPARTAMENTO DE CULTURA, DEPORTE Y TURISMO",
+      "source": "BDNS",
+      "sourceRef": "931076",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "COMUNIDAD FORAL DE NAVARRA",
+      "publishedAt": "2026-09-22",
+      "deadline": "2026-09-22",
+      "deadlineVerified": false,
+      "amount": 70003,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 46,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Convocatoria de subvenciones para desarrollo de proyectos de arte y educación en centros educativos de Navarra 2026",
+      "fitReasons": [
+        "Coincide con: turismo.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-931076-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-22",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "turismo"
       ],
       "demo": false
     },
@@ -12171,65 +11993,6 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl2-2026-01-heritage-03",
-      "title": "AI integration in CCSI work practice: catalysing innovation and competitiveness",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL2-2026-01-HERITAGE-03",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-03",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2026-05-12",
-      "deadline": "2026-09-23",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL2-2026-01-HERITAGE-03-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2026-05-12",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-03"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
       "id": "ue-horizon-cl2-2026-01-heritage-04",
       "title": "Towards a fair and transparent market for cultural and creative content in the era of generative AI",
       "issuer": "Comisión Europea",
@@ -12399,6 +12162,65 @@
           "date": "2026-05-12",
           "verified": true,
           "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-06"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl2-2026-01-heritage-03",
+      "title": "AI integration in CCSI work practice: catalysing innovation and competitiveness",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL2-2026-01-HERITAGE-03",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-03",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2026-05-12",
+      "deadline": "2026-09-23",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL2-2026-01-HERITAGE-03-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2026-05-12",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-HERITAGE-03"
         }
       ],
       "tags": [
