@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T07:01:46.175895+00:00",
-  "checkedAt": "2026-09-24T07:01:46.175895+00:00",
+  "generatedAt": "2026-09-24T15:00:04.383226+00:00",
+  "checkedAt": "2026-09-24T15:00:04.383226+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -11,31 +11,31 @@
   "sourceStatus": {
     "BDNS": {
       "status": "ok",
-      "count": 4,
-      "collectedCount": 4,
-      "checkedAt": "2026-09-24T07:01:46.175895+00:00",
-      "lastSuccessAt": "2026-09-24T07:01:46.175895+00:00"
+      "count": 5,
+      "collectedCount": 5,
+      "checkedAt": "2026-09-24T15:00:04.383226+00:00",
+      "lastSuccessAt": "2026-09-24T15:00:04.383226+00:00"
     },
     "BOE": {
       "status": "ok",
       "count": 119,
       "collectedCount": 9,
-      "checkedAt": "2026-09-24T07:01:46.175895+00:00",
-      "lastSuccessAt": "2026-09-24T07:01:46.175895+00:00"
+      "checkedAt": "2026-09-24T15:00:04.383226+00:00",
+      "lastSuccessAt": "2026-09-24T15:00:04.383226+00:00"
     },
     "BOPA": {
       "status": "ok",
       "count": 69,
       "collectedCount": 6,
-      "checkedAt": "2026-09-24T07:01:46.175895+00:00",
-      "lastSuccessAt": "2026-09-24T07:01:46.175895+00:00"
+      "checkedAt": "2026-09-24T15:00:04.383226+00:00",
+      "lastSuccessAt": "2026-09-24T15:00:04.383226+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 76,
       "collectedCount": 76,
-      "checkedAt": "2026-09-24T07:01:46.175895+00:00",
-      "lastSuccessAt": "2026-09-24T07:01:46.175895+00:00"
+      "checkedAt": "2026-09-24T15:00:04.383226+00:00",
+      "lastSuccessAt": "2026-09-24T15:00:04.383226+00:00"
     }
   },
   "errors": [],
@@ -1614,6 +1614,65 @@
       ],
       "tags": [
         "Asturias"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-931575",
+      "title": "Resolución de 22 de septiembre de 2026 del Ayuntamiento de Utebo, por la que se convocan la concesión de ayudas al fomento del emprendimiento para autónomos y pymes en Utebo, correspondiente al año 2026.",
+      "issuer": "AYUNTAMIENTO DE UTEBO",
+      "source": "BDNS",
+      "sourceRef": "931575",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "autoempleo",
+      "territory": "UTEBO",
+      "publishedAt": "2026-09-24",
+      "deadline": "2026-09-24",
+      "deadlineVerified": false,
+      "amount": 15000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 69,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Ordenanza_42. ORDENANZA GENERAL DE SUBVENCIONES DEL AYUNTAMIENTO DE UTEBO",
+      "fitReasons": [
+        "Coincide con: autónomos.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-931575-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "autónomos"
       ],
       "demo": false
     },
@@ -5208,66 +5267,6 @@
       "demo": false
     },
     {
-      "id": "bdns-931323",
-      "title": "Resolución de 23 septiembre 2026, de D.G.Ciencia e Investigación de la Cons. Educación, Cultura y Univers., por la que se convocan, para 2027, subv. Programa apoyo a contratación y estabilización de personas investigadoras e innov. con talento.Plan GenT2.",
-      "issuer": "SECRETARÍA AUTONÓMICA DE UNIVERSIDADES",
-      "source": "BDNS",
-      "sourceRef": "931323",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "COMUNITAT VALENCIANA",
-      "publishedAt": "2026-09-23",
-      "deadline": "2026-10-30",
-      "deadlineVerified": true,
-      "amount": 24326583,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 55,
-      "state": "nueva",
-      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden 7/2025 de 22 de abril Conselleria de E. C. U. E. por la cual se aprueban las bases reguladoras para conceder subv. del Programa para el apoyo a la contratación y estabilización de las personas investigadoras e innovadoras con talento. Plan GenT2",
-      "fitReasons": [
-        "Coincide con: ciencia y salud, docencia.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-931323-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-23",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "ciencia y salud",
-        "docencia"
-      ],
-      "demo": false
-    },
-    {
       "id": "boe-boe-a-2026-19731",
       "title": "Resolución de 15 de septiembre de 2026, de la Diputación Provincial de Granada, Organismo Autónomo Agencia Provincial de Extinción de Incendios, referente a la convocatoria para proveer una plaza.",
       "issuer": "Personal funcionario y laboral",
@@ -5619,6 +5618,124 @@
       ],
       "tags": [
         "turismo"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-931572",
+      "title": "Convocatoria del XXIV premio de expresión artística: “Los derechos humanos y el arte”. Facultad de Trabajo Social. Universidad de Castilla-La Mancha. Año 2026",
+      "issuer": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "source": "BDNS",
+      "sourceRef": "931572",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "publishedAt": "2026-09-24",
+      "deadline": "2026-11-09",
+      "deadlineVerified": true,
+      "amount": 600,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Bases reguladoras que forman parte del texto íntegro de la convocatoria.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-931572-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-931559",
+      "title": "Convocatoria de la I Datathon de Inteligencia de Procesos UCLM–Celonis. Aula Celonis Process Intelligence de la Universidad de Castilla-La Mancha. Curso académico 2026/2027",
+      "issuer": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "source": "BDNS",
+      "sourceRef": "931559",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "publishedAt": "2026-09-24",
+      "deadline": "2026-11-17",
+      "deadlineVerified": true,
+      "amount": 3300,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Bases reguladoras que forman parte del texto íntegro de la convocatoria.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-931559-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-09-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
       ],
       "demo": false
     },
@@ -6160,24 +6277,24 @@
       "demo": false
     },
     {
-      "id": "bdns-931322",
-      "title": "Resolución de Alcaldía de 23 de septiembre de 2026 del Ayuntamiento de Castañeda, por la que se convocan subvenciones en materia de becas artistas jóvenes de Castañeda formación musical y danza curso 2026-2027.",
-      "issuer": "AYUNTAMIENTO DE CASTAÑEDA",
+      "id": "bdns-931568",
+      "title": "Convocatoria campaña Bonos Comercio por Adhesión voluntaria para comercios locales y consumidores de L' Alcúdia de Crespins 2026",
+      "issuer": "AYUNTAMIENTO DE ALCÚDIA DE CRESPINS, L'",
       "source": "BDNS",
-      "sourceRef": "931322",
+      "sourceRef": "931568",
       "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
       "kind": "subvención",
-      "territory": "CASTAÑEDA",
-      "publishedAt": "2026-09-23",
-      "deadline": "2026-09-23",
+      "territory": "ALCÚDIA DE CRESPINS, L'",
+      "publishedAt": "2026-09-24",
+      "deadline": "2026-09-24",
       "deadlineVerified": false,
-      "amount": 750,
+      "amount": 15000,
       "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
       "score": 51,
       "state": "nueva",
-      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · BASES REGULADORAS DE LA CONCESIÓN DE BECAS INDIVIDUALES A ARTISTAS JÓVENES DE CASTAÑEDA PARA LA FORMACIÓN  MUSICAL Y DE DANZA . CURSO 2026/2027",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Bases reguladoras de adhesión voluntaria para los comercios locales y para el público consumidor a la Campaña de Bonos 2026",
       "fitReasons": [
-        "Coincide con: docencia.",
+        "Coincide con: comercio.",
         "Publicación oficial localizada en BDNS."
       ],
       "blockers": [
@@ -6205,16 +6322,16 @@
       ],
       "evidence": [
         {
-          "id": "BDNS-931322-official",
+          "id": "BDNS-931568-official",
           "source": "BDNS",
           "label": "Publicación oficial",
-          "date": "2026-09-23",
+          "date": "2026-09-24",
           "verified": true,
           "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
         }
       ],
       "tags": [
-        "docencia"
+        "comercio"
       ],
       "demo": false
     },
@@ -6986,24 +7103,24 @@
       "demo": false
     },
     {
-      "id": "bdns-931308",
-      "title": "Convocatoria de subvenciones para llevar a cabo el certamen literario Joan Alcover",
-      "issuer": "DIRECCIÓN GENERAL DE INNOVACIÓN Y COMUNIDAD EDUCATIVA",
+      "id": "bdns-931563",
+      "title": "Orden 23 septiembre Consejería de Fomento, bases reguladoras y convocatoria de las subvenciones a la mejora de la accesibilidad en y a viviendas de CLM 26",
+      "issuer": "DIRECCIÓN GENERAL DE VIVIENDA",
       "source": "BDNS",
-      "sourceRef": "931308",
+      "sourceRef": "931563",
       "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
       "kind": "subvención",
-      "territory": "ILLES BALEARS",
-      "publishedAt": "2026-09-23",
-      "deadline": "2027-01-21",
+      "territory": "CASTILLA-LA MANCHA",
+      "publishedAt": "2026-09-24",
+      "deadline": "2026-11-30",
       "deadlineVerified": true,
-      "amount": 3000,
+      "amount": 7000000,
       "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 49,
+      "score": 50,
       "state": "nueva",
-      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA, PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden del consejero de Educación y Universidades de 9 de julio de 2025 por la que se establecen las bases reguladoras de las subvenciones en materia de educación y universidades",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden 23 septiembre Consejería de Fomento, bases reguladoras y convocatoria de las subvenciones a la mejora de la accesibilidad en y a viviendas de CLM 26",
       "fitReasons": [
-        "Coincide con: por clasificar.",
+        "Coincide con: vivienda.",
         "Publicación oficial localizada en BDNS."
       ],
       "blockers": [
@@ -7031,16 +7148,16 @@
       ],
       "evidence": [
         {
-          "id": "BDNS-931308-official",
+          "id": "BDNS-931563-official",
           "source": "BDNS",
           "label": "Publicación oficial",
-          "date": "2026-09-23",
+          "date": "2026-09-24",
           "verified": true,
           "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
         }
       ],
       "tags": [
-        "por clasificar"
+        "vivienda"
       ],
       "demo": false
     },
@@ -9823,65 +9940,6 @@
       "tags": [
         "ciencia y salud",
         "docencia"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-931310",
-      "title": "Subvenciones destinadas a fomentar la modernización de los mercados municipales permanentes de les Illes Balears para el año 2026",
-      "issuer": "DIRECCIÓN GENERAL DE COMERCIO Y EMPRESA",
-      "source": "BDNS",
-      "sourceRef": "931310",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "ILLES BALEARS",
-      "publishedAt": "2026-09-23",
-      "deadline": "2026-09-23",
-      "deadlineVerified": false,
-      "amount": 200000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 46,
-      "state": "nueva",
-      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Ordre de la Consellera de Comerç, Indústria i Energia que estableix les bases reguladores de les subvencions de Comerç",
-      "fitReasons": [
-        "Coincide con: comercio.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-931310-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-09-23",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "comercio"
       ],
       "demo": false
     },
