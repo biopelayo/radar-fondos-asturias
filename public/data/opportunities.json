@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-01T15:00:04.780721+00:00",
-  "checkedAt": "2026-10-05T07:00:02.204748+00:00",
+  "checkedAt": "2026-10-05T15:00:02.083744+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -11,23 +11,23 @@
   "sourceStatus": {
     "BDNS": {
       "status": "ok",
-      "count": 4,
-      "collectedCount": 4,
-      "checkedAt": "2026-10-05T07:00:02.204748+00:00",
-      "lastSuccessAt": "2026-10-05T07:00:02.204748+00:00"
+      "count": 3,
+      "collectedCount": 3,
+      "checkedAt": "2026-10-05T15:00:02.083744+00:00",
+      "lastSuccessAt": "2026-10-05T15:00:02.083744+00:00"
     },
     "BOE": {
       "status": "ok",
       "count": 181,
       "collectedCount": 11,
-      "checkedAt": "2026-10-05T07:00:02.204748+00:00",
-      "lastSuccessAt": "2026-10-05T07:00:02.204748+00:00"
+      "checkedAt": "2026-10-05T15:00:02.083744+00:00",
+      "lastSuccessAt": "2026-10-05T15:00:02.083744+00:00"
     },
     "BOPA": {
       "status": "error",
       "count": 88,
       "collectedCount": 0,
-      "checkedAt": "2026-10-05T07:00:02.204748+00:00",
+      "checkedAt": "2026-10-05T15:00:02.083744+00:00",
       "lastSuccessAt": "2026-10-01T15:00:04.780721+00:00",
       "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)>"
     },
@@ -35,8 +35,8 @@
       "status": "ok",
       "count": 71,
       "collectedCount": 71,
-      "checkedAt": "2026-10-05T07:00:02.204748+00:00",
-      "lastSuccessAt": "2026-10-05T07:00:02.204748+00:00"
+      "checkedAt": "2026-10-05T15:00:02.083744+00:00",
+      "lastSuccessAt": "2026-10-05T15:00:02.083744+00:00"
     }
   },
   "errors": [
@@ -2051,6 +2051,66 @@
       ],
       "tags": [
         "Asturias"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-933587",
+      "title": "RESOLUCIÓN 05/10/26 de la Dirección General de LABORA Servicio Valenciano de Empleo y Formación, por la que se convocan para el ejercicio 2026 las subvenciones destinadas al programa de apoyo al mantenimiento del trabajo autónomo de mujere",
+      "issuer": "DIRECCIÓN GENERAL DE EMPLEO Y FORMACIÓN",
+      "source": "BDNS",
+      "sourceRef": "933587",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "autoempleo",
+      "territory": "COMUNITAT VALENCIANA",
+      "publishedAt": "2026-10-05",
+      "deadline": "2026-10-20",
+      "deadlineVerified": true,
+      "amount": 100000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 67,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Orden TES/1077/2023, de 28 de septiembre, por la que se establecen, en el ámbito competencial del Servicio Público de Empleo Estatal, las bases reguladoras para la concesión de subvenciones destinadas a la financiación de programas de políticas activas de",
+      "fitReasons": [
+        "Coincide con: autónomos, docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-933587-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-05",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "autónomos",
+        "docencia"
       ],
       "demo": false
     },
@@ -6480,66 +6540,6 @@
       "demo": false
     },
     {
-      "id": "bdns-933308",
-      "title": "Convocatoria de Ayudas 2026 para la creación de infraestructuras para la investigación en tecnologías de uso dual.",
-      "issuer": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
-      "source": "BDNS",
-      "sourceRef": "933308",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
-      "publishedAt": "2026-10-04",
-      "deadline": "2026-10-04",
-      "deadlineVerified": false,
-      "amount": 114690343,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 57,
-      "state": "nueva",
-      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden TDF/811/2026, de 22 de julio,, por la que se establecen las bases reguladoras para la creación de infraestructuras para la investigación, el ensayo y la experimentación en tecnologías de uso dual",
-      "fitReasons": [
-        "Coincide con: ciencia y salud, docencia.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-933308-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-10-04",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "ciencia y salud",
-        "docencia"
-      ],
-      "demo": false
-    },
-    {
       "id": "boe-boe-b-2026-31788",
       "title": "Resolución de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Granada, por la que se declara, en concreto, de utilidad pública, el proyecto denominado «Cierre de LMT Línea Freila subestación Jabalcón con Línea Zújar subestación Baza entre el apoyo nº 1 y el CT 106253 CDAT. Secc. Parque Jaufi sito en los parajes Loberas, Cortijo Túnel, Llano Guadix y Loma Rul», en los términos municipales de Freila y Zújar (Granada).",
       "issuer": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
@@ -7195,124 +7195,6 @@
       "tags": [
         "IA y datos",
         "docencia"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-933300",
-      "title": "Ayudas 2026/2027, del Programa I y financiadas por CA y TE, a personas desempleadas que se hayan establecido como trabajadores autónomos, según Resol. de 28 de septiembre de 2026 que las convoca.",
-      "issuer": "SERVICIO EXTREMEÑO PÚBLICO DE EMPLEO (SEXPE)",
-      "source": "BDNS",
-      "sourceRef": "933300",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "autoempleo",
-      "territory": "EXTREMADURA",
-      "publishedAt": "2026-10-03",
-      "deadline": "2026-10-03",
-      "deadlineVerified": false,
-      "amount": 26500000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 55,
-      "state": "nueva",
-      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Decreto 39/2024, de 30 de abril, de bases reguladoras de las subvenciones para el fomento y consolidación del empleo autónomo en la CA de Extremadura y primera convocatoria de los programas I, II, III, IV y V para 2024-2025",
-      "fitReasons": [
-        "Coincide con: autónomos.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-933300-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-10-03",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "autónomos"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-933299",
-      "title": "Ayudas 2026/2027, del Programa I y financiadas por Fondo Social Europeo Plus, a personas desempleadas que se hayan establecido como trabajadores autónomos, según Resol. de 28 de septiembre de 2026 que las convoca",
-      "issuer": "SERVICIO EXTREMEÑO PÚBLICO DE EMPLEO (SEXPE)",
-      "source": "BDNS",
-      "sourceRef": "933299",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "autoempleo",
-      "territory": "EXTREMADURA",
-      "publishedAt": "2026-10-03",
-      "deadline": "2026-10-03",
-      "deadlineVerified": false,
-      "amount": 5000000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 55,
-      "state": "nueva",
-      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Decreto 39/2024, de 30 de abril, de bases reguladoras de las subvenciones para el fomento y consolidación del empleo autónomo en la CA de Extremadura y primera convocatoria de los programas I, II, III, IV y V para 2024-2025",
-      "fitReasons": [
-        "Coincide con: autónomos.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-933299-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-10-03",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "autónomos"
       ],
       "demo": false
     },
@@ -8507,24 +8389,24 @@
       "demo": false
     },
     {
-      "id": "bdns-933284",
-      "title": "Bases Reguladoras y Convocatoria de las ayudas municipales para el fomento del tejido empresarial de Monachil para el ejercicio 2026.",
-      "issuer": "AYUNTAMIENTO DE MONACHIL",
+      "id": "bdns-933559",
+      "title": "Acuerdo de la Junta de Gobierno Local de fecha 5 de octubre de 2.026 por el que se aprueba la Convocatoria de subvenciones para la rehabilitación y edificación en el Casco Histórico y edificios de más de 50 años del Casco Urbano - Año 2026-",
+      "issuer": "AYUNTAMIENTO DE CALAHORRA",
       "source": "BDNS",
-      "sourceRef": "933284",
+      "sourceRef": "933559",
       "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
       "kind": "subvención",
-      "territory": "MONACHIL",
-      "publishedAt": "2026-10-02",
-      "deadline": "2026-10-02",
+      "territory": "CALAHORRA",
+      "publishedAt": "2026-10-05",
+      "deadline": "2026-10-05",
       "deadlineVerified": false,
-      "amount": 5000,
+      "amount": 100000,
       "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
       "score": 51,
       "state": "nueva",
-      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Bases Reguladoras y Convocatoria de las ayudas municipales para el fomento del tejido empresarial de Monachil para el ejercicio 2026.",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Ordenanza por la que se aprueban las bases reguladoras de la concesión de subvenciones para la rehabilitación y edificación en el Casco Histórico y la rehabilitación de edificios del resto del Caso Urbano que cuenten con una antigüedad superior a 50 ÑOA",
       "fitReasons": [
-        "Coincide con: por clasificar.",
+        "Coincide con: vivienda.",
         "Publicación oficial localizada en BDNS."
       ],
       "blockers": [
@@ -8552,16 +8434,16 @@
       ],
       "evidence": [
         {
-          "id": "BDNS-933284-official",
+          "id": "BDNS-933559-official",
           "source": "BDNS",
           "label": "Publicación oficial",
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "verified": true,
           "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
         }
       ],
       "tags": [
-        "por clasificar"
+        "vivienda"
       ],
       "demo": false
     },
@@ -9388,6 +9270,65 @@
       ],
       "tags": [
         "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-933593",
+      "title": "Convocatoria de ayudas destinadas al desarrollo de planes individuales de internacionalización 2026-2027",
+      "issuer": "INSTITUTO DE PROMOCIÓN EXTERIOR DE CASTILLA-LA MANCHA",
+      "source": "BDNS",
+      "sourceRef": "933593",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CASTILLA-LA MANCHA",
+      "publishedAt": "2026-10-05",
+      "deadline": "2026-10-05",
+      "deadlineVerified": false,
+      "amount": 900000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 47,
+      "state": "nueva",
+      "summary": "GRAN EMPRESA, PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Orden 139/2021, de 15 de septiembre, de la Consejería de Economía, Empresas y Empleo de ayudas destinadas al desarrollo de planes  individuales de internacionalización.",
+      "fitReasons": [
+        "Coincide con: comercio.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-933593-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-05",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "comercio"
       ],
       "demo": false
     },
