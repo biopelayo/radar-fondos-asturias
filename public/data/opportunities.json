@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-24T15:02:20.506350+00:00",
-  "checkedAt": "2026-10-24T15:02:20.506350+00:00",
+  "checkedAt": "2026-10-25T07:00:04.865964+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -13,32 +13,35 @@
       "status": "ok",
       "count": 6,
       "collectedCount": 6,
-      "checkedAt": "2026-10-24T15:02:20.506350+00:00",
-      "lastSuccessAt": "2026-10-24T15:02:20.506350+00:00"
+      "checkedAt": "2026-10-25T07:00:04.865964+00:00",
+      "lastSuccessAt": "2026-10-25T07:00:04.865964+00:00"
     },
     "BOE": {
-      "status": "ok",
+      "status": "error",
       "count": 344,
-      "collectedCount": 2,
-      "checkedAt": "2026-10-24T15:02:20.506350+00:00",
-      "lastSuccessAt": "2026-10-24T15:02:20.506350+00:00"
+      "collectedCount": 0,
+      "checkedAt": "2026-10-25T07:00:04.865964+00:00",
+      "lastSuccessAt": "2026-10-24T15:02:20.506350+00:00",
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     "BOPA": {
       "status": "ok",
       "count": 163,
       "collectedCount": 23,
-      "checkedAt": "2026-10-24T15:02:20.506350+00:00",
-      "lastSuccessAt": "2026-10-24T15:02:20.506350+00:00"
+      "checkedAt": "2026-10-25T07:00:04.865964+00:00",
+      "lastSuccessAt": "2026-10-25T07:00:04.865964+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 68,
       "collectedCount": 68,
-      "checkedAt": "2026-10-24T15:02:20.506350+00:00",
-      "lastSuccessAt": "2026-10-24T15:02:20.506350+00:00"
+      "checkedAt": "2026-10-25T07:00:04.865964+00:00",
+      "lastSuccessAt": "2026-10-25T07:00:04.865964+00:00"
     }
   },
-  "errors": [],
+  "errors": [
+    "BOE: HTTPError: HTTP Error 404: Not Found"
+  ],
   "opportunities": [
     {
       "id": "bopa-2026-07783",
@@ -296,11 +299,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08691",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08691&p_r_p_dispositionReference=2026-08691&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08691&p_r_p_dispositionReference=2026-08691&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -339,9 +342,9 @@
           "id": "BOPA-2026-08691-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08691&p_r_p_dispositionReference=2026-08691&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08691&p_r_p_dispositionReference=2026-08691&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -357,11 +360,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08714",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08714&p_r_p_dispositionReference=2026-08714&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08714&p_r_p_dispositionReference=2026-08714&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -400,9 +403,9 @@
           "id": "BOPA-2026-08714-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08714&p_r_p_dispositionReference=2026-08714&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08714&p_r_p_dispositionReference=2026-08714&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -418,11 +421,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08713",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08713&p_r_p_dispositionReference=2026-08713&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08713&p_r_p_dispositionReference=2026-08713&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -461,9 +464,9 @@
           "id": "BOPA-2026-08713-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08713&p_r_p_dispositionReference=2026-08713&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08713&p_r_p_dispositionReference=2026-08713&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -479,11 +482,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08710",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08710&p_r_p_dispositionReference=2026-08710&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08710&p_r_p_dispositionReference=2026-08710&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -522,9 +525,9 @@
           "id": "BOPA-2026-08710-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08710&p_r_p_dispositionReference=2026-08710&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08710&p_r_p_dispositionReference=2026-08710&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -540,11 +543,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08718",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08718&p_r_p_dispositionReference=2026-08718&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08718&p_r_p_dispositionReference=2026-08718&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -583,9 +586,9 @@
           "id": "BOPA-2026-08718-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08718&p_r_p_dispositionReference=2026-08718&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08718&p_r_p_dispositionReference=2026-08718&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -601,11 +604,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08699",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08699&p_r_p_dispositionReference=2026-08699&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08699&p_r_p_dispositionReference=2026-08699&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -644,9 +647,9 @@
           "id": "BOPA-2026-08699-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08699&p_r_p_dispositionReference=2026-08699&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08699&p_r_p_dispositionReference=2026-08699&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -662,11 +665,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08702",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08702&p_r_p_dispositionReference=2026-08702&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08702&p_r_p_dispositionReference=2026-08702&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -705,9 +708,9 @@
           "id": "BOPA-2026-08702-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08702&p_r_p_dispositionReference=2026-08702&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08702&p_r_p_dispositionReference=2026-08702&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -723,11 +726,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08708",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08708&p_r_p_dispositionReference=2026-08708&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08708&p_r_p_dispositionReference=2026-08708&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -766,9 +769,9 @@
           "id": "BOPA-2026-08708-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08708&p_r_p_dispositionReference=2026-08708&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08708&p_r_p_dispositionReference=2026-08708&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -784,11 +787,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08715",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08715&p_r_p_dispositionReference=2026-08715&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08715&p_r_p_dispositionReference=2026-08715&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -827,9 +830,9 @@
           "id": "BOPA-2026-08715-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08715&p_r_p_dispositionReference=2026-08715&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08715&p_r_p_dispositionReference=2026-08715&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -845,11 +848,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08716",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08716&p_r_p_dispositionReference=2026-08716&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08716&p_r_p_dispositionReference=2026-08716&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -888,9 +891,9 @@
           "id": "BOPA-2026-08716-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08716&p_r_p_dispositionReference=2026-08716&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08716&p_r_p_dispositionReference=2026-08716&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -906,11 +909,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08721",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08721&p_r_p_dispositionReference=2026-08721&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08721&p_r_p_dispositionReference=2026-08721&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -949,9 +952,9 @@
           "id": "BOPA-2026-08721-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08721&p_r_p_dispositionReference=2026-08721&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08721&p_r_p_dispositionReference=2026-08721&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -967,11 +970,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08720",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08720&p_r_p_dispositionReference=2026-08720&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08720&p_r_p_dispositionReference=2026-08720&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -1010,9 +1013,9 @@
           "id": "BOPA-2026-08720-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08720&p_r_p_dispositionReference=2026-08720&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08720&p_r_p_dispositionReference=2026-08720&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -1028,11 +1031,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08723",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08723&p_r_p_dispositionReference=2026-08723&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08723&p_r_p_dispositionReference=2026-08723&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -1071,9 +1074,9 @@
           "id": "BOPA-2026-08723-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08723&p_r_p_dispositionReference=2026-08723&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08723&p_r_p_dispositionReference=2026-08723&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -1089,11 +1092,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08725",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08725&p_r_p_dispositionReference=2026-08725&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08725&p_r_p_dispositionReference=2026-08725&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -1132,9 +1135,9 @@
           "id": "BOPA-2026-08725-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08725&p_r_p_dispositionReference=2026-08725&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08725&p_r_p_dispositionReference=2026-08725&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -1150,11 +1153,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08724",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08724&p_r_p_dispositionReference=2026-08724&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08724&p_r_p_dispositionReference=2026-08724&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -1193,9 +1196,9 @@
           "id": "BOPA-2026-08724-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08724&p_r_p_dispositionReference=2026-08724&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08724&p_r_p_dispositionReference=2026-08724&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -1211,11 +1214,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08729",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08729&p_r_p_dispositionReference=2026-08729&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08729&p_r_p_dispositionReference=2026-08729&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -1254,9 +1257,9 @@
           "id": "BOPA-2026-08729-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08729&p_r_p_dispositionReference=2026-08729&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08729&p_r_p_dispositionReference=2026-08729&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -4061,11 +4064,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08393",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08393&p_r_p_dispositionReference=2026-08393&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08393&p_r_p_dispositionReference=2026-08393&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -4104,9 +4107,9 @@
           "id": "BOPA-2026-08393-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08393&p_r_p_dispositionReference=2026-08393&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08393&p_r_p_dispositionReference=2026-08393&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -4121,11 +4124,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08391",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08391&p_r_p_dispositionReference=2026-08391&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08391&p_r_p_dispositionReference=2026-08391&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -4164,9 +4167,9 @@
           "id": "BOPA-2026-08391-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08391&p_r_p_dispositionReference=2026-08391&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08391&p_r_p_dispositionReference=2026-08391&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -4181,11 +4184,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08397",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08397&p_r_p_dispositionReference=2026-08397&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08397&p_r_p_dispositionReference=2026-08397&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -4224,9 +4227,9 @@
           "id": "BOPA-2026-08397-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08397&p_r_p_dispositionReference=2026-08397&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08397&p_r_p_dispositionReference=2026-08397&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -4241,11 +4244,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08515",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08515&p_r_p_dispositionReference=2026-08515&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08515&p_r_p_dispositionReference=2026-08515&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -4284,9 +4287,9 @@
           "id": "BOPA-2026-08515-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08515&p_r_p_dispositionReference=2026-08515&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08515&p_r_p_dispositionReference=2026-08515&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -4300,11 +4303,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08526",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08526&p_r_p_dispositionReference=2026-08526&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08526&p_r_p_dispositionReference=2026-08526&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "premio",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -4343,9 +4346,9 @@
           "id": "BOPA-2026-08526-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08526&p_r_p_dispositionReference=2026-08526&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08526&p_r_p_dispositionReference=2026-08526&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -8862,11 +8865,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08636",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08636&p_r_p_dispositionReference=2026-08636&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08636&p_r_p_dispositionReference=2026-08636&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -8905,9 +8908,9 @@
           "id": "BOPA-2026-08636-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08636&p_r_p_dispositionReference=2026-08636&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08636&p_r_p_dispositionReference=2026-08636&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
@@ -8921,11 +8924,11 @@
       "issuer": "Principado de Asturias",
       "source": "BOPA",
       "sourceRef": "2026-08554",
-      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08554&p_r_p_dispositionReference=2026-08554&p_r_p_dispositionDate=24%2F10%2F2026",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08554&p_r_p_dispositionReference=2026-08554&p_r_p_dispositionDate=25%2F10%2F2026",
       "kind": "subvención",
       "territory": "Asturias",
-      "publishedAt": "2026-10-24",
-      "deadline": "2026-10-24",
+      "publishedAt": "2026-10-25",
+      "deadline": "2026-10-25",
       "deadlineVerified": false,
       "amount": 0,
       "aidIntensity": "Cuantía y condiciones por verificar",
@@ -8964,9 +8967,9 @@
           "id": "BOPA-2026-08554-official",
           "source": "BOPA",
           "label": "Publicación oficial",
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "verified": true,
-          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08554&p_r_p_dispositionReference=2026-08554&p_r_p_dispositionDate=24%2F10%2F2026"
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-08554&p_r_p_dispositionReference=2026-08554&p_r_p_dispositionDate=25%2F10%2F2026"
         }
       ],
       "tags": [
