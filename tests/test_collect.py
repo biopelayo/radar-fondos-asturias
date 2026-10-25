@@ -6,7 +6,7 @@ import unittest
 from datetime import date, datetime, timezone
 from pathlib import Path
 from unittest.mock import patch
-from urllib.error import URLError
+from urllib.error import HTTPError, URLError
 
 from scripts import collect
 
@@ -245,6 +245,17 @@ class DatasetCase(unittest.TestCase):
 
 
 class CollectorFailureCase(unittest.TestCase):
+    def test_boe_missing_sunday_issue_is_not_a_source_failure(self) -> None:
+        missing = HTTPError("https://www.boe.es/", 404, "Not Found", None, None)
+        with patch.object(collect, "get_json", side_effect=missing):
+            self.assertEqual(collect.collect_boe(date(2026, 10, 25)), [])
+
+    def test_boe_missing_weekday_issue_is_a_source_failure(self) -> None:
+        missing = HTTPError("https://www.boe.es/", 404, "Not Found", None, None)
+        with patch.object(collect, "get_json", side_effect=missing):
+            with self.assertRaises(HTTPError):
+                collect.collect_boe(TODAY)
+
     def test_boe_transport_failure_propagates_to_transaction_layer(self) -> None:
         with patch.object(collect, "get_json", side_effect=URLError("offline")):
             with self.assertRaises(URLError):

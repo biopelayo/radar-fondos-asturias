@@ -281,7 +281,14 @@ def walk_boe(node: Any, context: tuple[str, ...] = ()) -> Iterable[tuple[dict[st
 
 
 def collect_boe(day: date) -> list[dict[str, Any]]:
-    payload = get_json(f"https://www.boe.es/datosabiertos/api/boe/sumario/{day:%Y%m%d}")
+    try:
+        payload = get_json(f"https://www.boe.es/datosabiertos/api/boe/sumario/{day:%Y%m%d}")
+    except HTTPError as exc:
+        # The BOE normally has no Sunday edition. A Sunday 404 means there is
+        # no issue to collect; an extraordinary edition still returns 200.
+        if day.weekday() == 6 and exc.code == 404:
+            return []
+        raise
     entries = list(walk_boe(payload))
     if not entries:
         raise ValueError("BOE response contained no recognizable gazette entries")
