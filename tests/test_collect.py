@@ -245,6 +245,37 @@ class DatasetCase(unittest.TestCase):
 
 
 class CollectorFailureCase(unittest.TestCase):
+    def test_bdns_reads_every_search_page(self) -> None:
+        requested_pages: list[int] = []
+
+        def fake_get_json(url: str) -> dict:
+            if "busqueda?" not in url:
+                return {}
+            page = int(url.split("page=")[1].split("&")[0])
+            requested_pages.append(page)
+            return {
+                "number": page,
+                "totalPages": 2,
+                "content": [{
+                    "numeroConvocatoria": 900000 + page,
+                    "descripcion": f"Ayuda de turismo Asturias página {page}",
+                    "nivel2": "ASTURIAS",
+                    "fechaRecepcion": "2026-09-07",
+                }],
+            }
+
+        with patch.object(collect, "get_json", side_effect=fake_get_json), patch.object(collect.time, "sleep"):
+            results = collect.collect_bdns(date(2026, 9, 1), TODAY)
+
+        self.assertEqual(requested_pages, [0, 1])
+        self.assertEqual({item["id"] for item in results}, {"bdns-900000", "bdns-900001"})
+
+    def test_bdns_rejects_a_repeated_first_page(self) -> None:
+        payload = {"number": 0, "totalPages": 2, "content": []}
+        with patch.object(collect, "get_json", return_value=payload):
+            with self.assertRaisesRegex(ValueError, "invalid search page 1"):
+                collect.collect_bdns(date(2026, 9, 1), TODAY)
+
     def test_boe_missing_sunday_issue_is_not_a_source_failure(self) -> None:
         missing = HTTPError("https://www.boe.es/", 404, "Not Found", None, None)
         with patch.object(collect, "get_json", side_effect=missing):

@@ -232,14 +232,35 @@ def make_opportunity(*, source: str, reference: str, title: str, issuer: str, ur
 
 
 def collect_bdns(start: date, end: date) -> list[dict[str, Any]]:
-    query = urlencode({"fechaDesde": start.strftime("%d/%m/%Y"), "fechaHasta": end.strftime("%d/%m/%Y"), "pagina": 0, "tamPagina": 200})
-    rows = get_json(f"https://www.infosubvenciones.es/bdnstrans/api/convocatorias/busqueda?{query}").get("content", [])
+    search_url = "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/busqueda"
+    search_params = {"fechaDesde": start.strftime("%d/%m/%Y"), "fechaHasta": end.strftime("%d/%m/%Y")}
+
+    def search_page(number: int) -> dict[str, Any]:
+        query = urlencode({**search_params, "page": number})
+        payload = get_json(f"{search_url}?{query}")
+        if not isinstance(payload, dict) or not isinstance(payload.get("content"), list) or payload.get("number") != number:
+            raise ValueError(f"BDNS returned an invalid search page {number}")
+        return payload
+
+    first_page = search_page(0)
+    total_pages = first_page.get("totalPages")
+    if total_pages == 0 and not first_page["content"]:
+        return []
+    if not isinstance(total_pages, int) or not 1 <= total_pages <= 500:
+        raise ValueError("BDNS returned an invalid page count")
+    rows = list(first_page["content"])
+    for number in range(1, total_pages):
+        rows.extend(search_page(number)["content"])
     selected = []
+    seen_codes: set[str] = set()
     for row in rows:
         haystack = " ".join(str(row.get(key) or "") for key in ("descripcion", "nivel1", "nivel2", "nivel3"))
         if not (contains_any(haystack, DOMAIN_TERMS) or "asturias" in normalized(haystack)):
             continue
         code = str(row.get("numeroConvocatoria") or row.get("id"))
+        if code in seen_codes:
+            continue
+        seen_codes.add(code)
         try:
             detail = get_json(f"https://www.infosubvenciones.es/bdnstrans/api/convocatorias?{urlencode({'numConv': code})}")
         except (HTTPError, URLError, TimeoutError, ValueError):
