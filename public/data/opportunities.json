@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T15:00:18.211601+00:00",
-  "checkedAt": "2026-10-28T15:00:18.211601+00:00",
+  "generatedAt": "2026-10-28T15:57:45.353903+00:00",
+  "checkedAt": "2026-10-28T15:57:45.353903+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -11,31 +11,31 @@
   "sourceStatus": {
     "BDNS": {
       "status": "ok",
-      "count": 200,
-      "collectedCount": 180,
-      "checkedAt": "2026-10-28T15:00:18.211601+00:00",
-      "lastSuccessAt": "2026-10-28T15:00:18.211601+00:00"
+      "count": 221,
+      "collectedCount": 201,
+      "checkedAt": "2026-10-28T15:57:45.353903+00:00",
+      "lastSuccessAt": "2026-10-28T15:57:45.353903+00:00"
     },
     "BOE": {
       "status": "ok",
       "count": 369,
       "collectedCount": 8,
-      "checkedAt": "2026-10-28T15:00:18.211601+00:00",
-      "lastSuccessAt": "2026-10-28T15:00:18.211601+00:00"
+      "checkedAt": "2026-10-28T15:57:45.353903+00:00",
+      "lastSuccessAt": "2026-10-28T15:57:45.353903+00:00"
     },
     "BOPA": {
       "status": "ok",
       "count": 216,
       "collectedCount": 17,
-      "checkedAt": "2026-10-28T15:00:18.211601+00:00",
-      "lastSuccessAt": "2026-10-28T15:00:18.211601+00:00"
+      "checkedAt": "2026-10-28T15:57:45.353903+00:00",
+      "lastSuccessAt": "2026-10-28T15:57:45.353903+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 67,
       "collectedCount": 67,
-      "checkedAt": "2026-10-28T15:00:18.211601+00:00",
-      "lastSuccessAt": "2026-10-28T15:00:18.211601+00:00"
+      "checkedAt": "2026-10-28T15:57:45.353903+00:00",
+      "lastSuccessAt": "2026-10-28T15:57:45.353903+00:00"
     }
   },
   "errors": [],
@@ -6493,6 +6493,66 @@
       "demo": false
     },
     {
+      "id": "bdns-936885",
+      "title": "Resolución de la Vicerrectora de Investigación de la Universidad de Oviedo para la contratación de personal investigador y técnico de apoyo, según artículo 23.bis de la Ley 14/2011 de la Ciencia, la Tecnología y la Innovación (Septiembre Extra 8)",
+      "issuer": "UNIVERSIDAD DE OVIEDO",
+      "source": "BDNS",
+      "sourceRef": "936885",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE OVIEDO",
+      "publishedAt": "2026-10-21",
+      "deadline": "2026-11-12",
+      "deadlineVerified": true,
+      "amount": 49516,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 69,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Acuerdo de 28 de julio de 2023, del Consejo de Gobierno de la Universidad de Oviedo, por el que se aprueba el Reglamento para la contratación de personal investigador y técnico de apoyo conforme a las modalidades de la Ley 14/2011, de la C.T.I",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-936885-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-21",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-936417",
       "title": "Resolución de la Vicerrectora de Investigación de la Universidad de Oviedo para la contratación de personal investigador y técnico de apoyo, según artículo 23.bis de la Ley 14/2011 de la Ciencia, la Tecnología y la Innovación (Septiembre Extra 4)",
       "issuer": "UNIVERSIDAD DE OVIEDO",
@@ -12609,66 +12669,6 @@
       "demo": false
     },
     {
-      "id": "bdns-936885",
-      "title": "Resolución de la Vicerrectora de Investigación de la Universidad de Oviedo para la contratación de personal investigador y técnico de apoyo, según artículo 23.bis de la Ley 14/2011 de la Ciencia, la Tecnología y la Innovación (Septiembre Extra 8)",
-      "issuer": "UNIVERSIDAD DE OVIEDO",
-      "source": "BDNS",
-      "sourceRef": "936885",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "UNIVERSIDAD DE OVIEDO",
-      "publishedAt": "2026-10-21",
-      "deadline": "2026-10-21",
-      "deadlineVerified": false,
-      "amount": 49516,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 66,
-      "state": "nueva",
-      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Acuerdo de 28 de julio de 2023, del Consejo de Gobierno de la Universidad de Oviedo, por el que se aprueba el Reglamento para la contratación de personal investigador y técnico de apoyo conforme a las modalidades de la Ley 14/2011, de la C.T.I",
-      "fitReasons": [
-        "Coincide con: ciencia y salud, docencia.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-936885-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-10-21",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "ciencia y salud",
-        "docencia"
-      ],
-      "demo": false
-    },
-    {
       "id": "bdns-936290",
       "title": "Subvenciones a clubes deportivos para el fomento del deporte base durante la temporada 2026/2027.",
       "issuer": "CONSEJERÍA DE CULTURA, POLÍTICA LINGÜÍSTICA Y TURISMO",
@@ -16704,6 +16704,124 @@
       "demo": false
     },
     {
+      "id": "bdns-938519",
+      "title": "Convocatoria de 6 becas de colaboración para el desarrollo de actividades formativas asociadas a Trabajos y Trabajos Fin de Grado bajo tutela de personal investigador del Departamento de Tecnologías y Sistemas de Información de la UCLM 26-27",
+      "issuer": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "source": "BDNS",
+      "sourceRef": "938519",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-11-13",
+      "deadlineVerified": true,
+      "amount": 11520,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 59,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Normativa Reguladora de las Becas de Colaboración de la UCLM aprobada por el Consejo de Gobierno el 20-12-2021, DOCM de 28-12-2021, y modificada por el Consejo de Gobierno de 23-5-2022, DOCM de 1-6-2022, y bases de la convocatoria.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938519-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938392",
+      "title": "Concesión en pública concurrencia no competitiva, de las ayudas al impulso digital de las empresas de Santa Coloma de Gramenet 2024-2026",
+      "issuer": "AYUNTAMIENTO DE SANTA COLOMA DE GRAMENET",
+      "source": "BDNS",
+      "sourceRef": "938392",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "SANTA COLOMA DE GRAMENET",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-12-04",
+      "deadlineVerified": true,
+      "amount": 100000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 59,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Bases Reguladoras para la concesión en pública concurrencia no competitiva, de las ayudas al impulso digital de las empresas de Santa Coloma de Gramenet 2024-2026",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938392-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-937990",
       "title": "CONVOCATORIA DE SUBVENCIONES PARA EL FOMENTO DEL EMPRENDIMIENTO JUVENIL MEDIANTE LA CREACIÓN DE EMPRESAS EN EL MARCO DE LA ESTRATEGIA DE DESARROLLO TERRITORIAL INTEGRADA DE LA COMARCA DE LA SIERRA DE SEGURA",
       "issuer": "DIPUTACIÓN PROVINCIAL DE JAÉN",
@@ -18967,6 +19085,65 @@
       "demo": false
     },
     {
+      "id": "bdns-938475",
+      "title": "Bases reguladoras de la convocatoria de subvenciones para fomentar el alquiler asequible: «Vivienda Activa Leioa 2026»",
+      "issuer": "AYUNTAMIENTO DE LEIOA",
+      "source": "BDNS",
+      "sourceRef": "938475",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "LEIOA",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-10-28",
+      "deadlineVerified": false,
+      "amount": 80000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 56,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Bases reguladoras de la convocatoria de subvenciones para fomentar el alquiler asequible: «Vivienda Activa Leioa 2026»Alokairu eskuragarria sustatzeko dirulaguntzen deialdiaren oinarri arautzaileak: «Leioako Etxebizitza Aktiboa 2026»",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938475-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "vivienda"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-938059",
       "title": "Convocatoria pública para la adjudicación de subvenciones para la financiación parcial del alquiler de viviendas destinadas a domicilio habitual de personas residentes en el Ayuntamiento de Lugo. Convocatoria año 2026 y prórroga del año 2027.",
       "issuer": "CONCELLO DE LUGO",
@@ -19558,6 +19735,65 @@
       "tags": [
         "IA y datos",
         "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938602",
+      "title": "BASES SUBVENCIONES DESTINADAS A LOS PROFESIONALES AUTÓNOMOS DEL SECTOR PRIMARIO",
+      "issuer": "CABILDO INSULAR DE HIERRO, EL",
+      "source": "BDNS",
+      "sourceRef": "938602",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "autoempleo",
+      "territory": "CABILDO INSULAR DE EL HIERRO",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-10-28",
+      "deadlineVerified": false,
+      "amount": 1238934,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 55,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · BASES SUBVENCIONES DESTINADAS A LOS PROFESIONALES AUTÓNOMOS DEL SECTOR PRIMARIO",
+      "fitReasons": [
+        "Coincide con: autónomos.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938602-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "autónomos"
       ],
       "demo": false
     },
@@ -20743,6 +20979,242 @@
       ],
       "tags": [
         "turismo"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938584",
+      "title": "Concesión de ayudas económicas para la recuperación y adecuación de viviendas antiguas.",
+      "issuer": "AYUNTAMIENTO DE VILLANUEVA DE ALGAIDAS",
+      "source": "BDNS",
+      "sourceRef": "938584",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "VILLANUEVA DE ALGAIDAS",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-12-31",
+      "deadlineVerified": true,
+      "amount": 14000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Ayudas para la Recuperación y Adecuación de Viviendas Antiguas",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938584-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "vivienda"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938476",
+      "title": "Ayudas a la acreditación de nivel B1/B2 en lengua extranjera para estudiantes de grado en régimen no competitivo.",
+      "issuer": "UNIVERSIDAD DE GRANADA",
+      "source": "BDNS",
+      "sourceRef": "938476",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE GRANADA",
+      "publishedAt": "2026-10-28",
+      "deadline": "2027-07-15",
+      "deadlineVerified": true,
+      "amount": 80000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Ayudas a la acreditación de nivel B1/B2 en lengua extranjera para estudiantes de grado en régimen no competitivo.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938476-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938407",
+      "title": "BASES CONVOCATORIA DE SUBVENCIONES DESTINADAS A FINANCIAR PROYECTOS DE INVERSION EMPRESARIAL PLAN SORIA 2026",
+      "issuer": "DIPUTACIÓN PROVINCIAL DE SORIA",
+      "source": "BDNS",
+      "sourceRef": "938407",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "DIPUTACIÓN PROV. DE SORIA",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-11-30",
+      "deadlineVerified": true,
+      "amount": 135000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Ordenanza General reguladora de la concesión de Subvenciones por la Diputación de Soria (BOP nº 147 de 23 de diciembre de 2009).",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938407-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938393",
+      "title": "CONVOCATORIA SUBVENCIONES DESTINADAS A APOYAR EL RELEVO GENERACIONAL DE NEGOCIOS DEL MEDIO RURAL PLAN SORIA 2026",
+      "issuer": "DIPUTACIÓN PROVINCIAL DE SORIA",
+      "source": "BDNS",
+      "sourceRef": "938393",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "DIPUTACIÓN PROV. DE SORIA",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-11-23",
+      "deadlineVerified": true,
+      "amount": 50000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Ordenanza General reguladora de la concesión de Subvenciones por la Diputación de Soria (BOP nº 147 de 23 de diciembre de 2009)",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938393-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "rural"
       ],
       "demo": false
     },
@@ -24835,6 +25307,360 @@
       "demo": false
     },
     {
+      "id": "bdns-938570",
+      "title": "CONVOCATORIA DE SUBVENCIONES EN RÉGIMEN DE CONCURRENCIA PÚBLICA NO COMPETITIVA PARA LAS PERSONAS TITULARES DE SU VIVIENDA HABITUAL, QUE DISPONGAN DEL TÍTULO DE FAMILIA MONOPARENTAL Y EN BASE A SU CAPACIDAD ECONÓMICA, PARA EL AÑO 2026",
+      "issuer": "AYUNTAMIENTO DE OLESA DE MONTSERRAT",
+      "source": "BDNS",
+      "sourceRef": "938570",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "OLESA DE MONTSERRAT",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-10-28",
+      "deadlineVerified": false,
+      "amount": 15000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · BASES REGULADORES PARTICULARS I ESPECÍFIQUES PER A LA CONCESSIÓ DE SUBVENCIONS EN RÈGIM DE CONCURRÈNCIA PÚBLICA NO COMPETITIVA A L¿HABITATGE HABITUAL AMB TÍTOL DE FAMÍLIA MONOPARENTAL",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938570-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "vivienda"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938535",
+      "title": "Convocatoria de los V Premios Locales a la Innovación Educativa y Buenas Prácticas en los centros educativos de Albacete 2026",
+      "issuer": "AYUNTAMIENTO DE ALBACETE",
+      "source": "BDNS",
+      "sourceRef": "938535",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "ALBACETE",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-10-28",
+      "deadlineVerified": false,
+      "amount": 7200,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Bases reguladoras y convocatoria de los V Premios Locales a la Innovación Educativa y Buenas Prácticas en los centros educativos del municipio de Albacete 2026",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938535-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938521",
+      "title": "CONVOCATORIA AYUDAS PUBLICAS MUNICIPALES PARA FINANCIAR GASTOS RELATIVOS A LA VIVIENDA HABITUAL - MUNICIPIO DE LANGREO - EJERCICIO 2026",
+      "issuer": "AYUNTAMIENTO DE LANGREO",
+      "source": "BDNS",
+      "sourceRef": "938521",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "LANGREO",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-10-28",
+      "deadlineVerified": false,
+      "amount": 40000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · CONVOCATORIA AYUDAS PUBLICAS MUNICIPALES PARA FINANCIAR GASTOS RELATIVOS A LA VIVIENDA HABITUAL - MUNICIPIO DE LANGREO - EJERCICIO 2026",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938521-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "vivienda"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938515",
+      "title": "2026-CONVOCATORIA SUBVENCIONES PARA REHABILITACIÓN Y CONSTRUCCIÓN DE NUEVOS EDIFICIOS",
+      "issuer": "AYUNTAMIENTO DE VILANOVA DE SAU",
+      "source": "BDNS",
+      "sourceRef": "938515",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "VILANOVA DE SAU",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-10-28",
+      "deadlineVerified": false,
+      "amount": 1500,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · 2016-BASES REGULADORES SUBVENCIONS MUNICIPALS",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938515-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "vivienda"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938390",
+      "title": "CONVOCATORIA PARA LA CONCESIÓN DE DOS BECAS DE FORMACIÓN EN MUSEOGRAFIA Y DOS BECAS DE FORMACIÓN EN RESTAURACIÓN PARA EL MUSEO DE BELLAS ARTES DE ALICANTE (MUBAG) AÑO 2027.",
+      "issuer": "DIPUTACIÓN PROVINCIAL DE ALACANT/ALICANTE",
+      "source": "BDNS",
+      "sourceRef": "938390",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "DIPUTACIÓN PROV. DE ALICANTE",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-10-28",
+      "deadlineVerified": false,
+      "amount": 38400,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Ordenanza General de Subvenciones de la Excma. Diputación Provincial de Alicante",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938390-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938379",
+      "title": "Bases que regulan la convocatoria de Becas de Alojamiento y/o Transporte para jóvenes universitarios. Curso 2026-2027",
+      "issuer": "AYUNTAMIENTO DE ALCÁZAR DE SAN JUAN",
+      "source": "BDNS",
+      "sourceRef": "938379",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "ALCÁZAR DE SAN JUAN",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-10-28",
+      "deadlineVerified": false,
+      "amount": 24220,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · BASES EJECUCIÓN PRESUPUESTO",
+      "fitReasons": [
+        "Coincide con: turismo.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938379-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "turismo"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-938249",
       "title": "CONVOCATORIA “BASES REGULADORAS DE LA CONVOCATORIA DE AYUDAS AL PAGO DEL ALQUILER DEL MUNICIPIO DE PUERTO DEL ROSARIO PARA EL AÑO 2026”",
       "issuer": "AYUNTAMIENTO DE PUERTO DEL ROSARIO",
@@ -28021,6 +28847,242 @@
       "demo": false
     },
     {
+      "id": "bdns-938483",
+      "title": "3ª Convocatoria de ayudas públicas para la selección de entidades que ejecuten los Talleres Mixtos de Formación y Empleo, cofinanciados con el FSE+21-27, Medida 5A01",
+      "issuer": "PROCESA SOCIEDAD DE DESARROLLO DE CEUTA",
+      "source": "BDNS",
+      "sourceRef": "938483",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CIUDAD AUTÓNOMA DE CEUTA",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-11-18",
+      "deadlineVerified": true,
+      "amount": 482000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 50,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Bases Reguladoras de los Talleres Mixtos de Empleo y Formación, cofinanciados con el FSE+ para Ceuta 2021-2027, en el marco del Programa FSE+ para Ceuta 2021-2027.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938483-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938480",
+      "title": "3ª Convocatoria de ayudas públicas para la selección de entidades que ejecuten los Talleres Mixtos de Formación y Empleo, cofinanciados con el FSE+ 21-27, Medida 2H02",
+      "issuer": "PROCESA SOCIEDAD DE DESARROLLO DE CEUTA",
+      "source": "BDNS",
+      "sourceRef": "938480",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CIUDAD AUTÓNOMA DE CEUTA",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-11-18",
+      "deadlineVerified": true,
+      "amount": 486000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 50,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · s Bases Reguladoras de los Talleres Mixtos de Empleo y Formación, cofinanciados con el FSE+ para Ceuta 2021-2027, en el marco del Programa FSE+ para Ceuta 2021-2027.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938480-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938453",
+      "title": "RESOLUCIÓN de 1 de octubre de 2026, por la que se establecen las bases reguladoras para la concesión de subvenciones para la compra de vivienda en municipios o núcleos de población de hasta 10.000 habitantes en la Comunitat Valenciana para la emancipación",
+      "issuer": "SECRETARÍA AUTONÓMICA DE VIVIENDA",
+      "source": "BDNS",
+      "sourceRef": "938453",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "COMUNITAT VALENCIANA",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-11-04",
+      "deadlineVerified": true,
+      "amount": 6320000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 50,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · RESOLUCIÓN de 1 de octubre de 2026, por la que se establecen las bases reguladoras para la concesión de subvenciones para la compra de vivienda en municipios o núcleos de población de hasta 10.000 habitantes en la Comunitat Valenciana para la emancipación",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938453-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "vivienda"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938435",
+      "title": "Resolución de 27 de octubre 2026 por la que se establece el procedimiento para la concesión de una ayuda financiera directa de emergencia destinada a las personas agricultoras afectadas por el sobrecoste de los fertilizantes y de la energía",
+      "issuer": "FONDO GALLEGO DE GARANTÍA AGRARIA (FOGGA)",
+      "source": "BDNS",
+      "sourceRef": "938435",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "GALICIA",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-11-12",
+      "deadlineVerified": true,
+      "amount": 3652583,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 50,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución do 27 de outubro de 2026 pola que se establece o procedemento para a concesión dunha axuda financeira directa de emerxencia destinada ás persoas agricultoras afectadas polo sobrecusto dos fertilizantes e da enerxía",
+      "fitReasons": [
+        "Coincide con: energía.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938435-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "energía"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-937925",
       "title": "Bases y convocatoria de subvenciones para acciones formativas del Sistema de formación profesional",
       "issuer": "CONSELLERÍA DE EMPLEO, COMERCIO Y EMIGRACIÓN",
@@ -28196,6 +29258,65 @@
       ],
       "tags": [
         "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-936643",
+      "title": "Línea de Subvenciones para financiar actuaciones para la mejora, conservación y mantenimiento de las infraestructuras de los caminos rurales, titularidad de los municipios de la provincia de Sevilla y entidades locales autónomas, hasta 20000 habitantes",
+      "issuer": "DIPUTACIÓN PROVINCIAL DE SEVILLA",
+      "source": "BDNS",
+      "sourceRef": "936643",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "DIPUTACIÓN PROV. DE SEVILLA",
+      "publishedAt": "2026-10-21",
+      "deadline": "2026-11-09",
+      "deadlineVerified": true,
+      "amount": 5000000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 50,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Línea de Subvenciones para financiar actuaciones para la mejora, conservación y mantenimiento de las infraestructuras de los caminos rurales, titularidad de los municipios de la provincia de Sevilla y entidades locales autónomas, hasta 20000 habitantes",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-936643-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-21",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "rural"
       ],
       "demo": false
     },
@@ -30799,65 +31920,6 @@
       ],
       "tags": [
         "docencia"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-936643",
-      "title": "Línea de Subvenciones para financiar actuaciones para la mejora, conservación y mantenimiento de las infraestructuras de los caminos rurales, titularidad de los municipios de la provincia de Sevilla y entidades locales autónomas, hasta 20000 habitantes",
-      "issuer": "DIPUTACIÓN PROVINCIAL DE SEVILLA",
-      "source": "BDNS",
-      "sourceRef": "936643",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "DIPUTACIÓN PROV. DE SEVILLA",
-      "publishedAt": "2026-10-21",
-      "deadline": "2026-10-21",
-      "deadlineVerified": false,
-      "amount": 5000000,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 47,
-      "state": "nueva",
-      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Línea de Subvenciones para financiar actuaciones para la mejora, conservación y mantenimiento de las infraestructuras de los caminos rurales, titularidad de los municipios de la provincia de Sevilla y entidades locales autónomas, hasta 20000 habitantes",
-      "fitReasons": [
-        "Coincide con: rural.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-936643-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-10-21",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "rural"
       ],
       "demo": false
     },
@@ -39812,6 +40874,65 @@
       "demo": false
     },
     {
+      "id": "bdns-938416",
+      "title": "Resolución de Convocatoria de 20 de octubre de 2026 del XXXV Curso de Posgrado del CIS 2026-2027",
+      "issuer": "CENTRO DE INVESTIGACIONES SOCIOLÓGICAS",
+      "source": "BDNS",
+      "sourceRef": "938416",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-10-28",
+      "deadlineVerified": false,
+      "amount": 6820,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 46,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Orden PCM/919/2020, de 21 de septiembre de 2020",
+      "fitReasons": [
+        "Coincide con: ciencia y salud.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938416-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-28",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-938321",
       "title": "Convocatoria para el otorgamiento de subvenciones a los clubes deportivos de Arona para el desarrollo de equipos de lucha canaria representativos del municipio para la temporada 2026-2027",
       "issuer": "ORGANISMO AUTÓNOMO DE DEPORTES",
@@ -39985,6 +41106,124 @@
       ],
       "tags": [
         "autónomos"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938314",
+      "title": "SUBV. A ORGANIZ. AGRARIAS REA_SU",
+      "issuer": "CONSEJERÍA DE AGRICULTURA, GANADERÍA, MUNDO RURAL Y MEDIO AMBIENTE",
+      "source": "BDNS",
+      "sourceRef": "938314",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "LA RIOJA",
+      "publishedAt": "2026-10-27",
+      "deadline": "2026-10-27",
+      "deadlineVerified": false,
+      "amount": 143500,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 46,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Subvención a OPAS para realizar actuaciones de apoyo a explotaciones agrícolas en mantenimiento REA y presentación Solicitud Única.",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938314-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-27",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "rural"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-938313",
+      "title": "SUBV. A ENTIDADES DE ASESORAMIENTO REA_SU",
+      "issuer": "CONSEJERÍA DE AGRICULTURA, GANADERÍA, MUNDO RURAL Y MEDIO AMBIENTE",
+      "source": "BDNS",
+      "sourceRef": "938313",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "LA RIOJA",
+      "publishedAt": "2026-10-27",
+      "deadline": "2026-10-27",
+      "deadlineVerified": false,
+      "amount": 52500,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 46,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Subvención a entidades de asesoramiento para realizar actuaciones de apoyo a explotaciones agrícolas en mantenimiento REA y presentación Solicitud Única.",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-938313-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-10-27",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "rural"
       ],
       "demo": false
     },
