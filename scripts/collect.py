@@ -15,6 +15,7 @@ import re
 import time
 import unicodedata
 from datetime import date, datetime, timedelta, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.error import HTTPError, URLError
@@ -301,16 +302,79 @@ def walk_boe(node: Any, context: tuple[str, ...] = ()) -> Iterable[tuple[dict[st
             yield from walk_boe(value, context)
 
 
+def parse_boe_html(document: str) -> list[tuple[dict[str, str], tuple[str, ...]]]:
+    """Read the official human-facing sumario when the open-data API fails."""
+    class SumarioParser(HTMLParser):
+        def __init__(self) -> None:
+            super().__init__(convert_charrefs=True)
+            self.headings: dict[int, str] = {}
+            self.heading_level: int | None = None
+            self.heading_parts: list[str] = []
+            self.dispo_depth = 0
+            self.in_title = False
+            self.title_parts: list[str] = []
+            self.reference = ""
+            self.entries: list[tuple[dict[str, str], tuple[str, ...]]] = []
+
+        def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+            attributes = dict(attrs)
+            if tag in ("h3", "h4", "h5") and not self.dispo_depth:
+                self.heading_level = int(tag[1])
+                self.heading_parts = []
+            if tag == "li":
+                if self.dispo_depth:
+                    self.dispo_depth += 1
+                elif "dispo" in (attributes.get("class") or "").split():
+                    self.dispo_depth = 1
+                    self.title_parts = []
+                    self.reference = ""
+            elif tag == "p" and self.dispo_depth == 1 and not self.title_parts:
+                self.in_title = True
+            elif tag == "a" and self.dispo_depth:
+                match = re.search(r"(?:id=|/)(BOE-[AB]-\d{4}-\d+)", attributes.get("href") or "")
+                if match:
+                    self.reference = match.group(1)
+
+        def handle_data(self, data: str) -> None:
+            if self.heading_level is not None:
+                self.heading_parts.append(data)
+            if self.in_title:
+                self.title_parts.append(data)
+
+        def handle_endtag(self, tag: str) -> None:
+            if self.heading_level is not None and tag == f"h{self.heading_level}":
+                self.headings[self.heading_level] = " ".join(" ".join(self.heading_parts).split())
+                for level in (3, 4, 5):
+                    if level > self.heading_level:
+                        self.headings.pop(level, None)
+                self.heading_level = None
+            if tag == "p" and self.in_title:
+                self.in_title = False
+            if tag == "li" and self.dispo_depth:
+                self.dispo_depth -= 1
+                if not self.dispo_depth and self.reference:
+                    title = " ".join(" ".join(self.title_parts).split())
+                    context = tuple(self.headings[level] for level in (3, 4, 5) if level in self.headings)
+                    if title:
+                        self.entries.append(({"identificador": self.reference, "titulo": title}, context))
+
+    parser = SumarioParser()
+    parser.feed(document)
+    return parser.entries
+
+
 def collect_boe(day: date) -> list[dict[str, Any]]:
     try:
         payload = get_json(f"https://www.boe.es/datosabiertos/api/boe/sumario/{day:%Y%m%d}")
+        entries = list(walk_boe(payload))
     except HTTPError as exc:
         # The BOE normally has no Sunday edition. A Sunday 404 means there is
         # no issue to collect; an extraordinary edition still returns 200.
         if day.weekday() == 6 and exc.code == 404:
             return []
-        raise
-    entries = list(walk_boe(payload))
+        if exc.code < 500:
+            raise
+        entries = parse_boe_html(get_text(f"https://www.boe.es/boe/dias/{day:%Y/%m/%d}/"))
     if not entries:
         raise ValueError("BOE response contained no recognizable gazette entries")
     results = []

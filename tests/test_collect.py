@@ -287,6 +287,18 @@ class CollectorFailureCase(unittest.TestCase):
             with self.assertRaises(HTTPError):
                 collect.collect_boe(TODAY)
 
+    def test_boe_uses_official_html_when_api_returns_server_error(self) -> None:
+        unavailable = HTTPError("https://www.boe.es/", 500, "Server Error", None, None)
+        document = '''<h3>III. Otras disposiciones</h3><h4>MINISTERIO DE CIENCIA</h4>
+        <ul><li class="dispo"><p>Convocatoria de ayudas para investigación en Asturias</p>
+        <div><ul><li><a href="/diario_boe/txt.php?id=BOE-A-2026-12345">HTML</a></li></ul></div></li></ul>'''
+        with patch.object(collect, "get_json", side_effect=unavailable), patch.object(collect, "get_text", return_value=document):
+            results = collect.collect_boe(TODAY)
+
+        self.assertEqual(len(results), 1)
+        self.assertEqual(results[0]["sourceRef"], "BOE-A-2026-12345")
+        self.assertIn("investigación", results[0]["title"])
+
     def test_boe_transport_failure_propagates_to_transaction_layer(self) -> None:
         with patch.object(collect, "get_json", side_effect=URLError("offline")):
             with self.assertRaises(URLError):
