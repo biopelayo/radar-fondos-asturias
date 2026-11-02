@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T15:00:10.695114+00:00",
-  "checkedAt": "2026-11-02T15:00:10.695114+00:00",
+  "generatedAt": "2026-11-02T16:03:14.435169+00:00",
+  "checkedAt": "2026-11-02T16:03:14.435169+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -11,31 +11,31 @@
   "sourceStatus": {
     "BDNS": {
       "status": "ok",
-      "count": 246,
-      "collectedCount": 131,
-      "checkedAt": "2026-11-02T15:00:10.695114+00:00",
-      "lastSuccessAt": "2026-11-02T15:00:10.695114+00:00"
+      "count": 255,
+      "collectedCount": 140,
+      "checkedAt": "2026-11-02T16:03:14.435169+00:00",
+      "lastSuccessAt": "2026-11-02T16:03:14.435169+00:00"
     },
     "BOE": {
       "status": "ok",
       "count": 410,
       "collectedCount": 7,
-      "checkedAt": "2026-11-02T15:00:10.695114+00:00",
-      "lastSuccessAt": "2026-11-02T15:00:10.695114+00:00"
+      "checkedAt": "2026-11-02T16:03:14.435169+00:00",
+      "lastSuccessAt": "2026-11-02T16:03:14.435169+00:00"
     },
     "BOPA": {
       "status": "ok",
       "count": 258,
       "collectedCount": 30,
-      "checkedAt": "2026-11-02T15:00:10.695114+00:00",
-      "lastSuccessAt": "2026-11-02T15:00:10.695114+00:00"
+      "checkedAt": "2026-11-02T16:03:14.435169+00:00",
+      "lastSuccessAt": "2026-11-02T16:03:14.435169+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 67,
       "collectedCount": 67,
-      "checkedAt": "2026-11-02T15:00:10.695114+00:00",
-      "lastSuccessAt": "2026-11-02T15:00:10.695114+00:00"
+      "checkedAt": "2026-11-02T16:03:14.435169+00:00",
+      "lastSuccessAt": "2026-11-02T16:03:14.435169+00:00"
     }
   },
   "errors": [],
@@ -19550,6 +19550,65 @@
       "demo": false
     },
     {
+      "id": "bdns-939290",
+      "title": "ORDEN DE 30 DE OCTUBRE DE 2026 DE LA CONSEJERIA DE TURISMO, CULTURA Y DEPORTES POR LA QUE SE AUTORIZA EL GASTO Y SE APRUEBA LA CONVOCATORIA DE AYUDAS ECONÓMICAS A LAS FEDERACIONES DEPORTIVAS OLÍMPICAS DE LA REGIÓN DE MURCIA PARA EL DESARROLLO Y EJECUCIÓN",
+      "issuer": "CONSEJERÍA DE TURISMO, CULTURA Y DEPORTES",
+      "source": "BDNS",
+      "sourceRef": "939290",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "REGIÓN DE MURCIA",
+      "publishedAt": "2026-11-02",
+      "deadline": "2026-11-02",
+      "deadlineVerified": false,
+      "amount": 200000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 59,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden de 27 de julio de 2010, de la Consejería de Cultura y Turismo, por la que se aprueban las bases reguladoras de las subvenciones que se concedan en el ámbito deportivo de la Región de Murcia",
+      "fitReasons": [
+        "Coincide con: turismo.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-939290-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-02",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "turismo"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-939083",
       "title": "Convocatoria de beca de colaboración en formación en genética médica traslacional. Aula ADAO-UCLM de la Universidad de Castilla-La Mancha. Curso académico 2026/2027",
       "issuer": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
@@ -22171,6 +22230,65 @@
       "demo": false
     },
     {
+      "id": "bdns-939255",
+      "title": "Ayudas para la realización de Trabajos de Final de Grado en el Grado en Ingeniería Química en colaboración con la empresa Porcelanosa Grupo 2026/27",
+      "issuer": "UNIVERSIDAD JAUME I DE CASTELLÓN",
+      "source": "BDNS",
+      "sourceRef": "939255",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD JAUME I DE CASTELLÓN",
+      "publishedAt": "2026-11-02",
+      "deadline": "2026-11-02",
+      "deadlineVerified": false,
+      "amount": 1350,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 56,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Ayudas para la realización de Trabajos de Final de Grado en el Grado en Ingeniería Química en colaboración con la empresa Porcelanosa Grupo 2026/27",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-939255-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-02",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-938828",
       "title": "Bases y convocatoria del programa \"Bono Consumo Cocentaina 2026\" de ayudas económicas para potenciar, junto con el Ayuntamiento, el comercio local y los sectores de la hostelería y servicios del municipio de Cocentaina",
       "issuer": "AYUNTAMIENTO DE COCENTAINA",
@@ -24241,6 +24359,65 @@
       ],
       "tags": [
         "turismo"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-939213",
+      "title": "CONVOCATORIA SUBVENCIONES FOMENTO ACTIVIDAD EMPRENDERDORA `CHEQUE EMPRENDEDOR` 2026 (EXPTE. 9105/2026)",
+      "issuer": "AYUNTAMIENTO DE TEULADA",
+      "source": "BDNS",
+      "sourceRef": "939213",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "TEULADA",
+      "publishedAt": "2026-11-02",
+      "deadline": "2026-11-18",
+      "deadlineVerified": true,
+      "amount": 1500,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · BASES REGULADORAS DE LA CONCESIÓN DE SUBVENCIONES PARA FOMENTAR LA ACTIVIDAD EMPRENDEDORA TEULADA MORAIRA 2026 CHEQUE EMPRENDEDOR",
+      "fitReasons": [
+        "Coincide con: autónomos.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-939213-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-02",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "autónomos"
       ],
       "demo": false
     },
@@ -27254,6 +27431,67 @@
       "demo": false
     },
     {
+      "id": "bdns-939195",
+      "title": "Convocatoria pública de subvenciones destinadas a la realización de operaciones de formación en el marco de la \"ESCUELA DE HOSTELERÍA” de la Ciudad Autónoma de Melilla. Anualidad 2026-27",
+      "issuer": "CONSEJERÍA DE ECONOMÍA, COMERCIO, INNOVACIÓN TECNOLÓGICA, TURISMO Y FOMENTO",
+      "source": "BDNS",
+      "sourceRef": "939195",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CIUDAD AUTÓNOMA DE MELILLA",
+      "publishedAt": "2026-11-02",
+      "deadline": "2026-11-02",
+      "deadlineVerified": false,
+      "amount": 369000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 52,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Bases Reguladoras para la realización de acciones de formación en el marco de la \"Escuela de Hostelería” de la Ciudad Autónoma de Melilla, para el periodo 2021-2029",
+      "fitReasons": [
+        "Coincide con: turismo, comercio, docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-939195-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-02",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "turismo",
+        "comercio",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "boe-boe-a-2026-22716",
       "title": "Real Decreto 922/2026, de 28 de octubre, por el que se establecen las normas reguladoras de la concesión directa de anticipos reembolsables en la forma de préstamos a la empresa Navantia, SA, SME, para el desarrollo tecnológico e industrial de varios programas especiales de modernización de sistemas navales y de desarrollo de capacidades navales de interés para la Defensa.",
       "issuer": "Ayudas",
@@ -29333,6 +29571,242 @@
       "tags": [
         "docencia",
         "energía"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-939288",
+      "title": "BASES REGULADORAS D E L PROGRAMA DE A Y UDAS MUNICIPA LES A LA CREACIÓN DE EMPRESAS D EL AYU NTAMI ENTO DE BARBADÁS PARA EL A Ñ O 202 6",
+      "issuer": "AYUNTAMIENTO DE BARBADÁS",
+      "source": "BDNS",
+      "sourceRef": "939288",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "BARBADÁS",
+      "publishedAt": "2026-11-02",
+      "deadline": "2026-11-02",
+      "deadlineVerified": false,
+      "amount": 20000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · BASES REGULADORAS D E L PROGRAMA DE A Y UDAS MUNICIPA LES A LA CREACIÓN DE EMPRESAS D EL AYU NTAMI ENTO DE BARBADÁS PARA EL A Ñ O 202 6",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-939288-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-02",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-939251",
+      "title": "Programa de prácticas académicas externas remuneradas en la UJI 2026-2027",
+      "issuer": "UNIVERSIDAD JAUME I DE CASTELLÓN",
+      "source": "BDNS",
+      "sourceRef": "939251",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD JAUME I DE CASTELLÓN",
+      "publishedAt": "2026-11-02",
+      "deadline": "2026-11-02",
+      "deadlineVerified": false,
+      "amount": 50000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Programa de prácticas académicas externas remuneradas en la UJI 2026-2027",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-939251-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-02",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-939247",
+      "title": "Premios Espacio Olímpico 2026",
+      "issuer": "UNIVERSIDAD JAUME I DE CASTELLÓN",
+      "source": "BDNS",
+      "sourceRef": "939247",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD JAUME I DE CASTELLÓN",
+      "publishedAt": "2026-11-02",
+      "deadline": "2026-11-02",
+      "deadlineVerified": false,
+      "amount": 10800,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Premios Espacio Olímpico 2026",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-939247-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-02",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-939227",
+      "title": "Convocatoria de las subvenciones para la recuperación, rehabilitación o revestimiento de fachadas con piedra natural",
+      "issuer": "AYUNTAMIENTO DE VILALBA DELS ARCS",
+      "source": "BDNS",
+      "sourceRef": "939227",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "VILALBA DELS ARCS",
+      "publishedAt": "2026-11-02",
+      "deadline": "2026-11-02",
+      "deadlineVerified": false,
+      "amount": 10000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · BASES REGULADORAS PARA LA CONCESIÓN DE SUBVENCIONES PARA LA RECUPERACIÓN, REHABILITACIÓN O REVESTIMIENTO DE FACHADAS CON PIEDRA NATURAL",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-939227-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-02",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "vivienda"
       ],
       "demo": false
     },
@@ -34114,6 +34588,65 @@
       ],
       "tags": [
         "autónomos"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-939309",
+      "title": "Subvenciones destinadas a la formación de maquinistas",
+      "issuer": "DEPARTAMENT DE TERRITORI, HABITATGE I TRANSICIÓ ECOLÒGICA",
+      "source": "BDNS",
+      "sourceRef": "939309",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CATALUÑA",
+      "publishedAt": "2026-11-02",
+      "deadline": "2026-11-02",
+      "deadlineVerified": false,
+      "amount": 350000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 47,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden TER/154/2026, de 6 de agosto, de modificación de la Orden TER/157/2025, de 17 de septiembre",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-939309-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-02",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
       ],
       "demo": false
     },
