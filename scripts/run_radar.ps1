@@ -31,7 +31,7 @@ try {
     & git push origin HEAD:main
     if ($LASTEXITCODE -ne 0) { throw "No se pudo publicar el dataset en main." }
 
-    & npx.cmd --no-install gh-pages -d dist -b gh-pages -m "data: publish refreshed radar"
+    & npx.cmd --no-install gh-pages -d dist -b gh-pages -t -m "data: publish refreshed radar"
     if ($LASTEXITCODE -ne 0) { throw "No se pudo publicar la web en gh-pages." }
 
   }
