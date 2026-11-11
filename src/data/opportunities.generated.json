@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T15:00:04.609450+00:00",
-  "checkedAt": "2026-11-10T15:00:04.609450+00:00",
+  "generatedAt": "2026-11-11T07:00:05.419921+00:00",
+  "checkedAt": "2026-11-11T07:00:05.419921+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -11,31 +11,31 @@
   "sourceStatus": {
     "BDNS": {
       "status": "ok",
-      "count": 347,
-      "collectedCount": 118,
-      "checkedAt": "2026-11-10T15:00:04.609450+00:00",
-      "lastSuccessAt": "2026-11-10T15:00:04.609450+00:00"
+      "count": 366,
+      "collectedCount": 137,
+      "checkedAt": "2026-11-11T07:00:05.419921+00:00",
+      "lastSuccessAt": "2026-11-11T07:00:05.419921+00:00"
     },
     "BOE": {
       "status": "ok",
-      "count": 460,
-      "collectedCount": 4,
-      "checkedAt": "2026-11-10T15:00:04.609450+00:00",
-      "lastSuccessAt": "2026-11-10T15:00:04.609450+00:00"
+      "count": 478,
+      "collectedCount": 18,
+      "checkedAt": "2026-11-11T07:00:05.419921+00:00",
+      "lastSuccessAt": "2026-11-11T07:00:05.419921+00:00"
     },
     "BOPA": {
       "status": "ok",
-      "count": 285,
+      "count": 291,
       "collectedCount": 6,
-      "checkedAt": "2026-11-10T15:00:04.609450+00:00",
-      "lastSuccessAt": "2026-11-10T15:00:04.609450+00:00"
+      "checkedAt": "2026-11-11T07:00:05.419921+00:00",
+      "lastSuccessAt": "2026-11-11T07:00:05.419921+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 68,
       "collectedCount": 68,
-      "checkedAt": "2026-11-10T15:00:04.609450+00:00",
-      "lastSuccessAt": "2026-11-10T15:00:04.609450+00:00"
+      "checkedAt": "2026-11-11T07:00:05.419921+00:00",
+      "lastSuccessAt": "2026-11-11T07:00:05.419921+00:00"
     }
   },
   "errors": [],
@@ -5844,6 +5844,67 @@
       "demo": false
     },
     {
+      "id": "bopa-2026-09042",
+      "title": "Resolución de 28 de octubre de 2026, de la Consejería de Presidencia, Reto Demográfico, Igualdad y Turismo, por la que se resuelve el sexto grupo de solicitudes presentadas a la convocatoria pública de ayudas económicas directas a personas emigrantes asturianas retornadas para el ejercicio 2026, se dispone el gasto y se reconoce la obligación.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-09042",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-09042&p_r_p_dispositionReference=2026-09042&p_r_p_dispositionDate=11%2F11%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 80,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, turismo, rural.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-09042-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-09042&p_r_p_dispositionReference=2026-09042&p_r_p_dispositionDate=11%2F11%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "turismo",
+        "rural"
+      ],
+      "demo": false
+    },
+    {
       "id": "bopa-2026-08335",
       "title": "Resolución de 8 de octubre de 2026, de la Consejería de Presidencia, Reto Demográfico, Igualdad y Turismo, de duodécima modificación de la Resolución de 22 de marzo de 2024, de la Consejería de Presidencia, Reto Demográfico, Igualdad y Turismo, por la que se aprueba el Plan Estratégico de Subvenciones de la Consejería para el período 2024-2026.",
       "issuer": "Principado de Asturias",
@@ -8977,6 +9038,306 @@
       "tags": [
         "ciencia y salud",
         "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-36912",
+      "title": "Anuncio de la Delegación Territorial de Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación en Málaga por el que se somete al trámite de información pública la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración, en concreto, de utilidad pública del proyecto nueva L.S.A.T DC a 66kV \"ELVIRIA-VENTILLA\" / \"MIJAS-VENTILLA\" y \"FUENGIROLA-VENTILLA\" / \"CORTIJO COLORADO-VENTILLA\" por conexión de nueva S.E. Ventilla en el término municipal de Mijas (Málaga), formulado por Edistribución Redes Digitales, S.L.U. (expediente AT-E-18348).",
+      "issuer": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36912",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36912",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 67,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: docencia, energía.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36912-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36912"
+        }
+      ],
+      "tags": [
+        "docencia",
+        "energía"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-09038",
+      "title": "Resolución de 28 de octubre de 2026, del Servicio Público de Empleo del Principado de Asturias, por la que se declara desierto el segundo período de solicitud de subvenciones públicas para 2026-2027 destinadas a la realización de acciones de formación en especialidades formativas SEPE con compromiso de contratación dirigidas a las personas trabajadoras desempleadas.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-09038",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-09038&p_r_p_dispositionReference=2026-09038&p_r_p_dispositionDate=11%2F11%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 67,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, docencia.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-09038-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-09038&p_r_p_dispositionReference=2026-09038&p_r_p_dispositionDate=11%2F11%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-09039",
+      "title": "Resolución de 28 de octubre de 2026, del Servicio Público de Empleo del Principado de Asturias, por la que se declara desierto el primer período de solicitud de subvenciones públicas para 2026-2027 destinadas a la realización de acciones de formación en especialidades formativas SEPE con compromiso de contratación dirigidas a las personas trabajadoras desempleadas.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-09039",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-09039&p_r_p_dispositionReference=2026-09039&p_r_p_dispositionDate=11%2F11%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 67,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, docencia.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-09039-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-09039&p_r_p_dispositionReference=2026-09039&p_r_p_dispositionDate=11%2F11%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-09060",
+      "title": "Resolución del 29 de octubre de 2026, del Servicio Público de Empleo del Principado de Asturias, por la que se conceden becas y ayudas al alumnado desempleado partícipe en acciones de formación para el empleo financiadas por el Servicio Público de Empleo del Principado de Asturias (octubre).",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-09060",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-09060&p_r_p_dispositionReference=2026-09060&p_r_p_dispositionDate=11%2F11%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 67,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, docencia.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-09060-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-09060&p_r_p_dispositionReference=2026-09060&p_r_p_dispositionDate=11%2F11%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-09044",
+      "title": "Resolución de 28 de octubre de 2026, de la Consejería de Medio Rural y Política Agraria, recaída en el expediente de solicitud de la convocatoria para la constitución de la Junta Gestora del monte de socios “Bravos de Burgazal”, sito en el concejo de Tineo.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-09044",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-09044&p_r_p_dispositionReference=2026-09044&p_r_p_dispositionDate=11%2F11%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 67,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias, rural.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-09044-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-09044&p_r_p_dispositionReference=2026-09044&p_r_p_dispositionDate=11%2F11%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias",
+        "rural"
       ],
       "demo": false
     },
@@ -17974,6 +18335,125 @@
       "demo": false
     },
     {
+      "id": "boe-boe-b-2026-36913",
+      "title": "Anuncio de la Delegación Territorial de la Consejería de Economía, Hacienda y Fondos Europeos y de la Consejería de Universidad, Industria, Energía e Innovación en Jaén, por el que se somete a información pública la solicitud de autorización administrativa previa y de construcción, así como la declaración, en concreto, de utilidad pública del proyecto de \"Adecuación de línea de media tensión \"Manseguilla\" para eliminar vuelo sobre el parque Vista Alegre, en el término municipal de La Guardia (Jaén). Expediente: AT-40-2025.",
+      "issuer": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36913",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36913",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 62,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: docencia, energía.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36913-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36913"
+        }
+      ],
+      "tags": [
+        "docencia",
+        "energía"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bopa-2026-09084",
+      "title": "Anuncio. Acuerdo de la Comisión Delegada del Consorcio de Aguas por la que se aprueban las bases y la convocatoria del concurso de méritos para la provisión del puesto de trabajo vacante (el 27 de febrero de 2027) de Interventor/a en la plantilla del personal funcionario del Consorcio de Aguas de Asturias.",
+      "issuer": "Principado de Asturias",
+      "source": "BOPA",
+      "sourceRef": "2026-09084",
+      "sourceUrl": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-09084&p_r_p_dispositionReference=2026-09084&p_r_p_dispositionDate=11%2F11%2F2026",
+      "kind": "subvención",
+      "territory": "Asturias",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 62,
+      "state": "nueva",
+      "summary": "Disposición detectada en el último sumario del BOPA. Plazo, beneficiarios y cuantía deben verificarse en el texto oficial.",
+      "fitReasons": [
+        "Coincide con: Asturias.",
+        "Publicación oficial localizada en BOPA."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOPA-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOPA-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOPA-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOPA-2026-09084-official",
+          "source": "BOPA",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-09084&p_r_p_dispositionReference=2026-09084&p_r_p_dispositionDate=11%2F11%2F2026"
+        }
+      ],
+      "tags": [
+        "Asturias"
+      ],
+      "demo": false
+    },
+    {
       "id": "boe-boe-a-2026-23564",
       "title": "Resolución de 4 de noviembre de 2026, del Ayuntamiento de Corvera de Asturias (Asturias), referente a la convocatoria para proveer varias plazas.",
       "issuer": "Personal funcionario y laboral",
@@ -21588,6 +22068,66 @@
       "demo": false
     },
     {
+      "id": "bdns-941239",
+      "title": "Resolución de 6 de noviembre de 2026 de la Presidencia del CDTI E.P.E. por la que se aprueba la convocatoria para el año 2026 del procedimiento de concesión de ayudas destinadas a proyectos INNTERCONECTA-STEP, cofinanciada por FEDER",
+      "issuer": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+      "source": "BDNS",
+      "sourceRef": "941239",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-12-23",
+      "deadlineVerified": true,
+      "amount": 150000000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 60,
+      "state": "nueva",
+      "summary": "GRAN EMPRESA, PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Orden CNU/161/2025, de 7 de febrero, modificada mediante la Orden CNU/331/2026, de 8 de abril, de bases reguladoras para la concesión de ayudas públicas por el Centro para el Desarrollo Tecnológico y la Innovación, E.P.E.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941239-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-937584",
       "title": "CONVOCATORIA DE SUBVENCIONES CON DESTINO A LA EJECUCIÓN DE ACTUACIONES DE FOMENTO DE LAS ENERGIAS RENOVABLES Y DE MEDIDAS DE AHORRO Y EFICIENCIA ENERGÉTICA. PLAN POE 2026.",
       "issuer": "DIPUTACIÓN DE SALAMANCA",
@@ -22004,6 +22544,66 @@
       "tags": [
         "turismo",
         "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-941194",
+      "title": "BASES REGULADORAS Y CONVOCATORIA PARA LA SELECCIÓN DE ESTABLECIMIENTOS COMERCIALES PARTICIPANTES EN LA CAMPAÑA DE BONOS COMERCIO “CONSUME RURAL” PARA LA REACTIVACIÓN DEL COMERCIO MINORISTA DE PROXIMIDAD EN LA PROVINCIA DE SEGOVIA, 2027",
+      "issuer": "DIPUTACIÓN PROVINCIAL DE SEGOVIA",
+      "source": "BDNS",
+      "sourceRef": "941194",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "DIPUTACIÓN PROV. DE SEGOVIA",
+      "publishedAt": "2026-11-10",
+      "deadline": "2027-01-08",
+      "deadlineVerified": true,
+      "amount": 100000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 59,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · BASES REGULADORAS Y CONVOCATORIA PARA LA SELECCIÓN DE ESTABLECIMIENTOS COMERCIALES PARTICIPANTES EN LA CAMPAÑA DE BONOS COMERCIO “CONSUME RURAL” PARA LA REACTIVACIÓN DEL COMERCIO MINORISTA DE PROXIMIDAD EN LA PROVINCIA DE SEGOVIA, 2027",
+      "fitReasons": [
+        "Coincide con: comercio, rural.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941194-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "comercio",
+        "rural"
       ],
       "demo": false
     },
@@ -23849,6 +24449,66 @@
       "demo": false
     },
     {
+      "id": "boe-boe-b-2026-36914",
+      "title": "Resolución de la Delegación Territorial de la Consejería Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación de la Junta de Andalucía en Córdoba, por la que se concede Autorización Administrativa Previa, Autorización Administrativa de Construcción y Declaración, en concreto, de Utilidad Pública, para las instalaciones eléctricas de alta tensión recogidas en el proyecto denominado: Nueva línea de media tensión 15 kV entre el apoyo A553610 y el apoyo A556998 para cierre de las línea denominadas \"FTE_PA_2\" y \"PALMA_RÍO\", sito en parajes Ochavillo Bajo, Las Monjas, Casablanca, en los términos municipales de Fuente Palmera y Hornachuelos (Córdoba), y se convoca para el levantamiento de actas previas a la ocupación de las fincas afectadas. (AT 36/20-1).",
+      "issuer": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36914",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36914",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 57,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: docencia, energía.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36914-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36914"
+        }
+      ],
+      "tags": [
+        "docencia",
+        "energía"
+      ],
+      "demo": false
+    },
+    {
       "id": "boe-boe-a-2026-23518",
       "title": "Resolución de 29 de octubre de 2026, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P., por la que se publica el Convenio con la Fundación «la Caixa», en el marco de la convocatoria «Health Research Call 2026» de la Fundación.",
       "issuer": "Convenios",
@@ -25344,6 +26004,124 @@
       "demo": false
     },
     {
+      "id": "bdns-941205",
+      "title": "AYUDAS, EN RÉGIMEN DE CONCURENCIA COMPETITIVA, DESTINADAS A FACILITAR EL ACCESO Y LA PERMANENCIA DE UNA VIVIENDA DE ALQUILER A JÓVENES AÑO 2026.",
+      "issuer": "AYUNTAMIENTO DE VENTA DE BAÑOS",
+      "source": "BDNS",
+      "sourceRef": "941205",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "VENTA DE BAÑOS",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-11-10",
+      "deadlineVerified": false,
+      "amount": 8200,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 56,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · AYUDAS, EN RÉGIMEN DE CONCURENCIA COMPETITIVA, DESTINADAS A FACILITAR EL ACCESO Y LA PERMANENCIA DE UNA VIVIENDA DE ALQUILER A JÓVENES AÑO 2026.",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941205-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "vivienda"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-941173",
+      "title": "CONVOCATORIA PÚBLICA PARA LA CONCESIÓN DE AYUDAS DESTINADAS A FACILITAR EL PAGO DEL ALQUILER DE LA VIVIENDA HABITUAL 2026",
+      "issuer": "AYUNTAMIENTO DE ARGANDA DEL REY",
+      "source": "BDNS",
+      "sourceRef": "941173",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "ARGANDA DEL REY",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-11-10",
+      "deadlineVerified": false,
+      "amount": 132000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 56,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · De conformidad con lo previstos en los artículos 17.3.b y 20.8.a de la Ley 38/2003. de 17 de noviembre, General de Subvenciones, se publica el extracto de la convocatoria cuyo texto completo puede consultarse en la Base de Datos Nacional de Subvenciones.",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941173-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "vivienda"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-940662",
       "title": "Beca de iniciación a la investigación (Proyecto «MODALITAT A: AJUDES COMPLEMENTÀRIES ALS PROJECTES D’INVESTIGACIÓ CAPTATS PEL PERSONAL INVESTIGADOR DE LA UNIVERSITAT JAUME I DINS DEL PEICTI I DEL PROGRAMA R+D+I DE LA GENERALITAT VALENCIANA»",
       "issuer": "UNIVERSIDAD JAUME I DE CASTELLÓN",
@@ -26351,6 +27129,125 @@
       "tags": [
         "IA y datos",
         "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-941289",
+      "title": "Resolución por la que se convocan subvenciones para financiar actuaciones incluidas en los Planes de Adaptación a la Gobernanza de Datos para Investigación (PAGDI) para los ejercicios 2026 y 2027",
+      "issuer": "SECRETARÍA AUTONÓMICA DE EFICIENCIA Y TECNOLOGÍA SANITARIA",
+      "source": "BDNS",
+      "sourceRef": "941289",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "COMUNITAT VALENCIANA",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-12-01",
+      "deadlineVerified": true,
+      "amount": 2880338,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 55,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución por la que se aprueban las bases reguladoras para la concesión de subvenciones para financiar actuaciones incluidas en los Planes de Adaptación a la Gobernanza de Datos para Investigación (PAGDI)",
+      "fitReasons": [
+        "Coincide con: IA y datos, ciencia y salud.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941289-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "IA y datos",
+        "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-940996",
+      "title": "Resol 3 de noviembre de 2026  de la D G de Promoción e Impulso del Turismo y la Restauración",
+      "issuer": "CONSEJERÍA DE TURISMO, JUSTICIA, DESREGULACIÓN Y ADMINISTRACIÓN LOCAL",
+      "source": "BDNS",
+      "sourceRef": "940996",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "ANDALUCÍA",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-11-10",
+      "deadlineVerified": false,
+      "amount": 5121375,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 55,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden de 27 de julio de 2017, por la que se aprueban las bases reguladoras para la concesión de subvenciones, en r.concurrencia no competitiva, a los Municipios Turísticos de Andalucía",
+      "fitReasons": [
+        "Coincide con: turismo.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-940996-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "turismo"
       ],
       "demo": false
     },
@@ -28196,6 +29093,301 @@
       "demo": false
     },
     {
+      "id": "bdns-941284",
+      "title": "II Convocatoria Ayudas a la Contratación Talento Joven 2026.- Cámara Bahía de Algeciras",
+      "issuer": "CÁMARA OFICIAL DE COMERCIO, INDUSTRIA, SERVICIOS Y NAVEGACIÓN DE LA BAHÍA DE ALGECIRAS",
+      "source": "BDNS",
+      "sourceRef": "941284",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CÁMARA OFICIAL DE COMERCIO, INDUSTRIA, SERVICIOS Y NAVEGACIÓN DE LA BAHÍA DE ALGECIRAS",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-12-31",
+      "deadlineVerified": true,
+      "amount": 25000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · II Convocatoria Ayudas a la Contratación Talento Joven 2026. Cámara Bahía de Algeciras",
+      "fitReasons": [
+        "Coincide con: comercio.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941284-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "comercio"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-941269",
+      "title": "Premios Carme Barceló i Torres 2027 a la calidad lingüística en la docencia en valenciano y en inglés",
+      "issuer": "UNIVERSITAT DE VALÈNCIA (ESTUDI GENERAL)",
+      "source": "BDNS",
+      "sourceRef": "941269",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSITAT DE VALÈNCIA (ESTUDI GENERAL)",
+      "publishedAt": "2026-11-10",
+      "deadline": "2027-07-19",
+      "deadlineVerified": true,
+      "amount": 15000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Premios Carme Barceló i Torres 2027 a la calidad lingüística en la docencia en valenciano y en inglés",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941269-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-941226",
+      "title": "Convocatoria de Erasmus-ELAN, curso 2027/2028.",
+      "issuer": "UNIVERSIDAD DE SALAMANCA",
+      "source": "BDNS",
+      "sourceRef": "941226",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE SALAMANCA",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-12-04",
+      "deadlineVerified": true,
+      "amount": 55590,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución de 26 de septiembre de 2017 del Rectorado de la Universidad de Salamanca, por la que se publican las Bases reguladoras de la concesión de becas y ayudas a los estudiantes de la Universidad de Salamanca (B.O.C. y L. de 3 de octubre de 2017).",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941226-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-941198",
+      "title": "Ayuda Emprendedores 2026 (Pesca y acuicultura)",
+      "issuer": "DIPUTACIÓN PROVINCIAL DE LEÓN",
+      "source": "BDNS",
+      "sourceRef": "941198",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "DIPUTACIÓN PROV. DE LEÓN",
+      "publishedAt": "2026-11-10",
+      "deadline": "2027-03-31",
+      "deadlineVerified": true,
+      "amount": 50000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · ORD. GNRAL. DE SUBVENCIONES CONCURRENCIA COMPETITIVA 2020",
+      "fitReasons": [
+        "Coincide con: autónomos.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941198-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "autónomos"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-941197",
+      "title": "Convocatoria del Concurso Digital \"Belenes en Casa 2026\".",
+      "issuer": "AYUNTAMIENTO DE ALBACETE",
+      "source": "BDNS",
+      "sourceRef": "941197",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "ALBACETE",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-12-22",
+      "deadlineVerified": true,
+      "amount": 500,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · CONCURSO DIGITAL “BELENES EN CASA 2026” AYUNTAMIENTO DE ALBACETE BASES REGULADORAS Y CONVOCATORIA",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941197-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-940943",
       "title": "Resolución R-1458/2026, de 6 de noviembre, del Rector de la Universidad de Murcia, por la que se convoca la III edición de premios al mejor TFG y TFM de la Cátedra Primafrio",
       "issuer": "UNIVERSIDAD DE MURCIA",
@@ -29068,6 +30260,124 @@
       "evidence": [
         {
           "id": "BDNS-939412-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-03",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-939403",
+      "title": "Resolución Universidad Rey Juan Carlos convocatoria para participar en el Programa Intensivo Combinado (BIP) “Green Nudge\" coordinado por la Université Catholique de Lyon, dentro del programa Erasmus+ 2026/2027",
+      "issuer": "UNIVERSIDAD REY JUAN CARLOS",
+      "source": "BDNS",
+      "sourceRef": "939403",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD REY JUAN CARLOS",
+      "publishedAt": "2026-11-03",
+      "deadline": "2026-11-17",
+      "deadlineVerified": true,
+      "amount": 4560,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución Universidad Rey Juan Carlos convocatoria para participar en el Programa Intensivo Combinado (BIP) “Green Nudge\" coordinado por la Université Catholique de Lyon, dentro del programa Erasmus+ 2026/2027",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-939403-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-03",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-939395",
+      "title": "Resolución Universidad Rey Juan Carlos convocatoria Programa Intensivo Combinado (BIP) “Corporate Social Responsibility & Communication\" coordinado por la Università di comunicazione e lingue (IULM) dentro del programa Erasmus+ 2026/2027",
+      "issuer": "UNIVERSIDAD REY JUAN CARLOS",
+      "source": "BDNS",
+      "sourceRef": "939395",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD REY JUAN CARLOS",
+      "publishedAt": "2026-11-03",
+      "deadline": "2026-11-17",
+      "deadlineVerified": true,
+      "amount": 4560,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución Universidad Rey Juan Carlos convocatoria Programa Intensivo Combinado (BIP) “Corporate Social Responsibility & Communication\" coordinado por la Università di comunicazione e lingue (IULM) dentro del programa Erasmus+ 2026/2027",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-939395-official",
           "source": "BDNS",
           "label": "Publicación oficial",
           "date": "2026-11-03",
@@ -32326,6 +33636,124 @@
       "demo": false
     },
     {
+      "id": "boe-boe-b-2026-36878",
+      "title": "Anuncio de licitación de: Gerencia de Informática de la Seguridad Social. Objeto: Servicio soporte a los usuarios de los servicios digitales de la TGSS. Expediente: 2026/7020.",
+      "issuer": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36878",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36878",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 52,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: IA y datos.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36878-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36878"
+        }
+      ],
+      "tags": [
+        "IA y datos"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-941250",
+      "title": "Subvenciones a empresas y organismos equiparados  del sector privado que hayan participado en la formación profesional del alumnado  de ciclos formativos de Grados D y E de Formación profesional, CURSO 2025/2026",
+      "issuer": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+      "source": "BDNS",
+      "sourceRef": "941250",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CANARIAS",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-11-10",
+      "deadlineVerified": false,
+      "amount": 1994225,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 52,
+      "state": "nueva",
+      "summary": "GRAN EMPRESA, PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Subvenciones a empresas y organismos equiparados  del sector privado que hayan participado en la formación profesional del alumnado  de ciclos formativos de Grados D y E de Formación profesional",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941250-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-940949",
       "title": "Subvención empresas sector ganadero financiación seguridad y salud en centro trabajo 2026",
       "issuer": "DIPUTACIÓN PROVINCIAL DE LEÓN",
@@ -34943,6 +36371,183 @@
       "demo": false
     },
     {
+      "id": "bdns-941228",
+      "title": "AYUDAS A LA INICIATIVA EMPRENDEDORA 2026",
+      "issuer": "AYUNTAMIENTO DE GIBRALEÓN",
+      "source": "BDNS",
+      "sourceRef": "941228",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "GIBRALEÓN",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-11-10",
+      "deadlineVerified": false,
+      "amount": 10000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · AYUDAS A LA INICIATIVA EMPRENDEDORA 2026",
+      "fitReasons": [
+        "Coincide con: autónomos.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941228-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "autónomos"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-941144",
+      "title": "Bases para la concesión, para el año 2026, de las ayudas destinadas a financiar el pago de las tasas del suministro de agua y alcantarillado, servicio de recogida y eliminación de basuras, para las personas residentes en Lezo en régimen de alquiler.",
+      "issuer": "AYUNTAMIENTO DE LEZO",
+      "source": "BDNS",
+      "sourceRef": "941144",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "LEZO",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-11-10",
+      "deadlineVerified": false,
+      "amount": 20000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Bases para la concesión, para el año 2026, de las ayudas destinadas a financiar el pago de las tasas del suministro de agua y alcantarillado, servicio de recogida y eliminación de basuras, para las personas residentes en Lezo en régimen de alquiler.",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941144-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "vivienda"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-941125",
+      "title": "CONVOCATORIA DE “PLAN DE CONSERVACIÓN Y MEJORA DEL ENTORNO RURAL EN EL MUNICIPIO DE SANTA EULÀRIA DES RIU 2026”",
+      "issuer": "AYUNTAMIENTO DE SANTA EULÀRIA DES RIU",
+      "source": "BDNS",
+      "sourceRef": "941125",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "SANTA EULÀRIA DES RIU",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-11-10",
+      "deadlineVerified": false,
+      "amount": 80000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · APROBACIÓN DEFINITIVA DEL PRESUPUESTO 2026 Y DE SUS BASES DE EJECUCIÓN",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941125-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "rural"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-940988",
       "title": "Bases reguladoras y convocatoria correspondiente a ayudas directas a estudiantado del Máster Erasmus Mundus en Estudios de las Mujeres y de Género (GEMMA) con destino en la Universidad de Oviedo en el curso 2026-2027",
       "issuer": "UNIVERSIDAD DE OVIEDO",
@@ -36419,65 +38024,6 @@
       "demo": false
     },
     {
-      "id": "bdns-939403",
-      "title": "Resolución Universidad Rey Juan Carlos convocatoria para participar en el Programa Intensivo Combinado (BIP) “Green Nudge\" coordinado por la Université Catholique de Lyon, dentro del programa Erasmus+ 2026/2027",
-      "issuer": "UNIVERSIDAD REY JUAN CARLOS",
-      "source": "BDNS",
-      "sourceRef": "939403",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "UNIVERSIDAD REY JUAN CARLOS",
-      "publishedAt": "2026-11-03",
-      "deadline": "2026-11-03",
-      "deadlineVerified": false,
-      "amount": 4560,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 51,
-      "state": "nueva",
-      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución Universidad Rey Juan Carlos convocatoria para participar en el Programa Intensivo Combinado (BIP) “Green Nudge\" coordinado por la Université Catholique de Lyon, dentro del programa Erasmus+ 2026/2027",
-      "fitReasons": [
-        "Coincide con: docencia.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-939403-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-11-03",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "docencia"
-      ],
-      "demo": false
-    },
-    {
       "id": "bdns-939398",
       "title": "Ayudas para la realización del curso tutorizado en línea «Competencias para el desarrollo de la función directiva».",
       "issuer": "DIRECCIÓN GENERAL DE EVALUACIÓN Y COOPERACIÓN TERRITORIAL",
@@ -36524,65 +38070,6 @@
       "evidence": [
         {
           "id": "BDNS-939398-official",
-          "source": "BDNS",
-          "label": "Publicación oficial",
-          "date": "2026-11-03",
-          "verified": true,
-          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
-        }
-      ],
-      "tags": [
-        "docencia"
-      ],
-      "demo": false
-    },
-    {
-      "id": "bdns-939395",
-      "title": "Resolución Universidad Rey Juan Carlos convocatoria Programa Intensivo Combinado (BIP) “Corporate Social Responsibility & Communication\" coordinado por la Università di comunicazione e lingue (IULM) dentro del programa Erasmus+ 2026/2027",
-      "issuer": "UNIVERSIDAD REY JUAN CARLOS",
-      "source": "BDNS",
-      "sourceRef": "939395",
-      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
-      "kind": "subvención",
-      "territory": "UNIVERSIDAD REY JUAN CARLOS",
-      "publishedAt": "2026-11-03",
-      "deadline": "2026-11-03",
-      "deadlineVerified": false,
-      "amount": 4560,
-      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
-      "score": 51,
-      "state": "nueva",
-      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Resolución Universidad Rey Juan Carlos convocatoria Programa Intensivo Combinado (BIP) “Corporate Social Responsibility & Communication\" coordinado por la Università di comunicazione e lingue (IULM) dentro del programa Erasmus+ 2026/2027",
-      "fitReasons": [
-        "Coincide con: docencia.",
-        "Publicación oficial localizada en BDNS."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "BDNS-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "BDNS-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "BDNS-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "pendiente",
-          "evidence": "Abrir disposición"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "BDNS-939395-official",
           "source": "BDNS",
           "label": "Publicación oficial",
           "date": "2026-11-03",
@@ -40431,6 +41918,65 @@
       "demo": false
     },
     {
+      "id": "bdns-941199",
+      "title": "Ayuda a Emprendedores 2026 (Agricultura)",
+      "issuer": "DIPUTACIÓN PROVINCIAL DE LEÓN",
+      "source": "BDNS",
+      "sourceRef": "941199",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "DIPUTACIÓN PROV. DE LEÓN",
+      "publishedAt": "2026-11-10",
+      "deadline": "2027-03-31",
+      "deadlineVerified": true,
+      "amount": 300000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 50,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · ORD. GNRAL. DE SUBVENCIONES CONCURRENCIA COMPETITIVA 2020",
+      "fitReasons": [
+        "Coincide con: autónomos.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941199-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "autónomos"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-940822",
       "title": "Acuerdo por el que se aprueban las Bases de la convocatoria de ayudas para el desarrollo rural de la isla de Mallorca para el período 2023-2027, vinculadas a proyectos relacionados con los ámbitos agrario y/o ambiental y enmarcados en la EDLP 2023-2027",
       "issuer": "FONDO DE GARANTÍA AGRARIA Y PESQUERA DE LAS ISLAS BALEARES (FOGAIBA)",
@@ -41731,6 +43277,65 @@
       "demo": false
     },
     {
+      "id": "bdns-941118",
+      "title": "Ayudas a Entidades Locales de Navarra para la prevención de daños provocados por especies cinegéticas, 2027",
+      "issuer": "DEPARTAMENTO DE DESARROLLO RURAL Y MEDIO AMBIENTE",
+      "source": "BDNS",
+      "sourceRef": "941118",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "COMUNIDAD FORAL DE NAVARRA",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-12-31",
+      "deadlineVerified": true,
+      "amount": 40000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 49,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Ayudas EELL prev. daños especies cinegéticas 2027",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941118-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "rural"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-937796",
       "title": "Orden CTD/5/2026, bases reguladoras y convocatoria de subvenciones, en régimen de concurrencia competitiva, a titulares de salas de exhibición cinematográfica, para favorecer la creación de audiencias en Cantabria",
       "issuer": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
@@ -41904,6 +43509,598 @@
       ],
       "tags": [
         "autónomos"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-36797",
+      "title": "Anuncio de licitación de: Consejo de Administración del Patrimonio Nacional. Objeto: Obras de mejora y eficiencia de infraestructuras del riego en jardines de La Granja y Aranjuez. Expediente: 202620PA0446.",
+      "issuer": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36797",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36797",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36797-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36797"
+        }
+      ],
+      "tags": [
+        "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-36815",
+      "title": "Anuncio de licitación de: Dirección de Asuntos Económicos del Ejército. Objeto: Acuerdo Marco para la ejecucion de trabajos de Factoria de Software de interes para el Ejercito de Tierra. Expediente: 2026/ETSAE0921/00001685E.",
+      "issuer": "MINISTERIO DE DEFENSA",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36815",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36815",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: IA y datos.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36815-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36815"
+        }
+      ],
+      "tags": [
+        "IA y datos"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-36826",
+      "title": "Anuncio de licitación de: Jefatura de Asuntos Económicos de la Guardia Civil. Objeto: Adquisición de diverso material fungible de investigación policial, para dotar al Laboratorio Central (Servicio de Criminalística) y Laboratorios periféricos de las distintas Unidades de Policía Judicial de la Guardia Civil. Expediente: E/0057/A/26/2.",
+      "issuer": "MINISTERIO DEL INTERIOR",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36826",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36826",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36826-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36826"
+        }
+      ],
+      "tags": [
+        "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-36832",
+      "title": "Anuncio de licitación de: Jefatura de Asuntos Económicos de la Guardia Civil. Objeto: Contratación de un servicio de redacción de un Proyecto Básico y de Ejecuciónúnico, el Estudio de seguridad y salud, el estudio Geotécnico y levantamiento topográfico, para las obrasde construcción del nuevo edificio en la Comandancia de la Guardia Civil de Algeciras (Cádiz). Expediente: C/0127/A/26/6.",
+      "issuer": "MINISTERIO DEL INTERIOR",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36832",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36832",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36832-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36832"
+        }
+      ],
+      "tags": [
+        "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-36834",
+      "title": "Anuncio de licitación de: Jefatura de Asuntos Económicos de la Guardia Civil. Objeto: La adquisición, con cargo al ejercicio presupuestario 2027 y 2028, de la uniformidad, material y equipos necesarios para dotar al personal de la Unidad de Acción Rural de la Guardia Civil (en adelante UAR). Expediente: A/0082/A/26/2.",
+      "issuer": "MINISTERIO DEL INTERIOR",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36834",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36834",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36834-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36834"
+        }
+      ],
+      "tags": [
+        "rural"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-36869",
+      "title": "Anuncio de licitación de: Secretaría General de la Agencia Estatal Consejo Superior de Investigaciones Científicas. Objeto: Servicio de vigilancia del Real Jardín Botánico de la Agencia Estatal Consejo Superior de Investigaciones Científicas. Expediente: 35559/26.",
+      "issuer": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36869",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36869",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36869-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36869"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-36870",
+      "title": "Anuncio de licitación de: Secretaría General de la Agencia Estatal Consejo Superior de Investigaciones Científicas. Objeto: Servicio de gestión de residuos del Centro de Investigaciones Científicas Isla de la Cartuja de la Agencia Estatal Consejo Superior de Investigaciones Científicas. Expediente: 35721/27.",
+      "issuer": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36870",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36870",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36870-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36870"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-36872",
+      "title": "Anuncio de licitación de: Gerencia de Informática de la Seguridad Social. Objeto: Servicio mantenimiento de almacenamiento Hitachi. Expediente: 2026/7021.",
+      "issuer": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36872",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36872",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: IA y datos.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36872-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36872"
+        }
+      ],
+      "tags": [
+        "IA y datos"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-36910",
+      "title": "Extracto de la Resolución de la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, por la que se convocan ayudas para el ecosistema de nodos edge en España dirigidas a los participantes directos en Proyectos Importantes de Interés Común Europeo de Servicios en la Nube (IPCEI-CIS). Programa FEDER Nodos Edge",
+      "issuer": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36910",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36910",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36910-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36910"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-36911",
+      "title": "Anuncio de los Servicios Territoriales del Departamento de Territorio, Vivienda y Transición Ecológica en Lleida, por el que se hace pública la convocatoria para la redacción de las actas previas a la ocupación de los bienes y/o derechos afectados por el procedimiento de expropiación derivado de la ejecución del proyecto de la infraestructura de evacuación, líneas soterradas a 25 kV y la LAT subterránea a 25KV, de la planta solar fotovoltaica denominada 22CER, de 4,5 MW, sobre terreno en suelo no urbanizable, en los términos municipales de Les Oluges y Cervera, en la comarca de La Segarra (exp. FUE-2021-02341200).",
+      "issuer": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36911",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36911",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36911-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36911"
+        }
+      ],
+      "tags": [
+        "vivienda"
       ],
       "demo": false
     },
@@ -56241,6 +58438,65 @@
       "demo": false
     },
     {
+      "id": "bdns-941027",
+      "title": "Ayudas curso 2026-2027 para proyectos de las asociaciones de madres y padres del alumnado de centros educativos sostenidos con fondos públicos de Extremadura, según Resolución de 3 de noviembre de 2026 que las convoca",
+      "issuer": "DIRECCIÓN GENERAL DE INNOVACIÓN E INCLUSIÓN EDUCATIVA",
+      "source": "BDNS",
+      "sourceRef": "941027",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "EXTREMADURA",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-11-10",
+      "deadlineVerified": false,
+      "amount": 100000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 46,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Decreto 187/2012, de 14 de septiembre, de bases reguladoras de las subvenciones para proyectos de las asociaciones de madres y padres del alumnado de centros educativos sostenidos con fondos públicos de Extremadura",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941027-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-938898",
       "title": "BECAS Itinerarios Formativos de Capacitación +21 2026",
       "issuer": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
@@ -60253,6 +62509,65 @@
       "demo": false
     },
     {
+      "id": "bdns-941068",
+      "title": "ORDEN AGA/___/2026, de 7 de noviembre, por la que se convocan subvenciones para la promoción del vino en los mercados de terceros países, para el periodo de ejecución comprendido entre el 1 de marzo y el 31 de diciembre de 2027 (ejercicio financiero 2028)",
+      "issuer": "DIRECCIÓN GENERAL DE INNOVACIÓN Y PROMOCIÓN AGROALIMENTARIA",
+      "source": "BDNS",
+      "sourceRef": "941068",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "ARAGÓN",
+      "publishedAt": "2026-11-10",
+      "deadline": "2026-12-31",
+      "deadlineVerified": true,
+      "amount": 3000000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 45,
+      "state": "nueva",
+      "summary": "GRAN EMPRESA, PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Real Decreto 905/2022, de 25 de octubre, por el que se regula la Intervención Sectorial Vitivinícola en el marco del Plan Estratégico de la Política Agrícola Común",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-941068-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-10",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-940219",
       "title": "Bases reguladoras y convocatoria para la campaña 2027-2028 de las ayudas a trabajos forestales promovidos por Entidades Locales y Agentes Privados",
       "issuer": "DEPARTAMENTO DE DESARROLLO RURAL Y MEDIO AMBIENTE",
@@ -60781,6 +63096,242 @@
       ],
       "tags": [
         "turismo"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-23611",
+      "title": "Resolución de 3 de noviembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 31 de julio de 2026.",
+      "issuer": "Destinos",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-23611",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23611",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-23611-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23611"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-23622",
+      "title": "Resolución de 4 de noviembre de 2026, de la Dirección General de la Función Pública, por la que se publica la convocatoria para la provisión de puesto de trabajo reservado al personal funcionario de administración local con habilitación de carácter nacional, por el sistema de libre designación.",
+      "issuer": "Procedimientos de libre designación",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-23622",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23622",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-23622-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23622"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-23659",
+      "title": "Resolución de 17 de julio de 2026, de la Dirección General de Seguros y Fondos de Pensiones, por la que se publica la aprobación por la autoridad competente de Liechtenstein de la fusión por absorción de Swiss Life (Liechtenstein) AG por Elips Life AG.",
+      "issuer": "Entidades de seguros",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-23659",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23659",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-23659-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23659"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-36848",
+      "title": "Anuncio la Agencia Estatal de Meteorología por el que se publica la licitación 202600000214 Contrato Mixto de Suministro de suscripciones a plataformas CLOUD Hiperescalares y Servicios de Gobierno, Operación y Evolución de la Infraestructura Multicolud de la Agencia Estatal de Meteorología.",
+      "issuer": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-36848",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36848",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-11",
+      "deadline": "2026-11-11",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-36848-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-11",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36848"
+        }
+      ],
+      "tags": [
+        "rural"
       ],
       "demo": false
     },
