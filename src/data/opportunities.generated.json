@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T07:00:05.542907+00:00",
-  "checkedAt": "2026-11-24T07:00:05.542907+00:00",
+  "generatedAt": "2026-11-25T07:00:04.893125+00:00",
+  "checkedAt": "2026-11-25T07:00:04.893125+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -11,31 +11,31 @@
   "sourceStatus": {
     "BDNS": {
       "status": "ok",
-      "count": 517,
-      "collectedCount": 138,
-      "checkedAt": "2026-11-24T07:00:05.542907+00:00",
-      "lastSuccessAt": "2026-11-24T07:00:05.542907+00:00"
+      "count": 537,
+      "collectedCount": 158,
+      "checkedAt": "2026-11-25T07:00:04.893125+00:00",
+      "lastSuccessAt": "2026-11-25T07:00:04.893125+00:00"
     },
     "BOE": {
       "status": "ok",
-      "count": 598,
-      "collectedCount": 7,
-      "checkedAt": "2026-11-24T07:00:05.542907+00:00",
-      "lastSuccessAt": "2026-11-24T07:00:05.542907+00:00"
+      "count": 614,
+      "collectedCount": 16,
+      "checkedAt": "2026-11-25T07:00:04.893125+00:00",
+      "lastSuccessAt": "2026-11-25T07:00:04.893125+00:00"
     },
     "BOPA": {
       "status": "ok",
       "count": 335,
-      "collectedCount": 1,
-      "checkedAt": "2026-11-24T07:00:05.542907+00:00",
-      "lastSuccessAt": "2026-11-24T07:00:05.542907+00:00"
+      "collectedCount": 0,
+      "checkedAt": "2026-11-25T07:00:04.893125+00:00",
+      "lastSuccessAt": "2026-11-25T07:00:04.893125+00:00"
     },
     "UE": {
       "status": "ok",
-      "count": 74,
-      "collectedCount": 74,
-      "checkedAt": "2026-11-24T07:00:05.542907+00:00",
-      "lastSuccessAt": "2026-11-24T07:00:05.542907+00:00"
+      "count": 73,
+      "collectedCount": 73,
+      "checkedAt": "2026-11-25T07:00:04.893125+00:00",
+      "lastSuccessAt": "2026-11-25T07:00:04.893125+00:00"
     }
   },
   "errors": [],
@@ -25842,6 +25842,66 @@
       "demo": false
     },
     {
+      "id": "bdns-944220",
+      "title": "RESOLUCIÓN DE LA VICERRECTORA DE INVESTIGACIÓN POR LA QUE SE CONVOCA CONCURSO\nPÚBLICO PARA LA CONTRATACIÓN DE PERSONAL, CON CARÁCTER\nTEMPORAL (CONTRATO PREDOCTORAL) PARA LA REALIZACIÓN DE\nPROYECTOS DE INVESTIGACIÓN CIENTÍFICA Y TÉCNICA (NOVIEMBRE EXTRA 2)",
+      "issuer": "UNIVERSIDAD DE OVIEDO",
+      "source": "BDNS",
+      "sourceRef": "944220",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "licitación",
+      "territory": "UNIVERSIDAD DE OVIEDO",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-11-24",
+      "deadlineVerified": false,
+      "amount": 27582,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 61,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Acuerdo de 28 de julio de 2023, del Consejo de Gobierno de la Universidad de Oviedo, por el que se aprueba el Reglamento para la contratación de personal investigador y técnico de apoyo  conforme a las modalidades de la Ley 14/2011, de la C.T.I",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944220-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-941921",
       "title": "RESOLUCIÓN DE LA VICERRECTORA DE INVESTIGACIÓN POR LA QUE SE CONVOCA CONCURSO PÚBLICO PARA LA LCONTRATACIÓN DE PERSONAL, CON CARÁCTER TEMPORAL (CONTRATO PREDOCTORAL) PARA LA REALIZACIÓN DE PROYECTOS DE INVESTIGACIÓN CINETÍFICA Y TÉCNICA (NOVIEMBRE EXTRA2)",
       "issuer": "UNIVERSIDAD DE OVIEDO",
@@ -26616,6 +26676,183 @@
       "tags": [
         "turismo",
         "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944535",
+      "title": "Convocatoria de ayudas para estancias docentes de profesores doctores y profesionales de reconocido prestigio invitados/as a participar en másteres universitarios oficiales de la Universidad de Castilla-La Mancha, en el año 2027",
+      "issuer": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "source": "BDNS",
+      "sourceRef": "944535",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "publishedAt": "2026-11-24",
+      "deadline": "2027-05-20",
+      "deadlineVerified": true,
+      "amount": 220000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 59,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Bases reguladoras que forman parte del texto íntegro de la convocatoria.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944535-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944531",
+      "title": "CONVOCATORIA REGULADORA DE SUBVENCIONES  PARA PROGRAMA DE TURISMO TERMAL DE LA PROVINCIA DE BADAJOZ 2027 DE LA  DIPUTACIÓN DE BADAJOZ",
+      "issuer": "DIPUTACIÓN PROVINCIAL DE BADAJOZ",
+      "source": "BDNS",
+      "sourceRef": "944531",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "DIPUTACIÓN PROV. DE BADAJOZ",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-11-24",
+      "deadlineVerified": false,
+      "amount": 149792,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 59,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · CONVOCATORIA REGULADORA DE SUBVENCIONES  PARA PROGRAMA DE TURISMO TERMAL DE LA PROVINCIA DE BADAJOZ 2027 DE LA  DIPUTACIÓN DE BADAJOZ",
+      "fitReasons": [
+        "Coincide con: turismo.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944531-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "turismo"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944288",
+      "title": "Resolución de la Dirección General de Trabajo Autónomo y Economía Social, por la que se efectúa la convocatoria para el año 2026, de los «Premios al Trabajo Autónomo en Andalucía»",
+      "issuer": "CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+      "source": "BDNS",
+      "sourceRef": "944288",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "autoempleo",
+      "territory": "ANDALUCÍA",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-11-24",
+      "deadlineVerified": false,
+      "amount": 28800,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 59,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Orden de 29 de octubre de 2025, por la que se crean los Premios al Trabajo Autónomo en Andalucía, y se aprueban sus bases reguladoras.",
+      "fitReasons": [
+        "Coincide con: autónomos.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944288-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "autónomos"
       ],
       "demo": false
     },
@@ -32458,6 +32695,124 @@
       "demo": false
     },
     {
+      "id": "boe-boe-a-2026-24746",
+      "title": "Resolución de 18 de noviembre de 2026, de la Diputación Provincial de Granada, Organismo Autónomo Agencia Provincial de Extinción de Incendios, referente a la convocatoria para proveer varias plazas.",
+      "issuer": "Personal funcionario y laboral",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-24746",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24746",
+      "kind": "autoempleo",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 55,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: autónomos.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-24746-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24746"
+        }
+      ],
+      "tags": [
+        "autónomos"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-38849",
+      "title": "Anuncio de licitación de: Junta de Contratación del Ministerio de Industria y Turismo. Objeto: Suministro de materiales, repuestos y consumibles necesarios para la realización de las actuaciones de mantenimiento de las instalaciones eléctricas del Complejo Ministerial Cuzco (Madrid). Expediente: J26.033.01.",
+      "issuer": "MINISTERIO DE INDUSTRIA Y TURISMO",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-38849",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38849",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 55,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: turismo.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-38849-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38849"
+        }
+      ],
+      "tags": [
+        "turismo"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-944118",
       "title": "RESOLUCIÓN de 19 de noviembre de 2026, de la presidenta del Instituto Valenciano de Competitividad Empresarial (IVACE), por la que se convocan ayudas para instalaciones de almacenamiento de energía eléctrica de energías renovables 2026",
       "issuer": "INSTITUTO VALENCIANO DE COMPETITIVIDAD EMPRESARIAL (IVACE)",
@@ -34889,6 +35244,419 @@
       ],
       "tags": [
         "turismo"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944537",
+      "title": "Convocatoria para la financiación de conferencias en Másteres Universitarios Oficiales de la Universidad de Castilla-La Mancha durante el año 2027",
+      "issuer": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "source": "BDNS",
+      "sourceRef": "944537",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "publishedAt": "2026-11-24",
+      "deadline": "2027-05-20",
+      "deadlineVerified": true,
+      "amount": 25000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA, PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Bases reguladoras que forman parte del texto íntegro de la convocatoria.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944537-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944434",
+      "title": "Resolución del Rector de la Universidad de Burgos, por la que se publica anexo a la convocatoria general abierta de la convocatoria de BIP 4 Leveraging AI Tools for Business circular economy Solutions",
+      "issuer": "UNIVERSIDAD DE BURGOS",
+      "source": "BDNS",
+      "sourceRef": "944434",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE BURGOS",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-12-21",
+      "deadlineVerified": true,
+      "amount": 6500,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · RESOLUCIÓN de 18 de diciembre de 2019, del Rectorado de la Universidad de Burgos, por la que se publican las bases reguladoras de la concesión de becas y ayudas de la Universidad de Burgos.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944434-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944429",
+      "title": "Ayudas a eventos sociales que dinamicen el medio rural, año 2026.",
+      "issuer": "DEPARTAMENTO DE ALIMENTACIÓN, DESARROLLO RURAL, AGRICULTURA Y PESCA",
+      "source": "BDNS",
+      "sourceRef": "944429",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "PAÍS VASCO",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-12-16",
+      "deadlineVerified": true,
+      "amount": 200000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · ORDEN de 20 de octubre de 2026, de la consejera de Alimentación, Desarrollo Rural, Agricultura y Pesca, por la que se convocan ayudas, acogidas al régimen de minimis, para la realización de eventos",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944429-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "rural"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944425",
+      "title": "Resolución del Rector de la Universidad de Burgos, por la que se publica anexo a la convocatoria general abierta de la convocatoria de BIP People in vulnerable life situations: Migration",
+      "issuer": "UNIVERSIDAD DE BURGOS",
+      "source": "BDNS",
+      "sourceRef": "944425",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE BURGOS",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-12-21",
+      "deadlineVerified": true,
+      "amount": 5500,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · RESOLUCIÓN de 18 de diciembre de 2019, del Rectorado de la Universidad de Burgos, por la que se publican las bases reguladoras de la concesión de becas y ayudas de la Universidad de Burgos.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944425-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944398",
+      "title": "Convocatoria de 10 becas de prácticas para estudiantes de la UCLM del Campus de Ciudad Real, dentro de la II edición del programa: “Programa de retención del talento en Ciudad Real” con la financiación del Ayuntamiento de Ciudad. Curso 26-27",
+      "issuer": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "source": "BDNS",
+      "sourceRef": "944398",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-12-22",
+      "deadlineVerified": true,
+      "amount": 15000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Normativa de prácticas académicas externas de los estudiantes de la Universidad de Castilla-La Mancha (Acuerdo del Consejo de Gobierno de 26 de febrero de 2013) y bases reguladoras que forman parte del texto íntegro de la convocatoria.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944398-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944381",
+      "title": "Resolución del Rector de la Universidad de Burgos, por la que se publica anexo a la convocatoria general abierta de la convocatoria BIP 2 Systemic inquiry for future: foresight+ Innovative thinking: narrative, creativity",
+      "issuer": "UNIVERSIDAD DE BURGOS",
+      "source": "BDNS",
+      "sourceRef": "944381",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "UNIVERSIDAD DE BURGOS",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-12-21",
+      "deadlineVerified": true,
+      "amount": 5500,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · RESOLUCIÓN de 18 de diciembre de 2019, del Rectorado de la Universidad de Burgos, por la que se publican las bases reguladoras de la concesión de becas y ayudas de la Universidad de Burgos.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944381-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944330",
+      "title": "I CONCURSO DE ESCULTURA ARTESANAL Y CONTEMPORÁNEA \"FUSIÓN RURAL\"",
+      "issuer": "AYUNTAMIENTO DE VISO, EL",
+      "source": "BDNS",
+      "sourceRef": "944330",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "VISO, EL",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-12-31",
+      "deadlineVerified": true,
+      "amount": 2500,
+      "aidIntensity": "OTROS INSTRUMENTOS DE AYUDA",
+      "score": 54,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · BASES DE CONCURSO APROBADAS POR DECRETO",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944330-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "rural"
       ],
       "demo": false
     },
@@ -41974,6 +42742,125 @@
       "demo": false
     },
     {
+      "id": "boe-boe-b-2026-38851",
+      "title": "Anuncio de licitación de: Junta de Contratación del Ministerio de Agricultura, Pesca y Alimentación. Objeto: Servicios para la gestión del HUB de innovación digital del Ministerio de Agricultura, Pesca y Alimentación-LA VEGA INNOVA . Expediente: 2026/0000029.",
+      "issuer": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-38851",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38851",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 52,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-38851-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38851"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-38872",
+      "title": "Anuncio de licitación de: Gerencia de Informática de la Seguridad Social. Objeto: Servicio de apoyo técnico, desarrollo y mantenimiento de sistemas de información de la Gerencia de Informática de la Seguridad Social que dan servicio a la Dirección General de Ordenación de la Seguridad Social en el ámbito de la gestión del Régimen de Clases Pasivas del Estado, así como de la propia Gerencia de Informática de la Seguridad Social. Expediente: 2026/7019.",
+      "issuer": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-38872",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38872",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 52,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: IA y datos, docencia.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-38872-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38872"
+        }
+      ],
+      "tags": [
+        "IA y datos",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "boe-boe-b-2026-38738",
       "title": "Anuncio de licitación de: Subdirección General de Contratación de Tecnologías de la Información y de las Comunicaciones (TIC). Objeto: Suministro de una herramienta software para el sistema de facturación del Hospital Central de la Defensa (HCD), en el marco del Sistema de Información de Sanidad del Ministerio de Defensa (SISANDEF). Expediente: 2026/SP03032007/00000759E.",
       "issuer": "MINISTERIO DE DEFENSA",
@@ -45306,6 +46193,301 @@
       "demo": false
     },
     {
+      "id": "bdns-944345",
+      "title": "BASES REGULADORAS DE LA CONCESIÓN DE AYUDAS ECONÓMICAS PARA\nFAVORECER LA MOVILIDAD DE LA POBLACION QUE CURSE ESTUDIOS DE\nBACHILLER, DE GRADO MEDIO O SUPERIOR DE FORMACION PROFESIONAL Y\nESTUDIOS DE GRADO UNIVERSITARIO FUERA DE LA LOCALIDAD Y SE EFECTUA SU",
+      "issuer": "AYUNTAMIENTO DE SAN JUAN DE AZNALFARACHE",
+      "source": "BDNS",
+      "sourceRef": "944345",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "SAN JUAN DE AZNALFARACHE",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-11-24",
+      "deadlineVerified": false,
+      "amount": 30000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · BASES REGULADORAS DE LA CONCESIÓN DE AYUDAS ECONÓMICAS PARA\nFAVORECER LA MOVILIDAD DE LA POBLACION QUE CURSE ESTUDIOS DE\nBACHILLER, DE GRADO MEDIO O SUPERIOR DE FORMACION PROFESIONAL Y\nESTUDIOS DE GRADO UNIVERSITARIO FUERA DE LA LOCALIDAD Y SE EFECTUA SU",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944345-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944325",
+      "title": "Resolución SOD/EIBT/24/26, de 24 de noviembre de 2026, convoca para 2026 la concesión de ayudas y premios del Programa para la creación y escalado de empresas innovadoras de base tecnológica (EIBT).REG (UE) 2023/2831 minimis, General.",
+      "issuer": "SOCIEDAD PARA EL DESARROLLO REGIONAL DE CANTABRIA, S.A.",
+      "source": "BDNS",
+      "sourceRef": "944325",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CANTABRIA",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-11-24",
+      "deadlineVerified": false,
+      "amount": 135000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Orden IND/50/2024, de 24 de septiembre de 2024, por la que se establecen las bases reguladoras para la concesión de ayudas y premios en el marco del Programa para la creación y escalado de empresas innovadoras de base tecnológica (EIBT).",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944325-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944322",
+      "title": "Resolución SOD/EIBT/24/26, de 24 de noviembre de 2026, convoca para 2026 la concesión de ayudas y premios del Programa para la creación y escalado de empresas innovadoras de base tecnológica (EIBT).REG (UE) 1408/2013 de minimis, Agrícola.",
+      "issuer": "SOCIEDAD PARA EL DESARROLLO REGIONAL DE CANTABRIA, S.A.",
+      "source": "BDNS",
+      "sourceRef": "944322",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CANTABRIA",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-11-24",
+      "deadlineVerified": false,
+      "amount": 5000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Orden IND/50/2024, de 24 de septiembre de 2024, por la que se establecen las bases reguladoras para la concesión de ayudas y premios en el marco del Programa para la creación y escalado de empresas innovadoras de base tecnológica (EIBT).",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944322-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944301",
+      "title": "Resolución SOD/EIBT/24/26, de 24 de noviembre de 2026, convoca para 2026 la concesión de ayudas y premios del programa para la creación y escalado de empresas innovadoras de base tecnológica (EIBT).REG (UE) 717/2014 minimis sector pesca y acuicultura.",
+      "issuer": "SOCIEDAD PARA EL DESARROLLO REGIONAL DE CANTABRIA, S.A.",
+      "source": "BDNS",
+      "sourceRef": "944301",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "CANTABRIA",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-11-24",
+      "deadlineVerified": false,
+      "amount": 5000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · Orden IND/50/2024, de 24 de septiembre de 2024, por la que se establecen las bases reguladoras para la concesión de ayudas y premios en el marco del Programa para la creación y escalado de empresas innovadoras de base tecnológica (EIBT).",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944301-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944295",
+      "title": "BASES REGULADORAS DE LA CONCESIÓN DE AYUDAS ECONÓMICAS PARA FAVORECER \nLOS ESTUDIOS DE BACHILLER, CICLOS FORMATIVOS DE GRADO MEDIO O SUPERIOR DE \nFORMACION PROFESIONAL Y UNIVERSITARIOS, Y SE EFECTUA SU CONVOCATORIA PARA \nEL CURSO ACADEMICO 2026/27",
+      "issuer": "AYUNTAMIENTO DE SAN JUAN DE AZNALFARACHE",
+      "source": "BDNS",
+      "sourceRef": "944295",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "SAN JUAN DE AZNALFARACHE",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-11-24",
+      "deadlineVerified": false,
+      "amount": 40000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · BASES REGULADORAS DE LA CONCESIÓN DE AYUDAS ECONÓMICAS PARA FAVORECER \nLOS ESTUDIOS DE BACHILLER, CICLOS FORMATIVOS DE GRADO MEDIO O SUPERIOR DE \nFORMACION PROFESIONAL Y UNIVERSITARIOS, Y SE EFECTUA SU CONVOCATORIA PARA \nEL CURSO ACADEMICO 2026/27",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944295-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-944155",
       "title": "Orden del Consejero de Educación, Formación Profesional, Actividad Física y Deportes, por la que se convocan anticipadamente para 2027 subvenciones en concurrencia competitiva a programas de deporte y discapacidad y clubes de personas con discapacidad.",
       "issuer": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
@@ -45765,6 +46947,65 @@
       "evidence": [
         {
           "id": "BDNS-943311-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-19",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-943280",
+      "title": "CONVOCATORIA PARA LA CONCESIÓN DE BECAS DEL ÁREA DE JUVENTUD DEL AYUNTAMIENTO DE TORROX PARA AYUDAS PARA EL TRANSPORTE UNIVERSITARIO, CICLOS FORMATIVOS Y FORMACIÓN PROFESIONAL PARA EL CURSO 2026/2027",
+      "issuer": "AYUNTAMIENTO DE TORROX",
+      "source": "BDNS",
+      "sourceRef": "943280",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "TORROX",
+      "publishedAt": "2026-11-19",
+      "deadline": "2026-11-19",
+      "deadlineVerified": false,
+      "amount": 20000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 51,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · BASES REGULADORAS DE LA CONCESIÓN DE BECAS DEL ÁREA DE JUVENTUD DEL AYUNTAMIENTO DE TORROX PARA AYUDAS PARA EL TRANSPORTE UNIVERSITARIO, CICLOS FORMATIVOS Y FORMACIÓN PROFESIONAL PARA EL CURSO 2026/2027",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-943280-official",
           "source": "BDNS",
           "label": "Publicación oficial",
           "date": "2026-11-19",
@@ -51680,65 +52921,6 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl5-2027-06-d6-12",
-      "title": "Support for dissemination events in the field of Transport Research",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL5-2027-06-D6-12",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-12",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-06-03",
-      "deadline": "2027-10-07",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 50,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: ciencia y salud.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL5-2027-06-D6-12-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-06-03",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-12"
-        }
-      ],
-      "tags": [
-        "ciencia y salud"
-      ],
-      "demo": false
-    },
-    {
       "id": "ue-horizon-cl5-2027-06-d6-08",
       "title": "Enhancing Mobility for All: affordable, reliable, and accessible multimodal transport for inclusive rural and urban connectivity – Societal Readiness pilot",
       "issuer": "Comisión Europea",
@@ -51794,6 +52976,65 @@
       ],
       "tags": [
         "rural"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl5-2027-06-d6-12",
+      "title": "Support for dissemination events in the field of Transport Research",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL5-2027-06-D6-12",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-12",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-06-03",
+      "deadline": "2027-10-07",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 50,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL5-2027-06-D6-12-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-06-03",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-12"
+        }
+      ],
+      "tags": [
+        "ciencia y salud"
       ],
       "demo": false
     },
@@ -51916,65 +53157,6 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl2-2027-01-heritage-06",
-      "title": "Future-proofing sustainable cultural tourism",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL2-2027-01-HERITAGE-06",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-06",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-05-13",
-      "deadline": "2027-09-23",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 50,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: turismo.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL2-2027-01-HERITAGE-06-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-05-13",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-06"
-        }
-      ],
-      "tags": [
-        "turismo"
-      ],
-      "demo": false
-    },
-    {
       "id": "ue-horizon-cl2-2027-01-democracy-04",
       "title": "Addressing the impact of artificial intelligence, cyberviolence, and deepfakes on equality, democracy and inclusive societies",
       "issuer": "Comisión Europea",
@@ -52034,16 +53216,16 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-neb-2027-01-regen-02",
-      "title": "Sustainable, beautiful and healthy construction and renovation sites",
+      "id": "ue-horizon-cl2-2027-01-heritage-06",
+      "title": "Future-proofing sustainable cultural tourism",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-NEB-2027-01-REGEN-02",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2027-01-REGEN-02",
+      "sourceRef": "HORIZON-CL2-2027-01-HERITAGE-06",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-06",
       "kind": "subvención",
       "territory": "Unión Europea",
-      "publishedAt": "2027-05-05",
-      "deadline": "2027-12-01",
+      "publishedAt": "2027-05-13",
+      "deadline": "2027-09-23",
       "deadlineVerified": true,
       "amount": 0,
       "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
@@ -52051,7 +53233,7 @@
       "state": "nueva",
       "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
       "fitReasons": [
-        "Coincide con: ciencia y salud.",
+        "Coincide con: turismo.",
         "Publicación oficial localizada en UE."
       ],
       "blockers": [
@@ -52079,16 +53261,75 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-NEB-2027-01-REGEN-02-official",
+          "id": "UE-HORIZON-CL2-2027-01-HERITAGE-06-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-05-13",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-06"
+        }
+      ],
+      "tags": [
+        "turismo"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl3-2027-01-ssri-01",
+      "title": "Accelerating uptake through open proposals for advanced SME innovation",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL3-2027-01-SSRI-01",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-SSRI-01",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-05-05",
+      "deadline": "2027-11-04",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 50,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL3-2027-01-SSRI-01-official",
           "source": "UE",
           "label": "Publicación oficial",
           "date": "2027-05-05",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2027-01-REGEN-02"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-SSRI-01"
         }
       ],
       "tags": [
-        "ciencia y salud"
+        "por clasificar"
       ],
       "demo": false
     },
@@ -52266,6 +53507,65 @@
       ],
       "tags": [
         "turismo"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944485",
+      "title": "Resolución D.G Servicio Murciano de Salud, que se convocan subvenciones dirigidas a proyectos de vida autónoma de personas con trastorno mental grave (TMG),Programa Creación Equipos Móviles Integrados Atención Específica 24/7, cofinanciadas FSE+ 2026.",
+      "issuer": "S.M.S. - SERVICIO MURCIANO DE SALUD",
+      "source": "BDNS",
+      "sourceRef": "944485",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "REGIÓN DE MURCIA",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-12-21",
+      "deadlineVerified": true,
+      "amount": 452084,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 50,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden 18 mayo 2026 C. d Salud, por la que aprueban bases reguladoras subvenciones del Programa Creación de Equipos Móviles Integrados Atención Específica Intensiva 24/7,a personas con TMG para proyectos vida autónoma, cofinanciados por FSE+ 2026.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944485-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "ciencia y salud"
       ],
       "demo": false
     },
@@ -55100,6 +56400,304 @@
       ],
       "tags": [
         "autónomos"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-38867",
+      "title": "Anuncio de licitación de: Dirección General del Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas (CIEMAT). Objeto: Suministro de publicaciones periódicas en formato electrónico y papel para los años 2027 y 2028 destinadas a la biblioteca de CIEMAT. Expediente: 307827.",
+      "issuer": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-38867",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38867",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-38867-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38867"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-38868",
+      "title": "Anuncio de licitación de: Secretaría General del Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas (CIEMAT). Objeto: Servicio de mantenimiento de la instalación de gases especiales de los laboratorios P0.04, P0.07, P0.08 Y P0.12 del edificio 42 del CIEMAT. Expediente: 306324.",
+      "issuer": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-38868",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38868",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-38868-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38868"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-38871",
+      "title": "Anuncio de licitación de: Dirección General del Centro para el Desarrollo Tecnológico y la Innovación, E.P.E. Objeto: Servicio integral de consultoría para adaptar, implantar y ejecutar un proceso de evaluación del desempeño 360º/180º para la totalidad de la plantilla del CDTI, estimada en aproximadamente 350 personas. Expediente: 09/2026 AB (SG/DCHS).",
+      "issuer": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-38871",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38871",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud, docencia.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-38871-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38871"
+        }
+      ],
+      "tags": [
+        "ciencia y salud",
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-38875",
+      "title": "Anuncio de licitación de: Dirección del Centro Nacional de Formación Marítima de Bamio (D.O. D.P. Vilagarcía de Arousa). Objeto: Servicio de cocina, comedor y explotación del bar-cafetería del Centro Nacional de Formación de Bamio durante el periodo de 21 de febrero de 2027 a 20 de febrero de 2028. Expediente: 982026PA1006-1452.",
+      "issuer": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-38875",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38875",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 47,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: docencia.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-38875-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38875"
+        }
+      ],
+      "tags": [
+        "docencia"
+      ],
+      "demo": false
+    },
+    {
+      "id": "bdns-944395",
+      "title": "Orden de 23 de noviembre de 2026 por la que se convocan ayudas para financiar trabajos de conservación o enriquecimiento de bienes inmuebles del Patrimonio Histórico Español",
+      "issuer": "DIRECCIÓN GENERAL DE AGENDA URBANA Y ARQUITECTURA",
+      "source": "BDNS",
+      "sourceRef": "944395",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-11-24",
+      "deadlineVerified": false,
+      "amount": 45000000,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 47,
+      "state": "nueva",
+      "summary": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA · Orden VAU/403/2026, de 27 de abril, por la que se aprueban las bases reguladoras para conceder ayudas destinadas a la conservación, restauración, rehabilitación y consolidación de bienes inmuebles del Patrimonio Histórico Español",
+      "fitReasons": [
+        "Coincide con: vivienda.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944395-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "vivienda"
       ],
       "demo": false
     },
@@ -73878,6 +75476,65 @@
       "demo": false
     },
     {
+      "id": "bdns-944536",
+      "title": "CONVOCATORIA REGULADORAS DE LA CONCESIÓN  DE LOS PREMIOS ¿CONCURSO DE FOTOGRAFÍA: LAS TRES MIRADAS TAURINAS¿",
+      "issuer": "PATRONATO PROVINCIAL DE TURISMO Y TAUROMAQUIA",
+      "source": "BDNS",
+      "sourceRef": "944536",
+      "sourceUrl": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias",
+      "kind": "subvención",
+      "territory": "DIPUTACIÓN PROV. DE BADAJOZ",
+      "publishedAt": "2026-11-24",
+      "deadline": "2026-11-24",
+      "deadlineVerified": false,
+      "amount": 13500,
+      "aidIntensity": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN ",
+      "score": 46,
+      "state": "nueva",
+      "summary": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA, PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA · BASES ESPECÍFICAS CON CONVOCATORIA REGULADORAS DE LA CONCESIÓN  DE LOS PREMIOS ¿CONCURSO DE FOTOGRAFÍA: LAS TRES MIRADAS TAURINAS¿",
+      "fitReasons": [
+        "Coincide con: turismo.",
+        "Publicación oficial localizada en BDNS."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BDNS-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BDNS-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BDNS-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BDNS-944536-official",
+          "source": "BDNS",
+          "label": "Publicación oficial",
+          "date": "2026-11-24",
+          "verified": true,
+          "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias"
+        }
+      ],
+      "tags": [
+        "turismo"
+      ],
+      "demo": false
+    },
+    {
       "id": "bdns-943434",
       "title": "Indemnización en materia de sanidade vexetal",
       "issuer": "CONSELLERÍA DEL MEDIO RURAL",
@@ -75177,65 +76834,6 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl4-2027-space-07-83",
-      "title": "Space critical EEE components for EU non-dependence",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL4-2027-SPACE-07-83",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-SPACE-07-83",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-10-07",
-      "deadline": "2028-01-20",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL4-2027-SPACE-07-83-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-10-07",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-SPACE-07-83"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
       "id": "ue-horizon-cl4-2027-space-07-84",
       "title": "Space critical equipment for EU non-dependence",
       "issuer": "Comisión Europea",
@@ -75295,16 +76893,16 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl5-2027-07-d3-17",
-      "title": "PV based electrification of the economy: Designing & optimising PV systems supporting industrial electrification and promoting participation in electricity markets (EUPI-PV Partnership)",
+      "id": "ue-horizon-cl4-2027-space-07-83",
+      "title": "Space critical EEE components for EU non-dependence",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-CL5-2027-07-D3-17",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-17",
+      "sourceRef": "HORIZON-CL4-2027-SPACE-07-83",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-SPACE-07-83",
       "kind": "subvención",
       "territory": "Unión Europea",
-      "publishedAt": "2027-08-04",
-      "deadline": "2027-12-01",
+      "publishedAt": "2027-10-07",
+      "deadline": "2028-01-20",
       "deadlineVerified": true,
       "amount": 0,
       "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
@@ -75340,130 +76938,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL5-2027-07-D3-17-official",
+          "id": "UE-HORIZON-CL4-2027-SPACE-07-83-official",
           "source": "UE",
           "label": "Publicación oficial",
-          "date": "2027-08-04",
+          "date": "2027-10-07",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-17"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-horizon-cl5-2027-07-d3-25",
-      "title": "Advanced TSO control rooms to enhance grid observability, stability and resilience",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL5-2027-07-D3-25",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-25",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-08-04",
-      "deadline": "2027-12-01",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL5-2027-07-D3-25-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-08-04",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-25"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-horizon-cl5-2027-07-d3-11",
-      "title": "Demonstration of hydropower technologies for efficient and forward-looking refurbishment of existing hydropower plants",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL5-2027-07-D3-11",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-11",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-08-04",
-      "deadline": "2027-12-01",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL5-2027-07-D3-11-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-08-04",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-11"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-SPACE-07-83"
         }
       ],
       "tags": [
@@ -75523,124 +77003,6 @@
           "date": "2027-08-04",
           "verified": true,
           "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-32"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-horizon-cl5-2027-07-d3-28",
-      "title": "Community of practice - Data-Driven Decision-Making in Energy",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL5-2027-07-D3-28",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-28",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-08-04",
-      "deadline": "2027-12-01",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL5-2027-07-D3-28-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-08-04",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-28"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-horizon-cl5-2027-07-d3-26",
-      "title": "Advanced Distribution Management Systems (ADSM) for more efficient and flexible distribution grids",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL5-2027-07-D3-26",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-26",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-08-04",
-      "deadline": "2027-12-01",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL5-2027-07-D3-26-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-08-04",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-26"
         }
       ],
       "tags": [
@@ -75767,16 +77129,16 @@
       "demo": false
     },
     {
-      "id": "ue-erasmus-edu-2027-virt-exch-ne",
-      "title": "Erasmus+ Virtual Exchanges in Neighborhood East",
+      "id": "ue-horizon-cl5-2027-07-d3-25",
+      "title": "Advanced TSO control rooms to enhance grid observability, stability and resilience",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "ERASMUS-EDU-2027-VIRT-EXCH-NE",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-VIRT-EXCH-NE",
+      "sourceRef": "HORIZON-CL5-2027-07-D3-25",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-25",
       "kind": "subvención",
       "territory": "Unión Europea",
-      "publishedAt": "2027-07-06",
-      "deadline": "2027-10-12",
+      "publishedAt": "2027-08-04",
+      "deadline": "2027-12-01",
       "deadlineVerified": true,
       "amount": 0,
       "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
@@ -75812,12 +77174,248 @@
       ],
       "evidence": [
         {
-          "id": "UE-ERASMUS-EDU-2027-VIRT-EXCH-NE-official",
+          "id": "UE-HORIZON-CL5-2027-07-D3-25-official",
           "source": "UE",
           "label": "Publicación oficial",
-          "date": "2027-07-06",
+          "date": "2027-08-04",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-VIRT-EXCH-NE"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-25"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl5-2027-07-d3-28",
+      "title": "Community of practice - Data-Driven Decision-Making in Energy",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL5-2027-07-D3-28",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-28",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-08-04",
+      "deadline": "2027-12-01",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL5-2027-07-D3-28-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-08-04",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-28"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl5-2027-07-d3-26",
+      "title": "Advanced Distribution Management Systems (ADSM) for more efficient and flexible distribution grids",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL5-2027-07-D3-26",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-26",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-08-04",
+      "deadline": "2027-12-01",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL5-2027-07-D3-26-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-08-04",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-26"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl5-2027-07-d3-17",
+      "title": "PV based electrification of the economy: Designing & optimising PV systems supporting industrial electrification and promoting participation in electricity markets (EUPI-PV Partnership)",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL5-2027-07-D3-17",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-17",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-08-04",
+      "deadline": "2027-12-01",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL5-2027-07-D3-17-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-08-04",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-17"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl5-2027-07-d3-11",
+      "title": "Demonstration of hydropower technologies for efficient and forward-looking refurbishment of existing hydropower plants",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL5-2027-07-D3-11",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-11",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-08-04",
+      "deadline": "2027-12-01",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL5-2027-07-D3-11-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-08-04",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-11"
         }
       ],
       "tags": [
@@ -76003,6 +77601,65 @@
       "demo": false
     },
     {
+      "id": "ue-erasmus-edu-2027-virt-exch-ne",
+      "title": "Erasmus+ Virtual Exchanges in Neighborhood East",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "ERASMUS-EDU-2027-VIRT-EXCH-NE",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-VIRT-EXCH-NE",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-07-06",
+      "deadline": "2027-10-12",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-ERASMUS-EDU-2027-VIRT-EXCH-NE-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-07-06",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-VIRT-EXCH-NE"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
       "id": "ue-erasmus-edu-2027-pex-cove-top1",
       "title": "Centres of Vocational Excellence",
       "issuer": "Comisión Europea",
@@ -76121,16 +77778,16 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-hlth-2027-03-tool-04",
-      "title": "Virtual Human Twins (VHTs) for integrated clinical decision support in prevention and diagnosis",
+      "id": "ue-horizon-cl5-2027-06-d6-11",
+      "title": "Enhancing Resilience and Accuracy in Positioning, Navigation, and Timing (PNT) Systems and e-conspicuity solutions",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-HLTH-2027-03-TOOL-04",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-03-TOOL-04",
+      "sourceRef": "HORIZON-CL5-2027-06-D6-11",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-11",
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2027-06-03",
-      "deadline": "2027-09-16",
+      "deadline": "2027-10-07",
       "deadlineVerified": true,
       "amount": 0,
       "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
@@ -76166,12 +77823,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-HLTH-2027-03-TOOL-04-official",
+          "id": "UE-HORIZON-CL5-2027-06-D6-11-official",
           "source": "UE",
           "label": "Publicación oficial",
           "date": "2027-06-03",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-03-TOOL-04"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-11"
         }
       ],
       "tags": [
@@ -76239,12 +77896,12 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl5-2027-06-d6-11",
-      "title": "Enhancing Resilience and Accuracy in Positioning, Navigation, and Timing (PNT) Systems and e-conspicuity solutions",
+      "id": "ue-horizon-cl5-2027-06-d6-05",
+      "title": "European CCAM knowledge hub and tools for safe and scalable deployment (CCAM Partnership)",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-CL5-2027-06-D6-11",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-11",
+      "sourceRef": "HORIZON-CL5-2027-06-D6-05",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-05",
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2027-06-03",
@@ -76284,12 +77941,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL5-2027-06-D6-11-official",
+          "id": "UE-HORIZON-CL5-2027-06-D6-05-official",
           "source": "UE",
           "label": "Publicación oficial",
           "date": "2027-06-03",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-11"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-05"
         }
       ],
       "tags": [
@@ -76357,16 +78014,16 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl5-2027-06-d6-05",
-      "title": "European CCAM knowledge hub and tools for safe and scalable deployment (CCAM Partnership)",
+      "id": "ue-horizon-hlth-2027-03-tool-04",
+      "title": "Virtual Human Twins (VHTs) for integrated clinical decision support in prevention and diagnosis",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-CL5-2027-06-D6-05",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-05",
+      "sourceRef": "HORIZON-HLTH-2027-03-TOOL-04",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-03-TOOL-04",
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2027-06-03",
-      "deadline": "2027-10-07",
+      "deadline": "2027-09-16",
       "deadlineVerified": true,
       "amount": 0,
       "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
@@ -76402,12 +78059,71 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL5-2027-06-D6-05-official",
+          "id": "UE-HORIZON-HLTH-2027-03-TOOL-04-official",
           "source": "UE",
           "label": "Publicación oficial",
           "date": "2027-06-03",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-05"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-03-TOOL-04"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-eie-2027-01-connect-02",
+      "title": "Reinforcing synergies between experimentation spaces and innovation procurement",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-EIE-2027-01-CONNECT-02",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-02",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-06-01",
+      "deadline": "2027-09-15",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-EIE-2027-01-CONNECT-02-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-06-01",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-02"
         }
       ],
       "tags": [
@@ -76534,71 +78250,12 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-eie-2027-01-connect-02",
-      "title": "Reinforcing synergies between experimentation spaces and innovation procurement",
+      "id": "ue-horizon-cl2-2027-01-heritage-01",
+      "title": "Towards a consolidated culture and creativity driven European innovation ecosystem",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-EIE-2027-01-CONNECT-02",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-02",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-06-01",
-      "deadline": "2027-09-15",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-EIE-2027-01-CONNECT-02-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-06-01",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-02"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-horizon-cl2-2027-01-heritage-02",
-      "title": "AI4Creatives Support Platform: embracing a fair AI revolution",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL2-2027-01-HERITAGE-02",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-02",
+      "sourceRef": "HORIZON-CL2-2027-01-HERITAGE-01",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-01",
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2027-05-13",
@@ -76638,12 +78295,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL2-2027-01-HERITAGE-02-official",
+          "id": "UE-HORIZON-CL2-2027-01-HERITAGE-01-official",
           "source": "UE",
           "label": "Publicación oficial",
           "date": "2027-05-13",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-02"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-01"
         }
       ],
       "tags": [
@@ -76770,65 +78427,6 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl2-2027-01-heritage-08",
-      "title": "Safeguarding & transmission of intangible cultural heritage",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL2-2027-01-HERITAGE-08",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-08",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-05-13",
-      "deadline": "2027-09-23",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL2-2027-01-HERITAGE-08-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-05-13",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-08"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
       "id": "ue-horizon-cl2-2027-01-heritage-05",
       "title": "Re-imagining the creative economy: the interplay between the cultural and creative sectors and industries and the social economy",
       "issuer": "Comisión Europea",
@@ -76888,12 +78486,12 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl2-2027-01-heritage-01",
-      "title": "Towards a consolidated culture and creativity driven European innovation ecosystem",
+      "id": "ue-horizon-cl2-2027-01-heritage-02",
+      "title": "AI4Creatives Support Platform: embracing a fair AI revolution",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-CL2-2027-01-HERITAGE-01",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-01",
+      "sourceRef": "HORIZON-CL2-2027-01-HERITAGE-02",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-02",
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2027-05-13",
@@ -76933,12 +78531,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL2-2027-01-HERITAGE-01-official",
+          "id": "UE-HORIZON-CL2-2027-01-HERITAGE-02-official",
           "source": "UE",
           "label": "Publicación oficial",
           "date": "2027-05-13",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-01"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-02"
         }
       ],
       "tags": [
@@ -76947,71 +78545,12 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl2-2027-01-transfo-06",
-      "title": "Closing the learning gap: uncovering causes and effective policy interventions for declining youth skills in mathematics, reading, and science",
+      "id": "ue-horizon-cl2-2027-01-heritage-08",
+      "title": "Safeguarding & transmission of intangible cultural heritage",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-CL2-2027-01-TRANSFO-06",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-06",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-05-13",
-      "deadline": "2027-09-23",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: ciencia y salud.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL2-2027-01-TRANSFO-06-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-05-13",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-06"
-        }
-      ],
-      "tags": [
-        "ciencia y salud"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-horizon-cl2-2027-01-democracy-02",
-      "title": "Women’s, LGBTIQ and minority rights in a context of autocracy, conflict and geopolitical shifts",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL2-2027-01-DEMOCRACY-02",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-02",
+      "sourceRef": "HORIZON-CL2-2027-01-HERITAGE-08",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-08",
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2027-05-13",
@@ -77051,12 +78590,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL2-2027-01-DEMOCRACY-02-official",
+          "id": "UE-HORIZON-CL2-2027-01-HERITAGE-08-official",
           "source": "UE",
           "label": "Publicación oficial",
           "date": "2027-05-13",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-02"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-08"
         }
       ],
       "tags": [
@@ -77116,65 +78655,6 @@
           "date": "2027-05-13",
           "verified": true,
           "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-01"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-horizon-cl2-2027-01-transfo-02",
-      "title": "Impact of in-kind benefits on income distribution and on vulnerable populations",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL2-2027-01-TRANSFO-02",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-02",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-05-13",
-      "deadline": "2027-09-23",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL2-2027-01-TRANSFO-02-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-05-13",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-02"
         }
       ],
       "tags": [
@@ -77301,65 +78781,6 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl2-2027-01-democracy-05",
-      "title": "Development aid and democratic governance",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL2-2027-01-DEMOCRACY-05",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-05",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-05-13",
-      "deadline": "2027-09-23",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL2-2027-01-DEMOCRACY-05-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-05-13",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-05"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
       "id": "ue-horizon-cl2-2027-01-transfo-08",
       "title": "Scaling and deploying innovations in migration management",
       "issuer": "Comisión Europea",
@@ -77478,12 +78899,12 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl2-2027-01-democracy-07",
-      "title": "The role of private companies in democracy",
+      "id": "ue-horizon-cl2-2027-01-transfo-04",
+      "title": "The impact of EU labour mobility on the Member States of the EU",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-CL2-2027-01-DEMOCRACY-07",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-07",
+      "sourceRef": "HORIZON-CL2-2027-01-TRANSFO-04",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-04",
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2027-05-13",
@@ -77523,12 +78944,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL2-2027-01-DEMOCRACY-07-official",
+          "id": "UE-HORIZON-CL2-2027-01-TRANSFO-04-official",
           "source": "UE",
           "label": "Publicación oficial",
           "date": "2027-05-13",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-07"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-04"
         }
       ],
       "tags": [
@@ -77537,12 +78958,12 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl2-2027-01-democracy-08",
-      "title": "Global Human Rights and EU values",
+      "id": "ue-horizon-cl2-2027-01-democracy-02",
+      "title": "Women’s, LGBTIQ and minority rights in a context of autocracy, conflict and geopolitical shifts",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-CL2-2027-01-DEMOCRACY-08",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-08",
+      "sourceRef": "HORIZON-CL2-2027-01-DEMOCRACY-02",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-02",
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2027-05-13",
@@ -77582,12 +79003,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL2-2027-01-DEMOCRACY-08-official",
+          "id": "UE-HORIZON-CL2-2027-01-DEMOCRACY-02-official",
           "source": "UE",
           "label": "Publicación oficial",
           "date": "2027-05-13",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-08"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-02"
         }
       ],
       "tags": [
@@ -77596,12 +79017,71 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl2-2027-01-democracy-03",
-      "title": "Student and family engagement for developing a culture of democratic/civic participation",
+      "id": "ue-horizon-cl2-2027-01-transfo-06",
+      "title": "Closing the learning gap: uncovering causes and effective policy interventions for declining youth skills in mathematics, reading, and science",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-CL2-2027-01-DEMOCRACY-03",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-03",
+      "sourceRef": "HORIZON-CL2-2027-01-TRANSFO-06",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-06",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-05-13",
+      "deadline": "2027-09-23",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL2-2027-01-TRANSFO-06-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-05-13",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-06"
+        }
+      ],
+      "tags": [
+        "ciencia y salud"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl2-2027-01-transfo-02",
+      "title": "Impact of in-kind benefits on income distribution and on vulnerable populations",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL2-2027-01-TRANSFO-02",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-02",
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2027-05-13",
@@ -77641,12 +79121,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL2-2027-01-DEMOCRACY-03-official",
+          "id": "UE-HORIZON-CL2-2027-01-TRANSFO-02-official",
           "source": "UE",
           "label": "Publicación oficial",
           "date": "2027-05-13",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-03"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-02"
         }
       ],
       "tags": [
@@ -77714,12 +79194,12 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl2-2027-01-transfo-04",
-      "title": "The impact of EU labour mobility on the Member States of the EU",
+      "id": "ue-horizon-cl2-2027-01-democracy-03",
+      "title": "Student and family engagement for developing a culture of democratic/civic participation",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-CL2-2027-01-TRANSFO-04",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-04",
+      "sourceRef": "HORIZON-CL2-2027-01-DEMOCRACY-03",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-03",
       "kind": "subvención",
       "territory": "Unión Europea",
       "publishedAt": "2027-05-13",
@@ -77759,12 +79239,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL2-2027-01-TRANSFO-04-official",
+          "id": "UE-HORIZON-CL2-2027-01-DEMOCRACY-03-official",
           "source": "UE",
           "label": "Publicación oficial",
           "date": "2027-05-13",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-04"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-03"
         }
       ],
       "tags": [
@@ -77773,16 +79253,16 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl3-2027-01-fct-05",
-      "title": "Effective and evidence-based responses to the increased availability and use of synthetic drugs and stimulants in Europe",
+      "id": "ue-horizon-cl2-2027-01-democracy-08",
+      "title": "Global Human Rights and EU values",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-CL3-2027-01-FCT-05",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-05",
+      "sourceRef": "HORIZON-CL2-2027-01-DEMOCRACY-08",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-08",
       "kind": "subvención",
       "territory": "Unión Europea",
-      "publishedAt": "2027-05-05",
-      "deadline": "2027-11-04",
+      "publishedAt": "2027-05-13",
+      "deadline": "2027-09-23",
       "deadlineVerified": true,
       "amount": 0,
       "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
@@ -77818,12 +79298,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL3-2027-01-FCT-05-official",
+          "id": "UE-HORIZON-CL2-2027-01-DEMOCRACY-08-official",
           "source": "UE",
           "label": "Publicación oficial",
-          "date": "2027-05-05",
+          "date": "2027-05-13",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-05"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-08"
         }
       ],
       "tags": [
@@ -77832,16 +79312,16 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl3-2027-01-fct-01",
-      "title": "Online harms detection and investigation tools using a short development cycle model",
+      "id": "ue-horizon-cl2-2027-01-democracy-07",
+      "title": "The role of private companies in democracy",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-CL3-2027-01-FCT-01",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-01",
+      "sourceRef": "HORIZON-CL2-2027-01-DEMOCRACY-07",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-07",
       "kind": "subvención",
       "territory": "Unión Europea",
-      "publishedAt": "2027-05-05",
-      "deadline": "2027-11-04",
+      "publishedAt": "2027-05-13",
+      "deadline": "2027-09-23",
       "deadlineVerified": true,
       "amount": 0,
       "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
@@ -77877,12 +79357,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL3-2027-01-FCT-01-official",
+          "id": "UE-HORIZON-CL2-2027-01-DEMOCRACY-07-official",
           "source": "UE",
           "label": "Publicación oficial",
-          "date": "2027-05-05",
+          "date": "2027-05-13",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-01"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-07"
         }
       ],
       "tags": [
@@ -77891,16 +79371,16 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl3-2027-01-fct-04",
-      "title": "Open topic on increasing security of citizens against terrorism, including in public spaces",
+      "id": "ue-horizon-cl2-2027-01-democracy-05",
+      "title": "Development aid and democratic governance",
       "issuer": "Comisión Europea",
       "source": "UE",
-      "sourceRef": "HORIZON-CL3-2027-01-FCT-04",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-04",
+      "sourceRef": "HORIZON-CL2-2027-01-DEMOCRACY-05",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-05",
       "kind": "subvención",
       "territory": "Unión Europea",
-      "publishedAt": "2027-05-05",
-      "deadline": "2027-11-04",
+      "publishedAt": "2027-05-13",
+      "deadline": "2027-09-23",
       "deadlineVerified": true,
       "amount": 0,
       "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
@@ -77936,130 +79416,12 @@
       ],
       "evidence": [
         {
-          "id": "UE-HORIZON-CL3-2027-01-FCT-04-official",
+          "id": "UE-HORIZON-CL2-2027-01-DEMOCRACY-05-official",
           "source": "UE",
           "label": "Publicación oficial",
-          "date": "2027-05-05",
+          "date": "2027-05-13",
           "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-04"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-horizon-cl3-2027-01-fct-03",
-      "title": "Open topic on enhanced prevention, detection and deterrence of societal issues related to various forms of crime",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL3-2027-01-FCT-03",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-03",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-05-05",
-      "deadline": "2027-11-04",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL3-2027-01-FCT-03-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-05-05",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-03"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-horizon-cl3-2027-01-infra-02",
-      "title": "Impact of malicious use of Open-Source Intelligence on critical infrastructure business continuity",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL3-2027-01-INFRA-02",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-INFRA-02",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-05-05",
-      "deadline": "2027-11-04",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL3-2027-01-INFRA-02-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-05-05",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-INFRA-02"
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-05"
         }
       ],
       "tags": [
@@ -78127,6 +79489,301 @@
       "demo": false
     },
     {
+      "id": "ue-horizon-cl3-2027-01-infra-02",
+      "title": "Impact of malicious use of Open-Source Intelligence on critical infrastructure business continuity",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL3-2027-01-INFRA-02",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-INFRA-02",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-05-05",
+      "deadline": "2027-11-04",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL3-2027-01-INFRA-02-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-05-05",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-INFRA-02"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl3-2027-01-fct-04",
+      "title": "Open topic on increasing security of citizens against terrorism, including in public spaces",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL3-2027-01-FCT-04",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-04",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-05-05",
+      "deadline": "2027-11-04",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL3-2027-01-FCT-04-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-05-05",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-04"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl3-2027-01-fct-01",
+      "title": "Online harms detection and investigation tools using a short development cycle model",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL3-2027-01-FCT-01",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-01",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-05-05",
+      "deadline": "2027-11-04",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL3-2027-01-FCT-01-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-05-05",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-01"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl3-2027-01-fct-05",
+      "title": "Effective and evidence-based responses to the increased availability and use of synthetic drugs and stimulants in Europe",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL3-2027-01-FCT-05",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-05",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-05-05",
+      "deadline": "2027-11-04",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL3-2027-01-FCT-05-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-05-05",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-05"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl3-2027-01-fct-03",
+      "title": "Open topic on enhanced prevention, detection and deterrence of societal issues related to various forms of crime",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL3-2027-01-FCT-03",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-03",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-05-05",
+      "deadline": "2027-11-04",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL3-2027-01-FCT-03-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-05-05",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-03"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
       "id": "ue-horizon-cl5-2027-05-d4-06",
       "title": "Thermal energy optimisation and waste heat recovery of high energy demand IT rooms in buildings or small edge data centres",
       "issuer": "Comisión Europea",
@@ -78178,124 +79835,6 @@
           "date": "2027-05-05",
           "verified": true,
           "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-05-D4-06"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-horizon-neb-2027-01-business-02",
-      "title": "Innovative models for collective community investment and ownership",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-NEB-2027-01-BUSINESS-02",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2027-01-BUSINESS-02",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-05-05",
-      "deadline": "2027-12-01",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-NEB-2027-01-BUSINESS-02-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-05-05",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2027-01-BUSINESS-02"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-horizon-neb-2027-01-participation-02",
-      "title": "Intergenerational neighbourhoods and communities aligned with the New European Bauhaus",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-NEB-2027-01-PARTICIPATION-02",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2027-01-PARTICIPATION-02",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-05-05",
-      "deadline": "2027-12-01",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-NEB-2027-01-PARTICIPATION-02-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-05-05",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2027-01-PARTICIPATION-02"
         }
       ],
       "tags": [
@@ -78359,6 +79898,65 @@
       ],
       "tags": [
         "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl3-2027-01-drs-01",
+      "title": "Open Topic on advanced protective gear optimized for CBRN-E (Chemical, Biological, Radiological, Nuclear, Explosives) environments and new generation of smart protective equipment for disaster responders",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL3-2027-01-DRS-01",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-DRS-01",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-05-05",
+      "deadline": "2027-11-04",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: ciencia y salud.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL3-2027-01-DRS-01-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-05-05",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-DRS-01"
+        }
+      ],
+      "tags": [
+        "ciencia y salud"
       ],
       "demo": false
     },
@@ -78658,65 +80256,6 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl4-2027-04-data-03",
-      "title": "New approaches for decentralized, federated and sustainable AI data processing (RIA)",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL4-2027-04-DATA-03",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-03",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2026-11-17",
-      "deadline": "2027-03-18",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL4-2027-04-DATA-03-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2026-11-17",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-03"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
       "id": "ue-horizon-cl4-2027-04-data-09",
       "title": "Energy efficiency and sustainability of AI data processing in Data Centres (IA)",
       "issuer": "Comisión Europea",
@@ -78768,6 +80307,65 @@
           "date": "2026-11-17",
           "verified": true,
           "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-09"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl4-2027-04-data-03",
+      "title": "New approaches for decentralized, federated and sustainable AI data processing (RIA)",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL4-2027-04-DATA-03",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-03",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2026-11-17",
+      "deadline": "2027-03-18",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL4-2027-04-DATA-03-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2026-11-17",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-03"
         }
       ],
       "tags": [
@@ -79717,6 +81315,478 @@
       ],
       "tags": [
         "turismo"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-24707",
+      "title": "Resolución de 13 de noviembre de 2026, de la Dirección de la Agencia Estatal de Meteorología, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Resolución de 27 de agosto de 2026.",
+      "issuer": "Destinos",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-24707",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24707",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-24707-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24707"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-24708",
+      "title": "Resolución de 19 de noviembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 16 de octubre de 2026.",
+      "issuer": "Destinos",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-24708",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24708",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-24708-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24708"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-24713",
+      "title": "Resolución de 17 de noviembre de 2026, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 9 de octubre de 2026.",
+      "issuer": "Destinos",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-24713",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24713",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-24713-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24713"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-24736",
+      "title": "Resolución de 19 de noviembre de 2026, de la Subsecretaría, por la que se declara desierta la convocatoria de libre designación, efectuada por Resolución de 31 de agosto de 2026.",
+      "issuer": "Procedimientos de libre designación",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-24736",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24736",
+      "kind": "subvención",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-24736-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24736"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-a-2026-24779",
+      "title": "Resolución de 10 de noviembre de 2026, de la Confederación Hidrográfica del Miño-Sil, O.A., por la que se publica el Convenio con el Consorcio de Aguas del Louro, para la financiación, ejecución y entrega de las obras de reparación del colector del Louro en su conexión con la Estación Depuradora de Aguas Residuales de Guillarei, en Tui (Pontevedra).",
+      "issuer": "Convenios",
+      "source": "BOE",
+      "sourceRef": "BOE-A-2026-24779",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24779",
+      "kind": "financiación",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-A-2026-24779-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24779"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-38856",
+      "title": "Anuncio de licitación de: Dirección General del Agua. Objeto: Protección frente a inundaciones en el barranco de la Saleta. Tramo 1: conexión bajo V-30 con nuevo cauce río Turia (Valencia). Expediente: 08.413-0177/2111.",
+      "issuer": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-38856",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38856",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-38856-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38856"
+        }
+      ],
+      "tags": [
+        "rural"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-38857",
+      "title": "Anuncio de licitación de: Presidencia de la Confederación Hidrográfica del Guadalquivir. Objeto: Contrato de servicios para la limpieza en las dependencias administrativas de distintos embalses de la Confederación Hidrográfica en la zona de Jaén. Términos municipales varios. Expediente: JA(SG)-7592.",
+      "issuer": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-38857",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38857",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-38857-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38857"
+        }
+      ],
+      "tags": [
+        "rural"
+      ],
+      "demo": false
+    },
+    {
+      "id": "boe-boe-b-2026-38858",
+      "title": "Anuncio de licitación de: Presidencia de la Confederación Hidrográfica del Guadalquivir. Objeto: Contrato de servicios para la redacción del proyecto de recuperación de la seguridad hidrológica de la presa de Canales y adaptación del desagüe de medio fondo. Término municipal de Güejar Sierra (Granada). Expediente: GR(DT)-7314.",
+      "issuer": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+      "source": "BOE",
+      "sourceRef": "BOE-B-2026-38858",
+      "sourceUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38858",
+      "kind": "licitación",
+      "territory": "España",
+      "publishedAt": "2026-11-25",
+      "deadline": "2026-11-25",
+      "deadlineVerified": false,
+      "amount": 0,
+      "aidIntensity": "Cuantía y condiciones por verificar",
+      "score": 42,
+      "state": "nueva",
+      "summary": "Disposición detectada en el sumario diario del BOE. Plazo, beneficiarios y cuantía deben extraerse del texto oficial.",
+      "fitReasons": [
+        "Coincide con: rural.",
+        "Publicación oficial localizada en BOE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "BOE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "BOE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "BOE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "pendiente",
+          "evidence": "Abrir disposición"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BOE-BOE-B-2026-38858-official",
+          "source": "BOE",
+          "label": "Publicación oficial",
+          "date": "2026-11-25",
+          "verified": true,
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38858"
+        }
+      ],
+      "tags": [
+        "rural"
       ],
       "demo": false
     },
