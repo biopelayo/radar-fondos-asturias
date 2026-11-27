@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T07:00:03.557951+00:00",
-  "checkedAt": "2026-11-27T07:00:03.557951+00:00",
+  "generatedAt": "2026-11-27T15:00:03.089795+00:00",
+  "checkedAt": "2026-11-27T15:00:03.089795+00:00",
   "notice": "Metadatos públicos. Verifique siempre las bases y la sede electrónica antes de actuar.",
   "sources": {
     "BDNS": "official-api",
@@ -13,29 +13,29 @@
       "status": "ok",
       "count": 581,
       "collectedCount": 174,
-      "checkedAt": "2026-11-27T07:00:03.557951+00:00",
-      "lastSuccessAt": "2026-11-27T07:00:03.557951+00:00"
+      "checkedAt": "2026-11-27T15:00:03.089795+00:00",
+      "lastSuccessAt": "2026-11-27T15:00:03.089795+00:00"
     },
     "BOE": {
       "status": "ok",
       "count": 657,
       "collectedCount": 18,
-      "checkedAt": "2026-11-27T07:00:03.557951+00:00",
-      "lastSuccessAt": "2026-11-27T07:00:03.557951+00:00"
+      "checkedAt": "2026-11-27T15:00:03.089795+00:00",
+      "lastSuccessAt": "2026-11-27T15:00:03.089795+00:00"
     },
     "BOPA": {
       "status": "ok",
       "count": 350,
       "collectedCount": 12,
-      "checkedAt": "2026-11-27T07:00:03.557951+00:00",
-      "lastSuccessAt": "2026-11-27T07:00:03.557951+00:00"
+      "checkedAt": "2026-11-27T15:00:03.089795+00:00",
+      "lastSuccessAt": "2026-11-27T15:00:03.089795+00:00"
     },
     "UE": {
       "status": "ok",
       "count": 73,
       "collectedCount": 73,
-      "checkedAt": "2026-11-27T07:00:03.557951+00:00",
-      "lastSuccessAt": "2026-11-27T07:00:03.557951+00:00"
+      "checkedAt": "2026-11-27T15:00:03.089795+00:00",
+      "lastSuccessAt": "2026-11-27T15:00:03.089795+00:00"
     }
   },
   "errors": [],
@@ -82074,6 +82074,65 @@
       "demo": false
     },
     {
+      "id": "ue-erasmus-edu-2027-virt-exch-ne",
+      "title": "Erasmus+ Virtual Exchanges in Neighborhood East",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "ERASMUS-EDU-2027-VIRT-EXCH-NE",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-VIRT-EXCH-NE",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2027-07-06",
+      "deadline": "2027-10-12",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-ERASMUS-EDU-2027-VIRT-EXCH-NE-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2027-07-06",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-VIRT-EXCH-NE"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
       "id": "ue-erasmus-edu-2027-virt-exch-smc",
       "title": "Erasmus+ Virtual Exchanges in South Mediterranean Countries",
       "issuer": "Comisión Europea",
@@ -82243,65 +82302,6 @@
           "date": "2027-07-06",
           "verified": true,
           "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-VIRT-EXCH-WB"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
-      "id": "ue-erasmus-edu-2027-virt-exch-ne",
-      "title": "Erasmus+ Virtual Exchanges in Neighborhood East",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "ERASMUS-EDU-2027-VIRT-EXCH-NE",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-VIRT-EXCH-NE",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2027-07-06",
-      "deadline": "2027-10-12",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-ERASMUS-EDU-2027-VIRT-EXCH-NE-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2027-07-06",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-VIRT-EXCH-NE"
         }
       ],
       "tags": [
@@ -85024,65 +85024,6 @@
       "demo": false
     },
     {
-      "id": "ue-horizon-cl4-2027-04-data-03",
-      "title": "New approaches for decentralized, federated and sustainable AI data processing (RIA)",
-      "issuer": "Comisión Europea",
-      "source": "UE",
-      "sourceRef": "HORIZON-CL4-2027-04-DATA-03",
-      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-03",
-      "kind": "subvención",
-      "territory": "Unión Europea",
-      "publishedAt": "2026-11-17",
-      "deadline": "2027-03-18",
-      "deadlineVerified": true,
-      "amount": 0,
-      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
-      "score": 45,
-      "state": "nueva",
-      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
-      "fitReasons": [
-        "Coincide con: por clasificar.",
-        "Publicación oficial localizada en UE."
-      ],
-      "blockers": [
-        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
-      ],
-      "requirements": [
-        {
-          "id": "UE-beneficiary",
-          "label": "Confirmar beneficiario y actividad elegible",
-          "state": "pendiente",
-          "evidence": "Revisar bases oficiales"
-        },
-        {
-          "id": "UE-tax",
-          "label": "Estar al corriente con Hacienda y Seguridad Social",
-          "state": "desconocido",
-          "evidence": "Verificar antes de solicitar"
-        },
-        {
-          "id": "UE-deadline",
-          "label": "Confirmar plazo y forma de presentación",
-          "state": "cumple",
-          "evidence": "Dato oficial extraído"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "UE-HORIZON-CL4-2027-04-DATA-03-official",
-          "source": "UE",
-          "label": "Publicación oficial",
-          "date": "2026-11-17",
-          "verified": true,
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-03"
-        }
-      ],
-      "tags": [
-        "por clasificar"
-      ],
-      "demo": false
-    },
-    {
       "id": "ue-horizon-cl4-2027-04-data-09",
       "title": "Energy efficiency and sustainability of AI data processing in Data Centres (IA)",
       "issuer": "Comisión Europea",
@@ -85134,6 +85075,65 @@
           "date": "2026-11-17",
           "verified": true,
           "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-09"
+        }
+      ],
+      "tags": [
+        "por clasificar"
+      ],
+      "demo": false
+    },
+    {
+      "id": "ue-horizon-cl4-2027-04-data-03",
+      "title": "New approaches for decentralized, federated and sustainable AI data processing (RIA)",
+      "issuer": "Comisión Europea",
+      "source": "UE",
+      "sourceRef": "HORIZON-CL4-2027-04-DATA-03",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-03",
+      "kind": "subvención",
+      "territory": "Unión Europea",
+      "publishedAt": "2026-11-17",
+      "deadline": "2027-03-18",
+      "deadlineVerified": true,
+      "amount": 0,
+      "aidIntensity": "Subvención directa de la UE; consorcio y cofinanciación por verificar",
+      "score": 45,
+      "state": "nueva",
+      "summary": "Convocatoria abierta o próxima localizada mediante la API oficial Funding & Tenders. Compruebe elegibilidad, consorcio y documentos del topic.",
+      "fitReasons": [
+        "Coincide con: por clasificar.",
+        "Publicación oficial localizada en UE."
+      ],
+      "blockers": [
+        "Confirmar beneficiarios, gastos elegibles e incompatibilidades en las bases."
+      ],
+      "requirements": [
+        {
+          "id": "UE-beneficiary",
+          "label": "Confirmar beneficiario y actividad elegible",
+          "state": "pendiente",
+          "evidence": "Revisar bases oficiales"
+        },
+        {
+          "id": "UE-tax",
+          "label": "Estar al corriente con Hacienda y Seguridad Social",
+          "state": "desconocido",
+          "evidence": "Verificar antes de solicitar"
+        },
+        {
+          "id": "UE-deadline",
+          "label": "Confirmar plazo y forma de presentación",
+          "state": "cumple",
+          "evidence": "Dato oficial extraído"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "UE-HORIZON-CL4-2027-04-DATA-03-official",
+          "source": "UE",
+          "label": "Publicación oficial",
+          "date": "2026-11-17",
+          "verified": true,
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-03"
         }
       ],
       "tags": [
